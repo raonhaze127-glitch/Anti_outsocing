@@ -1,0 +1,140 @@
+{
+  "carousel-gyeonggi-reits-01-cover.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "badge": {
+        "selector": "#s01-badge",
+        "expected": "청약 접수",
+        "actual": "청약 접수 2026.8.18.~8.20.",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s01-title",
+        "expected": "경기남부",
+        "actual": "경기남부 청년·신혼부부매입임대리츠",
+        "status": "통과"
+      },
+      "sub": {
+        "selector": "#s01-sub",
+        "expected": "48세대",
+        "actual": "예비입주자 48세대",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-02-summary.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "chip": {
+        "selector": "#s02-chip",
+        "expected": "공고 정보",
+        "actual": "공고 정보",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s02-title",
+        "expected": "핵심만",
+        "actual": "이 공고, 핵심만 먼저 볼게요",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-03-eligibility.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "chip": {
+        "selector": "#s03-chip",
+        "expected": "신청 자격",
+        "actual": "신청 자격",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s03-title",
+        "expected": "몇 순위로",
+        "actual": "나는 몇 순위로 신청할까?",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-04-income.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "chip": {
+        "selector": "#s04-chip",
+        "expected": "소득 기준",
+        "actual": "소득 기준",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s04-title",
+        "expected": "얼마까지",
+        "actual": "소득 기준은 얼마까지?",
+        "status": "통과"
+      },
+      "note": {
+        "selector": "#s04-note",
+        "expected": "월소득",
+        "actual": "💡 세대 전원(성년자)의 세전 월소득을 합산하여 판정합니다.",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-05-terms.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "chip": {
+        "selector": "#s05-chip",
+        "expected": "임대 조건",
+        "actual": "임대 조건",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s05-title",
+        "expected": "보증금과",
+        "actual": "보증금과 월임대료는 단지마다 달라요",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-06-notices.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "chip": {
+        "selector": "#s06-chip",
+        "expected": "주의 사항",
+        "actual": "주의 사항",
+        "status": "통과"
+      },
+      "title": {
+        "selector": "#s06-title",
+        "expected": "5가지",
+        "actual": "신청 전 꼭 알아야 할 5가지",
+        "status": "통과"
+      }
+    }
+  },
+  "carousel-gyeonggi-reits-07-schedule-check.png": {
+    "data_valid": true,
+    "file_valid": true,
+    "details": {
+      "title": {
+        "selector": "#s07-title",
+        "expected": "체크하세요",
+        "actual": "청약 전 이것만 체크하세요",
+        "status": "통과"
+      },
+      "cta": {
+        "selector": "#s07-cta",
+        "expected": "블로그",
+        "actual": "단지별 전체 조건표·배점표·공식 공고 링크는프로필 링크 블로그에서 즉시 확인하세요!",
+        "status": "통과"
+      }
+    }
+  }
+}
