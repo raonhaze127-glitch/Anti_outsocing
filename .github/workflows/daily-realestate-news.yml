@@ -1,0 +1,83 @@
+﻿name: Daily real-estate supply news
+
+on:
+  schedule:
+    # 07:30 KST
+    - cron: "30 22 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Collection date in yyyy-MM-dd. Leave blank for today's KST date."
+        required: false
+        type: string
+
+jobs:
+  collect:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Resolve KST date
+        id: date
+        shell: pwsh
+        run: |
+          if ("${{ inputs.date }}") {
+            "value=${{ inputs.date }}" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          } else {
+            $kst = [System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTimeOffset]::UtcNow, 'Korea Standard Time')
+            "value=$($kst.ToString('yyyy-MM-dd'))" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+
+      - name: Collect news candidates
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\run-daily.ps1 -Date "${{ steps.date.outputs.value }}"
+
+      - name: Validate news candidates
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-news-output.ps1 -Date "${{ steps.date.outputs.value }}" -MinCandidates 5
+
+      - name: Commit daily review files
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/ARTICLES.md"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/articles.txt"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/candidates.json"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/selection.txt"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/original-urls.json"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/status.json"
+          git add "daily-realestate/output/${{ steps.date.outputs.value }}/collection-validation-report.json"
+          if (Test-Path "daily-realestate/output/${{ steps.date.outputs.value }}/errors.log") {
+            git add "daily-realestate/output/${{ steps.date.outputs.value }}/errors.log"
+          }
+          $changes = git status --porcelain
+          if ($changes) {
+            git commit -m "Collect real-estate news ${{ steps.date.outputs.value }}"
+            git push
+          } else {
+            Write-Host "No daily output changes to commit."
+          }
+
+      - name: Upload review files
+        uses: actions/upload-artifact@v4
+        with:
+          name: realestate-news-${{ steps.date.outputs.value }}
+          path: |
+            daily-realestate/output/${{ steps.date.outputs.value }}/ARTICLES.md
+            daily-realestate/output/${{ steps.date.outputs.value }}/articles.txt
+            daily-realestate/output/${{ steps.date.outputs.value }}/candidates.json
+            daily-realestate/output/${{ steps.date.outputs.value }}/selection.txt
+            daily-realestate/output/${{ steps.date.outputs.value }}/original-urls.json
+            daily-realestate/output/${{ steps.date.outputs.value }}/status.json
+            daily-realestate/output/${{ steps.date.outputs.value }}/collection-validation-report.json
+            daily-realestate/output/${{ steps.date.outputs.value }}/errors.log
+          if-no-files-found: warn
+          retention-days: 14
+

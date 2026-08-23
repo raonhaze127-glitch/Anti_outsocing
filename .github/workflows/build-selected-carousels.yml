@@ -1,0 +1,56 @@
+name: Build selected real-estate carousels
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Collection date in yyyy-MM-dd."
+        required: true
+        type: string
+      numbers:
+        description: "Article numbers to build. Example: 1,3,7"
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build selected carousels
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date "${{ inputs.date }}" -Numbers "${{ inputs.numbers }}"
+
+      - name: Prepare JPEG publish files
+        shell: pwsh
+        run: |
+          $date = "${{ inputs.date }}"
+          $numbers = "${{ inputs.numbers }}" -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique
+          foreach ($number in $numbers) {
+            $dir = ".\daily-realestate\output\$date\article-$('{0:D2}' -f $number)-carousel"
+            if (Test-Path $dir) {
+              powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\publish-instagram-carousel.ps1 -CarouselDir $dir -ImageBaseUrl "https://example.com/replace-before-publishing/article-$('{0:D2}' -f $number)-carousel" -PrepareJpeg -DryRun
+            }
+          }
+
+      - name: Validate carousel output
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-carousel-output.ps1 -Date "${{ inputs.date }}" -Numbers "${{ inputs.numbers }}" -RequireJpeg
+
+      - name: Upload carousel files
+        uses: actions/upload-artifact@v4
+        with:
+          name: selected-carousels-${{ inputs.date }}
+          path: |
+            daily-realestate/output/${{ inputs.date }}/article-*-carousel/**
+            daily-realestate/output/${{ inputs.date }}/original-urls.json
+            daily-realestate/output/${{ inputs.date }}/validation-report.json
+          if-no-files-found: error
+          retention-days: 14

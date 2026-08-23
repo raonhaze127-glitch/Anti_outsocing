@@ -1,0 +1,5 @@
+daily-realestate/output/**/*.png
+daily-realestate/output/**/*.jpg
+daily-realestate/output/**/*.jpeg
+daily-realestate/output/**/*.html
+daily-realestate/output/**/_publish/
