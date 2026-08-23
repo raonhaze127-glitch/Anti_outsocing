@@ -1,0 +1,23 @@
+﻿{
+    "number":  10,
+    "collectedAt":  "2026-08-23T19:25:04.5531516+09:00",
+    "title":  "iH, 검암역세권에 공공분양 441가구…31일부터 청약",
+    "source":  "베타뉴스",
+    "sourceUrl":  "",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YLTM1MGx5OEdBZTdoYm0tN0RRUXFhUkdsbWU3YWtwWjRlT21VQ1NCTDAzRUVqM2tzUWZDdWk3aWFIdG8tUU4wWGd1eGVXbDZRaU9BVlV3WkpFSl9lZ0FvRDlGbXc?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YLTM1MGx5OEdBZTdoYm0tN0RRUXFhUkdsbWU3YWtwWjRlT21VQ1NCTDAzRUVqM2tzUWZDdWk3aWFIdG8tUU4wWGd1eGVXbDZRaU9BVlV3WkpFSl9lZ0FvRDlGbXc?oc=5",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}
