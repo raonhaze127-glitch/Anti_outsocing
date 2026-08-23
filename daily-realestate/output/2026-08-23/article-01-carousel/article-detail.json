@@ -1,0 +1,23 @@
+﻿{
+    "number":  1,
+    "collectedAt":  "2026-08-23T12:13:13.0658229+09:00",
+    "title":  "서울시, 모아주택 공급 속도전…2031년까지 4만가구 착공",
+    "source":  "데일리안",
+    "sourceUrl":  "",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01d0Z4ZlA1U3R5LV9sSmZGNVVJVWJyQTFWeXBCNG5xZzdMeE83MTF5YThCcHpRRkJZQmpTSGM3VktRb21fbG9pSFhlUmI3S3ZYcDZ6ZnF6VQ?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01d0Z4ZlA1U3R5LV9sSmZGNVVJVWJyQTFWeXBCNG5xZzdMeE83MTF5YThCcHpRRkJZQmpTSGM3VktRb21fbG9pSFhlUmI3S3ZYcDZ6ZnF6VQ?oc=5",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

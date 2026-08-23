@@ -1,0 +1,30 @@
+﻿{
+    "runAt":  "2026-08-23T12:13:28.1580463+09:00",
+    "date":  "2026-08-23",
+    "selectedNumbers":  [
+                            1,
+                            3
+                        ],
+    "selected":  2,
+    "sets":  [
+                 {
+                     "number":  1,
+                     "title":  "서울시, 모아주택 공급 속도전…2031년까지 4만가구 착공",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel",
+                     "slides":  7,
+                     "rendered":  true,
+                     "detail":  true
+                 },
+                 {
+                     "number":  3,
+                     "title":  "용산공원에 집 짓나…당정·서울시 \u0027주택공급\u0027 평행선",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel",
+                     "slides":  7,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
+}

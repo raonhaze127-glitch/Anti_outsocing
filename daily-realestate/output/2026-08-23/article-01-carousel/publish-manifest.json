@@ -1,0 +1,17 @@
+﻿{
+    "carouselDir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel",
+    "generatedAt":  "2026-08-23T12:13:28.5928817+09:00",
+    "graphVersion":  "v23.0",
+    "hostUrl":  "https://graph.instagram.com",
+    "imageUrls":  [
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/01.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/02.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/03.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/04.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/05.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/06.jpg",
+                      "https://example.com/smoke/2026-08-23/article-01-carousel/07.jpg"
+                  ],
+    "captionPath":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel\\caption.txt",
+    "readyToPublish":  false
+}

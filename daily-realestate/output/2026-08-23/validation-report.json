@@ -1,0 +1,28 @@
+﻿{
+    "checkedAt":  "2026-08-23T12:13:28.8766381+09:00",
+    "date":  "2026-08-23",
+    "numbers":  [
+                    1,
+                    3
+                ],
+    "requireJpeg":  true,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-01-carousel",
+                     "slides":  7,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  7
+                 },
+                 {
+                     "set":  "article-03-carousel",
+                     "slides":  7,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  7
+                 }
+             ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "number":  3,
+    "collectedAt":  "2026-08-23T12:13:13.1191690+09:00",
+    "title":  "용산공원에 집 짓나…당정·서울시 \u0027주택공급\u0027 평행선",
+    "source":  "뉴스투데이",
+    "sourceUrl":  "",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TNGhKMmREc2NSMUVrd0Y1NzR5dnhXNUNJam5hcG1CMVlpVGpoYlZCQmpkd19Xbmt4MGc5ang3eVZoZU92dUNRMGVvcmZUUXkzbUQ4ZDFESWxXSnltRHc?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TNGhKMmREc2NSMUVrd0Y1NzR5dnhXNUNJam5hcG1CMVlpVGpoYlZCQmpkd19Xbmt4MGc5ang3eVZoZU92dUNRMGVvcmZUUXkzbUQ4ZDFESWxXSnltRHc?oc=5",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

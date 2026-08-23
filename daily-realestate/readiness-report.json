@@ -1,0 +1,218 @@
+﻿{
+    "checkedAt":  "2026-08-23T12:46:54.4743124+09:00",
+    "state":  "ready_with_warnings",
+    "date":  "2026-08-23",
+    "numbers":  "1,3",
+    "checks":  [
+                   {
+                       "name":  "script:run-daily.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\run-daily.ps1"
+                   },
+                   {
+                       "name":  "script:build-selected.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\build-selected.ps1"
+                   },
+                   {
+                       "name":  "script:enrich-selected.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\enrich-selected.ps1"
+                   },
+                   {
+                       "name":  "script:publish-instagram-carousel.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\publish-instagram-carousel.ps1"
+                   },
+                   {
+                       "name":  "script:verify-public-image-urls.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\verify-public-image-urls.ps1"
+                   },
+                   {
+                       "name":  "script:validate-news-output.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\validate-news-output.ps1"
+                   },
+                   {
+                       "name":  "script:validate-carousel-output.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\validate-carousel-output.ps1"
+                   },
+                   {
+                       "name":  "script:run-smoke-test.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\run-smoke-test.ps1"
+                   },
+                   {
+                       "name":  "script:prepare-github-commit.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\prepare-github-commit.ps1"
+                   },
+                   {
+                       "name":  "script:check-automation-readiness.ps1",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\check-automation-readiness.ps1"
+                   },
+                   {
+                       "name":  "workflow:.github/workflows/daily-realestate-news.yml",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\.github\\workflows\\daily-realestate-news.yml"
+                   },
+                   {
+                       "name":  "workflow:.github/workflows/build-selected-carousels.yml",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\.github\\workflows\\build-selected-carousels.yml"
+                   },
+                   {
+                       "name":  "workflow:.github/workflows/publish-selected-instagram.yml",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\.github\\workflows\\publish-selected-instagram.yml"
+                   },
+                   {
+                       "name":  "doc:README.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\README.md"
+                   },
+                   {
+                       "name":  "doc:WORKFLOW.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\WORKFLOW.md"
+                   },
+                   {
+                       "name":  "doc:GITHUB_SETUP.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\GITHUB_SETUP.md"
+                   },
+                   {
+                       "name":  "doc:PROJECT_STATUS.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\PROJECT_STATUS.md"
+                   },
+                   {
+                       "name":  "doc:LAUNCH_CHECKLIST.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\LAUNCH_CHECKLIST.md"
+                   },
+                   {
+                       "name":  "gitignore:large-artifacts",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "PNG/JPEG/HTML output files should be ignored."
+                   },
+                   {
+                       "name":  "local-browser",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+                   },
+                   {
+                       "name":  "git-remote-origin",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "https://github.com/raonhaze127-glitch/Anti_outsocing.git"
+                   },
+                   {
+                       "name":  "meta-env-vars",
+                       "passed":  false,
+                       "severity":  "warning",
+                       "detail":  "META_IG_USER_ID and META_IG_ACCESS_TOKEN are needed for real publishing."
+                   },
+                   {
+                       "name":  "output:2026-08-23",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23"
+                   },
+                   {
+                       "name":  "collection-validation-report",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\collection-validation-report.json"
+                   },
+                   {
+                       "name":  "carousel-validation-report",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\validation-report.json"
+                   },
+                   {
+                       "name":  "carousel:article-01-carousel",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel"
+                   },
+                   {
+                       "name":  "article-01-carousel/REVIEW.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel\\REVIEW.md"
+                   },
+                   {
+                       "name":  "article-01-carousel/caption.txt",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel\\caption.txt"
+                   },
+                   {
+                       "name":  "article-01-carousel/article-detail.json",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel\\article-detail.json"
+                   },
+                   {
+                       "name":  "article-01-carousel/publish-manifest.json",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-01-carousel\\publish-manifest.json"
+                   },
+                   {
+                       "name":  "carousel:article-03-carousel",
+                       "passed":  true,
+                       "severity":  "error",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel"
+                   },
+                   {
+                       "name":  "article-03-carousel/REVIEW.md",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel\\REVIEW.md"
+                   },
+                   {
+                       "name":  "article-03-carousel/caption.txt",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel\\caption.txt"
+                   },
+                   {
+                       "name":  "article-03-carousel/article-detail.json",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel\\article-detail.json"
+                   },
+                   {
+                       "name":  "article-03-carousel/publish-manifest.json",
+                       "passed":  true,
+                       "severity":  "warning",
+                       "detail":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-08-23\\article-03-carousel\\publish-manifest.json"
+                   }
+               ]
+}

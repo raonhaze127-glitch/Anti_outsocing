@@ -67,6 +67,36 @@ function Get-PracticalTitle($article) {
   return "정책 발표보다 중요한 건`n실제 공급 시점"
 }
 
+function Get-ReferenceHookTitle($article) {
+  $title = [string]$article.title
+  if ($title -match '([가-힣A-Za-z0-9·]+역)') { return "$($Matches[1])`n정말로 생기나?" }
+  if ($title -match '(모아타운|모아주택)') { return "모아타운`n정말 빨라지나?" }
+  if ($title -match '(용산공원|공공주택지구|신도시|택지)') { return "이 공급지`n정말 추진되나?" }
+  if ($article.category -eq '청약·분양') { return "이번 청약`n진짜 체크할 건?" }
+  if ($article.category -eq '재개발·재건축') { return "이 정비사업`n정말 빨라지나?" }
+  if ($article.category -eq '교통·SOC') { return "이 노선`n정말 생기나?" }
+  return "이 공급 뉴스`n진짜 핵심은?"
+}
+
+function Get-KeyNumbers([string]$text) {
+  $matches = @([regex]::Matches($text, '(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)(세대|가구|호|만호|억원|조원|년|월|일|곳|km|분|%)?') | ForEach-Object { $_.Value } | Select-Object -Unique)
+  if ($matches.Count -eq 0) { return @('수치 확인', '원문 기준') }
+  return @($matches | Select-Object -First 4)
+}
+
+function Get-RegionHashtags($article) {
+  $region = [string]$article.region
+  $tags = [System.Collections.ArrayList]::new()
+  foreach ($tag in @('부동산뉴스','주택공급')) { [void]$tags.Add($tag) }
+  if ($region -and $region -ne '전국') { [void]$tags.Add(($region -replace '\s+', '')) }
+  if ($article.category -match '재개발|재건축') { foreach ($tag in @('재개발','재건축','정비사업')) { [void]$tags.Add($tag) } }
+  elseif ($article.category -match '청약|분양') { foreach ($tag in @('청약','분양','분양정보')) { [void]$tags.Add($tag) } }
+  elseif ($article.category -match '교통|SOC') { foreach ($tag in @('교통호재','철도','역세권')) { [void]$tags.Add($tag) } }
+  elseif ($article.category -match '신도시|택지') { foreach ($tag in @('신도시','택지지구','공공주택')) { [void]$tags.Add($tag) } }
+  else { [void]$tags.Add('부동산정책') }
+  return @($tags | Select-Object -Unique | ForEach-Object { "#$_" })
+}
+
 function Find-BrowserExecutable {
   $candidates = @(
     $env:CHROME_PATH,
@@ -91,26 +121,26 @@ function Find-BrowserExecutable {
 
 function New-Slides($article, [int]$number) {
   $topic = Get-TopicLabel $article
-  $summary = Short-Text $article.summary 104
+  $summary = Short-Text $article.summary 118
   if (-not $summary) { $summary = 'RSS 요약이 짧습니다. 카드 제작 전 원문에서 수치와 문맥 확인이 필요합니다.' }
-  $title = Short-Text $article.title 82
+  $title = Short-Text $article.title 86
   $source = Short-Text $article.source 28
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
+  $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
+  $numberText = ($numbers -join ' · ')
 
   return @(
-    [pscustomobject]@{ type='cover'; kicker="$category · $region"; title=(Get-CoverTitle $article); body=$title },
-    [pscustomobject]@{ type='second'; kicker='두 번째 표지'; title=(Get-PracticalTitle $article); body="기사 원문 기준으로`n핵심 쟁점만 따로 정리" },
-    [pscustomobject]@{ type='point'; kicker='무슨 기사?'; title=$title; body="출처: $source`n$summary" },
-    [pscustomobject]@{ type='point'; kicker='공급 관점'; title='핵심은 발표보다`n실행 단계입니다'; body="정책·사업·청약 뉴스는`n발표, 인허가, 착공, 입주를 구분해 봐야 합니다." },
-    [pscustomobject]@{ type='point'; kicker='확인 포인트'; title='읽을 때 볼 3가지'; body="1. 공급 물량과 위치`n2. 실제 일정과 지연 가능성`n3. 전매·거주·자격 제한" },
-    [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='한눈에 보는 핵심 요약'; body="분류 | $category`n지역 | $region`n출처 | $source`n상태 | 원문 수치·일정 검수 필요" },
-    [pscustomobject]@{ type='cta'; kicker='마지막 체크'; title='일정은 바뀔 수 있습니다'; body="관심 지역이면 저장해 두고`n원문 링크에서 다시 확인하세요." }
+    [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$title" },
+    [pscustomobject]@{ type='table'; kicker='핵심만 보면'; title='그래서 뭐가 바뀌나'; body="분류|$category`n지역|$region`n출처|$source`n키워드|$topic" },
+    [pscustomobject]@{ type='number'; kicker='숫자 체크'; title=$numberText; body=$summary },
+    [pscustomobject]@{ type='table'; kicker='아직 봐야 할 것'; title='확정과 검토를 나눠보세요'; body="단계|원문 기준 확인`n일정|변경 가능성 체크`n수치|기사 기준일 확인`n이미지|공식 자료만 사용" },
+    [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='저장 전 체크'; body="1. 발표인지 확정인지 구분`n2. 공급 물량·위치 다시 확인`n3. 일정은 원문 링크에서 재확인`n4. 애매한 내용은 제외" }
   )
 }
 
 $baseCss = @'
-*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic",sans-serif;background:#F8F9FA;color:#0D1B3E}.slide{width:1080px;height:1350px;position:relative;padding:170px 150px 180px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(145deg,#FFFFFF 0%,#EAF0FB 100%)}.slide:before{content:"";position:absolute;left:0;top:0;width:100%;height:22px;background:#1F5ADB}.kicker{align-self:center;background:#1F5ADB;color:#fff;border-radius:999px;padding:13px 25px;font-size:25px;font-weight:800;margin-bottom:38px;text-align:center;max-width:780px}.title{font-size:56px;line-height:1.25;letter-spacing:0;font-weight:900;word-break:keep-all;max-width:780px;text-align:center;white-space:pre-line}.body{font-size:29px;line-height:1.55;color:#3F4B5B;margin-top:38px;text-align:center;white-space:pre-line;font-weight:600;word-break:keep-all;max-width:780px}.footer{position:absolute;left:150px;right:150px;bottom:45px;display:flex;justify-content:space-between;gap:24px;font-size:21px;color:#64748B}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cover{background:#0D1B3E;color:#fff}.cover:before{background:#F5A623}.cover .kicker{background:#F5A623;color:#0D1B3E}.cover .title{font-size:70px}.cover .body{color:#fff}.cover .footer{color:#fff}.second{background:#FFFFFF}.second .kicker,.summary .kicker{background:#F5A623;color:#0D1B3E}.point .title{font-size:54px}.summary{background:#F8F9FA}.summary .body{background:#fff;border-left:8px solid #1F5ADB;border-radius:22px;padding:32px 38px;text-align:left;line-height:1.7}.cta{background:#1F5ADB;color:#fff}.cta:before{background:#F5A623}.cta .kicker{background:#F5A623;color:#0D1B3E}.cta .body,.cta .footer{color:#fff}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic",sans-serif;background:#0B1115;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:145px 88px 92px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 72% 28%,rgba(244,185,66,.20),transparent 22%),linear-gradient(180deg,rgba(10,17,21,.50) 0%,rgba(9,18,18,.78) 48%,rgba(0,0,0,.96) 100%),linear-gradient(135deg,#415C5E 0%,#101B1C 50%,#050708 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(150deg,rgba(255,255,255,.10),transparent 36%),repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 1px,transparent 1px 140px);opacity:.55}.slide:after{content:"";position:absolute;left:-80px;right:-80px;bottom:-30px;height:420px;background:linear-gradient(0deg,rgba(0,0,0,.75),transparent),radial-gradient(ellipse at 30% 80%,rgba(61,98,76,.55),transparent 38%);filter:blur(1px)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column}.handle{font-size:25px;font-weight:800;color:rgba(255,255,255,.72);margin-bottom:70px}.handle:before{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;background:#F4B942;margin-right:10px;vertical-align:3px;box-shadow:0 0 14px rgba(244,185,66,.7)}.count{position:absolute;z-index:3;right:60px;top:55px;background:rgba(0,0,0,.58);color:#fff;border-radius:999px;padding:18px 26px;font-size:28px;font-weight:700}.kicker{align-self:flex-start;background:#F4B942;color:#0D1114;border-radius:999px;padding:13px 26px;font-size:26px;font-weight:900;margin-bottom:34px;text-align:center;max-width:780px}.title{font-size:62px;line-height:1.22;letter-spacing:-2.4px;font-weight:950;word-break:keep-all;max-width:900px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.35)}.body{font-size:31px;line-height:1.65;color:rgba(255,255,255,.74);margin-top:34px;text-align:left;white-space:pre-line;font-weight:650;word-break:keep-all;max-width:900px}.accent{width:116px;height:8px;border-radius:8px;background:#F4B942;margin:34px 0 24px}.footer{position:absolute;z-index:3;left:88px;right:88px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.24);padding-top:28px;font-size:22px;color:rgba(255,255,255,.62)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;border-top:1px solid rgba(255,255,255,.22)}.row{display:grid;grid-template-columns:270px 1fr;gap:28px;align-items:center;border-bottom:1px solid rgba(255,255,255,.18);padding:27px 0}.row .label{font-size:34px;font-weight:900;color:#fff}.row .value{font-size:34px;line-height:1.35;font-weight:950;color:#F4B942;text-align:right;word-break:keep-all}.cover{justify-content:flex-end}.cover .inner{justify-content:flex-end;padding-bottom:110px}.cover .title{font-size:68px}.cover .body{font-size:30px;color:rgba(255,255,255,.70);max-width:860px}.table .title{font-size:58px;margin-bottom:12px}.number .kicker{background:transparent;color:#F4B942;padding:0;margin-bottom:26px}.number .title{font-size:82px;color:#F4B942;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:880px}.summary .kicker{background:transparent;color:#F4B942;padding:0}.summary .title{font-size:64px}.summary .body{font-size:36px;color:#fff;line-height:1.72;border-left:8px solid #F4B942;padding-left:28px}
 '@
 
 $brand = if ($config.account) { $config.account } else { $config.brandName }
