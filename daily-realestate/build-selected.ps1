@@ -311,19 +311,24 @@ foreach ($index in $indexes) {
         "--user-data-dir=$chromeProfileDir",
         '--disable-gpu',
         '--disable-gpu-compositing',
-        '--disable-software-rasterizer',
         '--no-sandbox',
         '--disable-dev-shm-usage',
+        '--disable-extensions',
+        '--disable-background-networking',
+        '--no-first-run',
         '--hide-scrollbars',
         '--window-size=1080,1350',
         '--force-device-scale-factor=1',
+        '--run-all-compositor-stages-before-draw',
+        '--virtual-time-budget=1000',
         '--password-store=basic',
         "--screenshot=$pngPath",
         $url
       )
       $chromeOutput = & $chrome @chromeArgs 2>&1
+      $chromeExitCode = $LASTEXITCODE
       $rendered = $false
-      for ($attempt = 0; $attempt -lt 10; $attempt++) {
+      for ($attempt = 0; $attempt -lt 40; $attempt++) {
         if (Test-Path -LiteralPath $pngPath) {
           $rendered = $true
           break
@@ -331,7 +336,17 @@ foreach ($index in $indexes) {
         Start-Sleep -Milliseconds 250
       }
       if (-not $rendered) {
-        $chromeOutput | Set-Content -LiteralPath (Join-Path $setDir 'chrome-render.log') -Encoding UTF8
+        @(
+          "Chrome executable: $chrome",
+          "Chrome exit code: $chromeExitCode",
+          "Screenshot path: $pngPath",
+          "HTML URL: $url",
+          "Arguments:",
+          ($chromeArgs -join "`r`n"),
+          "",
+          "Output:",
+          ($chromeOutput -join "`r`n")
+        ) | Set-Content -LiteralPath (Join-Path $setDir 'chrome-render.log') -Encoding UTF8
         throw "PNG 렌더링 실패: $pngPath (chrome-render.log 확인)"
       }
     }

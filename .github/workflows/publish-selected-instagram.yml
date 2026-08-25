@@ -159,6 +159,7 @@ jobs:
           path: |
             daily-realestate/output/${{ inputs.date }}/article-*-carousel/article-detail.json
             daily-realestate/output/${{ inputs.date }}/article-*-carousel/REVIEW.md
+            daily-realestate/output/${{ inputs.date }}/article-*-carousel/chrome-render.log
             daily-realestate/output/${{ inputs.date }}/article-*-carousel/publish-manifest.json
             daily-realestate/output/${{ inputs.date }}/validation-report.json
             daily-realestate/output/${{ inputs.date }}/public-image-url-report.json
