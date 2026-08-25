@@ -57,6 +57,7 @@ $sourceFiles = @(
   'daily-realestate/check-automation-readiness.ps1',
   'daily-realestate/run-smoke-test.ps1',
   'daily-realestate/prepare-github-commit.ps1',
+  'daily-realestate/assets/photoreal-urban-transit-bg-v1.png',
   'daily-realestate/install-schedule.ps1',
   'daily-realestate/README.md',
   'daily-realestate/WORKFLOW.md',

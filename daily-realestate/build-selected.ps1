@@ -301,12 +301,12 @@ function New-Slides($article, [int]$number) {
 
   if ([string]$article.title -match '기부채납') {
     return @(
-      [pscustomobject]@{ type='cover'; kicker='주택공급 정책'; title="기부채납 완화`n공급 속도 빨라질까"; body='8.13 주택 신속공급 방안 중 민간택지 사업 부담 완화 핵심 정리' },
-      [pscustomobject]@{ type='table'; kicker='무엇이 문제였나'; title='사업부지 일부를 내야 했다'; body="기부채납|도로·공원 등 기반시설 부지 제공`n현행 부담|사업부지 최대 8~25%`n영향|사업비 부담 증가`n쟁점|민간택지 공급 지연 요인" },
-      [pscustomobject]@{ type='table'; kicker='완화 방향'; title='수도권 한시 완화'; body="적용 대상|수도권 주택건설사업`n2027년까지|사업계획 승인 시 4%p 완화`n2028년까지|사업계획 승인 시 2%p 완화`n예외|필수 기반시설은 현 기준 적용" },
-      [pscustomobject]@{ type='table'; kicker='일반 사업'; title='8%에서 4%까지'; body="현행|최대 8%`n2027년까지|최대 4%`n2028년|최대 6%`n친환경 인증|괄호 기준 별도 적용" },
+      [pscustomobject]@{ type='cover'; kicker='주택공급 정책'; title="기부채납 완화`n공급 속도 빨라질까"; body='8.13 주택 신속공급 방안 중 민간택지 부담 완화 포인트' },
+      [pscustomobject]@{ type='table'; kicker='무엇이 문제였나'; title='사업부지 일부를 내야 했다'; body="기부채납|도로·공원 등 기반시설 제공`n현행 부담|사업부지의 최대 8~25%`n영향|사업비 부담 증가`n쟁점|민간택지 공급 지연 요인" },
+      [pscustomobject]@{ type='table'; kicker='완화 방향'; title='수도권 한시 완화'; body="적용 대상|수도권 주택건설사업`n2027년까지|승인 시 4%p 완화`n2028년까지|승인 시 2%p 완화`n예외|필수 기반시설은 완화 제외" },
+      [pscustomobject]@{ type='table'; kicker='일반 사업'; title='8%에서 4%까지'; body="현행|최대 8%`n2027년까지|최대 4%`n2028년|최대 6%`n적용 방식|사업 유형별 세부 기준 확인" },
       [pscustomobject]@{ type='table'; kicker='용도지역 변경'; title='변경 사업도 완화'; body="용도지역 내 변경|18% → 14% → 16%`n용도지역 간 변경|25% → 21% → 23%`n기준 시점|사업계획 승인 연도`n확인|세부 적용은 지침 기준" },
-      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='공급 관점 체크'; body="1. 기부채납 부담을 낮춰 사업성 개선 유도`n2. 수도권은 승인 시점에 따라 완화 폭 차등`n3. 일반 사업은 2027년까지 최대 4%로 완화`n4. 실제 공급 효과는 인허가·사업성 개선 속도 확인" }
+      [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 기부채납 부담을 낮춰 사업성 개선 유도`n2. 수도권은 승인 시점에 따라 완화 폭 차등`n3. 일반 사업은 2027년까지 최대 4%로 완화`n4. 실제 공급 효과는 인허가·사업성 개선 속도 확인" }
     )
   }
 
@@ -345,8 +345,8 @@ function New-Slides($article, [int]$number) {
 }
 
 $baseCss = @'
-*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 92px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,.18));opacity:.58}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:18px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:92px;top:72px;color:rgba(255,255,255,.72);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.92);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:62px;line-height:1.22;letter-spacing:-2.4px;font-weight:950;word-break:keep-all;max-width:880px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.35)}.body{font-size:31px;line-height:1.65;color:rgba(255,255,255,.76);margin-top:34px;text-align:left;white-space:pre-line;font-weight:650;word-break:keep-all;max-width:880px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:92px;right:92px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.18);padding-top:26px;font-size:22px;color:rgba(255,255,255,.60)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.17);border-radius:22px;padding:24px 24px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));display:flex;flex-direction:column;justify-content:space-between}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.68)}.row .value{font-size:31px;line-height:1.32;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:30px;color:rgba(255,255,255,.72);max-width:830px}.table .title{font-size:58px;margin-bottom:10px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:80px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:860px;background:rgba(255,255,255,.07);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:64px}.summary .body{font-size:36px;color:#fff;line-height:1.72;border-left:0;padding-left:0;background:rgba(255,255,255,.075);border-radius:28px;padding:34px 38px}
-.photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.74;filter:saturate(.92) contrast(1.08);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.88) 0%,rgba(6,13,24,.76) 42%,rgba(6,13,24,.48) 100%),linear-gradient(180deg,rgba(8,20,38,.28),rgba(0,0,0,.78));}.cover .photo-bg{opacity:.82}.table .photo-bg{opacity:.66}.summary .photo-bg{opacity:.70}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 120px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.040) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.52),rgba(0,0,0,.12));opacity:.42}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:120px;top:72px;color:rgba(255,255,255,.76);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.94);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:60px;line-height:1.22;letter-spacing:-2.2px;font-weight:950;word-break:keep-all;max-width:840px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.38)}.body{font-size:31px;line-height:1.62;color:rgba(255,255,255,.88);margin-top:34px;text-align:left;white-space:pre-line;font-weight:750;word-break:keep-all;max-width:820px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:120px;right:120px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.20);padding-top:26px;font-size:22px;color:rgba(255,255,255,.68)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.20);border-radius:22px;padding:24px 24px;background:linear-gradient(180deg,rgba(255,255,255,.095),rgba(255,255,255,.045));display:flex;flex-direction:column;justify-content:space-between}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.82)}.row .value{font-size:30px;line-height:1.28;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all;overflow-wrap:normal}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:31px;color:rgba(255,255,255,.88);max-width:780px}.table .title{font-size:56px;margin-bottom:10px;max-width:820px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:76px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:820px;background:rgba(255,255,255,.08);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:62px}.summary .body{font-size:35px;color:#fff;line-height:1.70;border-left:0;padding-left:0;background:rgba(255,255,255,.085);border-radius:28px;padding:34px 38px}
+.photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.82;filter:saturate(.95) contrast(1.12);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.84) 0%,rgba(6,13,24,.72) 44%,rgba(6,13,24,.50) 100%),linear-gradient(180deg,rgba(8,20,38,.18),rgba(0,0,0,.74));}.cover .photo-bg{opacity:.88}.table .photo-bg{opacity:.80}.summary .photo-bg{opacity:.82}
 '@
 
 $brand = if ($config.account) { $config.account } else { '@landbrief.daily' }
@@ -447,7 +447,6 @@ foreach ($index in $indexes) {
       "인천 검암역 푸르지오 프라베뉴 청약 체크",
       '',
       "▪ 검암역세권 B1블록 첫 공공분양",
-      "[핵심]",
       "인천도시공사가 검암역세권 B1블록 '검암역 푸르지오 프라베뉴' 입주자 모집 공고를 냈습니다. 보도 기준 총 441세대, 전용 60㎡ 150세대·84㎡ 291세대 구성입니다.",
       '',
       "▪ 일정",
@@ -463,16 +462,15 @@ foreach ($index in $indexes) {
     ) -join "`r`n"
   } elseif ([string]$article.title -match '기부채납') {
     $caption = @(
-      "수도권 주택공급, 기부채납 부담 낮아진다",
+      "🏗️ 수도권 주택공급, 기부채납 부담 낮아진다",
       '',
-      "▪ 국토교통부, 주택건설사업 기부채납 부담 완화",
-      "[핵심]",
+      "📌 국토교통부, 주택건설사업 기부채납 부담 완화",
       "민간택지 주택건설사업에서 도로·공원 등 기반시설을 제공해야 하는 기부채납 부담을 한시적으로 낮춰 주택 공급을 촉진하겠다는 내용입니다.",
       '',
-      "▪ 숫자로 보면",
+      "🔢 숫자로 보면",
       "수도권 주택건설사업은 사업계획 승인 시점에 따라 2027년까지 4%p, 2028년까지 2%p 완화됩니다. 일반 주택건설사업은 최대 8% 기준이 2027년까지 최대 4%, 2028년에는 최대 6%로 조정됩니다.",
       '',
-      "▪ 확인할 것",
+      "✅ 확인할 것",
       "필수 기반시설은 완화 대상에서 제외될 수 있고, 실제 공급 효과는 사업계획 승인·인허가 속도와 사업성 개선 여부를 함께 봐야 합니다.",
       '',
       "출처: $($article.source)",
@@ -485,7 +483,6 @@ foreach ($index in $indexes) {
         "서울시 첫 현장형 신통기획 자문, 뭐가 달라졌을까",
         '',
         "▪ 중계그린·중계주공4단지에서 첫 현장 자문",
-        "[핵심]",
         "서울시가 노원구 중계그린과 중계주공4단지를 대상으로 신속통합기획 자문회의를 처음 현장에서 열었습니다. 기존처럼 도면과 서류만 보는 방식에서 벗어나 단지 여건과 기반시설을 현장에서 함께 확인했다는 점이 핵심입니다.",
         '',
         "▪ 숫자로 보면",
@@ -503,7 +500,6 @@ foreach ($index in $indexes) {
         "노원구 재건축, 현장형 신통기획 자문으로 속도 붙나",
         '',
         "▪ 서울시 첫 현장형 신속통합기획 자문",
-        "[핵심]",
         "노원구 중계그린과 중계주공4단지에서 서울시 최초의 현장형 신속통합기획 자문회의가 열렸습니다. 자문위원과 시·구 관계자가 현장을 찾아 단지 여건과 기반시설을 확인한 것이 기존 서류 중심 자문과 다른 점입니다.",
         '',
         "▪ 노원구 흐름",
@@ -522,7 +518,6 @@ foreach ($index in $indexes) {
       "$($article.region) $($article.title)",
       '',
       "▪ $($article.title)",
-      "[핵심]",
       "$(Short-Text $article.summary 160)",
       '',
       "▪ 확인할 것",
