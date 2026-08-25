@@ -83,8 +83,10 @@ GitHub repository에서 아래 설정을 확인합니다.
 
 선택 variables:
 
-- `META_GRAPH_VERSION`: 비워두면 스크립트 기본값 `v23.0` 사용
+- `META_GRAPH_VERSION`: 비워두면 스크립트 기본값 `v25.0` 사용
 - `META_GRAPH_HOST`: 비워두면 스크립트 기본값 `https://graph.instagram.com` 사용
+- `META_IS_AI_GENERATED`: 비워두면 `true` 사용. 현재 카드뉴스는 AI 생성 배경을 쓰므로 `true` 권장
+- `META_ALT_TEXT_PREFIX`: 비워두면 `부동산 공급 뉴스 카드뉴스` 사용
 
 토큰 방식별 권장값:
 
@@ -95,6 +97,8 @@ GitHub repository에서 아래 설정을 확인합니다.
 
 - Instagram 개인 계정은 게시 API 대상이 아닙니다. 프로페셔널 계정이어야 합니다.
 - Instagram Login 방식은 Facebook Page 연결 없이도 가능하지만, Facebook Login 방식은 Instagram 프로페셔널 계정과 Facebook Page 연결이 필요합니다.
+- API 게시용 이미지는 JPEG만 지원되므로 워크플로에서 PNG를 JPEG로 변환한 뒤 GitHub Pages 공개 URL로 게시합니다.
+- Meta 문서상 카드는 공개 URL에서 Meta가 직접 가져갈 수 있어야 합니다. 드라이런에서 `public-image-url-report.json`이 `valid`인지 먼저 확인하세요.
 - 토큰은 만료될 수 있으므로 게시 실패 시 먼저 secret 만료 여부를 확인합니다.
 
 ## 5. 첫 수집 테스트
@@ -169,6 +173,8 @@ GitHub Actions 탭에서 수동 실행합니다.
 - `validation-report.json`
 
 `public-image-url-report.json`의 `state`가 `valid`여야 Meta가 JPEG를 가져갈 수 있는 상태입니다.
+
+`publish-manifest.json`에서 `isAiGenerated`가 `true`인지도 확인합니다. 현재 템플릿은 AI 생성 배경 이미지를 사용하므로 실제 게시 시 캐러셀 컨테이너에 `is_ai_generated=true`를 전송합니다.
 
 ## 9. 실제 게시
 

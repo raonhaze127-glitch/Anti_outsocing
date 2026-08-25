@@ -2,10 +2,12 @@
   [Parameter(Mandatory=$true)][string]$CarouselDir,
   [Parameter(Mandatory=$true)][string]$ImageBaseUrl,
   [string]$CaptionPath = '',
-  [string]$GraphVersion = $(if ($env:META_GRAPH_VERSION) { $env:META_GRAPH_VERSION } else { 'v23.0' }),
+  [string]$GraphVersion = $(if ($env:META_GRAPH_VERSION) { $env:META_GRAPH_VERSION } else { 'v25.0' }),
   [string]$IgUserId = $env:META_IG_USER_ID,
   [string]$AccessToken = $env:META_IG_ACCESS_TOKEN,
   [string]$HostUrl = $(if ($env:META_GRAPH_HOST) { $env:META_GRAPH_HOST } else { 'https://graph.instagram.com' }),
+  [string]$AltTextPrefix = $(if ($env:META_ALT_TEXT_PREFIX) { $env:META_ALT_TEXT_PREFIX } else { '부동산 공급 뉴스 카드뉴스' }),
+  [bool]$IsAiGenerated = $(if ($env:META_IS_AI_GENERATED) { [System.Convert]::ToBoolean($env:META_IS_AI_GENERATED) } else { $true }),
   [switch]$PrepareJpeg,
   [switch]$DryRun
 )
@@ -64,6 +66,8 @@ $manifest = [ordered]@{
   hostUrl = $HostUrl
   imageUrls = $imageUrls
   captionPath = $CaptionPath
+  isAiGenerated = $IsAiGenerated
+  altTextPrefix = $AltTextPrefix
   readyToPublish = (-not $DryRun)
 }
 $manifest | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $resolvedCarouselDir 'publish-manifest.json') -Encoding UTF8
@@ -87,10 +91,12 @@ try {
 }
 
 $childContainerIds = @()
-foreach ($imageUrl in $imageUrls) {
+for ($i = 0; $i -lt $imageUrls.Count; $i++) {
+  $imageUrl = $imageUrls[$i]
   $body = @{
     image_url = $imageUrl
     is_carousel_item = 'true'
+    alt_text = "$AltTextPrefix $($i + 1)장"
     access_token = $AccessToken
   }
   $item = Invoke-RestMethod -Method Post -Uri "$apiRoot/media" -Body $body
@@ -101,16 +107,28 @@ $carouselBody = @{
   media_type = 'CAROUSEL'
   children = ($childContainerIds -join ',')
   caption = $caption
+  is_ai_generated = ([string]$IsAiGenerated).ToLowerInvariant()
   access_token = $AccessToken
 }
 $carousel = Invoke-RestMethod -Method Post -Uri "$apiRoot/media" -Body $carouselBody
 $carouselId = [string]$carousel.id
 
-for ($attempt = 1; $attempt -le 10; $attempt++) {
+$finished = $false
+for ($attempt = 1; $attempt -le 5; $attempt++) {
   $status = Invoke-RestMethod -Method Get -Uri "$($HostUrl.TrimEnd('/'))/$GraphVersion/$carouselId" -Body @{ fields = 'status_code'; access_token = $AccessToken }
   $status | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $resolvedCarouselDir 'publish-container-status.json') -Encoding UTF8
-  if ($status.status_code -eq 'FINISHED') { break }
-  Start-Sleep -Seconds 3
+  if ($status.status_code -eq 'FINISHED') {
+    $finished = $true
+    break
+  }
+  if ($status.status_code -eq 'ERROR' -or $status.status_code -eq 'EXPIRED') {
+    throw "Instagram carousel container status is $($status.status_code). See publish-container-status.json."
+  }
+  if ($attempt -lt 5) { Start-Sleep -Seconds 60 }
+}
+
+if (-not $finished) {
+  throw "Instagram carousel container was not ready after 5 status checks. See publish-container-status.json."
 }
 
 $published = Invoke-RestMethod -Method Post -Uri "$apiRoot/media_publish" -Body @{
