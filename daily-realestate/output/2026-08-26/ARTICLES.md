@@ -1,0 +1,184 @@
+﻿# 2026-08-26 부동산 공급 기사 후보
+
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 경기도의회 장송회 의원, 신도시·8.13 주택 공급대책 점검… “선교통 후입주 위한 광역교통망 구축 중요”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 성남신문
+- 출처 사이트: https://www.snbnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE81VTdnUmNJTE9LRFdMWWpHeTFvRm5HNHB2NjI4WUV1SkdSN3pEY182V2dPRXdhaTJ2UDhRQXA2bWFVSTBUWU9RR0Y5QmJ3YnFCRzl2aHZ3amU4dlByLVEyNHFtTVJMVm43OG1waFliSTHSAXBBVV95cUxPNVU3Z1JjSUxPS0RXTFlqR3kxb0ZuRzRwdjYyOFlFdUpHUjd6RGNfNldnT0V3YWkydlA4UUFwNm1hVUkwVFlPUUdGOUJid2JxQkc5dmh2d2plOHZQci1RMjRxbU1STFZuNzhtcGhZYkkx?oc=5
+
+## 2. "서울시장 권한 무력화" vs "자치구 권한 확대"... 500세대 이하 정비사업 공방
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 법률방송뉴스
+- 출처 사이트: https://www.lawtv.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE96cFRrX0tqWkRPbVI5LVZFRGVRdFJnSlk4Q2hOTmtaVjROVDNXZ25WZEhfdlFyeGRfTzBBNHU1QU9ZYXhycHhnQzJGd2dWYkduNWhESzlDbjZiNF9YZ2JxVVFhQlA?oc=5
+
+## 3. 서울시의회 국민의힘 "용산공원 주택공급 즉각 철회하라" 긴급 결의
+- 분류/지역: 주택공급 / 서울
+- 출처: 조선일보
+- 출처 사이트: https://www.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEdzc3B3cGhTSGdpb0gzTGdFSUNndlFEbUYzOW5GaWF4S3BiQWZDZ05EV1paaFFHaEpsUl9fTHBLaXVucE1pTF9kZGhQcVBzLVZ2SmVQOXlDcWZ2MWlKOC1EVXppMVdMd0tIaVlUb0NkcGdzdnp3NGg1NnRVRDYtTHFkT1VLUS1IMU9YOTJNcXQ?oc=5
+
+## 4. 정부·서울시 주택공급 '속도' 한목소리, 해법은 각자 방식으로
+- 분류/지역: 주택공급 / 서울
+- 출처: 프라임경제
+- 출처 사이트: https://www.newsprime.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE51bmRxQkFYSmVKWlFIM2dvLVZMZjNobkhTTXk3dU55dTNIVTloUXJHcmVmZzNhV29XdjltMWRobUxXV1o0Rnk2Mk1kcDBlSVJrYkk5cTJROXNEdnBsTHFqdw?oc=5
+
+## 5. "현장에서 재건축 물꼬 튼다"…서울시 신속통합기획 자문 첫 발
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 연합뉴스
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tSG8wektEY0x4Y3NQTUxBai1ZMVBtbXhoOEJXa2xXcEZsdm1sdGluR0NJTFk5bkxPbm9VbFNCMk1XYzZRem0wemJUMFV1WFB0ckhYNEhfUUtDNmhPMjZsYtIBYEFVX3lxTE0tSG8wektEY0x4Y3NQTUxBai1ZMVBtbXhoOEJXa2xXcEZsdm1sdGluR0NJTFk5bkxPbm9VbFNCMk1XYzZRem0wemJUMFV1WFB0ckhYNEhfUUtDNmhPMjZsYg?oc=5
+
+## 6. 노원구 재건축 속도전 서울시 최초 현장 신통기획 자문 가동 > 뉴스
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 더코리아
+- 출처 사이트: http://www.thekorea.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5adU1xcDJNblNwMG9zMjh1OHNDaWVicmxYVjJCYk9zaEVGby1KWlZtcF9tWFJ2U2wtVTdsTHR3Um5QRE44MkNyNV83bVRRbTJfWGdTRGJVMVVxeWF4bk1jTjJJWVZfVUJhUHg0TjZVTHo?oc=5
+
+## 7. 국토장관·서울시장 ‘2차 담판’서 주택공급 해법 찾을까
+- 분류/지역: 주택공급 / 서울
+- 출처: 서울경제
+- 출처 사이트: https://www.sedaily.com
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZWFJvakcxUkJ1VWZuSFE5eE1oVVl5eVVnR3Yzc01QM1RmcUo1TFRJbmdZZ0lITGhzMUdvbXNtcWg1c1hoNl8yXzU0RWZBWmhzTUE?oc=5
+
+## 8. 김길영 서울시의회 국민의힘 대표 “주택 공급·주거 사다리 복원이 최우선 민생”
+- 분류/지역: 주택공급 / 서울
+- 출처: 국민일보
+- 출처 사이트: https://www.kmib.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1hUF9kSTFQOU84UV92eF9uYWNwS09ySW84NkJubzZJaWVGTUR0dkFPa0RBejkzcVVhMFMwSEp2SFlxd21sTGlwOFYwS281anVxLWluRnRNUHBXY0pqcUxvWGU5R2JvTzFmc3pWTtIBbEFVX3lxTE1hUF9kSTFQOU84UV92eF9uYWNwS09ySW84NkJubzZJaWVGTUR0dkFPa0RBejkzcVVhMFMwSEp2SFlxd21sTGlwOFYwS281anVxLWluRnRNUHBXY0pqcUxvWGU5R2JvTzFmc3pWTg?oc=5
+
+## 9. 주택정책 전면에 선 HUG·LH 수장…미묘한 '공급 주도권' 경쟁 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE84WWxDTTExUVFmektNSm1IbDJ5VGJ6RFk0bExhcU9Nc3psem03OFBKcjVjNlZJZWdLM19vTlNGekQySUJRcXBPajJRaWxGaU1sNTNheGkwLXVIQXJMSUlZUGpEUzYxTHBWRGfSAW9BVV95cUxQVHNOYUVIMVo2NWQ2ejZTQUpMNksyZmRBR2w3d1g3QU9lWEItajhsZGlwLXdrX0dTRGt5ZzdrT3ZodTdGSWg5Z0V4eVNZZ2lzbWFrLTFIakVKT3NJeXZDQzg4UVYwdWt2dW5uRTVBOXc?oc=5
+
+## 10. LH, 수도권 신축매입임대 사업 절차 간소화… 주택 공급 속도 - 조선비즈
+- 분류/지역: 주택공급 / 전국
+- 출처: Chosunbiz
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxQd29XOXM3TzAxMi1JV2ltNUJFYktSRk9XMnozNk50S3JpbmtzWjZidlVqMVRDYTNJdU4wZXJiQlk0bnBwd1JjdHJQM00tYVA3a2NEa2Vsb2dWcnF5clFJOEN5RUJuX1JKbjZ6M0RNU29yMS14Zk9yVXpGUUJ4TXJvOHc2cFpFbkU2azVsZG1nVHpOWmVmVmktU9IBrAFBVV95cUxOWGxFUVR4N21IY2JlZzdEVkZCTXRzWndGbUhVY1ZJT2VUeEQwejQxWjBwdkFrRE9STjNaTmkzYTAwRXFfbmJBUmcxc09CeXVwc0hOQmx0NUpkbW5kSDRJSmxMT01vTld5UkNUTm0zVl9oTUpjSzN3SDRydVpOTEM4NGlDM2VJTGUyalpaNDRKakEyMzM4dkZmb19BcUMyQWJqVzNFN3lhT1lmSy1i?oc=5
+
+## 11. 현장에서 재건축 물꼬 튼다… 서울시, '찾아가는 재건축 신통자문' 첫 개최
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 케이에스피뉴스
+- 출처 사이트: https://www.kspnews.com
+- 링크: https://news.google.com/rss/articles/CBMiRkFVX3lxTE50cU1XcmpnWWlUZGVaZ0hyYzlRZm5qdGxyeWIwZEcxblJIU2NYOUVGRU9NM0haaUR6SWIzVTRsSGE5QUJYOGc?oc=5
+
+## 12. LH, 수도권 민간 유휴부지 공공임대 전환 잰걸음
+- 분류/지역: 주택공급 / 전국
+- 출처: 공공뉴스
+- 출처 사이트: http://www.00news.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBwdXgtVFlZajlpLXVmQkQ5eEp5ZWR2XzBZWTRlekFsT3M4MnFJeHFjX1Q2dkw3cVNXT1ZtWlF6bXRoODMtMm9mcTRYNFNLcklSelZLZmNFc0t0OFowQUNJNW9Wcjg4YWF0ZVprZTFR0gFuQVVfeXFMUHB1eC1UWVlqOWktdWZCRDl4SnllZHZfMFlZNGV6QWxPczgycUl4cWNfVDZ2TDdxU1dPVm1aUXptdGg4My0yb2ZxNFg0U0tySVJ6VktmY0VzS3Q4WjBBQ0k1b1ZyODhhYXRlWmtlMVE?oc=5
+
+## 13. 韓총리 재개발·재건축, 청년주택 공급 쉽지 않아
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 아주경제
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE95eWhBbklNb3JJSGE2X1RPLXVHbk9YTkNCM2N0RTNuZy04a2ZiUGc5bDVrNTgyRlBGOFhTWEF4cmhhQU1vTFJxMV9LTzBKbG03am5UZi1CY3fSAVhBVV95cUxPeXloQW5JTW9ySUhhNl9UTy11R25PWE5DQjNjdEUzbmctOGtmYlBnOWw1azU4MkZQRjhYU1hBeHJoYUFNb0xScTFfS08wSmxtN2puVGYtQmN3?oc=5
+
+## 14. 한성숙 “재개발·재건축으로 청년주택 공급 어렵다… 공급확대 속도”
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 중앙일보
+- 출처 사이트: https://www.joongang.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE92Wk93YnBmS2psNHhRZV9xZTlxUjZzRnpKQTNPMDNJOVBKbUdXcXFacklzZ1VqQkdVaEVYdXpyQjJLT255UWNPUGhzWFZkelNmYmxDWlF3?oc=5
+
+## 15. [입법레이더]재개발·재건축 행정절차 줄여 '공급속도전'
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 한스경제
+- 출처 사이트: https://www.hansbiz.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5kbG0yNUFMMWZWa05pWkxvS2NVNWtNTE5Ed21HdWFzUUo5dENPempfOXIxQUgySXc4RkJoRl81d2xsUmRzZ1JYNFR4dFBiSlJoSmNleEtsWmFGY1BnR2VVQlVlWU8xRjVBeHZiWNIBb0FVX3lxTE1KNnhISkNQV2hmTGt3S1FuZjFnal9SUC13TFlDQmE1Rk9rcG5hVV94ZURDcjZkME5adXM4V2ZYV1JzcDc5bEpZMkF3WFkwVlBLWnR1M2F3clhYVVEybFptWTNzVmQ1a2pGNGhkc1N3bw?oc=5
+
+## 16. 두산에너빌리티 '트리븐 김해' 398세대 분양...6~8일 특별공급·청약
+- 분류/지역: 청약·분양 / 전국
+- 출처: 김해뉴스
+- 출처 사이트: http://www.gimhaenews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBWcVdsd1Z6NFRxYURWWk8yLXNVQ0xTU3NfMHRvU3RzUi00UFhRS29hcF94bUFzcXFiMUtsRnRZSDhLeGRpMnRfUk55NjludV8wczhnN25YVjhHWTZYNkF4eFJWbV9UQTJ1UGh3c01B?oc=5
+
+## 17. 한 총리 "재개발·재건축, 청년주택 공급 쉽지 않아"
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스TV
+- 출처 사이트: https://www.yonhapnewstv.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1raGE2OXl1WHdWZi1fZkZydDlZZE03VmhZMEE1VWFCQTdrUzFUZ2xSYWhEWFlmT1o5dHoxY2JRMTh2N0VVaTJaSGljUHgwem9QUGhzTTgwSU5jbXV5TEZOWFgwakpZMG8?oc=5
+
+## 18. 韓총리, 吳 '재개발·재건축'에 "청년 주택 공급은 쉽지 않아"
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TZ3dKWXhqZmVXWEd6LTZIc1liOVJZMDBOSTF1cXlVQ3NPYjBFUnR2OE9mZUt0OUdJREF2N0NaMmhYcEJJaG1VbHQtRXNCUDB0SDNINWxENldXUFXSAWBBVV95cUxOMFRPMnhySDN4UG5XdlJ4b1RLTXBybGhZcGFTUTAyTmM3bDFLV1U4T2hUWjBRaDFZV2w1aVlwbldWRGw2RVcwVHVjVnBvUTBaYUFhZ3NTWktrS25iOWo1d0Q?oc=5
+
+## 19. 경기도의회 김태희 의원, 의왕·군포·안산 공공주택지구 추진상황 점검
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 경기연합뉴스
+- 출처 사이트: http://www.kgyonhapnews.net
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uYWRrcXhrbGx6eG1DQWNFbTExSWs1SG9RVDlHSGd3WjM2LUpaWlY4Z1NBNDVrRG5FUzByNGwwUlR2Y1czb05QNzBNYm82Y0libzMzX3FPZ3NzbDRDUEVXVERHSGpfOFHSAWdBVV95cUxPbmFka3F4a2xsenhtQ0FjRW0xMUlrNUhvUVQ5R0hnd1ozNi1KWlpWOGdTQTQ1a0RuRVMwcjRsMFJUdmNXM29OUDcwTWJvNmNJYm8zM19xT2dzc2w0Q1BFV1RER0hqXzhR?oc=5
+
+## 20. 경기도, 경기준비위 3기 신도시 왕숙지구 현장 시찰 > 경기도
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 뉴스와일드
+- 출처 사이트: http://www.newswild.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOEcwOGlnTEhzM2FiTUlaMm85S19pUzE3VjUxX3BaNXo5MkFVY3FPZFBhWkcweU0ya1ZLdzlFN0U3NWxfVC1VZkp0SVdpZ1ozVXRVNGJzYXNOTDNtVUMtblZNU0dEMjlrbE52WFNlZUJ0WW9FLUZmanpKVVlpT2xxTEF6ZXdiaDQ5bUlv?oc=5
+
+## 21. 금천구 재개발/재건축/모아타운 현황 총정리
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 마을신문 금천in
+- 출처 사이트: https://www.gcinnews.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE9VRHRqM0VvU2dhX3JhVnZGbjBOa05rZEVoT2prbTMtNmNNd0N4aHVyV1JKOW9FaVY3VDEzM3g2WEdBM29NZWtCOXdrRmdick5CZGNnRGxUTVJtYTk5VnVNMHcwZDRhbzF3T1E?oc=5
+
+## 22. 오세훈 "재개발·재건축 권한 자치구 이양, 위험천만 탁상행정"
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스TV
+- 출처 사이트: https://www.yonhapnewstv.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NVVppUGJCVlV1UElTVE1oNktlUjJjbVJ3a1BRcTB6RGVSTFZ4VDdrdmlGQkhPbTJlLWRlREtPQWhnblpPWl9yMEZRVldpVWllVjJBVl9ydG9tbnduaEhkTzJqeE5kSkU?oc=5
+
+## 23. 장송회 도의원, 신도시·8.13 주택 공급대책 점검
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 팩트저널
+- 출처 사이트: https://www.f-t.kr
+- 링크: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EWHctcXdDQTJkWkxMaUJUclRRQ2VrLUdoclpQVDJ3REdWSGUxMW5EaVlneDRFYjVjU3R3NUc2ZTh6aFQ1Y090alhFbU10MUZoTVBlMUxucjRqM01kZUo0OWl3?oc=5
+
+## 24. “15억, 20억 하는데”…김남근, 오세훈표 ‘재개발·재건축’ 저격 [지금뉴스]
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: KBS 뉴스
+- 출처 사이트: https://news.kbs.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QNUluOFJ0eXoxNWNqX3VDbkpSQWhnTzNrcE5QRTNpMGdrcW9rZjgwOUtPcENqdUVSQk4xQi1hdU0xMThPd3lwd3Q2czFXWDBXdk01VkhhV3EyOEhyd2l2SGpGWmJCUQ?oc=5
+
+## 25. 재건축부터 용산 개발까지…주택공급 핵심법안 26일 국회로
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 한국부동산뉴스
+- 출처 사이트: https://www.karnews.or.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE5zUklHdUZkVHlPTlA4OGZEemJiRUJFc0tEel9SMVpEbFBlLVpzTjNieldRVXBwRG9HOHRkUnpRVzBrUTc2aHZYdUZkRzE3RVQ0V3F6dnRYVHpMeEk0ZXRBNTBqTDB5SjI1RVRF?oc=5
+
+## 26. 오세훈 "재개발·재건축 권한 자치구 이양은 위험천만 탁상행정"
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHQzd5ZF9JOVdwX0p5OTNNZWNqM21iREpxeF9iZ25ybWNzNmtwYllZT2VTV0doV1JBWE9HNEJBQlR2LWlUb25TY2htYl9JR0J1TFl3WndfNlFkVDg4S2loSNIBYEFVX3lxTFBHQzd5ZF9JOVdwX0p5OTNNZWNqM21iREpxeF9iZ25ybWNzNmtwYllZT2VTV0doV1JBWE9HNEJBQlR2LWlUb25TY2htYl9JR0J1TFl3WndfNlFkVDg4S2loSA?oc=5
+
+## 27. 청약·대출·전매 제한 없는 비규제지역… ‘음성자이 센트럴시티’ 잔여분 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 파이낸셜뉴스
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VRFUtSm1CdjJoQXNmbXdzRWx4UHZmYVFDcEZoUHQwMThVVTBGc21Vd01vSWs3a2ZjMWtBLWlwMEVrcEVSVVdxNXR2RmU2YUJiaTRmTjZxcmtvZw?oc=5
+
+## 28. 성남 원도심 재개발 여건 손질…임대주택 공급은 감소
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 광교신문
+- 출처 사이트: https://www.kgnews.net
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhaDUwV3AyTjRqMWNxREF5RWxfNUtuUjRYalpnZUkteEcyWlNfSlFTMUdtRWExTXcyY1pQNm45aFlyZkhQUlA2Q29NVlNXNWN6YldaS2tCa19JOUdKQ29FeERDYzB6RVNX0gFsQVVfeXFMTUUyc085c2ROVS0tLUtCQVNkcDNObG9aMF90WkJSZE02bXlsTjQ4RjFXdWNUM1dCamc4YnZmTHBTWDJuci0zcUVnQmNWbUE3bWNkOGJBYWtpbXhNZUFCenEtcTVZdXktam9hSTRz?oc=5
+
+## 29. GH, 연천BIX 분양조건 완화…45필지 공급·할부이자 전액 면제
+- 분류/지역: 청약·분양 / 전국
+- 출처: 필드뉴스
+- 출처 사이트: https://www.fieldnews.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE1zR1g2QWQwM01lUkhaY2tjT0p0dHVkNmE0Zzg2MUo3dlVKU0lyTFNjWkNCWDlWcWFicE5GMEZwT0RSNWN4Q2FPeVlSUWhmRVVGUjRzR3pfc3otU3hVenhRa2FaUUx2Q1hhTGfSAWxBVV95cUxPaEotd01hSXJBdjJMX1JUYU5PR29yZ2hZRnBLUllkN1FvaTlkTWJTbkZvM0o3eDZfY2pEVzEta1V3NURnSHNqeWh6b2tQMGdIWDBnTjFqZ2xTdnYzZXdTeWNTRXcyZzJDVlM2U2s?oc=5
+
+## 30. 각종 규제에 정비사업도 ‘옴짝달싹’, 도심 내 주택공급도 ‘지지부진’
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 데일리안
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiowJBVV95cUxOWUZsdnR4bkkzUWU1ZVByVFQ3TEZtcDNLVWxHeWhoYnlhUS13aXY3MUo2TFlqSzhfWHZaUjAtU3QzWWM2dHFqX1ZZQW0yaHg0Y3FyTTJDSUhVVVFRTnBBc3hSeVROTmUzX1VmRmxjdWtjNEdMeUlvcUhaWmkxbF83MjB4YlluT05HQ05rTXlhVTRWOGZMOVFXZkdaaUJ0emxGR01ENS1pdmk0UExsbHVnNklhdTc5WHgxRWJqdDhlUHlXdnNnd040R1dYYlVxcldKeFB0WF9XN1ppRUg4MTZTZkJ5QnVuLXNILUdiNE1ON1BkeXNONDdoVXd1Um1QSldLVy1yRDdoUWdxVXVrc3JfWHd0MnpNMWFBZ2NDOVQ4clhlenM?oc=5
+
