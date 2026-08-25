@@ -1,0 +1,162 @@
+name: Publish requested Instagram carousel
+
+on:
+  push:
+    paths:
+      - "daily-realestate/publish-request.json"
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Read publish request
+        id: request
+        shell: pwsh
+        run: |
+          $request = Get-Content -LiteralPath .\daily-realestate\publish-request.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          if (-not $request.date) { throw "publish-request.json missing date" }
+          if (-not $request.numbers) { throw "publish-request.json missing numbers" }
+          "date=$($request.date)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "numbers=$($request.numbers)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "publish_to_instagram=$($request.publish_to_instagram)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "review_confirmed=$($request.review_confirmed)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "image_usage_confirmed=$($request.image_usage_confirmed)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Build selected carousels
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}"
+
+      - name: Prepare public JPEG site
+        shell: pwsh
+        run: |
+          $date = "${{ steps.request.outputs.date }}"
+          $numbers = "${{ steps.request.outputs.numbers }}" -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique
+          $siteRoot = Join-Path $PWD "_site"
+          New-Item -ItemType Directory -Path $siteRoot -Force | Out-Null
+          $publicRoot = Join-Path $siteRoot "realestate\$date"
+          New-Item -ItemType Directory -Path $publicRoot -Force | Out-Null
+
+          foreach ($number in $numbers) {
+            $setName = "article-$('{0:D2}' -f $number)-carousel"
+            $carouselDir = Join-Path $PWD "daily-realestate\output\$date\$setName"
+            if (-not (Test-Path $carouselDir)) {
+              throw "Carousel directory not found: $carouselDir"
+            }
+            $placeholderBase = "https://example.com/replace-after-pages-deploy/realestate/$date/$setName"
+            powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\publish-instagram-carousel.ps1 -CarouselDir $carouselDir -ImageBaseUrl $placeholderBase -PrepareJpeg -DryRun
+            $targetDir = Join-Path $publicRoot $setName
+            New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+            Get-ChildItem -LiteralPath (Join-Path $carouselDir "_publish") -Filter "*.jpg" | Copy-Item -Destination $targetDir -Force
+            Copy-Item -LiteralPath (Join-Path $carouselDir "caption.txt") -Destination $targetDir -Force
+            Copy-Item -LiteralPath (Join-Path $carouselDir "REVIEW.md") -Destination $targetDir -Force
+          }
+
+          @"
+          <!doctype html>
+          <html lang="ko">
+          <head><meta charset="utf-8"><title>Real estate carousel assets</title></head>
+          <body><h1>Real estate carousel assets - $date</h1></body>
+          </html>
+          "@ | Set-Content -LiteralPath (Join-Path $siteRoot "index.html") -Encoding UTF8
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Write final public URL manifests
+        shell: pwsh
+        run: |
+          $date = "${{ steps.request.outputs.date }}"
+          $pageUrl = "${{ steps.deploy.outputs.page_url }}".TrimEnd('/')
+          $numbers = "${{ steps.request.outputs.numbers }}" -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique
+          foreach ($number in $numbers) {
+            $setName = "article-$('{0:D2}' -f $number)-carousel"
+            $carouselDir = ".\daily-realestate\output\$date\$setName"
+            $imageBaseUrl = "$pageUrl/realestate/$date/$setName"
+            powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\publish-instagram-carousel.ps1 -CarouselDir $carouselDir -ImageBaseUrl $imageBaseUrl -DryRun
+          }
+
+      - name: Verify public JPEG URLs
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\verify-public-image-urls.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}" -Attempts 12 -DelaySeconds 5
+
+      - name: Validate carousel output
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-carousel-output.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}" -RequireJpeg
+
+      - name: Require publish confirmation
+        shell: pwsh
+        run: |
+          if ("${{ steps.request.outputs.publish_to_instagram }}" -ne "True" -and "${{ steps.request.outputs.publish_to_instagram }}" -ne "true") {
+            throw "publish_to_instagram must be true in publish-request.json"
+          }
+          if ("${{ steps.request.outputs.review_confirmed }}" -ne "True" -and "${{ steps.request.outputs.review_confirmed }}" -ne "true") {
+            throw "review_confirmed must be true in publish-request.json"
+          }
+          if ("${{ steps.request.outputs.image_usage_confirmed }}" -ne "True" -and "${{ steps.request.outputs.image_usage_confirmed }}" -ne "true") {
+            throw "image_usage_confirmed must be true in publish-request.json"
+          }
+
+      - name: Publish through Meta API
+        shell: pwsh
+        env:
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST }}
+          META_IS_AI_GENERATED: ${{ vars.META_IS_AI_GENERATED }}
+          META_ALT_TEXT_PREFIX: ${{ vars.META_ALT_TEXT_PREFIX }}
+        run: |
+          if (-not $env:META_IG_USER_ID) { throw "Missing secret META_IG_USER_ID" }
+          if (-not $env:META_IG_ACCESS_TOKEN) { throw "Missing secret META_IG_ACCESS_TOKEN" }
+
+          $date = "${{ steps.request.outputs.date }}"
+          $pageUrl = "${{ steps.deploy.outputs.page_url }}".TrimEnd('/')
+          $numbers = "${{ steps.request.outputs.numbers }}" -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique
+          foreach ($number in $numbers) {
+            $setName = "article-$('{0:D2}' -f $number)-carousel"
+            $carouselDir = ".\daily-realestate\output\$date\$setName"
+            $imageBaseUrl = "$pageUrl/realestate/$date/$setName"
+            powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\publish-instagram-carousel.ps1 -CarouselDir $carouselDir -ImageBaseUrl $imageBaseUrl
+          }
+
+      - name: Upload publish logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-requested-${{ steps.request.outputs.date }}
+          path: |
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/article-detail.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/REVIEW.md
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/chrome-render.log
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/publish-manifest.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/validation-report.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/public-image-url-report.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/content-publishing-limit.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/publish-container-status.json
+            daily-realestate/output/${{ steps.request.outputs.date }}/article-*-carousel/publish-result.json
+          if-no-files-found: warn
+          retention-days: 14
