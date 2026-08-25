@@ -41,6 +41,27 @@ foreach ($index in $indexes) {
     if (-not (Test-Path -LiteralPath $path)) { throw "$setName missing required file: $required" }
   }
 
+  $captionPath = Join-Path $setDir 'caption.txt'
+  $caption = Get-Content -LiteralPath $captionPath -Raw -Encoding UTF8
+  $blockedCaptionPatterns = @(
+    'https?://',
+    'news\.google\.com',
+    '원문 기준으로 다시 봐야 합니다',
+    '단계, 일정, 수치가 확정인지 검토인지',
+    '이미지는 기사 내 공식',
+    'Use only',
+    'fetch_failed',
+    '원격 서버',
+    '확인 전',
+    '게시보류',
+    '조감도 사용 조건'
+  )
+  foreach ($pattern in $blockedCaptionPatterns) {
+    if ($caption -match $pattern) {
+      throw "$setName caption contains blocked publish text or URL pattern: $pattern"
+    }
+  }
+
   $detail = Get-Content -LiteralPath (Join-Path $setDir 'article-detail.json') -Raw -Encoding UTF8 | ConvertFrom-Json
   if (-not $detail.title -or -not $detail.source) { throw "$setName article-detail.json missing title/source." }
 

@@ -458,7 +458,6 @@ foreach ($index in $indexes) {
       "청약 전 공급유형, 신청자격, 분양가, 제한사항은 입주자 모집공고문에서 다시 확인하세요.",
       '',
       "출처: $($article.source)",
-      "$($article.url)",
       '',
       $hashtags
     ) -join "`r`n"
@@ -477,7 +476,6 @@ foreach ($index in $indexes) {
       "필수 기반시설은 완화 대상에서 제외될 수 있고, 실제 공급 효과는 사업계획 승인·인허가 속도와 사업성 개선 여부를 함께 봐야 합니다.",
       '',
       "출처: $($article.source)",
-      "$($article.url)",
       '',
       $hashtags
     ) -join "`r`n"
@@ -497,7 +495,6 @@ foreach ($index in $indexes) {
         "이번 자문은 사업기간 단축 기대를 키우는 절차지만, 단지별 물량과 계획은 정비구역 지정·정비계획 결정 등 후속 절차에서 다시 확인해야 합니다.",
         '',
         "출처: $($article.source)",
-        "$($article.url)",
         '',
         $hashtags
       ) -join "`r`n"
@@ -516,7 +513,6 @@ foreach ($index in $indexes) {
         "현장 자문은 정비계획의 완성도를 높이는 절차입니다. 실제 사업 속도와 공급 물량은 정비계획 결정, 인허가, 주민 동의 흐름까지 함께 봐야 합니다.",
         '',
         "출처: $($article.source)",
-        "$($article.url)",
         '',
         $hashtags
       ) -join "`r`n"
@@ -534,7 +530,6 @@ foreach ($index in $indexes) {
       "이미지는 기사 내 공식 조감도·위치도·구역도·노선도만 사용합니다.",
       '',
       "출처: $($article.source)",
-      "$($article.url)",
       '',
       $hashtags
     ) -join "`r`n"

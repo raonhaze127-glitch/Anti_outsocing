@@ -39,6 +39,32 @@ function Get-Category([string]$text) {
   return '주택공급'
 }
 
+function Get-ClusterKey([string]$title, [string]$summary) {
+  $text = Clean-Text "$title $summary"
+  $lower = $text.ToLowerInvariant()
+
+  if ($text -match '용산공원|용산 공원') {
+    if ($text -match '공공주택|주택공급|주택 공급') { return 'issue:yongsan-park-public-housing' }
+  }
+  if ($text -match '신통기획|신속통합기획|현장형 신통|현장 자문') {
+    if ($text -match '노원|중계|상계|하계') { return 'issue:nowon-fast-track-reconstruction' }
+    return 'issue:fast-track-reconstruction'
+  }
+  if ($text -match '기부채납') { return 'issue:contribution-burden-relief' }
+  if ($text -match '신축매입|신축 매입') {
+    if ($text -match 'LH|한국토지주택공사') { return 'issue:lh-new-build-purchase' }
+  }
+
+  $normalized = $lower
+  $normalized = $normalized -replace '\s*-\s*[^-]{2,30}$', ''
+  $normalized = $normalized -replace '[`"“”‘’''\[\]\(\),.·…％%]', ' '
+  $normalized = $normalized -replace '\b\d+(?:\.\d+)?\b', ' '
+  $normalized = $normalized -replace '\s+', ' '
+  $tokens = @($normalized.Trim().Split(' ') | Where-Object { $_.Length -ge 2 } | Select-Object -First 8)
+  if ($tokens.Count -eq 0) { return "title:$lower" }
+  return 'title:' + ($tokens -join '-')
+}
+
 $headers = @{ 'User-Agent' = 'Mozilla/5.0 (compatible; RealEstateDaily/1.0)' }
 $items = @()
 foreach ($query in $config.queries) {
@@ -58,6 +84,7 @@ foreach ($query in $config.queries) {
         title=$title; summary=$description; source=$source; sourceUrl=$sourceUrl; url=[string]$entry.link
         published=[string]$entry.pubDate; score=(Get-Score $combined)
         category=(Get-Category $combined); region=if($region){$region[0]}else{'전국'}
+        clusterKey=(Get-ClusterKey $title $description)
       }
     }
   } catch {
@@ -73,7 +100,7 @@ $candidates = @($items | Where-Object {
   $_.title -notmatch "\b(19|20)\d{2}\b.*\b(19|20)\d{2}\b" -and
   $_.title -notmatch "\([A-Za-z0-9_-]{8,}\)" -and
   -not ($_.title -match '\b(20\d{2})[./-]' -and [int]$Matches[1] -lt $minimumYear)
-} | Sort-Object score -Descending | Group-Object title | ForEach-Object { $_.Group[0] } | Select-Object -First $config.maxCandidates)
+} | Sort-Object score -Descending | Group-Object clusterKey | ForEach-Object { $_.Group[0] } | Select-Object -First $config.maxCandidates)
 $selectedList = [System.Collections.ArrayList]::new()
 foreach ($category in @('재개발·재건축','청약·분양','교통·SOC','신도시·택지','주택공급')) {
   $pick = $candidates | Where-Object category -eq $category | Select-Object -First 1
