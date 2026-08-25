@@ -182,6 +182,103 @@ function Find-BrowserExecutable {
   throw 'Chrome 또는 Edge 실행 파일을 찾을 수 없습니다. CHROME_PATH 환경변수로 브라우저 경로를 지정하세요.'
 }
 
+function Get-BrowserExecutables {
+  $seen = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+  $paths = @(
+    $env:CHROME_PATH,
+    'C:\Program Files\Google\Chrome\Application\chrome.exe',
+    'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe',
+    'C:\Program Files\Microsoft\Edge\Application\msedge.exe',
+    'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+  ) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+
+  $commands = @(
+    (Get-Command chrome -ErrorAction SilentlyContinue),
+    (Get-Command msedge -ErrorAction SilentlyContinue)
+  ) | Where-Object { $_ }
+  foreach ($command in $commands) { $paths += $command.Source }
+
+  $result = @()
+  foreach ($path in $paths) {
+    if ((Test-Path -LiteralPath $path) -and $seen.Add($path)) { $result += $path }
+  }
+  return @($result)
+}
+
+function Invoke-BrowserScreenshot([string]$HtmlPath, [string]$PngPath, [string]$ProfileBaseDir, [string]$LogPath) {
+  $url = 'file:///' + ($HtmlPath -replace '\\', '/')
+  $browsers = @(Get-BrowserExecutables)
+  if ($browsers.Count -eq 0) { throw 'Chrome 또는 Edge 실행 파일을 찾을 수 없습니다. CHROME_PATH 환경변수로 브라우저 경로를 지정하세요.' }
+
+  $attempts = @(
+    @{ name='headless-new'; headless='--headless=new'; extra=@('--disable-gpu','--disable-gpu-compositing','--enable-unsafe-swiftshader') },
+    @{ name='headless-classic'; headless='--headless'; extra=@('--disable-gpu','--enable-unsafe-swiftshader') },
+    @{ name='headless-minimal'; headless='--headless'; extra=@() }
+  )
+
+  $logs = @()
+  $attemptIndex = 0
+  foreach ($browser in $browsers) {
+    foreach ($attempt in $attempts) {
+      $attemptIndex++
+      if (Test-Path -LiteralPath $PngPath) { Remove-Item -LiteralPath $PngPath -Force }
+      $profileDir = Join-Path $ProfileBaseDir ('profile-{0}' -f $attemptIndex)
+      New-Item -ItemType Directory -Path $profileDir -Force | Out-Null
+      $browserArgs = @(
+        $attempt.headless,
+        "--user-data-dir=$profileDir",
+        '--no-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-extensions',
+        '--disable-background-networking',
+        '--allow-file-access-from-files',
+        '--no-first-run',
+        '--hide-scrollbars',
+        '--window-size=1080,1350',
+        '--force-device-scale-factor=1',
+        '--run-all-compositor-stages-before-draw',
+        '--virtual-time-budget=1500',
+        '--password-store=basic'
+      ) + $attempt.extra + @(
+        "--screenshot=$PngPath",
+        $url
+      )
+
+      $output = & $browser @browserArgs 2>&1
+      $exitCode = $LASTEXITCODE
+      $rendered = $false
+      for ($wait = 0; $wait -lt 40; $wait++) {
+        if (Test-Path -LiteralPath $PngPath) {
+          $rendered = $true
+          break
+        }
+        Start-Sleep -Milliseconds 250
+      }
+
+      $logs += @(
+        "## Attempt $attemptIndex / $($attempt.name)",
+        "Browser: $browser",
+        "Exit code: $exitCode",
+        "Screenshot path: $PngPath",
+        "HTML URL: $url",
+        "Arguments:",
+        ($browserArgs -join "`r`n"),
+        "Output:",
+        ($output -join "`r`n"),
+        ""
+      )
+
+      if ($rendered) {
+        $logs | Set-Content -LiteralPath $LogPath -Encoding UTF8
+        return $true
+      }
+    }
+  }
+
+  $logs | Set-Content -LiteralPath $LogPath -Encoding UTF8
+  return $false
+}
+
 function New-Slides($article, [int]$number) {
   $topic = Get-TopicLabel $article
   $summary = Short-Text $article.summary 118
@@ -260,7 +357,6 @@ if (Test-Path -LiteralPath $photoBgPath) {
   $photoBgUrl = 'file:///' + ($photoBgPath -replace '\\', '/')
   $photoBgCss = ".photo-bg{background-image:url('$photoBgUrl')}"
 }
-$chrome = Find-BrowserExecutable
 $chromeProfileDir = Join-Path $outDir '_chrome-profile'
 if (-not $NoRender) {
   New-Item -ItemType Directory -Path $chromeProfileDir -Force | Out-Null
@@ -305,48 +401,8 @@ foreach ($index in $indexes) {
 
     if (-not $NoRender) {
       if (Test-Path -LiteralPath $pngPath) { Remove-Item -LiteralPath $pngPath -Force }
-      $url = 'file:///' + ($htmlPath -replace '\\', '/')
-      $chromeArgs = @(
-        '--headless=new',
-        "--user-data-dir=$chromeProfileDir",
-        '--disable-gpu',
-        '--disable-gpu-compositing',
-        '--no-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-extensions',
-        '--disable-background-networking',
-        '--no-first-run',
-        '--hide-scrollbars',
-        '--window-size=1080,1350',
-        '--force-device-scale-factor=1',
-        '--run-all-compositor-stages-before-draw',
-        '--virtual-time-budget=1000',
-        '--password-store=basic',
-        "--screenshot=$pngPath",
-        $url
-      )
-      $chromeOutput = & $chrome @chromeArgs 2>&1
-      $chromeExitCode = $LASTEXITCODE
-      $rendered = $false
-      for ($attempt = 0; $attempt -lt 40; $attempt++) {
-        if (Test-Path -LiteralPath $pngPath) {
-          $rendered = $true
-          break
-        }
-        Start-Sleep -Milliseconds 250
-      }
+      $rendered = Invoke-BrowserScreenshot -HtmlPath $htmlPath -PngPath $pngPath -ProfileBaseDir $chromeProfileDir -LogPath (Join-Path $setDir 'chrome-render.log')
       if (-not $rendered) {
-        @(
-          "Chrome executable: $chrome",
-          "Chrome exit code: $chromeExitCode",
-          "Screenshot path: $pngPath",
-          "HTML URL: $url",
-          "Arguments:",
-          ($chromeArgs -join "`r`n"),
-          "",
-          "Output:",
-          ($chromeOutput -join "`r`n")
-        ) | Set-Content -LiteralPath (Join-Path $setDir 'chrome-render.log') -Encoding UTF8
         throw "PNG 렌더링 실패: $pngPath (chrome-render.log 확인)"
       }
     }
@@ -512,7 +568,11 @@ if (-not $NoRender -and (Test-Path -LiteralPath $chromeProfileDir)) {
   $resolvedProfile = (Resolve-Path -LiteralPath $chromeProfileDir).Path
   $resolvedOutDir = (Resolve-Path -LiteralPath $outDir).Path
   if ($resolvedProfile.StartsWith($resolvedOutDir, [System.StringComparison]::OrdinalIgnoreCase)) {
-    Remove-Item -LiteralPath $resolvedProfile -Recurse -Force
+    try {
+      Remove-Item -LiteralPath $resolvedProfile -Recurse -Force -ErrorAction Stop
+    } catch {
+      Write-Warning "Could not remove temporary browser profile directory: $resolvedProfile / $($_.Exception.Message)"
+    }
   }
 }
 
