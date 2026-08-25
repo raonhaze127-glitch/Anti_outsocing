@@ -4,6 +4,7 @@
 
 GitHub Actions로 PC 없이 운영하려면 먼저 [`GITHUB_SETUP.md`](./GITHUB_SETUP.md)를 따라 설정합니다.
 현재 구현 상태는 [`PROJECT_STATUS.md`](./PROJECT_STATUS.md), 실제 런칭 직전 확인 항목은 [`LAUNCH_CHECKLIST.md`](./LAUNCH_CHECKLIST.md)에서 볼 수 있습니다.
+카드뉴스 디자인 기준은 [`CAROUSEL_STYLE_REFERENCE.md`](./CAROUSEL_STYLE_REFERENCE.md)에 정리했습니다.
 
 ## 1. 기사 수집
 

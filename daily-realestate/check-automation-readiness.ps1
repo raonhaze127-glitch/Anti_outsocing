@@ -74,6 +74,7 @@ $requiredDocs = @(
   'README.md',
   'WORKFLOW.md',
   'GITHUB_SETUP.md',
+  'CAROUSEL_STYLE_REFERENCE.md',
   'PROJECT_STATUS.md',
   'LAUNCH_CHECKLIST.md'
 )

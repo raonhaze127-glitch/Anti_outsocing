@@ -61,6 +61,7 @@ $sourceFiles = @(
   'daily-realestate/README.md',
   'daily-realestate/WORKFLOW.md',
   'daily-realestate/GITHUB_SETUP.md',
+  'daily-realestate/CAROUSEL_STYLE_REFERENCE.md',
   'daily-realestate/PROJECT_STATUS.md',
   'daily-realestate/LAUNCH_CHECKLIST.md'
 )

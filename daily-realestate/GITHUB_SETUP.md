@@ -81,13 +81,20 @@ GitHub repository에서 아래 설정을 확인합니다.
 - `META_IG_USER_ID`: 인스타그램 프로페셔널 계정 ID
 - `META_IG_ACCESS_TOKEN`: `instagram_business_basic`, `instagram_business_content_publish` 권한이 있는 토큰
 
-선택 variable:
+선택 variables:
 
 - `META_GRAPH_VERSION`: 비워두면 스크립트 기본값 `v23.0` 사용
+- `META_GRAPH_HOST`: 비워두면 스크립트 기본값 `https://graph.instagram.com` 사용
+
+토큰 방식별 권장값:
+
+- Instagram Login 방식: `META_GRAPH_HOST=https://graph.instagram.com`, 권한 `instagram_business_basic`, `instagram_business_content_publish`
+- Facebook Login/Page 연결 방식: `META_GRAPH_HOST=https://graph.facebook.com`, 권한 `instagram_basic`, `instagram_content_publish`, `pages_read_engagement` 등
 
 주의:
 
 - Instagram 개인 계정은 게시 API 대상이 아닙니다. 프로페셔널 계정이어야 합니다.
+- Instagram Login 방식은 Facebook Page 연결 없이도 가능하지만, Facebook Login 방식은 Instagram 프로페셔널 계정과 Facebook Page 연결이 필요합니다.
 - 토큰은 만료될 수 있으므로 게시 실패 시 먼저 secret 만료 여부를 확인합니다.
 
 ## 5. 첫 수집 테스트
