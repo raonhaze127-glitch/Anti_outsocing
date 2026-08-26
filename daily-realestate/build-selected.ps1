@@ -116,6 +116,27 @@ function Get-ArticleHashtags($article) {
     return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
   }
 
+  if ($text -match '의정부우정|A-2블록|공공주택지구') {
+    foreach ($tag in @('의정부청약','의정부우정','공공분양','LH분양','청약일정','의정부부동산','녹양역','GTXC','분양가상한제','전매제한','내집마련','분양정보')) {
+      Add-Hashtag $tags $tag
+    }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
+  if ($text -match '지연된 PF 사업장|PF 사업장|청년·신혼부부|신혼부부 보금자리') {
+    foreach ($tag in @('PF사업장','매입임대','청년주택','신혼부부주택','공공임대','LH','국토교통부','주택공급정책','주거정책','부동산정책','공급대책','임대주택')) {
+      Add-Hashtag $tags $tag
+    }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
+  if ($text -match '사당동|남성역|사당로16길') {
+    foreach ($tag in @('사당동재개발','남성역','동작구재개발','신속통합기획','신통기획','서울정비사업','재개발','정비사업','주택공급','970세대','도시정비','사당로16길')) {
+      Add-Hashtag $tags $tag
+    }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
   if ($text -match '기부채납') {
     foreach ($tag in @('주택공급정책','기부채납','민간택지','민간주택공급','수도권공급','사업성개선','인허가','국토교통부','부동산정책','공급대책','주택건설사업')) {
       Add-Hashtag $tags $tag
@@ -288,6 +309,38 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '의정부우정|A-2블록|공공주택지구') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='공공분양'; title="의정부우정 A-2블록`n내달 청약"; body='총 463세대·전용 59㎡ 공공분양 핵심 정리' },
+      [pscustomobject]@{ type='table'; kicker='단지 개요'; title='어떤 단지인가'; body="위치|경기도 의정부시 녹양동 일원`n블록명|의정부우정 공공주택지구{br}A-2`n유형|공공분양주택`n규모|총 463세대" },
+      [pscustomobject]@{ type='table'; kicker='공급 물량'; title='실제 접수 물량 체크'; body="전체|463세대`n사전청약 당첨자|278세대`n특별·일반 공급|185세대`n면적|전용 59㎡ A·B" },
+      [pscustomobject]@{ type='table'; kicker='가격·규제'; title='분양가와 제한'; body="평균 분양가|약 4억300만원`n전매제한|3년`n거주의무|없음`n입주 예정|2029년 5월" },
+      [pscustomobject]@{ type='table'; kicker='입지 포인트'; title='녹양역·GTX-C 기대'; body="녹양역|약 1km 거리`n의정부역|GTX-C 예정`n광역도로|수도권제1순환·국도39`n생활권|기존 녹양택지 인접" },
+      [pscustomobject]@{ type='summary'; kicker='요약'; title='청약 전 체크'; body="1. 의정부우정 A-2블록 공공분양 463세대`n2. 사전청약 당첨자 물량 제외 후 185세대 접수`n3. 특별공급·일반공급 날짜를 나눠 확인`n4. 청약자격·제한사항은 공고문 기준 재확인" }
+    )
+  }
+
+  if ([string]$article.title -match '지연된 PF 사업장|PF 사업장|청년·신혼부부|신혼부부 보금자리') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='주택공급 정책'; title="멈춘 PF 사업장`n매입임대로 돌린다"; body='청년·신혼부부 보금자리 공급 방안 핵심 정리' },
+      [pscustomobject]@{ type='table'; kicker='정책 개요'; title='무슨 내용인가'; body="대상|지연된 PF 사업장`n방식|LH 매입임대 전환`n목표|주택공급·사업 정상화`n성격|국토교통부 보도자료" },
+      [pscustomobject]@{ type='table'; kicker='공급 방식'; title='어떻게 공급하나'; body="멈춘 사업장|공공 매입으로 재추진`n더딘 사업장|공급 속도 보완`n주택 유형|신축·기축 매입 활용`n입주 대상|청년·신혼부부 중심" },
+      [pscustomobject]@{ type='table'; kicker='숫자 체크'; title='시범사업 성과도 언급'; body="작년 시범|신축매입 2.6천호`n올해 방향|신축·기축 모두 확대`n공급 주체|LH 중심`n세부 물량|후속 공고 확인" },
+      [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 지연 PF 사업장을 공공 매입임대로 전환`n2. 청년·신혼부부 주거 공급과 사업 정상화 동시 목표`n3. 실제 대상지와 입주자 모집은 후속 공고 확인`n4. 공급 속도는 매입 협의와 사업장별 여건이 변수" }
+    )
+  }
+
+  if ([string]$article.title -match '사당동|남성역|사당로16길') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='신속통합기획'; title="남성역 10분`n사당동 신통기획 확정"; body='사당동 305-35 일대 신속통합기획 핵심 정리' },
+      [pscustomobject]@{ type='table'; kicker='대상지'; title='어디인가'; body="위치|동작구 사당동 305-35 일대`n교통|7호선 남성역 도보 10분`n현황|사당로16길 폭 협소`n지형|높이차 최대 22m" },
+      [pscustomobject]@{ type='table'; kicker='계획 규모'; title='약 970세대 추진'; body="주거단지|약 970세대`n최고층|최고 34층`n용도지역|제3종일반주거지역 상향`n사업성|보정계수 1.17 적용" },
+      [pscustomobject]@{ type='table'; kicker='도로·보행'; title='접근성 개선이 핵심'; body="사당로16길|단계적 확폭`n차로 계획|3~4차로 확보`n진출입구|2곳으로 분산`n보행|공공보행통로 조성" },
+      [pscustomobject]@{ type='table'; kicker='생활 기반'; title='지역 시설도 함께 본다'; body="공공기여|청소년수련시설 확충`n저층부|근린생활·커뮤니티 배치`n스카이라인|북측 고층·남측 저층`n연계|주변 개발사업과 연결" },
+      [pscustomobject]@{ type='summary'; kicker='요약'; title='신통기획 체크'; body="1. 사당동 305-35 일대 신통기획 확정`n2. 남성역 접근성과 도로 개선이 핵심 포인트`n3. 약 970세대·최고 34층 계획`n4. 정비구역 지정과 후속 인허가 단계는 계속 확인" }
+    )
+  }
+
   if ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='공공분양'; title="검암역세권`n첫 공공분양 체크"; body='검암역 푸르지오 프라베뉴 입주자 모집 공고 기준 핵심만 정리' },
@@ -345,18 +398,39 @@ function New-Slides($article, [int]$number) {
 }
 
 $baseCss = @'
-*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 120px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.040) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.52),rgba(0,0,0,.12));opacity:.42}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:120px;top:72px;color:rgba(255,255,255,.76);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.94);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:60px;line-height:1.22;letter-spacing:-2.2px;font-weight:950;word-break:keep-all;max-width:840px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.38)}.body{font-size:31px;line-height:1.62;color:rgba(255,255,255,.88);margin-top:34px;text-align:left;white-space:pre-line;font-weight:750;word-break:keep-all;max-width:820px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:120px;right:120px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.20);padding-top:26px;font-size:22px;color:rgba(255,255,255,.68)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.20);border-radius:22px;padding:24px 24px;background:linear-gradient(180deg,rgba(255,255,255,.095),rgba(255,255,255,.045));display:flex;flex-direction:column;justify-content:space-between}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.82)}.row .value{font-size:30px;line-height:1.28;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all;overflow-wrap:normal}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:31px;color:rgba(255,255,255,.88);max-width:780px}.table .title{font-size:56px;margin-bottom:10px;max-width:820px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:76px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:820px;background:rgba(255,255,255,.08);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:62px}.summary .body{font-size:35px;color:#fff;line-height:1.70;border-left:0;padding-left:0;background:rgba(255,255,255,.085);border-radius:28px;padding:34px 38px}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 120px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.040) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.52),rgba(0,0,0,.12));opacity:.42}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:120px;top:72px;color:rgba(255,255,255,.76);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.94);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:60px;line-height:1.22;letter-spacing:-2.2px;font-weight:950;word-break:keep-all;max-width:840px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.38)}.body{font-size:31px;line-height:1.62;color:rgba(255,255,255,.88);margin-top:34px;text-align:left;white-space:pre-line;font-weight:750;word-break:keep-all;max-width:820px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:120px;right:120px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.20);padding-top:26px;font-size:22px;color:rgba(255,255,255,.68)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.20);border-radius:22px;padding:22px 24px;background:linear-gradient(180deg,rgba(255,255,255,.095),rgba(255,255,255,.045));display:flex;flex-direction:column;justify-content:center;gap:13px}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.82)}.row .value{font-size:30px;line-height:1.25;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all;overflow-wrap:normal}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:31px;color:rgba(255,255,255,.88);max-width:780px}.table .title{font-size:56px;margin-bottom:10px;max-width:820px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:76px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:820px;background:rgba(255,255,255,.08);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:62px}.summary .body{font-size:35px;color:#fff;line-height:1.70;border-left:0;padding-left:0;background:rgba(255,255,255,.085);border-radius:28px;padding:34px 38px}
 .photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.82;filter:saturate(.95) contrast(1.12);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.84) 0%,rgba(6,13,24,.72) 44%,rgba(6,13,24,.50) 100%),linear-gradient(180deg,rgba(8,20,38,.18),rgba(0,0,0,.74));}.cover .photo-bg{opacity:.88}.table .photo-bg{opacity:.80}.summary .photo-bg{opacity:.82}
 '@
 
 $brand = if ($config.account) { $config.account } else { '@landbrief.daily' }
 $displayDate = try { ([datetime]::Parse($Date)).ToString('yyyy.MM.dd') } catch { $Date }
-$photoBgPath = Join-Path $root 'assets\photoreal-urban-transit-bg-v1.png'
-$photoBgCss = ''
-if (Test-Path -LiteralPath $photoBgPath) {
-  $photoBgUrl = 'file:///' + ($photoBgPath -replace '\\', '/')
-  $photoBgCss = ".photo-bg{background-image:url('$photoBgUrl')}"
+
+function Get-PhotoBgCss([string]$Path) {
+  if (-not $Path) { return '' }
+  if (-not (Test-Path -LiteralPath $Path)) { return '' }
+  $photoBgUrl = 'file:///' + ($Path -replace '\\', '/')
+  return ".photo-bg{background-image:url('$photoBgUrl')}"
 }
+
+function Find-ArticleBackground([string]$OutputDir, [string]$ArticleNumber, [string]$ProjectRoot) {
+  $bgDir = Join-Path $OutputDir 'article-backgrounds'
+  foreach ($ext in @('jpg','jpeg','png','webp')) {
+    $candidate = Join-Path $bgDir ("article-$ArticleNumber-bg.$ext")
+    if (Test-Path -LiteralPath $candidate) { return $candidate }
+  }
+
+  $outputDate = Split-Path -Leaf $OutputDir
+  $assetBgDir = Join-Path $ProjectRoot (Join-Path 'assets\article-backgrounds' $outputDate)
+  foreach ($ext in @('jpg','jpeg','png','webp')) {
+    $candidate = Join-Path $assetBgDir ("article-$ArticleNumber-bg.$ext")
+    if (Test-Path -LiteralPath $candidate) { return $candidate }
+  }
+
+  $fallback = Join-Path $ProjectRoot 'assets\photoreal-urban-transit-bg-v1.png'
+  if (Test-Path -LiteralPath $fallback) { return $fallback }
+  return ''
+}
+
 $chromeProfileDir = Join-Path $outDir '_chrome-profile'
 if (-not $NoRender) {
   New-Item -ItemType Directory -Path $chromeProfileDir -Force | Out-Null
@@ -369,6 +443,8 @@ foreach ($index in $indexes) {
   $setDir = Join-Path $outDir $setName
   New-Item -ItemType Directory -Path $setDir -Force | Out-Null
   $detailPath = Join-Path $setDir 'article-detail.json'
+  $articleNumber = '{0:D2}' -f $index
+  $setPhotoBgCss = Get-PhotoBgCss (Find-ArticleBackground -OutputDir $outDir -ArticleNumber $articleNumber -ProjectRoot $root)
   $detail = $null
   if (Test-Path -LiteralPath $detailPath) {
     $detail = Get-Content -LiteralPath $detailPath -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -388,13 +464,14 @@ foreach ($index in $indexes) {
       foreach ($line in ([string]$slide.body -split "`n")) {
         $parts = $line -split '\|', 2
         if ($parts.Count -eq 2) {
-          $rows += "<div class='row'><div class='label'>$(Html $parts[0])</div><div class='value'>$(Html $parts[1])</div></div>"
+          $safeValue = (Html $parts[1]) -replace '\{br\}', '<br>'
+          $rows += "<div class='row'><div class='label'>$(Html $parts[0])</div><div class='value'>$safeValue</div></div>"
         }
       }
       $bodyHtml = "<div class='rows'>$($rows -join '')</div>"
     }
     $accent = if ($slide.type -eq 'cover') { "<div class='accent'></div>" } else { '' }
-    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$photoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($displayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
+    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$setPhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($displayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
     $htmlPath = Join-Path $setDir "$num.html"
     $pngPath = Join-Path $setDir "$num.png"
     Set-Content -LiteralPath $htmlPath -Value $doc -Encoding UTF8
@@ -460,6 +537,43 @@ foreach ($index in $indexes) {
       '',
       $hashtags
     ) -join "`r`n"
+  } elseif ([string]$article.title -match '의정부우정|A-2블록|공공주택지구') {
+    $caption = @(
+      "🏢 의정부우정 A-2블록, 내달 청약 시작",
+      '',
+      "📌 LH 공공분양 463세대",
+      "의정부우정 공공주택지구 A-2블록 공공분양주택이 본청약 일정에 들어갑니다. 보도 기준 전체 463세대 중 사전청약 당첨자 278세대를 제외한 185세대가 특별공급·일반공급으로 나옵니다.",
+      '',
+      "🔢 숫자로 보면",
+      "전용 59㎡ A·B 타입, 평균 분양가는 약 4억300만원으로 보도됐습니다. 전매제한은 3년, 거주의무는 없는 것으로 안내됐습니다.",
+      '',
+      "🗓️ 일정 체크",
+      "사전청약 당첨자 본청약 9월 7~8일, 특별공급 9월 14~15일, 일반공급 9월 16~17일 순서입니다.",
+      '',
+      "✅ 확인할 것",
+      "녹양역 접근성, GTX-C 의정부역 예정 효과, 청약자격과 제한사항은 입주자 모집공고문 기준으로 다시 확인하세요.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '지연된 PF 사업장|PF 사업장|청년·신혼부부|신혼부부 보금자리') {
+    $caption = @(
+      "🏗️ 멈춘 PF 사업장, 청년·신혼부부 주택으로 전환",
+      '',
+      "📌 국토교통부 공급 보완책",
+      "지연된 PF 사업장을 LH 매입임대 방식으로 전환해 청년·신혼부부 보금자리 공급과 사업 정상화를 함께 추진하겠다는 내용입니다.",
+      '',
+      "🔎 핵심은",
+      "공급이 지연된 사업장을 공공이 매입해 임대주택으로 활용하는 방식입니다. 신축뿐 아니라 기축 매입까지 함께 활용해 공급 속도를 보완하는 방향으로 보도됐습니다.",
+      '',
+      "✅ 확인할 것",
+      "실제 전환 대상지, 입주자 모집 일정, 지역별 공급 물량은 후속 공고에서 확인해야 합니다. 정책 발표와 실제 입주 가능 시점은 구분해서 봐야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
   } elseif ([string]$article.title -match '기부채납') {
     $caption = @(
       "🏗️ 수도권 주택공급, 기부채납 부담 낮아진다",
@@ -472,6 +586,26 @@ foreach ($index in $indexes) {
       '',
       "✅ 확인할 것",
       "필수 기반시설은 완화 대상에서 제외될 수 있고, 실제 공급 효과는 사업계획 승인·인허가 속도와 사업성 개선 여부를 함께 봐야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '사당동|남성역|사당로16길') {
+    $caption = @(
+      "🏙️ 남성역 도보권 사당동, 신통기획 확정",
+      '',
+      "📌 사당동 305-35 일대 신속통합기획",
+      "서울시가 동작구 사당동 305-35 일대 신속통합기획을 확정했습니다. 7호선 남성역 도보 10분권 입지와 협소한 사당로16길 개선이 핵심 포인트입니다.",
+      '',
+      "🔢 숫자로 보면",
+      "보도 기준 약 970세대, 최고 34층 규모 주거단지로 계획됐습니다. 제3종일반주거지역 상향과 사업성 보정계수 1.17 적용도 함께 언급됐습니다.",
+      '',
+      "🚶 달라지는 점",
+      "사당로16길 단계적 확폭, 진출입구 2곳 분산, 공공보행통로 조성, 청소년수련시설 확충 등이 계획에 담겼습니다.",
+      '',
+      "✅ 확인할 것",
+      "신통기획 확정은 중요한 진전이지만, 실제 사업 속도와 공급 시점은 정비구역 지정·사업시행인가 등 후속 절차를 계속 봐야 합니다.",
       '',
       "출처: $($article.source)",
       '',
