@@ -1,19 +1,20 @@
 {
-  "enabled": false,
-  "date": "2026-08-26",
+  "enabled": true,
+  "date": "2026-08-26-link-421-0009134045",
   "articles": [
     {
-      "url": "",
-      "title": "",
-      "source": "",
-      "summary": "",
-      "category": "",
-      "region": ""
+      "url": "https://n.news.naver.com/article/421/0009134045",
+      "title": "3.2조 대구·경북 광역철도 예타 통과…신공항까지 25분",
+      "source": "뉴스1",
+      "summary": "국토교통부는 대구·경북 광역철도 건설사업이 예비타당성조사를 통과했다고 밝혔다. 서대구역에서 중앙선 의성역까지 70.06㎞를 복선전철로 연결하며, 대구경북통합신공항 접근시간은 승용차 62분에서 광역철도 25분으로 단축될 전망이다.",
+      "category": "교통·SOC",
+      "region": "대구·경북",
+      "publishedKstDate": "2026-08-26"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "",
-  "note": "Set enabled=true and provide one or more article URLs. Use publish_to_instagram=true only after review."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-26T22:10:00+09:00",
+  "note": "Publish confirmed Naver/News1 article link."
 }

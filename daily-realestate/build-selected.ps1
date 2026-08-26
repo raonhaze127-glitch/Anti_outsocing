@@ -144,6 +144,13 @@ function Get-ArticleHashtags($article) {
     return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
   }
 
+  if ($text -match '대구.?경북 광역철도|대구.?경북.*신공항|서대구.*의성') {
+    foreach ($tag in @('대구경북광역철도','대구경북신공항','서대구역','의성역','광역철도','철도호재','교통호재','SOC','국가철도망','예타통과','대구부동산','경북부동산','공항철도','부동산뉴스')) {
+      Add-Hashtag $tags $tag
+    }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
   if ($text -match '신통기획|신속통합기획|현장형 신통|현장 자문|노원구 재건축') {
     foreach ($tag in @('노원구재건축','신속통합기획','신통기획','현장자문','중계그린','중계주공4단지','상계보람아파트','하계미성아파트','서울정비사업','재건축속도','정비계획','조합설립추진위원회')) {
       Add-Hashtag $tags $tag
@@ -363,6 +370,18 @@ function New-Slides($article, [int]$number) {
     )
   }
 
+  if ([string]$article.title -match '대구.?경북 광역철도|대구.?경북.*신공항|서대구.*의성') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='교통·SOC'; title="통합신공항까지`n25분 전망"; body='대구·경북 광역철도 예타 통과 핵심 정리' },
+      [pscustomobject]@{ type='table'; kicker='사업 개요'; title='어떤 노선인가'; body="구간|서대구역~중앙선 의성역`n총연장|70.06km 복선전철`n신설 구간|64.97km`n성격|통합신공항 접근 철도" },
+      [pscustomobject]@{ type='table'; kicker='핵심 숫자'; title='3.2조 규모 사업'; body="총사업비|3조 1813억원`n예타 착수|2024년 6월`n예타 통과|약 2년 2개월 만`n계획 반영|제4차 국가철도망구축계획" },
+      [pscustomobject]@{ type='number'; kicker='시간 단축'; title="62분 → 25분"; body="서대구역에서`n대구경북통합신공항까지`n승용차 기준 62분에서`n광역철도 이용 시 25분 전망" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='생활권이 바뀔 수 있다'; body="공항 접근|대구경북통합신공항 접근성 개선`n생활권|대구·경북 주요 지역 1시간권 연결`n지역 영향|초광역 경제권 형성 기대`n산업 효과|지역 산업 활성화 기대" },
+      [pscustomobject]@{ type='table'; kicker='다음 절차'; title='예타 다음은 기본계획'; body="현재 단계|예비타당성조사 통과`n후속 절차|기본계획 수립`n추가 절차|타당성 평가·기본·실시설계`n체크|착공·개통 시점은{br}후속 고시 확인" },
+      [pscustomobject]@{ type='summary'; kicker='요약'; title='교통 호재 체크'; body="1. 대구·경북 광역철도 예타 통과`n2. 서대구~의성 70.06km 복선전철 추진`n3. 대구경북통합신공항 접근시간 25분 전망`n4. 실제 일정은 기본계획·설계 단계에서 재확인" }
+    )
+  }
+
   if ([string]$article.title -match '신통기획|현장형 신통|현장 자문|노원구 재건축') {
     if ($number -eq 12 -or [string]$article.source -match '뉴스1') {
       return @(
@@ -451,6 +470,10 @@ foreach ($index in $indexes) {
   }
 
   $slides = @(New-Slides $article $index)
+  $articleDisplayDate = $displayDate
+  if ($article.publishedKstDate) {
+    try { $articleDisplayDate = ([datetime]::Parse([string]$article.publishedKstDate)).ToString('yyyy.MM.dd') } catch { $articleDisplayDate = [string]$article.publishedKstDate }
+  }
   if ($slides.Count -lt 5 -or $slides.Count -gt 8) { throw "슬라이드 수 규칙 위반: $setName / $($slides.Count)장" }
 
   for ($i = 0; $i -lt $slides.Count; $i++) {
@@ -471,7 +494,7 @@ foreach ($index in $indexes) {
       $bodyHtml = "<div class='rows'>$($rows -join '')</div>"
     }
     $accent = if ($slide.type -eq 'cover') { "<div class='accent'></div>" } else { '' }
-    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$setPhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($displayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
+    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$setPhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($articleDisplayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
     $htmlPath = Join-Path $setDir "$num.html"
     $pngPath = Join-Path $setDir "$num.png"
     Set-Content -LiteralPath $htmlPath -Value $doc -Encoding UTF8
@@ -586,6 +609,26 @@ foreach ($index in $indexes) {
       '',
       "✅ 확인할 것",
       "필수 기반시설은 완화 대상에서 제외될 수 있고, 실제 공급 효과는 사업계획 승인·인허가 속도와 사업성 개선 여부를 함께 봐야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '대구.?경북 광역철도|대구.?경북.*신공항|서대구.*의성') {
+    $caption = @(
+      "🚆 대구·경북 광역철도, 예타 통과",
+      '',
+      "📌 서대구~의성 70.06km 복선전철",
+      "국토교통부는 대구·경북 광역철도 건설사업이 예비타당성조사를 통과했다고 밝혔습니다. 대구경북통합신공항 접근성을 높이고 대구와 경북을 하나의 생활권으로 연결하는 사업입니다.",
+      '',
+      "🔢 숫자로 보면",
+      "총연장은 70.06km, 이 중 신설 노선은 64.97km입니다. 총사업비는 예타 기준 3조1813억원으로 보도됐습니다.",
+      '',
+      "⏱️ 달라지는 점",
+      "서대구역에서 대구경북통합신공항까지 이동시간은 승용차 기준 62분에서 광역철도 이용 시 25분으로, 약 37분 단축될 전망입니다.",
+      '',
+      "✅ 확인할 것",
+      "이번 단계는 예타 통과입니다. 실제 착공·개통 일정은 기본계획 수립, 타당성 평가, 기본·실시설계 등 후속 절차를 계속 확인해야 합니다.",
       '',
       "출처: $($article.source)",
       '',

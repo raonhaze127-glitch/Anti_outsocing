@@ -152,6 +152,7 @@ for ($i = 0; $i -lt $articles.Count; $i++) {
   $combined = "$title $summary"
   $category = if ($item.category) { [string]$item.category } else { Get-Category $combined }
   $region = if ($item.region) { [string]$item.region } else { Get-Region $combined }
+  $publishedKstDate = if ($item.publishedKstDate) { [string]$item.publishedKstDate } else { $date }
 
   [void]$candidates.Add([pscustomobject]@{
     title = $title
@@ -162,7 +163,7 @@ for ($i = 0; $i -lt $articles.Count; $i++) {
     published = ''
     score = 999
     publishedKst = ''
-    publishedKstDate = $date
+    publishedKstDate = $publishedKstDate
     category = $category
     region = $region
     clusterKey = "manual-link:$($i + 1):$url"
