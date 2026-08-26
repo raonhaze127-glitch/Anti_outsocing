@@ -26,6 +26,7 @@ jobs:
         shell: pwsh
         run: |
           $request = Get-Content -LiteralPath .\daily-realestate\publish-request.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          "enabled=$($request.enabled.ToString().ToLowerInvariant())" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
           if (-not $request.date) { throw "publish-request.json missing date" }
           if (-not $request.numbers) { throw "publish-request.json missing numbers" }
           "date=$($request.date)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
@@ -34,12 +35,20 @@ jobs:
           "review_confirmed=$($request.review_confirmed)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
           "image_usage_confirmed=$($request.image_usage_confirmed)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
 
+      - name: Skip disabled request
+        if: ${{ steps.request.outputs.enabled != 'true' }}
+        shell: pwsh
+        run: |
+          Write-Host "publish-request.json is disabled. No carousel will be built or published."
+
       - name: Build selected carousels
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}"
 
       - name: Prepare public JPEG site
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           $date = "${{ steps.request.outputs.date }}"
@@ -73,18 +82,22 @@ jobs:
           "@ | Set-Content -LiteralPath (Join-Path $siteRoot "index.html") -Encoding UTF8
 
       - name: Configure GitHub Pages
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         uses: actions/configure-pages@v5
 
       - name: Upload GitHub Pages artifact
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
       - name: Deploy GitHub Pages
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         id: deploy
         uses: actions/deploy-pages@v4
 
       - name: Write final public URL manifests
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           $date = "${{ steps.request.outputs.date }}"
@@ -98,16 +111,19 @@ jobs:
           }
 
       - name: Verify public JPEG URLs
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\verify-public-image-urls.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}" -Attempts 12 -DelaySeconds 5
 
       - name: Validate carousel output
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-carousel-output.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}" -RequireJpeg
 
       - name: Require publish confirmation
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
           if ("${{ steps.request.outputs.publish_to_instagram }}" -ne "True" -and "${{ steps.request.outputs.publish_to_instagram }}" -ne "true") {
@@ -121,6 +137,7 @@ jobs:
           }
 
       - name: Publish through Meta API
+        if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         env:
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}

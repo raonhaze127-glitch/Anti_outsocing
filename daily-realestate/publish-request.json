@@ -1,9 +1,10 @@
 {
+  "enabled": false,
   "date": "2026-08-26",
   "numbers": "3,8,9",
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
   "requested_at": "2026-08-26T21:22:00+09:00",
-  "note": "Publish selected articles 3, 8, and 9 using the refreshed 2026-08-26 candidate list."
+  "note": "Last published selected articles 3, 8, and 9. Keep enabled=false to prevent duplicate posting."
 }
