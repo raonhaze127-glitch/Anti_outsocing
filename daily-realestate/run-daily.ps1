@@ -65,6 +65,29 @@ function Get-ClusterKey([string]$title, [string]$summary) {
   return 'title:' + ($tokens -join '-')
 }
 
+function Get-KoreaPublishedAt([string]$published) {
+  if (-not $published) { return $null }
+  try {
+    $dt = [datetimeoffset]::Parse($published, [Globalization.CultureInfo]::InvariantCulture)
+    $kst = [System.TimeZoneInfo]::FindSystemTimeZoneById('Korea Standard Time')
+    return [System.TimeZoneInfo]::ConvertTime($dt, $kst)
+  } catch {
+    return $null
+  }
+}
+
+function Get-KoreaPublishedDate([string]$published) {
+  $kst = Get-KoreaPublishedAt $published
+  if (-not $kst) { return '' }
+  return $kst.ToString('yyyy-MM-dd')
+}
+
+function Get-KoreaPublishedText([string]$published) {
+  $kst = Get-KoreaPublishedAt $published
+  if (-not $kst) { return '' }
+  return $kst.ToString('yyyy-MM-dd HH:mm')
+}
+
 $headers = @{ 'User-Agent' = 'Mozilla/5.0 (compatible; RealEstateDaily/1.0)' }
 $items = @()
 foreach ($query in $config.queries) {
@@ -83,6 +106,8 @@ foreach ($query in $config.queries) {
       $items += [pscustomobject]@{
         title=$title; summary=$description; source=$source; sourceUrl=$sourceUrl; url=[string]$entry.link
         published=[string]$entry.pubDate; score=(Get-Score $combined)
+        publishedKst=(Get-KoreaPublishedText ([string]$entry.pubDate))
+        publishedKstDate=(Get-KoreaPublishedDate ([string]$entry.pubDate))
         category=(Get-Category $combined); region=if($region){$region[0]}else{'전국'}
         clusterKey=(Get-ClusterKey $title $description)
       }
@@ -96,6 +121,7 @@ $minimumYear = ([int]$Date.Substring(0,4)) - 1
 $blockedPattern = (($config.blockedSources | ForEach-Object {[regex]::Escape($_)}) -join '|')
 $candidates = @($items | Where-Object {
   $_.score -gt 0 -and
+  $_.publishedKstDate -eq $Date -and
   (-not $blockedPattern -or $_.source -notmatch $blockedPattern) -and
   $_.title -notmatch "\b(19|20)\d{2}\b.*\b(19|20)\d{2}\b" -and
   $_.title -notmatch "\([A-Za-z0-9_-]{8,}\)" -and
@@ -120,6 +146,7 @@ for ($i=0; $i -lt $candidates.Count; $i++) {
   $articleMd += "## $n. $($x.title)"
   $articleMd += "- 분류/지역: $($x.category) / $($x.region)"
   $articleMd += "- 출처: $($x.source)"
+  if ($x.publishedKst) { $articleMd += "- 발행: $($x.publishedKst) KST" }
   if ($x.sourceUrl) { $articleMd += "- 출처 사이트: $($x.sourceUrl)" }
   $articleMd += "- 링크: $($x.url)"
   $articleMd += ''
