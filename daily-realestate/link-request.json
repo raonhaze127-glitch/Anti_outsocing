@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-26-link-421-0009134045",
   "articles": [
     {
@@ -12,9 +12,9 @@
       "publishedKstDate": "2026-08-26"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
   "requested_at": "2026-08-26T22:10:00+09:00",
-  "note": "Publish confirmed Naver/News1 article link."
+  "note": "Last published confirmed Naver/News1 article link. Keep enabled=false to prevent duplicate posting."
 }
