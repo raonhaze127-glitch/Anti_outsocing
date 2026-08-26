@@ -42,7 +42,7 @@ jobs:
         run: |
           Write-Host "link-request.json is disabled. No carousel will be built or published."
 
-      - name: Prepare manual link candidates
+      - name: Prepare confirmed link articles
         if: ${{ steps.request.outputs.enabled == 'true' }}
         id: prepared
         shell: pwsh

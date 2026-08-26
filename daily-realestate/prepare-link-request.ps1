@@ -83,7 +83,7 @@ function Get-ImageCandidates([string]$html, [string]$baseUrl) {
     $altMatch = [regex]::Match($tag, 'alt=[''"]([^''"]*)[''"]', 'IgnoreCase')
     $alt = if ($altMatch.Success) { [System.Net.WebUtility]::HtmlDecode($altMatch.Groups[1].Value.Trim()) } else { '' }
     $officialWords = U '\uC870\uAC10\uB3C4|\uC704\uCE58\uB3C4|\uAD6C\uC5ED\uB3C4|\uB178\uC120\uB3C4|\uBC30\uCE58\uB3C4|\uD22C\uC2DC\uB3C4|\uACC4\uD68D\uB3C4|\uC81C\uACF5|\uAD6D\uD1A0\uAD50\uD1B5\uBD80|\uC11C\uC6B8\uC2DC|\uACBD\uAE30\uB3C4|LH|SH|\uB3C4\uC2DC\uACF5\uC0AC'
-    $usage = if ("$absolute $alt" -match $officialWords) { 'candidate_official_material_confirm_before_use' } else { 'do_not_use' }
+    $usage = if ("$absolute $alt" -match $officialWords) { 'official_material_review_required' } else { 'do_not_use' }
     [void]$candidates.Add([pscustomobject]@{ url=$absolute; source='img'; alt=$alt; usage=$usage })
   }
   return @($candidates | Sort-Object url -Unique | Select-Object -First 12)
@@ -204,7 +204,7 @@ foreach ($detail in $manualDetails) {
 }
 
 $numbers = (1..$articles.Count) -join ','
-$articleMd = @("# $date manual link article candidates", '', "> Generated from link-request.json. Selected numbers: $numbers", '')
+$articleMd = @("# $date confirmed manual link articles", '', "> Generated from link-request.json. Direct-publish numbers: $numbers", '')
 for ($i = 0; $i -lt $candidates.Count; $i++) {
   $n = $i + 1
   $x = $candidates[$i]
@@ -221,8 +221,8 @@ $numbers | Set-Content -LiteralPath (Join-Path $outDir 'selection.txt') -Encodin
   runAt = (Get-Date -Format o)
   date = $date
   numbers = $numbers
-  candidates = $candidates.Count
-  state = 'manual_link_candidates_created'
+  articles = $candidates.Count
+  state = 'confirmed_manual_link_articles_created'
 } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $outDir 'link-request-status.json') -Encoding UTF8
 
-Write-Host "Manual link candidates prepared: date=$date numbers=$numbers"
+Write-Host "Confirmed manual link articles prepared: date=$date numbers=$numbers"

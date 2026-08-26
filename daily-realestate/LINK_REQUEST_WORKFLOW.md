@@ -2,10 +2,12 @@
 
 This workflow is for article links supplied directly by the user.
 
+Important: links supplied by the user are treated as confirmed content, not collection candidates.
+
 It is separate from the daily numbered news workflow:
 
 - Daily collection workflow: collect news first, then publish selected article numbers.
-- Link request workflow: start from one or more article URLs and create temporary numbered candidates.
+- Link request workflow: start from one or more confirmed article URLs and assign publish numbers for the existing carousel builder.
 
 ## Files
 
@@ -56,7 +58,7 @@ Use this when the user wants a draft carousel from article links.
 
 Expected result:
 
-1. The workflow creates temporary numbered candidates starting at `1`.
+1. The workflow assigns publish numbers starting at `1`.
 2. The existing carousel builder creates one carousel set per article.
 3. GitHub Pages publishes public JPEG URLs for review.
 4. Meta API publishing is skipped.
@@ -84,7 +86,7 @@ Use this only after context and image usage have been reviewed.
 
 Expected result:
 
-1. The workflow creates temporary numbered candidates.
+1. The workflow assigns publish numbers to the confirmed links.
 2. The carousel is built and validated.
 3. Public JPEG URLs are verified.
 4. Meta API publishes the carousel to Instagram.
