@@ -392,8 +392,8 @@ function New-Slides($article, [int]$number) {
     [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$title" },
     [pscustomobject]@{ type='table'; kicker='핵심만 보면'; title='그래서 뭐가 바뀌나'; body="분류|$category`n지역|$region`n출처|$source`n키워드|$topic" },
     [pscustomobject]@{ type='number'; kicker='숫자 체크'; title=$numberText; body=$summary },
-    [pscustomobject]@{ type='table'; kicker='아직 봐야 할 것'; title='확정과 검토를 나눠보세요'; body="단계|원문 기준 확인`n일정|변경 가능성 체크`n수치|기사 기준일 확인`n이미지|공식 자료만 사용" },
-    [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='저장 전 체크'; body="1. 발표인지 확정인지 구분`n2. 공급 물량·위치 다시 확인`n3. 일정은 원문 링크에서 재확인`n4. 애매한 내용은 제외" }
+    [pscustomobject]@{ type='table'; kicker='확인 포인트'; title='추진 단계와 일정을 나눠보세요'; body="추진 단계|기사에서 확인된 범위 중심`n일정|변경 가능성 함께 체크`n수치|보도 기준일 기준`n영향권|위치·노선·생활권 구분" },
+    [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 발표 내용과 실제 추진 단계를 구분`n2. 공급 물량·위치·일정을 함께 확인`n3. 교통·생활권 영향은 후속 절차까지 추적`n4. 투자·청약 판단은 공식 공고와 함께 비교" }
   )
 }
 
@@ -655,8 +655,8 @@ foreach ($index in $indexes) {
       "$(Short-Text $article.summary 160)",
       '',
       "▪ 확인할 것",
-      "단계, 일정, 수치가 확정인지 검토인지 원문 기준으로 다시 봐야 합니다.",
-      "이미지는 기사 내 공식 조감도·위치도·구역도·노선도만 사용합니다.",
+      "발표 내용과 실제 추진 일정은 구분해서 확인하세요.",
+      "공급 물량, 위치, 교통 영향권은 후속 공고와 행정 절차에 따라 달라질 수 있습니다.",
       '',
       "출처: $($article.source)",
       '',

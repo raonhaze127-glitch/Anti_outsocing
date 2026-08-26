@@ -1,0 +1,115 @@
+# Manual article-link carousel workflow
+
+This workflow is for article links supplied directly by the user.
+
+It is separate from the daily numbered news workflow:
+
+- Daily collection workflow: collect news first, then publish selected article numbers.
+- Link request workflow: start from one or more article URLs and create temporary numbered candidates.
+
+## Files
+
+- `daily-realestate/link-request.json`
+- `daily-realestate/prepare-link-request.ps1`
+- `.github/workflows/publish-link-request-instagram.yml`
+
+## Safe default
+
+`link-request.json` is committed with:
+
+```json
+{
+  "enabled": false,
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false
+}
+```
+
+With this default, pushing the repository does not build or publish anything.
+
+## Build-only request
+
+Use this when the user wants a draft carousel from article links.
+
+```json
+{
+  "enabled": true,
+  "date": "2026-08-26",
+  "articles": [
+    {
+      "url": "https://example.com/news/article",
+      "title": "",
+      "source": "",
+      "summary": "",
+      "category": "",
+      "region": ""
+    }
+  ],
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "2026-08-26T21:30:00+09:00",
+  "note": "Build draft carousel from manual article link."
+}
+```
+
+Expected result:
+
+1. The workflow creates temporary numbered candidates starting at `1`.
+2. The existing carousel builder creates one carousel set per article.
+3. GitHub Pages publishes public JPEG URLs for review.
+4. Meta API publishing is skipped.
+
+## Publish request
+
+Use this only after context and image usage have been reviewed.
+
+```json
+{
+  "enabled": true,
+  "date": "2026-08-26",
+  "articles": [
+    {
+      "url": "https://example.com/news/article"
+    }
+  ],
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-26T21:30:00+09:00",
+  "note": "Publish reviewed manual article link."
+}
+```
+
+Expected result:
+
+1. The workflow creates temporary numbered candidates.
+2. The carousel is built and validated.
+3. Public JPEG URLs are verified.
+4. Meta API publishes the carousel to Instagram.
+5. Publish result logs are uploaded as a GitHub Actions artifact.
+
+## Editorial rules
+
+- One article equals one carousel set.
+- Each carousel must contain 5 to 8 slides.
+- Do not include article source links in captions.
+- Do not expose internal review notes in public-facing captions or slides.
+- Preserve project/program names that affect meaning, such as `SH`, `LH`, `PF`, `A-2`, `SOC`, `GTX`, and official Korean project names.
+- Do not simplify business terms in a misleading way. For example, keep terms such as `sin-tong-gihoeg`, `Moatown`, `public housing district`, or the exact Korean source wording when it affects meaning.
+- Article images may be used only when they are official-looking materials such as renderings, location maps, district maps, layout maps, route maps, or plan diagrams.
+- If image usage conditions are unclear, keep `image_usage_confirmed` as `false` and do not publish automatically.
+- If article extraction is weak, fill `title`, `summary`, `category`, `region`, and `source` manually before publishing.
+
+## Codex operating notes
+
+When the user supplies an article link and asks for creation or publishing:
+
+1. Read the article and inspect context.
+2. Update `link-request.json`.
+3. Run `prepare-link-request.ps1` locally.
+4. Run the carousel builder locally when practical.
+5. Push only after the request is ready.
+6. Monitor the GitHub Actions run.
+7. If the user asked for publishing, confirm the Instagram upload succeeded.

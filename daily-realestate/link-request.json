@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "date": "2026-08-26",
+  "articles": [
+    {
+      "url": "",
+      "title": "",
+      "source": "",
+      "summary": "",
+      "category": "",
+      "region": ""
+    }
+  ],
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "",
+  "note": "Set enabled=true and provide one or more article URLs. Use publish_to_instagram=true only after review."
+}
