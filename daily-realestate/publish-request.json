@@ -1,10 +1,10 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-27",
   "numbers": "1,2,13,21",
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
   "requested_at": "2026-08-27T17:09:53+09:00",
-  "note": "Publish reviewed articles 1, 2, 13, and 21 with approved article-image backgrounds."
+  "note": "Last published reviewed articles 1, 2, 13, and 21. Keep enabled=false to prevent duplicate posting."
 }
