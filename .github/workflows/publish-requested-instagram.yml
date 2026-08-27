@@ -41,6 +41,35 @@ jobs:
         run: |
           Write-Host "publish-request.json is disabled. No carousel will be built or published."
 
+      - name: Verify reviewed article mapping
+        if: ${{ steps.request.outputs.enabled == 'true' }}
+        shell: pwsh
+        run: |
+          $request = Get-Content -LiteralPath .\daily-realestate\publish-request.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          $candidatePath = ".\daily-realestate\output\$($request.date)\candidates.json"
+          if (-not (Test-Path -LiteralPath $candidatePath)) { throw "Candidates not found: $candidatePath" }
+          $candidates = @(Get-Content -LiteralPath $candidatePath -Raw -Encoding UTF8 | ConvertFrom-Json)
+          $selectedNumbers = @($request.numbers -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique)
+          $expected = @($request.expected_articles)
+          if ($expected.Count -ne $selectedNumbers.Count) {
+            throw "expected_articles must contain one reviewed mapping for every selected number."
+          }
+          $normalize = { param([string]$value) (($value -replace '\s+', ' ').Trim()) }
+          foreach ($number in $selectedNumbers) {
+            if ($number -lt 1 -or $number -gt $candidates.Count) { throw "Invalid article number: $number" }
+            $reviewed = @($expected | Where-Object { [int]$_.number -eq $number })
+            if ($reviewed.Count -ne 1) { throw "Missing or duplicate expected_articles mapping for number $number." }
+            $actual = $candidates[$number - 1]
+            $actualTitle = & $normalize ([string]$actual.title)
+            $actualSource = & $normalize ([string]$actual.source)
+            $expectedTitle = & $normalize ([string]$reviewed[0].title)
+            $expectedSource = & $normalize ([string]$reviewed[0].source)
+            if ($actualTitle -ne $expectedTitle -or $actualSource -ne $expectedSource) {
+              throw "Reviewed mapping mismatch for number $number. Expected: '$expectedTitle' / '$expectedSource'. Actual: '$actualTitle' / '$actualSource'. Aborting before build and Meta publishing."
+            }
+            Write-Host "Verified $number. $actualTitle | $actualSource"
+          }
+
       - name: Build selected carousels
         if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh

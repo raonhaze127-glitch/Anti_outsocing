@@ -31,6 +31,10 @@
 
 사용자가 기사 번호를 선택해야 카드뉴스 제작 대상으로 확정된다.
 
+번호는 반드시 사용자가 실제로 검토한 `candidates.json` 스냅샷 안에서만 유효하다. 같은 날짜라도 로컬 재수집과 GitHub Actions 수집 결과는 정렬 순서가 달라질 수 있으므로, 번호만 원격 게시 요청에 전달해서는 안 된다.
+
+번호 기반 게시 시 `publish-request.json`의 `expected_articles`에 선택 번호별 `number`, `title`, `source`를 함께 기록한다. 게시 워크플로는 원격 `candidates.json`의 실제 매핑과 이를 정확히 비교하며, 하나라도 다르면 카드 제작과 Meta 게시 전에 실패해야 한다.
+
 예:
 
 ```text
@@ -171,6 +175,8 @@ GitHub Actions:
 
 게시 전 확인:
 
+- `publish-request.json`의 `expected_articles`가 사용자가 검수한 번호·제목·출처와 정확히 일치하는지 확인
+- 원격 `candidates.json`이 로컬 검수본과 다르면 번호를 재해석하지 말고 검수한 스냅샷을 같은 커밋에 포함하거나 게시를 중단
 - `REVIEW.md`
 - `article-detail.json`
 - `caption.txt`
@@ -286,6 +292,7 @@ AGENTS.md와 daily-realestate/README.md를 먼저 읽고, 현재 GitHub Actions/
 ## 14. 게시 전 최종 체크리스트
 
 - [ ] 기사 1건당 카드뉴스 1세트인지 확인
+- [ ] 선택 번호별 제목·출처가 `expected_articles` 및 원격 `candidates.json`과 정확히 일치하는지 확인
 - [ ] 5장 이상 8장 이하인지 확인
 - [ ] 기사에 없는 내용을 쓰지 않았는지 확인
 - [ ] 공식 사업명과 단계 표현이 정확한지 확인
@@ -295,3 +302,23 @@ AGENTS.md와 daily-realestate/README.md를 먼저 읽고, 현재 GitHub Actions/
 - [ ] 캡션에 기사 링크가 없는지 확인
 - [ ] 해시태그가 기사 내용에 맞는지 확인
 - [ ] 게시 후 `link-request.json` 또는 `publish-request.json`이 비활성화됐는지 확인
+
+## 15. 사고 기록: 2026-08-27 후보 순번 불일치 게시
+
+### 발생 내용
+
+로컬에서 검수한 `2026-08-27` 후보의 `1, 2, 13, 21번`과 GitHub Actions가 원격에 수집해 둔 같은 날짜 후보의 `1, 2, 13, 21번`이 서로 다른 기사였다. 게시 요청이 번호만 포함하고 제목·출처를 검증하지 않아, 원격 순번 기준의 다른 카드뉴스 4세트가 Instagram에 게시됐다.
+
+### 원인
+
+- 같은 날짜의 후보 목록은 수집 시점과 정렬 결과에 따라 순번이 달라질 수 있다는 점을 게시 파이프라인이 고려하지 않았다.
+- 검수한 로컬 `candidates.json` 대신 원격 자동수집 `candidates.json`을 사용했다.
+- 게시 직전에 번호·제목·출처 매핑을 출력하고 대조하는 강제 검증 단계가 없었다.
+
+### 재발 방지 원칙
+
+1. 번호는 날짜만으로 식별하지 않고 검수한 후보 스냅샷과 함께 취급한다.
+2. `publish-request.json`에 번호뿐 아니라 `expected_articles`의 제목·출처를 반드시 기록한다.
+3. Actions는 원격 후보의 번호·제목·출처가 기대값과 정확히 일치할 때만 빌드와 Meta 게시를 진행한다.
+4. 불일치 시 번호를 임의로 다시 연결하지 않고 즉시 실패 처리한다.
+5. 로컬 검수본과 원격 후보가 다르면 검수한 `candidates.json`을 같은 게시 커밋에 포함한다.
