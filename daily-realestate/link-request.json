@@ -1,20 +1,27 @@
 {
-  "enabled": false,
-  "date": "2026-08-26-link-421-0009134045",
+  "enabled": true,
+  "date": "2026-08-26-link-housingherald-62697",
   "articles": [
     {
-      "url": "https://n.news.naver.com/article/421/0009134045",
-      "title": "3.2조 대구·경북 광역철도 예타 통과…신공항까지 25분",
-      "source": "뉴스1",
-      "summary": "국토교통부는 대구·경북 광역철도 건설사업이 예비타당성조사를 통과했다고 밝혔다. 서대구역에서 중앙선 의성역까지 70.06㎞를 복선전철로 연결하며, 대구경북통합신공항 접근시간은 승용차 62분에서 광역철도 25분으로 단축될 전망이다.",
-      "category": "교통·SOC",
-      "region": "대구·경북",
+      "url": "https://www.housingherald.co.kr/news/articleView.html?idxno=62697",
+      "title": "상계보람, 정비구역 지정 전 추진위 승인…4천483가구 재건축 속도",
+      "source": "하우징헤럴드",
+      "summary": "노원구는 상계보람아파트 조합설립추진위원회 구성을 승인했다. 현재 단계는 정비구역 지정·고시 전이며, 정비계획안은 기존 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 내용이다.",
+      "category": "재개발·재건축",
+      "region": "서울 노원구",
       "publishedKstDate": "2026-08-26"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-26T22:10:00+09:00",
-  "note": "Last published confirmed Naver/News1 article link. Keep enabled=false to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-27T17:40:00+09:00",
+  "expected_articles": [
+    {
+      "number": 1,
+      "title": "상계보람, 정비구역 지정 전 추진위 승인…4천483가구 재건축 속도",
+      "source": "하우징헤럴드"
+    }
+  ],
+  "note": "Publish only the reviewed Housing Herald Sanggye Boram carousel. Exact title and source mapping recorded."
 }

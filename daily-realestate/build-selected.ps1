@@ -109,6 +109,11 @@ function Get-ArticleHashtags($article) {
 
   foreach ($tag in @('부동산뉴스','주택공급','부동산브리핑')) { Add-Hashtag $tags $tag }
 
+  if ($text -match '상계보람') {
+    foreach ($tag in @('상계보람아파트','상계동재건축','노원구재건축','조합설립추진위원회','정비구역지정','재건축','정비사업','4483가구','서울재건축')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
   if ($text -match '양주회천 A-26블록') { foreach ($tag in @('양주회천','A26블록','LH공공분양','공공분양','청약일정','덕정역','GTXC','양주청약','분양정보')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '모아주택 1호.*준공') { foreach ($tag in @('모아주택','광진구','구의동','한양연립','서울정비사업','소규모주택정비')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '2028년부터 매년 10만 가구 착공') { foreach ($tag in @('LH','공공주택','착공계획','주택공급정책','813주택대책','도심주택공급','학교용지복합개발')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
@@ -321,6 +326,17 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '상계보람') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='노원구 재건축'; title="상계보람`n추진위 승인"; body='정비구역 지정 전 승인·4,483가구 재건축 계획' },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='정비구역 지정 전 추진위 승인'; body="추진위 동의 시작|2026년 6월 11일`n승인 신청|2026년 7월 16일`n노원구 승인|2026년 8월 20일`n현재|정비구역 지정·고시 전" },
+      [pscustomobject]@{ type='table'; kicker='계획 규모'; title='3,315 → 4,483가구'; body="기존|15층·21개 동·3,315가구`n계획|지하 3층~최고 45층`n계획 동수|41개 동`n계획 가구|총 4,483가구" },
+      [pscustomobject]@{ type='table'; kicker='핵심 수치'; title='1,168가구 증가 계획'; body="가구 증가|1,168가구`n추진위 최종 동의율|약 55%`n현재 용적률|약 197%`n계획 용적률|299.99%" },
+      [pscustomobject]@{ type='table'; kicker='다음 절차'; title='정비구역 고시 이후'; body="우선|정비구역 지정·고시`n이후|협력업체 선정`n조합 단계|조합설립 동의서 징구`n주의|4,483가구는 정비계획안 기준" },
+      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='재건축 단계 체크'; body="1. 현재는 추진위 승인 단계`n2. 정비구역 지정·고시는 아직 전`n3. 최고 45층·4,483가구 재건축 계획`n4. 확정 규모와 일정은 후속 결정 확인" }
+    )
+  }
+
   if ([string]$article.title -match '양주회천 A-26블록') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='LH 공공분양'; title="양주회천 A-26블록`n792가구 공급"; body='덕정역 도보권 공공분양 청약 일정과 면적 구성' },
@@ -390,7 +406,9 @@ function New-Slides($article, [int]$number) {
     )
   }
 
-  if ([string]$article.title -match '양주회천 A-26블록') {
+  if ([string]$article.title -match '상계보람') {
+    $caption = @("🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",'',"📌 현재 사업 단계","노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",'',"🏢 계획 규모","기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",'',"🔢 숫자로 보면","기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%로 알려졌습니다. 계획용적률은 299.99%입니다.",'',"✅ 확인할 것","정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 다시 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '양주회천 A-26블록') {
     $caption = @("🏢 양주회천 A-26블록 공공분양 792가구",'',"📌 전용 59~84㎡ 구성","전용 59㎡ 394가구, 74㎡ 168가구, 84㎡ 230가구로 구성됩니다. 입주는 2029년 10월 예정입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일 접수합니다. 10월 당첨자 발표 후 12월 계약 체결 예정입니다.",'',"🚆 입지 체크","GTX-C 개통 예정인 덕정역과 도보 500m 이내입니다. 신청 자격과 분양가는 LH청약플러스 모집공고문에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '모아주택 1호.*준공') {
     $caption = @("🏙️ 서울 모아주택 1호, 광진 한양연립 준공",'',"📌 99세대에서 215세대로","광진구 구의3동 한양연립이 지하 2층, 지상 10~15층, 4개 동 215세대 단지로 재탄생했습니다.",'',"⏱️ 사업 진행","2024년 2월 착공해 2026년 8월 25일 준공됐으며, 9월부터 입주를 시작합니다. 통합심의 후 8개월 만에 착공하고 착공 후 2년 6개월 만에 준공한 사례입니다.",'',"✅ 의미","서울시는 모아주택·모아타운을 통해 2031년까지 4만호 착공을 목표로 제시했습니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
@@ -591,7 +609,27 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
+  if ([string]$article.title -match '상계보람') {
+    $caption = @(
+      "🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",
+      '',
+      "📌 현재 사업 단계",
+      "노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",
+      '',
+      "🏢 계획 규모",
+      "기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",
+      '',
+      "🔢 숫자로 보면",
+      "기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%입니다. 현재 용적률은 약 197%, 계획용적률은 299.99%입니다.",
+      '',
+      "✅ 다음 절차",
+      "정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 달라질 수 있습니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
     $caption = @(
       "인천 검암역 푸르지오 프라베뉴 청약 체크",
       '',
