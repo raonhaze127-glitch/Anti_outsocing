@@ -109,6 +109,11 @@ function Get-ArticleHashtags($article) {
 
   foreach ($tag in @('부동산뉴스','주택공급','부동산브리핑')) { Add-Hashtag $tags $tag }
 
+  if ($text -match '양주회천 A-26블록') { foreach ($tag in @('양주회천','A26블록','LH공공분양','공공분양','청약일정','덕정역','GTXC','양주청약','분양정보')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
+  if ($text -match '모아주택 1호.*준공') { foreach ($tag in @('모아주택','광진구','구의동','한양연립','서울정비사업','소규모주택정비')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
+  if ($text -match '2028년부터 매년 10만 가구 착공') { foreach ($tag in @('LH','공공주택','착공계획','주택공급정책','813주택대책','도심주택공급','학교용지복합개발')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
+  if ($text -match '계양신도시.*첫.*민간분양') { foreach ($tag in @('계양신도시','3기신도시','인천계양','민간분양','카이브유보라','신도시입주','분양일정','공공택지')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
+
   if ($text -match '검암역 푸르지오 프라베뉴') {
     foreach ($tag in @('인천청약','검암역세권','검암역푸르지오프라베뉴','공공분양','청약일정','분양정보','분양가상한제','전매제한','재당첨제한','인천부동산','검암동')) {
       Add-Hashtag $tags $tag
@@ -316,6 +321,43 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '양주회천 A-26블록') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 공공분양'; title="양주회천 A-26블록`n792가구 공급"; body='덕정역 도보권 공공분양 청약 일정과 면적 구성' },
+      [pscustomobject]@{ type='table'; kicker='단지 개요'; title='어떤 물량인가'; body="위치|경기 양주회천 A-26블록`n유형|LH 공공분양주택`n공급 규모|총 792가구`n입주 예정|2029년 10월" },
+      [pscustomobject]@{ type='table'; kicker='면적 구성'; title='59㎡부터 84㎡까지'; body="전용 59㎡|394가구`n전용 74㎡|168가구`n전용 84㎡|230가구`n설계|4베이·수납공간 적용" },
+      [pscustomobject]@{ type='table'; kicker='청약 일정'; title='9월 접수 시작'; body="특별공급|9월 14~15일`n일반공급|9월 16~17일`n당첨자 발표|2026년 10월`n계약 체결|2026년 12월" },
+      [pscustomobject]@{ type='summary'; kicker='입지·요약'; title='청약 전 체크'; body="1. GTX-C 개통 예정 덕정역 도보 500m 이내`n2. 총 792가구·전용 59~84㎡ 구성`n3. 입주는 2029년 10월 예정`n4. 자격·분양가는 LH 모집공고문 재확인" }
+    )
+  }
+  if ([string]$article.title -match '모아주택 1호.*준공') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 모아주택'; title="모아주택 1호`n광진 한양연립 준공"; body='기존 99세대에서 215세대로 재탄생' },
+      [pscustomobject]@{ type='table'; kicker='사업 개요'; title='어디가 달라졌나'; body="위치|광진구 구의3동 한양연립`n기존|노후 저층주택 99세대`n준공|4개 동 215세대`n규모|지하 2층·지상 10~15층" },
+      [pscustomobject]@{ type='table'; kicker='진행 속도'; title='착공부터 준공까지'; body="제도 도입|서울시 2022년`n착공|2024년 2월`n준공|2026년 8월 25일`n입주 시작|2026년 9월" },
+      [pscustomobject]@{ type='table'; kicker='사업 변화'; title='6개 동에서 4개 동으로'; body="당초 계획|6개 동 211세대`n변경 계획|4개 동 215세대`n최고 높이|15층`n사업 방식|모아주택 정비" },
+      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='첫 준공의 의미'; body="1. 서울 모아주택 사업의 첫 준공 사례`n2. 통합심의 후 8개월 만에 착공`n3. 착공 후 2년 6개월 만에 준공`n4. 서울시는 2031년까지 4만호 착공 목표" }
+    )
+  }
+  if ([string]$article.title -match '2028년부터 매년 10만 가구 착공') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 공급 계획'; title="2028년부터`n연 10만 가구 착공"; body='정부 8·13 주택 신속공급 방안 후속 계획' },
+      [pscustomobject]@{ type='table'; kicker='연도별 계획'; title='착공 물량 확대'; body="2026년|5만 가구`n2027년|7만6000가구`n2028~2030년|연평균 10만 가구 이상`n성격|LH 착공 계획" },
+      [pscustomobject]@{ type='table'; kicker='발주 규모'; title='민간 참여도 확대'; body="2026년|14조9000억원`n2027년|25조7000억원`n향후 목표|연간 약 30조원`n협력|민간 건설업계와 공급 확대" },
+      [pscustomobject]@{ type='table'; kicker='도심 공급'; title='유휴부지도 활용'; body="성대야구장|2026년 인허가·2027년 착공`n서울 강서 3곳|2028년 착공 계획`n학교용지 선도지|4곳`n대상|공항고·수오고·권선2중·흥이중" },
+      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='계획 단계 구분'; body="1. 2028년부터 연평균 10만 가구 이상 착공 계획`n2. 발주 규모는 연간 약 30조원 목표`n3. 도심 유휴부지·학교용지 사업 병행`n4. 실제 공급 시점은 인허가·착공 진행 확인" }
+    )
+  }
+  if ([string]$article.title -match '계양신도시.*첫.*민간분양') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='3기 신도시'; title="계양 첫 입주·`n민간분양 시작"; body='12월 첫 입주, 10월 첫 민간분양 예정' },
+      [pscustomobject]@{ type='table'; kicker='첫 입주'; title='12월 1285가구'; body="A2블록|747가구`nA3블록|538가구`n합계|1285가구`n의미|3기 신도시 첫 입주" },
+      [pscustomobject]@{ type='table'; kicker='첫 민간분양'; title='카이브 유보라 1110가구'; body="블록|AC3·AC4`n면적|전용 84~93㎡`n규모|16개 동·총 1110가구`n분양 예정|2026년 10월" },
+      [pscustomobject]@{ type='table'; kicker='신도시 규모'; title='약 1만8000가구 계획'; body="위치|인천 계양구 일원`n면적|약 335만㎡`n계획 주택|약 1만8000가구`n계획 인구|약 4만4000명" },
+      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='계양 공급 체크'; body="1. 12월 A2·A3블록 1285가구 첫 입주`n2. 10월 계양 첫 민간분양 예정`n3. 첫 민간단지는 1110가구 주상복합`n4. 분양 일정·조건은 모집공고에서 재확인" }
+    )
+  }
+
   if ([string]$article.title -match '의정부우정|A-2블록|공공주택지구') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='공공분양'; title="의정부우정 A-2블록`n내달 청약"; body='총 463세대·전용 59㎡ 공공분양 핵심 정리' },
@@ -348,7 +390,15 @@ function New-Slides($article, [int]$number) {
     )
   }
 
-  if ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
+  if ([string]$article.title -match '양주회천 A-26블록') {
+    $caption = @("🏢 양주회천 A-26블록 공공분양 792가구",'',"📌 전용 59~84㎡ 구성","전용 59㎡ 394가구, 74㎡ 168가구, 84㎡ 230가구로 구성됩니다. 입주는 2029년 10월 예정입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일 접수합니다. 10월 당첨자 발표 후 12월 계약 체결 예정입니다.",'',"🚆 입지 체크","GTX-C 개통 예정인 덕정역과 도보 500m 이내입니다. 신청 자격과 분양가는 LH청약플러스 모집공고문에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '모아주택 1호.*준공') {
+    $caption = @("🏙️ 서울 모아주택 1호, 광진 한양연립 준공",'',"📌 99세대에서 215세대로","광진구 구의3동 한양연립이 지하 2층, 지상 10~15층, 4개 동 215세대 단지로 재탄생했습니다.",'',"⏱️ 사업 진행","2024년 2월 착공해 2026년 8월 25일 준공됐으며, 9월부터 입주를 시작합니다. 통합심의 후 8개월 만에 착공하고 착공 후 2년 6개월 만에 준공한 사례입니다.",'',"✅ 의미","서울시는 모아주택·모아타운을 통해 2031년까지 4만호 착공을 목표로 제시했습니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '2028년부터 매년 10만 가구 착공') {
+    $caption = @("🏗️ LH, 2028년부터 연평균 10만 가구 이상 착공 계획",'',"📌 연도별 착공 계획","2026년 5만 가구, 2027년 7만6000가구를 착공한 뒤 2028~2030년에는 연평균 10만 가구 이상을 착공할 계획입니다.",'',"💰 발주 규모","2026년 14조9000억원, 2027년 25조7000억원을 거쳐 향후 연간 약 30조원 규모 발주를 목표로 합니다.",'',"✅ 확인할 것","도심 유휴부지와 학교용지를 활용한 공급도 병행됩니다. 실제 공급 시점은 인허가·착공 진행 상황과 구분해 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '계양신도시.*첫.*민간분양') {
+    $caption = @("🏙️ 계양신도시, 첫 입주와 첫 민간분양 시작",'',"📌 12월 첫 입주","A2블록 747가구와 A3블록 538가구, 총 1285가구가 12월 입주를 시작할 예정입니다.",'',"🏢 10월 첫 민간분양","AC3·AC4블록에서 전용 84~93㎡, 총 1110가구 규모의 계양신도시 카이브 유보라가 분양될 예정입니다.",'',"✅ 확인할 것","계양신도시는 약 335만㎡에 약 1만8000가구를 공급하는 계획입니다. 실제 분양 일정과 조건은 모집공고에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='공공분양'; title="검암역세권`n첫 공공분양 체크"; body='검암역 푸르지오 프라베뉴 입주자 모집 공고 기준 핵심만 정리' },
       [pscustomobject]@{ type='table'; kicker='단지 개요'; title='어떤 물량인가'; body="위치|인천검암역세권 B1블록`n규모|지하 2층~지상 25층, 3개 동`n총세대|441세대`n유형|민간참여 공공분양" },
@@ -419,6 +469,7 @@ function New-Slides($article, [int]$number) {
 $baseCss = @'
 *{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 120px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.040) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.52),rgba(0,0,0,.12));opacity:.42}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:120px;top:72px;color:rgba(255,255,255,.76);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.94);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:60px;line-height:1.22;letter-spacing:-2.2px;font-weight:950;word-break:keep-all;max-width:840px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.38)}.body{font-size:31px;line-height:1.62;color:rgba(255,255,255,.88);margin-top:34px;text-align:left;white-space:pre-line;font-weight:750;word-break:keep-all;max-width:820px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:120px;right:120px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.20);padding-top:26px;font-size:22px;color:rgba(255,255,255,.68)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.20);border-radius:22px;padding:22px 24px;background:linear-gradient(180deg,rgba(255,255,255,.095),rgba(255,255,255,.045));display:flex;flex-direction:column;justify-content:center;gap:13px}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.82)}.row .value{font-size:30px;line-height:1.25;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all;overflow-wrap:normal}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:31px;color:rgba(255,255,255,.88);max-width:780px}.table .title{font-size:56px;margin-bottom:10px;max-width:820px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:76px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:820px;background:rgba(255,255,255,.08);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:62px}.summary .body{font-size:35px;color:#fff;line-height:1.70;border-left:0;padding-left:0;background:rgba(255,255,255,.085);border-radius:28px;padding:34px 38px}
 .photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.82;filter:saturate(.95) contrast(1.12);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.84) 0%,rgba(6,13,24,.72) 44%,rgba(6,13,24,.50) 100%),linear-gradient(180deg,rgba(8,20,38,.18),rgba(0,0,0,.74));}.cover .photo-bg{opacity:.88}.table .photo-bg{opacity:.80}.summary .photo-bg{opacity:.82}
+.slide{padding-left:150px;padding-right:150px}.count{left:150px}.footer{left:150px;right:150px}.title,.body{max-width:780px}
 '@
 
 $brand = if ($config.account) { $config.account } else { '@landbrief.daily' }
@@ -445,8 +496,6 @@ function Find-ArticleBackground([string]$OutputDir, [string]$ArticleNumber, [str
     if (Test-Path -LiteralPath $candidate) { return $candidate }
   }
 
-  $fallback = Join-Path $ProjectRoot 'assets\photoreal-urban-transit-bg-v1.png'
-  if (Test-Path -LiteralPath $fallback) { return $fallback }
   return ''
 }
 
