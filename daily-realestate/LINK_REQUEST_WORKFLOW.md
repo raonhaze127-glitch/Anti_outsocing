@@ -97,6 +97,8 @@ Expected result:
 - One article equals one carousel set.
 - Each carousel must contain 5 to 8 slides.
 - Do not include article source links in captions.
+- Verify the final generated `caption.txt`, not merely the presence of caption code. The title and content sections must contain article-appropriate emojis; a generic bullet-only caption is not publishable.
+- For multi-article requests, inspect every generated caption individually and record `number -> article title -> caption first line -> emoji applied` before publishing.
 - Do not expose internal review notes in public-facing captions or slides.
 - Preserve project/program names that affect meaning, such as `SH`, `LH`, `PF`, `A-2`, `SOC`, `GTX`, and official Korean project names.
 - Do not simplify business terms in a misleading way. For example, keep terms such as `sin-tong-gihoeg`, `Moatown`, `public housing district`, or the exact Korean source wording when it affects meaning.
