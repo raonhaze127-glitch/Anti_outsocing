@@ -69,13 +69,46 @@ function Get-PracticalTitle($article) {
 
 function Get-ReferenceHookTitle($article) {
   $title = [string]$article.title
-  if ($title -match '([가-힣A-Za-z0-9·]+역)') { return "$($Matches[1])`n체크할 변화는?" }
-  if ($title -match '(모아타운|모아주택)') { return "모아타운`n속도 붙을까?" }
-  if ($title -match '(용산공원|공공주택지구|신도시|택지)') { return "새 공급지`n무엇을 봐야 할까?" }
-  if ($article.category -eq '청약·분양') { return "이번 청약`n먼저 볼 포인트" }
-  if ($article.category -eq '재개발·재건축') { return "이 정비사업`n현재 단계는?" }
-  if ($article.category -eq '교통·SOC') { return "이 교통 이슈`n바뀌는 지점은?" }
-  return "주택공급 뉴스`n핵심 체크"
+  $compact = Short-Text $title 42
+  if ($compact -match '^(.{1,22})\s+(.+)$') { return "$($Matches[1])`n$($Matches[2])" }
+  return $compact
+}
+
+function Get-EditorialKind($article) {
+  $text = "$($article.title) $($article.summary) $($article.category)"
+  if ($text -match '재건축|재개발|정비구역|모아타운|추진위|조합') { return '정비사업' }
+  if ($text -match '청약|분양|입주자모집|공급가구') { return '분양·청약' }
+  if ($text -match '노선|철도|도로|공항|SOC|GTX|개통') { return '교통·SOC' }
+  if ($text -match '정책|대책|시행|제도|공공주택') { return '공급정책' }
+  return '주택공급'
+}
+
+function Get-StageLabel($article) {
+  $text = "$($article.title) $($article.summary)"
+  foreach ($stage in @('정비구역 지정 전 추진위 승인','추진위원회 구성 승인','정비구역 지정','조합설립인가','사업시행인가','관리처분인가','입주자모집공고','청약 접수','착공','준공','개통','예비타당성조사 통과','기본계획 수립','후보지 선정')) {
+    if ($text -match [regex]::Escape($stage)) { return $stage }
+  }
+  return '기사에 명시된 현재 단계'
+}
+
+function Get-AudienceLabel([string]$kind) {
+  switch ($kind) {
+    '정비사업' { return '조합원·토지등소유자·인근 주민' }
+    '분양·청약' { return '청약 예정자·무주택 실수요자' }
+    '교통·SOC' { return '노선 이용자·인근 생활권 주민' }
+    '공급정책' { return '정책 적용 대상·사업 시행 주체' }
+    default { return '해당 지역 주민·주택 수요자' }
+  }
+}
+
+function Get-NextCheckRows([string]$kind) {
+  switch ($kind) {
+    '정비사업' { return "다음 고시|정비구역·정비계획 관련 고시`n동의 절차|추진위·조합설립 동의 진행`n후속 심의|정비계획·사업시행 심의`n확인 기준|공식 고시·인가 문서" }
+    '분양·청약' { return "공식 공고|입주자모집공고`n일정|접수·당첨자 발표·계약`n자격|지역·소득·자산·순위 요건`n확인 기준|청약 공고문" }
+    '교통·SOC' { return "행정 단계|계획·설계·사업 승인`n사업 일정|착공·준공·개통 목표`n변수|재원·공정·후속 협의`n확인 기준|관계기관 공식 발표" }
+    '공급정책' { return "적용 시점|시행일·세부지침`n적용 대상|지역·가구·사업 유형`n실제 공급|대상지·물량·일정`n확인 기준|고시·공고·모집문" }
+    default { return "행정 절차|후속 고시·심의·승인`n공급 조건|물량·대상·일정`n변경 가능성|계획과 확정 구분`n확인 기준|공식 고시·공고" }
+  }
 }
 
 function Get-KeyNumbers([string]$text) {
@@ -474,13 +507,19 @@ function New-Slides($article, [int]$number) {
 
   $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
   $numberText = ($numbers -join ' · ')
+  if (-not $numberText) { $numberText = '기사에 제시된 핵심 수치' }
+  $kind = Get-EditorialKind $article
+  $stage = Get-StageLabel $article
+  $audience = Get-AudienceLabel $kind
+  $nextChecks = Get-NextCheckRows $kind
 
   return @(
-    [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$title" },
-    [pscustomobject]@{ type='table'; kicker='핵심만 보면'; title='그래서 뭐가 바뀌나'; body="분류|$category`n지역|$region`n출처|$source`n키워드|$topic" },
-    [pscustomobject]@{ type='number'; kicker='숫자 체크'; title=$numberText; body=$summary },
-    [pscustomobject]@{ type='table'; kicker='확인 포인트'; title='추진 단계와 일정을 나눠보세요'; body="추진 단계|기사에서 확인된 범위 중심`n일정|변경 가능성 함께 체크`n수치|보도 기준일 기준`n영향권|위치·노선·생활권 구분" },
-    [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 발표 내용과 실제 추진 단계를 구분`n2. 공급 물량·위치·일정을 함께 확인`n3. 교통·생활권 영향은 후속 절차까지 추적`n4. 투자·청약 판단은 공식 공고와 함께 비교" }
+    [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$region · $stage" },
+    [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='이번 변화의 영향 범위'; body="지역|$region`n기사 핵심|$summary`n주요 확인 대상|$audience`n기사 유형|$kind" },
+    [pscustomobject]@{ type='table'; kicker='현재 사업 단계'; title=$stage; body="현재|기사에 명시된 단계 기준`n근거|제목·본문의 행정 절차 표현`n주의|계획과 확정을 구분`n기준|기사 보도 시점" },
+    [pscustomobject]@{ type='number'; kicker='숫자 비교'; title=$numberText; body="기존·계획 수치는 같은 기준으로 비교합니다.`n$summary" },
+    [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='계획과 확정은 다릅니다'; body="확인된 내용|$stage`n계획·예정|기사 표현 그대로 유지`n미확정 항목|후속 고시·공고 전 단정 금지`n확인 대상|규모·일정·조건의 변경 여부" },
+    [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='공식 절차에서 다시 볼 것'; body=$nextChecks }
   )
 }
 
@@ -599,15 +638,22 @@ foreach ($index in $indexes) {
     '',
     "## 게시 전 확인",
     "- [ ] 기사 원문에서 수치·일정·사업 단계 확인",
+    "- [ ] 현재 단계·이전 대비 변화·영향 대상·다음 행정 절차를 모두 추출",
+    "- [ ] 표지가 일반 질문형이 아니라 구체적 숫자 또는 확정 단계 중심",
+    "- [ ] 계획·예정과 확정된 사실을 별도 카드에서 명확히 구분",
+    "- [ ] 기본 6장 정보 순서(결론→중요성→단계→숫자→미확정→다음 확인) 준수",
     "- [ ] 원인과 결과를 임의로 연결하지 않았는지 확인",
     "- [ ] 거래 사례·가격 언급은 기사 문맥과 함께 설명했는지 확인",
-    "- [ ] 조감도·위치도·노선도 등 공식 원문 발췌 자료만 사용했는지 확인",
+    "- [ ] 공식 기사 이미지는 표지·설명 카드 1~2장에만 사용하고 나머지는 자체 비교표·타임라인·절차도로 구성",
     "- [ ] 사용 조건이 불분명한 이미지는 게시 전 사용자 확인",
     "- [ ] 5~8장 구성, 1080x1350 PNG 확인"
   )
   $review -join "`r`n" | Set-Content -LiteralPath (Join-Path $setDir 'REVIEW.md') -Encoding UTF8
 
-  $hashtagList = @(Get-ArticleHashtags $article)
+  $rawHashtagList = @(Get-ArticleHashtags $article)
+  $genericTags = @('#부동산뉴스', '#주택공급', '#부동산브리핑')
+  $specificTags = @($rawHashtagList | Where-Object { $_ -notin $genericTags })
+  $hashtagList = @(($specificTags + $genericTags) | Select-Object -Unique | Select-Object -First 5)
   $hashtags = $hashtagList -join ' '
   if ([string]$article.title -match '상계보람') {
     $caption = @(
@@ -779,14 +825,19 @@ foreach ($index in $indexes) {
     }
   } else {
     $caption = @(
-      "$($article.region) $($article.title)",
+      "🏠 $($article.region), $(Short-Text $article.title 58)",
       '',
-      "▪ $($article.title)",
+      "📌 현재 단계",
+      "$(Get-StageLabel $article)",
+      '',
+      "🔎 왜 중요한가",
       "$(Short-Text $article.summary 160)",
       '',
-      "▪ 확인할 것",
-      "발표 내용과 실제 추진 일정은 구분해서 확인하세요.",
-      "공급 물량, 위치, 교통 영향권은 후속 공고와 행정 절차에 따라 달라질 수 있습니다.",
+      "👥 주요 확인 대상",
+      "$(Get-AudienceLabel (Get-EditorialKind $article))",
+      '',
+      "🗓️ 다음 확인",
+      "후속 고시·공고에서 규모, 일정, 적용 조건의 확정 여부를 확인합니다.",
       '',
       "출처: $($article.source)",
       '',

@@ -96,13 +96,19 @@ Expected result:
 
 - One article equals one carousel set.
 - Each carousel must contain 5 to 8 slides.
+- Before writing slides, extract the current stage, change from before, affected audience, and next administrative checkpoint from article facts.
+- Use the default six-slide order: conclusion cover, why it matters, current stage, numeric comparison, what is not yet confirmed, and next checkpoint.
+- Use type-specific ordering: redevelopment/reconstruction = stage/scale/consent/next procedure; subscription = volume/price/schedule/eligibility; transport/SOC = route/time change/current stage/opening variables; supply policy = audience/effective date/numbers/actual supply conditions.
+- Covers must lead with a concrete number, benefit, or confirmed stage in no more than two lines. Do not use generic hooks such as `주택공급 뉴스 핵심 체크` or `재건축 속도 붙나`.
 - Do not include article source links in captions.
+- Captions must place the project or region and core change in the first two lines, use article-specific emojis, and use about five region/project/stage hashtags. Do not use direct engagement prompts.
 - Verify the final generated `caption.txt`, not merely the presence of caption code. The title and content sections must contain article-appropriate emojis; a generic bullet-only caption is not publishable.
 - For multi-article requests, inspect every generated caption individually and record `number -> article title -> caption first line -> emoji applied` before publishing.
 - Do not expose internal review notes in public-facing captions or slides.
 - Preserve project/program names that affect meaning, such as `SH`, `LH`, `PF`, `A-2`, `SOC`, `GTX`, and official Korean project names.
 - Do not simplify business terms in a misleading way. For example, keep terms such as `sin-tong-gihoeg`, `Moatown`, `public housing district`, or the exact Korean source wording when it affects meaning.
 - Article images may be used only when they are official-looking materials such as renderings, location maps, district maps, layout maps, route maps, or plan diagrams.
+- Use official article images on only one or two slides; build the remaining slides as original comparison tables, timelines, or process diagrams from article facts.
 - If image usage conditions are unclear, keep `image_usage_confirmed` as `false` and do not publish automatically.
 - If article extraction is weak, fill `title`, `summary`, `category`, `region`, and `source` manually before publishing.
 
