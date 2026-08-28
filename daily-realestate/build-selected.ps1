@@ -627,6 +627,7 @@ foreach ($index in $indexes) {
 
   for ($i = 0; $i -lt $slides.Count; $i++) {
     $slide = $slides[$i]
+    $slidePhotoBgCss = if ($i -lt 2) { $setPhotoBgCss } else { '' }
     $num = '{0:D2}' -f ($i + 1)
     $safeTitle = (Html $slide.title) -replace "`n", '<br>'
     $safeBody = (Html $slide.body) -replace "`n", '<br>'
@@ -643,7 +644,7 @@ foreach ($index in $indexes) {
       $bodyHtml = "<div class='rows'>$($rows -join '')</div>"
     }
     $accent = if ($slide.type -eq 'cover') { "<div class='accent'></div>" } else { '' }
-    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$setPhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($articleDisplayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
+    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$slidePhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($articleDisplayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
     $htmlPath = Join-Path $setDir "$num.html"
     $pngPath = Join-Path $setDir "$num.png"
     Set-Content -LiteralPath $htmlPath -Value $doc -Encoding UTF8
@@ -688,6 +689,8 @@ foreach ($index in $indexes) {
     "- [ ] 원인과 결과를 임의로 연결하지 않았는지 확인",
     "- [ ] 거래 사례·가격 언급은 기사 문맥과 함께 설명했는지 확인",
     "- [ ] 공식 기사 이미지는 표지·설명 카드 1~2장에만 사용하고 나머지는 자체 비교표·타임라인·절차도로 구성",
+    "- [ ] 인물 사진과 텍스트 중심 공고문·표·포스터·문서 캡처는 배경 이미지에서 제외",
+    "- [ ] 건물 전경·조감도·지형도·위치도·구역도·배치도·노선도만 우선 적용",
     "- [ ] 사용 조건이 불분명한 이미지는 게시 전 사용자 확인",
     "- [ ] 5~8장 구성, 1080x1350 PNG 확인"
   )

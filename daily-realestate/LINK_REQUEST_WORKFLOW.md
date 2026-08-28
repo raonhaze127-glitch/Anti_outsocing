@@ -107,9 +107,10 @@ Expected result:
 - Do not expose internal review notes in public-facing captions or slides.
 - Preserve project/program names that affect meaning, such as `SH`, `LH`, `PF`, `A-2`, `SOC`, `GTX`, and official Korean project names.
 - Do not simplify business terms in a misleading way. For example, keep terms such as `sin-tong-gihoeg`, `Moatown`, `public housing district`, or the exact Korean source wording when it affects meaning.
-- Article images may be used only when they are official-looking materials such as renderings, location maps, district maps, layout maps, route maps, or plan diagrams.
-- Use official article images on only one or two slides; build the remaining slides as original comparison tables, timelines, or process diagrams from article facts.
-- If image usage conditions are unclear, keep `image_usage_confirmed` as `false` and do not publish automatically.
+- Use article-contained building exteriors, architectural renderings, terrain maps, location maps, district maps, layout maps, and route maps first without pausing for a separate usage-condition check.
+- Do not automatically use photographs containing people or text-dominant images such as notices, tables, posters, document screenshots, or promotional copy.
+- Apply the selected article image to only one or two slides; build the remaining slides as original comparison tables, timelines, or process diagrams from article facts.
+- After reviewing the draft, replace the article image with a generated image only when the user requests it.
 - If article extraction is weak, fill `title`, `summary`, `category`, `region`, and `source` manually before publishing.
 
 ## Codex operating notes
