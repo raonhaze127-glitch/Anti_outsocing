@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-28",
   "numbers": "26",
   "expected_articles": [
@@ -9,9 +9,9 @@
       "source": "파이낸셜뉴스"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
   "requested_at": "2026-08-28T21:36:00+09:00",
-  "note": "Publish reviewed article 26 immediately after the missed scheduled heartbeat. Disable after successful publishing."
+  "note": "Article 26 published successfully after the missed heartbeat. Disabled to prevent duplicate posting."
 }
