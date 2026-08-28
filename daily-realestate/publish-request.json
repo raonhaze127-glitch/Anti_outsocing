@@ -1,17 +1,17 @@
 {
-  "enabled": false,
+  "enabled": true,
   "date": "2026-08-28",
-  "numbers": "8",
+  "numbers": "26",
   "expected_articles": [
     {
-      "number": 8,
-      "title": "[LH 주택공급계획] (2) 직접시행 앞세워 민참사업 속도…하반기 7236가구 공모",
-      "source": "대한경제"
+      "number": 26,
+      "title": "광진 모아타운·성북 모아주택, 심의 통과…643가구 공급",
+      "source": "파이낸셜뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-28T16:10:00+09:00",
-  "note": "Article 8 published successfully. Disabled to prevent duplicate posting; articles 26 and 28 remain scheduled separately."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-28T21:36:00+09:00",
+  "note": "Publish reviewed article 26 immediately after the missed scheduled heartbeat. Disable after successful publishing."
 }
