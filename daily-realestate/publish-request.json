@@ -1,32 +1,17 @@
 {
-  "enabled": false,
-  "date": "2026-08-27",
-  "numbers": "1,2,13,21",
+  "enabled": true,
+  "date": "2026-08-28",
+  "numbers": "8",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "LH, 양주회천 A-26블록 공공분양 792호 공급·GTX-C 덕정역 도보 5분 역세권",
-      "source": "디스커버리뉴스(DISCOVERYNEWS)"
-    },
-    {
-      "number": 2,
-      "title": "서울시 '모아주택 1호' 준공…소규모 재개발로 공급 '속도'",
-      "source": "연합뉴스"
-    },
-    {
-      "number": 13,
-      "title": "LH 주택 공급 계획, 2028년부터 매년 10만 가구 착공",
-      "source": "2news.co.kr"
-    },
-    {
-      "number": 21,
-      "title": "계양신도시, 첫 입주 이어 첫 민간분양…주거도시 전환 본격화",
-      "source": "핀포인트뉴스"
+      "number": 8,
+      "title": "[LH 주택공급계획] (2) 직접시행 앞세워 민참사업 속도…하반기 7236가구 공모",
+      "source": "대한경제"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-27T17:25:00+09:00",
-  "note": "Corrective publish completed for reviewed articles 1, 2, 13, and 21. Keep enabled=false to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-28T16:10:00+09:00",
+  "note": "Publish reviewed article 8 now. Articles 26 and 28 are scheduled separately at three-hour intervals. Disable after publishing."
 }
