@@ -142,6 +142,10 @@ function Get-ArticleHashtags($article) {
 
   foreach ($tag in @('부동산뉴스','주택공급','부동산브리핑')) { Add-Hashtag $tags $tag }
 
+  if ($text -match '하반기 7236가구 공모') { foreach ($tag in @('LH민참사업','LH직접시행','공공분양','통합공공임대','주택공급계획','민간참여공공주택')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
+  if ($text -match '광진 모아타운.*성북 모아주택') { foreach ($tag in @('구의동모아타운','성북동모아주택','소규모주택정비','서울정비사업','통합심의','643가구')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
+  if ($text -match '행복주택 1천484세대') { foreach ($tag in @('SH행복주택','서울행복주택','행복주택청약','두산위브더프레스티지','공공임대','청약일정')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
+
   if ($text -match '상계보람') {
     foreach ($tag in @('상계보람아파트','상계동재건축','노원구재건축','조합설립추진위원회','정비구역지정','재건축','정비사업','4483가구','서울재건축')) { Add-Hashtag $tags $tag }
     return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
@@ -359,6 +363,39 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '하반기 7236가구 공모') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 민참사업'; title="하반기 7,236가구`n민간사업자 공모"; body='8개 지구·9개 블록, 공공분양과 통합공공임대 공급 계획' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='LH 직접시행이 늘어납니다'; body="변화|민간 매각 예정 용지를 LH가 직접 개발`n민간 역할|설계·시공을 맡는 도급형 민참`n영향 대상|공공주택 사업자·예비 수요자`n목표|민간 공급 일정 변동 영향 축소" },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='지금은 민간사업자 공모 전'; body="계획 공개|2026년 8월 27일`n하반기|8개 지구·9개 블록 공모`n이후|민간사업자 선정`n착공 계획|2027년 6월 또는 12월" },
+      [pscustomobject]@{ type='table'; kicker='숫자 비교'; title='3,360 + 3,876가구'; body="공공분양|5개 블록·3,360가구`n통합공공임대|4개 블록·3,876가구`n합계|9개 블록·7,236가구`n2027년 민참 착공 구상|총 4만가구" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='공모 물량과 착공은 다릅니다'; body="확인된 내용|하반기 공모 계획 공개`n계획 단계|2027년 착공 목표`n미확정|사업자 선정 결과·실제 착공일`n추가 계획|직접시행 2만3,000가구 구상" },
+      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='공모 결과부터 확인'; body="첫째|9개 블록별 공모 공고`n둘째|우선협상대상자·사업자 선정`n셋째|사업승인과 착공 일정`n넷째|공공분양·임대 모집공고" }
+    )
+  }
+
+  if ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 소규모주택정비'; title="320 → 591가구`n구의동 모아타운"; body='성북동 52가구 포함 총 643가구·통합심의 통과' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='주택과 보행환경을 함께 개선'; body="광진구|강변역·동서울터미널 도보권`n현황|노후·불량 건축물 81.6%`n생활 변화|끊긴 통학·보행 동선 연결`n성북구|48년 넘은 노후 주거지 정비" },
+      [pscustomobject]@{ type='table'; kicker='현재 사업 단계'; title='통합심의 수정·조건부 가결'; body="심의|제10차 소규모주택정비 통합심의`n구의동|모아타운 관리계획 수정가결`n성북동|사업시행계획 조건부가결`n심의일|2026년 8월 27일" },
+      [pscustomobject]@{ type='table'; kicker='숫자 비교'; title='총 643가구 공급 계획'; body="구의동 기존|320가구`n구의동 계획|591가구·271가구 증가`n구의동 임대|92가구 포함`n성북동 계획|52가구·14가구 증가" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='심의 통과 뒤 절차가 남았습니다'; body="확인된 내용|관리계획·사업시행계획 심의 통과`n계획 물량|구의동 591·성북동 52가구`n미확정|착공·준공·입주 시점`n주의|후속 인가·사업 추진 과정 확인" },
+      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='고시와 사업 추진 일정'; body="구의동|관리계획 고시·개별 모아주택 추진`n성북동|사업시행계획 후속 절차`n생활환경|통학로·보행로 조성 일정`n공급 시점|착공·준공 계획 발표" }
+    )
+  }
+
+  if ([string]$article.title -match '행복주택 1천484세대') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='SH 행복주택'; title="1,484세대 모집`n9월 9~11일 접수"; body='신규 154·잔여 공가 391·예비입주자 939세대' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='시세 60~80% 수준 공공임대'; body="주요 대상|대학생·청년·신혼부부·고령자`n청년 거주|최대 10년`n유자녀 신혼부부|최대 14년`n고령자·주거급여 수급자|최대 20년" },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='입주자 모집공고 발표'; body="공고일|2026년 8월 28일`n인터넷 접수|9월 9~11일`n방문 접수|고령자·장애인 9월 10~11일`n입주 시작|2027년 3월부터" },
+      [pscustomobject]@{ type='table'; kicker='공급량 비교'; title='154 + 391 + 939세대'; body="신규 단지|154세대`n잔여 공가|391세대`n예비 입주자|939세대`n총 모집|1,484세대" },
+      [pscustomobject]@{ type='table'; kicker='신청 자격'; title='공고문 기준을 모두 확인'; body="주택|무주택가구 구성원`n소득|도시근로자 월평균소득 100% 이하`n총자산|3억4,500만원 이하`n자동차|4,542만원 이하" },
+      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='접수 뒤 발표 일정'; body="서류심사 대상자|2026년 9월 21일`n당첨자 발표|2027년 1월 29일`n입주|2027년 3월부터`n최종 확인|SH 모집공고·단지별 조건" }
+    )
+  }
+
   if ([string]$article.title -match '상계보람') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='노원구 재건축'; title="상계보람`n추진위 승인"; body='정비구역 지정 전 승인·4,483가구 재건축 계획' },
@@ -439,7 +476,13 @@ function New-Slides($article, [int]$number) {
     )
   }
 
-  if ([string]$article.title -match '상계보람') {
+  if ([string]$article.title -match '하반기 7236가구 공모') {
+    $caption = @("🏗️ LH, 하반기 민참사업 7,236가구 공모 계획",'',"📌 현재 단계","8개 지구 9개 블록에서 민간사업자를 공모하기 전 단계입니다. 공공분양 3,360가구와 통합공공임대 3,876가구로 구성됩니다.",'',"🔎 왜 중요한가","민간에 매각할 예정이던 용지를 LH가 직접 개발하고 민간이 설계·시공을 맡는 직접시행 물량이 포함됩니다.",'',"🗓️ 다음 확인","블록별 공모 결과와 사업자 선정, 사업승인 뒤 2027년 6월 또는 12월로 계획된 실제 착공 일정을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
+    $caption = @("🏘️ 광진 구의동·성북동, 총 643가구 정비계획",'',"📌 현재 단계","구의동 모아타운 관리계획은 수정가결, 성북동 모아주택 사업시행계획은 조건부가결됐습니다.",'',"🔢 달라지는 규모","구의동은 320가구에서 591가구로 271가구 늘고, 성북동은 기존보다 14가구 늘어난 52가구를 계획했습니다.",'',"🗓️ 다음 확인","관리계획 고시와 후속 사업 절차, 통학로·보행로 조성 일정, 착공·준공 계획을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '행복주택 1천484세대') {
+    $caption = @("🏠 서울 SH 행복주택 1,484세대 모집",'',"📌 모집 구성","신규 단지 154세대, 잔여 공가 391세대, 예비 입주자 939세대입니다.",'',"👥 신청 대상","무주택가구 구성원 가운데 소득·자산·자동차 기준을 충족해야 합니다. 청년·신혼부부·고령자 등 공급 유형별 세부 자격은 공고문에서 확인해야 합니다.",'',"🗓️ 청약 일정","인터넷 접수는 9월 9~11일, 서류심사 대상자 발표는 9월 21일, 당첨자 발표는 2027년 1월 29일입니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '상계보람') {
     $caption = @("🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",'',"📌 현재 사업 단계","노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",'',"🏢 계획 규모","기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",'',"🔢 숫자로 보면","기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%로 알려졌습니다. 계획용적률은 299.99%입니다.",'',"✅ 확인할 것","정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 다시 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '양주회천 A-26블록') {
     $caption = @("🏢 양주회천 A-26블록 공공분양 792가구",'',"📌 전용 59~84㎡ 구성","전용 59㎡ 394가구, 74㎡ 168가구, 84㎡ 230가구로 구성됩니다. 입주는 2029년 10월 예정입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일 접수합니다. 10월 당첨자 발표 후 12월 계약 체결 예정입니다.",'',"🚆 입지 체크","GTX-C 개통 예정인 덕정역과 도보 500m 이내입니다. 신청 자격과 분양가는 LH청약플러스 모집공고문에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
@@ -655,7 +698,13 @@ foreach ($index in $indexes) {
   $specificTags = @($rawHashtagList | Where-Object { $_ -notin $genericTags })
   $hashtagList = @(($specificTags + $genericTags) | Select-Object -Unique | Select-Object -First 5)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '상계보람') {
+  if ([string]$article.title -match '하반기 7236가구 공모') {
+    $caption = @("🏗️ LH, 하반기 민참사업 7,236가구 공모 계획",'',"📌 현재 단계","8개 지구 9개 블록에서 민간사업자를 공모하기 전 단계입니다. 공공분양 3,360가구와 통합공공임대 3,876가구로 구성됩니다.",'',"🔎 왜 중요한가","민간에 매각할 예정이던 용지를 LH가 직접 개발하고 민간이 설계·시공을 맡는 직접시행 물량이 포함됩니다.",'',"🗓️ 다음 확인","블록별 공모 결과와 사업자 선정, 사업승인 뒤 2027년 6월 또는 12월로 계획된 실제 착공 일정을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
+    $caption = @("🏘️ 광진 구의동·성북동, 총 643가구 정비계획",'',"📌 현재 단계","구의동 모아타운 관리계획은 수정가결, 성북동 모아주택 사업시행계획은 조건부가결됐습니다.",'',"🔢 달라지는 규모","구의동은 320가구에서 591가구로 271가구 늘고, 성북동은 기존보다 14가구 늘어난 52가구를 계획했습니다.",'',"🗓️ 다음 확인","관리계획 고시와 후속 사업 절차, 통학로·보행로 조성 일정, 착공·준공 계획을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '행복주택 1천484세대') {
+    $caption = @("🏠 서울 SH 행복주택 1,484세대 모집",'',"📌 모집 구성","신규 단지 154세대, 잔여 공가 391세대, 예비 입주자 939세대입니다.",'',"👥 신청 대상","무주택가구 구성원 가운데 소득·자산·자동차 기준을 충족해야 합니다. 청년·신혼부부·고령자 등 공급 유형별 세부 자격은 공고문에서 확인해야 합니다.",'',"🗓️ 청약 일정","인터넷 접수는 9월 9~11일, 서류심사 대상자 발표는 9월 21일, 당첨자 발표는 2027년 1월 29일입니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '상계보람') {
     $caption = @(
       "🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",
       '',
