@@ -26,7 +26,8 @@ Use this guide to construct highly legible, visually appealing 8-slide Instagram
 ## 3. Typography Tokens (Legibility Optimized & Grid Fit)
 * **Cover Main Title**: `68px` ~ `70px` (Pretendard ExtraBold/Bold, line-height: 1.25, max-width: 780px)
 * **Cover Sub Title**: `68px` ~ `70px` (Pretendard Bold, color: `#F4B942`)
-* **Cover Status Badge**: Positioned at top-center (`top: 170px`), `24px ~ 26px` Bold
+* **Cover Status Badge**: Positioned at top-center (`top: 170px`), `52px` Bold
+* **Cover Supporting Text**: `52px`, weight `500`, color `#D9E2EC` (cool light gray), max-width: `780px`
 * **Section Title**: `52px` ~ `56px` (Pretendard Bold, color: `#0D1B3E` or `#FFFFFF`)
 * **Card Primary Text**: `28px` ~ `32px` (Pretendard Semibold/Regular)
 * **Notice Header**: `26px` (Pretendard Bold)
