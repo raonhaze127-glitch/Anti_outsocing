@@ -1,17 +1,17 @@
 {
-  "enabled": false,
+  "enabled": true,
   "date": "2026-08-29",
-  "numbers": "3",
+  "numbers": "12",
   "expected_articles": [
     {
-      "number": 3,
-      "title": "[분양캘린더] 9월 첫주 3713가구 공급…3개 단지 모두 인천",
-      "source": "뉴스1"
+      "number": 12,
+      "title": "'부천형 역세권 정비사업' 대상지 2곳 선정",
+      "source": "중앙이코노미뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-29T08:20:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-29T21:11:00+09:00",
+  "note": "Immediate publish requested for reviewed article 12 after scheduled dispatcher did not run."
 }
