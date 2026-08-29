@@ -1,0 +1,23 @@
+﻿{
+    "number":  3,
+    "collectedAt":  "2026-08-29T13:10:24.7296636+09:00",
+    "title":  "[분양캘린더] 9월 첫주 3713가구 공급…3개 단지 모두 인천",
+    "source":  "뉴스1",
+    "sourceUrl":  "https://www.news1.kr",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfNmVnWWJKX1VpdjVvU01hT2h3U29VOUxNWHM2bU56NEhmdEhMVVpSenc5V2NOSzdOZWtuTVloUUFjYi1uUllGU3g2MzFrZFd2UEw2QTVfV3hGMVXSAWBBVV95cUxPSXA4cWtBR21MZFFyTmw5MGlnT2lra0ZsMDVRb1U4aEdaWFpiLXZmQklfQW40OU5QaWQwWUh2WE11RHVLV29CdXVDRUs4ZXJkcDl2MER4cUVONldWSkNWVGE?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfNmVnWWJKX1VpdjVvU01hT2h3U29VOUxNWHM2bU56NEhmdEhMVVpSenc5V2NOSzdOZWtuTVloUUFjYi1uUllGU3g2MzFrZFd2UEw2QTVfV3hGMVXSAWBBVV95cUxPSXA4cWtBR21MZFFyTmw5MGlnT2lra0ZsMDVRb1U4aEdaWFpiLXZmQklfQW40OU5QaWQwWUh2WE11RHVLV29CdXVDRUs4ZXJkcDl2MER4cUVONldWSkNWVGE?oc=5",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

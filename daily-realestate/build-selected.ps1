@@ -69,46 +69,13 @@ function Get-PracticalTitle($article) {
 
 function Get-ReferenceHookTitle($article) {
   $title = [string]$article.title
-  $compact = Short-Text $title 42
-  if ($compact -match '^(.{1,22})\s+(.+)$') { return "$($Matches[1])`n$($Matches[2])" }
-  return $compact
-}
-
-function Get-EditorialKind($article) {
-  $text = "$($article.title) $($article.summary) $($article.category)"
-  if ($text -match '재건축|재개발|정비구역|모아타운|추진위|조합') { return '정비사업' }
-  if ($text -match '청약|분양|입주자모집|공급가구') { return '분양·청약' }
-  if ($text -match '노선|철도|도로|공항|SOC|GTX|개통') { return '교통·SOC' }
-  if ($text -match '정책|대책|시행|제도|공공주택') { return '공급정책' }
-  return '주택공급'
-}
-
-function Get-StageLabel($article) {
-  $text = "$($article.title) $($article.summary)"
-  foreach ($stage in @('정비구역 지정 전 추진위 승인','추진위원회 구성 승인','정비구역 지정','조합설립인가','사업시행인가','관리처분인가','입주자모집공고','청약 접수','착공','준공','개통','예비타당성조사 통과','기본계획 수립','후보지 선정')) {
-    if ($text -match [regex]::Escape($stage)) { return $stage }
-  }
-  return '기사에 명시된 현재 단계'
-}
-
-function Get-AudienceLabel([string]$kind) {
-  switch ($kind) {
-    '정비사업' { return '조합원·토지등소유자·인근 주민' }
-    '분양·청약' { return '청약 예정자·무주택 실수요자' }
-    '교통·SOC' { return '노선 이용자·인근 생활권 주민' }
-    '공급정책' { return '정책 적용 대상·사업 시행 주체' }
-    default { return '해당 지역 주민·주택 수요자' }
-  }
-}
-
-function Get-NextCheckRows([string]$kind) {
-  switch ($kind) {
-    '정비사업' { return "다음 고시|정비구역·정비계획 관련 고시`n동의 절차|추진위·조합설립 동의 진행`n후속 심의|정비계획·사업시행 심의`n확인 기준|공식 고시·인가 문서" }
-    '분양·청약' { return "공식 공고|입주자모집공고`n일정|접수·당첨자 발표·계약`n자격|지역·소득·자산·순위 요건`n확인 기준|청약 공고문" }
-    '교통·SOC' { return "행정 단계|계획·설계·사업 승인`n사업 일정|착공·준공·개통 목표`n변수|재원·공정·후속 협의`n확인 기준|관계기관 공식 발표" }
-    '공급정책' { return "적용 시점|시행일·세부지침`n적용 대상|지역·가구·사업 유형`n실제 공급|대상지·물량·일정`n확인 기준|고시·공고·모집문" }
-    default { return "행정 절차|후속 고시·심의·승인`n공급 조건|물량·대상·일정`n변경 가능성|계획과 확정 구분`n확인 기준|공식 고시·공고" }
-  }
+  if ($title -match '([가-힣A-Za-z0-9·]+역)') { return "$($Matches[1])`n체크할 변화는?" }
+  if ($title -match '(모아타운|모아주택)') { return "모아타운`n속도 붙을까?" }
+  if ($title -match '(용산공원|공공주택지구|신도시|택지)') { return "새 공급지`n무엇을 봐야 할까?" }
+  if ($article.category -eq '청약·분양') { return "이번 청약`n먼저 볼 포인트" }
+  if ($article.category -eq '재개발·재건축') { return "이 정비사업`n현재 단계는?" }
+  if ($article.category -eq '교통·SOC') { return "이 교통 이슈`n바뀌는 지점은?" }
+  return "주택공급 뉴스`n핵심 체크"
 }
 
 function Get-KeyNumbers([string]$text) {
@@ -142,9 +109,9 @@ function Get-ArticleHashtags($article) {
 
   foreach ($tag in @('부동산뉴스','주택공급','부동산브리핑')) { Add-Hashtag $tags $tag }
 
-  if ($text -match '하반기 7236가구 공모') { foreach ($tag in @('LH민참사업','LH직접시행','공공분양','통합공공임대','주택공급계획','민간참여공공주택')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
-  if ($text -match '광진 모아타운.*성북 모아주택') { foreach ($tag in @('구의동모아타운','성북동모아주택','소규모주택정비','서울정비사업','통합심의','643가구')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
-  if ($text -match '행복주택 1천484세대') { foreach ($tag in @('SH행복주택','서울행복주택','행복주택청약','두산위브더프레스티지','공공임대','청약일정')) { Add-Hashtag $tags $tag }; return @($tags | ForEach-Object { "#$_" }) }
+  if ($text -match '9월 첫주 3713가구') { foreach ($tag in @('인천분양','인천청약','분양캘린더','시티오씨엘9단지','검암역푸르지오라베뉴')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match '화성 1만호 공공주택') { foreach ($tag in @('화성특례시','화성공공주택','공공주택프로젝트','주택공급정책','화성동행기구')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match '부천형 역세권 정비사업') { foreach ($tag in @('부천정비사업','소새울역','송내역','역세권정비사업','정비계획')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
 
   if ($text -match '상계보람') {
     foreach ($tag in @('상계보람아파트','상계동재건축','노원구재건축','조합설립추진위원회','정비구역지정','재건축','정비사업','4483가구','서울재건축')) { Add-Hashtag $tags $tag }
@@ -363,36 +330,36 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
-  if ([string]$article.title -match '하반기 7236가구 공모') {
+  if ([string]$article.title -match '9월 첫주 3713가구') {
     return @(
-      [pscustomobject]@{ type='cover'; kicker='LH 민참사업'; title="하반기 7,236가구`n민간사업자 공모"; body='8개 지구·9개 블록, 공공분양과 통합공공임대 공급 계획' },
-      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='LH 직접시행이 늘어납니다'; body="변화|민간 매각 예정 용지를 LH가 직접 개발`n민간 역할|설계·시공을 맡는 도급형 민참`n영향 대상|공공주택 사업자·예비 수요자`n목표|민간 공급 일정 변동 영향 축소" },
-      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='지금은 민간사업자 공모 전'; body="계획 공개|2026년 8월 27일`n하반기|8개 지구·9개 블록 공모`n이후|민간사업자 선정`n착공 계획|2027년 6월 또는 12월" },
-      [pscustomobject]@{ type='table'; kicker='숫자 비교'; title='3,360 + 3,876가구'; body="공공분양|5개 블록·3,360가구`n통합공공임대|4개 블록·3,876가구`n합계|9개 블록·7,236가구`n2027년 민참 착공 구상|총 4만가구" },
-      [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='공모 물량과 착공은 다릅니다'; body="확인된 내용|하반기 공모 계획 공개`n계획 단계|2027년 착공 목표`n미확정|사업자 선정 결과·실제 착공일`n추가 계획|직접시행 2만3,000가구 구상" },
-      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='공모 결과부터 확인'; body="첫째|9개 블록별 공모 공고`n둘째|우선협상대상자·사업자 선정`n셋째|사업승인과 착공 일정`n넷째|공공분양·임대 모집공고" }
+      [pscustomobject]@{ type='cover'; kicker='9월 첫째 주 분양'; title="3,713가구 공급`n모두 인천"; body='3개 단지·일반분양 2,387가구, 이번 주 확인할 숫자' },
+      [pscustomobject]@{ type='number'; kicker='왜 중요한가'; title='일반분양 2,387가구'; body="전체 3,713가구 가운데`n약 64%가 일반분양 물량`n3개 단지가 모두 인천에 집중" },
+      [pscustomobject]@{ type='table'; kicker='주요 단지'; title='두 곳부터 확인'; body="미추홀구|시티오씨엘9단지{br}오션파크뷰`n서구|검암역 푸르지오 라베뉴`n견본주택|전국 4곳 개관 예정`n기준|부동산R114 집계" },
+      [pscustomobject]@{ type='table'; kicker='대표 단지 규모'; title='시티오씨엘 1,949가구'; body="위치|미추홀구 학익동`n규모|9개 동·최고 49층`n면적|전용 59~136㎡`n교통|2028년 학익역 개통 예정" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정 전'; title='예정과 공고를 구분'; body="학익역|2028년 개통 예정`n학교|용현학익초·학익중 개교 예정`n조망|일부 가구 서해 조망 가능`n청약 조건|단지별 모집공고 확인" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='청약 전 체크'; body="1. 단지별 특별·일반공급 일정`n2. 일반분양 물량과 주택형`n3. 분양가·자격·전매 제한`n4. 견본주택 개관 및 모집공고" }
     )
   }
 
-  if ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
+  if ([string]$article.title -match '화성 1만호 공공주택') {
     return @(
-      [pscustomobject]@{ type='cover'; kicker='서울 소규모주택정비'; title="320 → 591가구`n구의동 모아타운"; body='성북동 52가구 포함 총 643가구·통합심의 통과' },
-      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='주택과 보행환경을 함께 개선'; body="광진구|강변역·동서울터미널 도보권`n현황|노후·불량 건축물 81.6%`n생활 변화|끊긴 통학·보행 동선 연결`n성북구|48년 넘은 노후 주거지 정비" },
-      [pscustomobject]@{ type='table'; kicker='현재 사업 단계'; title='통합심의 수정·조건부 가결'; body="심의|제10차 소규모주택정비 통합심의`n구의동|모아타운 관리계획 수정가결`n성북동|사업시행계획 조건부가결`n심의일|2026년 8월 27일" },
-      [pscustomobject]@{ type='table'; kicker='숫자 비교'; title='총 643가구 공급 계획'; body="구의동 기존|320가구`n구의동 계획|591가구·271가구 증가`n구의동 임대|92가구 포함`n성북동 계획|52가구·14가구 증가" },
-      [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='심의 통과 뒤 절차가 남았습니다'; body="확인된 내용|관리계획·사업시행계획 심의 통과`n계획 물량|구의동 591·성북동 52가구`n미확정|착공·준공·입주 시점`n주의|후속 인가·사업 추진 과정 확인" },
-      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='고시와 사업 추진 일정'; body="구의동|관리계획 고시·개별 모아주택 추진`n성북동|사업시행계획 후속 절차`n생활환경|통학로·보행로 조성 일정`n공급 시점|착공·준공 계획 발표" }
+      [pscustomobject]@{ type='cover'; kicker='화성 공공주택 제안'; title="공공주택`n1만호 프로젝트"; body='화성특례시가 대통령 주재 국정설명회에서 정부에 건의' },
+      [pscustomobject]@{ type='number'; kicker='핵심 숫자'; title='1만호'; body="화성특례시가 건의한`n공공주택 공급 프로젝트 규모`n현재는 정부 건의 단계" },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='확정 사업이 아닌 정책 건의'; body="건의 주체|화성특례시`n건의 자리|민선 9기 시·군·구청장{br}국정설명회`n행사일|2026년 8월 27일`n상태|중앙정부에 정책 건의" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 확대와 연결'; body="목표|속도감 있는 주택 공급`n대상 지역|세부 대상지는 기사 미공개`n주택 유형|세부 유형은 기사 미공개`n일정|착공·입주 시점 미공개" },
+      [pscustomobject]@{ type='table'; kicker='함께 건의한 현안'; title='지역 성장 과제도 제시'; body="시민협치|화성동행기구 소개`n에너지|수도권 재생에너지{br}공급 거점 조성`n상생|주민참여형 수익 공유 모델`n주택|1만호 공공주택 프로젝트" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='확정 여부를 볼 지점'; body="1. 중앙정부의 사업 반영 여부`n2. 대상지·주택 유형 공개`n3. 사업 주체와 재원 확정`n4. 지구 지정·인허가·착공 일정" }
     )
   }
 
-  if ([string]$article.title -match '행복주택 1천484세대') {
+  if ([string]$article.title -match '부천형 역세권 정비사업') {
     return @(
-      [pscustomobject]@{ type='cover'; kicker='SH 행복주택'; title="1,484세대 모집`n9월 9~11일 접수"; body='신규 154·잔여 공가 391·예비입주자 939세대' },
-      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='시세 60~80% 수준 공공임대'; body="주요 대상|대학생·청년·신혼부부·고령자`n청년 거주|최대 10년`n유자녀 신혼부부|최대 14년`n고령자·주거급여 수급자|최대 20년" },
-      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='입주자 모집공고 발표'; body="공고일|2026년 8월 28일`n인터넷 접수|9월 9~11일`n방문 접수|고령자·장애인 9월 10~11일`n입주 시작|2027년 3월부터" },
-      [pscustomobject]@{ type='table'; kicker='공급량 비교'; title='154 + 391 + 939세대'; body="신규 단지|154세대`n잔여 공가|391세대`n예비 입주자|939세대`n총 모집|1,484세대" },
-      [pscustomobject]@{ type='table'; kicker='신청 자격'; title='공고문 기준을 모두 확인'; body="주택|무주택가구 구성원`n소득|도시근로자 월평균소득 100% 이하`n총자산|3억4,500만원 이하`n자동차|4,542만원 이하" },
-      [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='접수 뒤 발표 일정'; body="서류심사 대상자|2026년 9월 21일`n당첨자 발표|2027년 1월 29일`n입주|2027년 3월부터`n최종 확인|SH 모집공고·단지별 조건" }
+      [pscustomobject]@{ type='cover'; kicker='부천 원도심 정비'; title="소새울역·송내역`n2곳 선정"; body='역세권 2곳과 원도심 5곳을 하나의 정비사업으로 연계' },
+      [pscustomobject]@{ type='table'; kicker='선정 대상'; title='역세권 2곳 확정'; body="소새울역|소중어린이공원 일원{br}53,714.1㎡`n송내역|솔안말어린이공원 일원{br}53,535.4㎡`n선정 방식|현장 확인·실현 가능성 평가`n현재 단계|공모 대상지 선정" },
+      [pscustomobject]@{ type='number'; kicker='왜 중요한가'; title='2곳 + 5곳'; body="역세권 고밀개발 2곳과`n원도심 결합 정비 대상지 5곳을`n하나의 정비구역으로 연계" },
+      [pscustomobject]@{ type='table'; kicker='결합 대상'; title='원도심 5곳 연결'; body="소새울역 연계|원미동 115-1·59-3`n송내역 연계|삼정동 303-2`n추가 연계|오정동 559-5`n추가 연계|소사동 41-18" },
+      [pscustomobject]@{ type='table'; kicker='현재와 다음 단계'; title='주민 동의 50%가 관건'; body="현재|대상지 선정 완료`n입안 요청|토지등소유자 50% 이상 동의`n후속|관련 정비계획 절차 진행`n목표|2027년까지 정비계획 수립" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='아직 확정되지 않은 것'; body="1. 주민 동의율과 입안 요청 시점`n2. 정비구역 경계·용적률·세대수`n3. 공원·주차장 등 기반시설 계획`n4. 정비계획 결정·고시 일정" }
     )
   }
 
@@ -476,13 +443,7 @@ function New-Slides($article, [int]$number) {
     )
   }
 
-  if ([string]$article.title -match '하반기 7236가구 공모') {
-    $caption = @("🏗️ LH, 하반기 민참사업 7,236가구 공모 계획",'',"📌 현재 단계","8개 지구 9개 블록에서 민간사업자를 공모하기 전 단계입니다. 공공분양 3,360가구와 통합공공임대 3,876가구로 구성됩니다.",'',"🔎 왜 중요한가","민간에 매각할 예정이던 용지를 LH가 직접 개발하고 민간이 설계·시공을 맡는 직접시행 물량이 포함됩니다.",'',"🗓️ 다음 확인","블록별 공모 결과와 사업자 선정, 사업승인 뒤 2027년 6월 또는 12월로 계획된 실제 착공 일정을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
-    $caption = @("🏘️ 광진 구의동·성북동, 총 643가구 정비계획",'',"📌 현재 단계","구의동 모아타운 관리계획은 수정가결, 성북동 모아주택 사업시행계획은 조건부가결됐습니다.",'',"🔢 달라지는 규모","구의동은 320가구에서 591가구로 271가구 늘고, 성북동은 기존보다 14가구 늘어난 52가구를 계획했습니다.",'',"🗓️ 다음 확인","관리계획 고시와 후속 사업 절차, 통학로·보행로 조성 일정, 착공·준공 계획을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '행복주택 1천484세대') {
-    $caption = @("🏠 서울 SH 행복주택 1,484세대 모집",'',"📌 모집 구성","신규 단지 154세대, 잔여 공가 391세대, 예비 입주자 939세대입니다.",'',"👥 신청 대상","무주택가구 구성원 가운데 소득·자산·자동차 기준을 충족해야 합니다. 청년·신혼부부·고령자 등 공급 유형별 세부 자격은 공고문에서 확인해야 합니다.",'',"🗓️ 청약 일정","인터넷 접수는 9월 9~11일, 서류심사 대상자 발표는 9월 21일, 당첨자 발표는 2027년 1월 29일입니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '상계보람') {
+  if ([string]$article.title -match '상계보람') {
     $caption = @("🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",'',"📌 현재 사업 단계","노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",'',"🏢 계획 규모","기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",'',"🔢 숫자로 보면","기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%로 알려졌습니다. 계획용적률은 299.99%입니다.",'',"✅ 확인할 것","정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 다시 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '양주회천 A-26블록') {
     $caption = @("🏢 양주회천 A-26블록 공공분양 792가구",'',"📌 전용 59~84㎡ 구성","전용 59㎡ 394가구, 74㎡ 168가구, 84㎡ 230가구로 구성됩니다. 입주는 2029년 10월 예정입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일 접수합니다. 10월 당첨자 발표 후 12월 계약 체결 예정입니다.",'',"🚆 입지 체크","GTX-C 개통 예정인 덕정역과 도보 500m 이내입니다. 신청 자격과 분양가는 LH청약플러스 모집공고문에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
@@ -550,19 +511,13 @@ function New-Slides($article, [int]$number) {
 
   $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
   $numberText = ($numbers -join ' · ')
-  if (-not $numberText) { $numberText = '기사에 제시된 핵심 수치' }
-  $kind = Get-EditorialKind $article
-  $stage = Get-StageLabel $article
-  $audience = Get-AudienceLabel $kind
-  $nextChecks = Get-NextCheckRows $kind
 
   return @(
-    [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$region · $stage" },
-    [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='이번 변화의 영향 범위'; body="지역|$region`n기사 핵심|$summary`n주요 확인 대상|$audience`n기사 유형|$kind" },
-    [pscustomobject]@{ type='table'; kicker='현재 사업 단계'; title=$stage; body="현재|기사에 명시된 단계 기준`n근거|제목·본문의 행정 절차 표현`n주의|계획과 확정을 구분`n기준|기사 보도 시점" },
-    [pscustomobject]@{ type='number'; kicker='숫자 비교'; title=$numberText; body="기존·계획 수치는 같은 기준으로 비교합니다.`n$summary" },
-    [pscustomobject]@{ type='table'; kicker='아직 확정되지 않은 것'; title='계획과 확정은 다릅니다'; body="확인된 내용|$stage`n계획·예정|기사 표현 그대로 유지`n미확정 항목|후속 고시·공고 전 단정 금지`n확인 대상|규모·일정·조건의 변경 여부" },
-    [pscustomobject]@{ type='table'; kicker='다음 확인 포인트'; title='공식 절차에서 다시 볼 것'; body=$nextChecks }
+    [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$title" },
+    [pscustomobject]@{ type='table'; kicker='핵심만 보면'; title='그래서 뭐가 바뀌나'; body="분류|$category`n지역|$region`n출처|$source`n키워드|$topic" },
+    [pscustomobject]@{ type='number'; kicker='숫자 체크'; title=$numberText; body=$summary },
+    [pscustomobject]@{ type='table'; kicker='확인 포인트'; title='추진 단계와 일정을 나눠보세요'; body="추진 단계|기사에서 확인된 범위 중심`n일정|변경 가능성 함께 체크`n수치|보도 기준일 기준`n영향권|위치·노선·생활권 구분" },
+    [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 발표 내용과 실제 추진 단계를 구분`n2. 공급 물량·위치·일정을 함께 확인`n3. 교통·생활권 영향은 후속 절차까지 추적`n4. 투자·청약 판단은 공식 공고와 함께 비교" }
   )
 }
 
@@ -623,11 +578,11 @@ foreach ($index in $indexes) {
   if ($article.publishedKstDate) {
     try { $articleDisplayDate = ([datetime]::Parse([string]$article.publishedKstDate)).ToString('yyyy.MM.dd') } catch { $articleDisplayDate = [string]$article.publishedKstDate }
   }
+  if ([string]$article.title -match '화성 1만호 공공주택|부천형 역세권 정비사업') { $articleDisplayDate = '2026.08.28' }
   if ($slides.Count -lt 5 -or $slides.Count -gt 8) { throw "슬라이드 수 규칙 위반: $setName / $($slides.Count)장" }
 
   for ($i = 0; $i -lt $slides.Count; $i++) {
     $slide = $slides[$i]
-    $slidePhotoBgCss = if ($i -lt 2) { $setPhotoBgCss } else { '' }
     $num = '{0:D2}' -f ($i + 1)
     $safeTitle = (Html $slide.title) -replace "`n", '<br>'
     $safeBody = (Html $slide.body) -replace "`n", '<br>'
@@ -644,7 +599,7 @@ foreach ($index in $indexes) {
       $bodyHtml = "<div class='rows'>$($rows -join '')</div>"
     }
     $accent = if ($slide.type -eq 'cover') { "<div class='accent'></div>" } else { '' }
-    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$slidePhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($articleDisplayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
+    $doc = "<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>$baseCss$setPhotoBgCss</style></head><body><main class='slide $($slide.type)'><div class='photo-bg'></div><div class='count'>$($i+1)/$($slides.Count)</div><div class='inner'><div class='kicker'>$(Html $slide.kicker)</div><div class='title'>$safeTitle</div>$accent$bodyHtml</div><div class='footer'><span>출처: $(Html $article.source) ($articleDisplayDate)</span><span>$(Html $brand)</span></div></main></body></html>"
     $htmlPath = Join-Path $setDir "$num.html"
     $pngPath = Join-Path $setDir "$num.png"
     Set-Content -LiteralPath $htmlPath -Value $doc -Encoding UTF8
@@ -682,46 +637,62 @@ foreach ($index in $indexes) {
     '',
     "## 게시 전 확인",
     "- [ ] 기사 원문에서 수치·일정·사업 단계 확인",
-    "- [ ] 현재 단계·이전 대비 변화·영향 대상·다음 행정 절차를 모두 추출",
-    "- [ ] 표지가 일반 질문형이 아니라 구체적 숫자 또는 확정 단계 중심",
-    "- [ ] 계획·예정과 확정된 사실을 별도 카드에서 명확히 구분",
-    "- [ ] 기본 6장 정보 순서(결론→중요성→단계→숫자→미확정→다음 확인) 준수",
     "- [ ] 원인과 결과를 임의로 연결하지 않았는지 확인",
     "- [ ] 거래 사례·가격 언급은 기사 문맥과 함께 설명했는지 확인",
-    "- [ ] 공식 기사 이미지는 표지·설명 카드 1~2장에만 사용하고 나머지는 자체 비교표·타임라인·절차도로 구성",
-    "- [ ] 인물 사진과 텍스트 중심 공고문·표·포스터·문서 캡처는 배경 이미지에서 제외",
-    "- [ ] 건물 전경·조감도·지형도·위치도·구역도·배치도·노선도만 우선 적용",
+    "- [ ] 조감도·위치도·노선도 등 공식 원문 발췌 자료만 사용했는지 확인",
     "- [ ] 사용 조건이 불분명한 이미지는 게시 전 사용자 확인",
     "- [ ] 5~8장 구성, 1080x1350 PNG 확인"
   )
   $review -join "`r`n" | Set-Content -LiteralPath (Join-Path $setDir 'REVIEW.md') -Encoding UTF8
 
-  $rawHashtagList = @(Get-ArticleHashtags $article)
-  $genericTags = @('#부동산뉴스', '#주택공급', '#부동산브리핑')
-  $specificTags = @($rawHashtagList | Where-Object { $_ -notin $genericTags })
-  $hashtagList = @(($specificTags + $genericTags) | Select-Object -Unique | Select-Object -First 5)
+  $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '하반기 7236가구 공모') {
-    $caption = @("🏗️ LH, 하반기 민참사업 7,236가구 공모 계획",'',"📌 현재 단계","8개 지구 9개 블록에서 민간사업자를 공모하기 전 단계입니다. 공공분양 3,360가구와 통합공공임대 3,876가구로 구성됩니다.",'',"🔎 왜 중요한가","민간에 매각할 예정이던 용지를 LH가 직접 개발하고 민간이 설계·시공을 맡는 직접시행 물량이 포함됩니다.",'',"🗓️ 다음 확인","블록별 공모 결과와 사업자 선정, 사업승인 뒤 2027년 6월 또는 12월로 계획된 실제 착공 일정을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '광진 모아타운.*성북 모아주택') {
-    $caption = @("🏘️ 광진 구의동·성북동, 총 643가구 정비계획",'',"📌 현재 단계","구의동 모아타운 관리계획은 수정가결, 성북동 모아주택 사업시행계획은 조건부가결됐습니다.",'',"🔢 달라지는 규모","구의동은 320가구에서 591가구로 271가구 늘고, 성북동은 기존보다 14가구 늘어난 52가구를 계획했습니다.",'',"🗓️ 다음 확인","관리계획 고시와 후속 사업 절차, 통학로·보행로 조성 일정, 착공·준공 계획을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '행복주택 1천484세대') {
-    $caption = @("🏠 서울 SH 행복주택 1,484세대 모집",'',"📌 모집 구성","신규 단지 154세대, 잔여 공가 391세대, 예비 입주자 939세대입니다.",'',"👥 신청 대상","무주택가구 구성원 가운데 소득·자산·자동차 기준을 충족해야 합니다. 청년·신혼부부·고령자 등 공급 유형별 세부 자격은 공고문에서 확인해야 합니다.",'',"🗓️ 청약 일정","인터넷 접수는 9월 9~11일, 서류심사 대상자 발표는 9월 21일, 당첨자 발표는 2027년 1월 29일입니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
-  } elseif ([string]$article.title -match '상계보람') {
+  if ([string]$article.title -match '9월 첫주 3713가구') {
     $caption = @(
-      "🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",
+      "🏢 9월 첫째 주 3,713가구, 모두 인천에서 공급됩니다",
       '',
-      "📌 현재 사업 단계",
-      "노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",
+      "📌 전체 공급 물량",
+      "전국 3개 단지에서 총 3,713가구가 공급되며, 이 가운데 일반분양은 2,387가구입니다. 3개 단지가 모두 인천에 집중됐습니다.",
       '',
-      "🏢 계획 규모",
-      "기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",
+      "🏙️ 주요 단지",
+      "미추홀구 시티오씨엘9단지 오션파크뷰와 서구 검암역 푸르지오 라베뉴 등의 청약이 진행됩니다. 시티오씨엘9단지는 총 1,949가구, 최고 49층 규모입니다.",
       '',
-      "🔢 숫자로 보면",
-      "기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%입니다. 현재 용적률은 약 197%, 계획용적률은 299.99%입니다.",
+      "🔎 다음 확인",
+      "단지별 특별·일반공급 일정과 주택형, 분양가, 신청 자격은 입주자 모집공고에서 확인해야 합니다. 학익역과 학교 개교 일정은 아직 예정 단계입니다.",
       '',
-      "✅ 다음 절차",
-      "정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 달라질 수 있습니다.",
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '화성 1만호 공공주택') {
+    $caption = @(
+      "🏗️ 화성특례시, 공공주택 1만호 프로젝트를 정부에 건의했습니다",
+      '',
+      "📌 현재 단계",
+      "화성특례시가 대통령 주재 민선 9기 시·군·구청장 국정설명회에서 1만호 공공주택 공급 프로젝트를 정책 과제로 건의했습니다.",
+      '',
+      "🔢 핵심 숫자",
+      "제안된 공급 규모는 1만호입니다. 다만 대상지와 주택 유형, 사업 주체, 착공·입주 일정은 기사에서 공개되지 않았습니다.",
+      '',
+      "🔎 다음 확인",
+      "현재는 확정 사업이 아닌 정책 건의 단계입니다. 중앙정부 반영 여부와 대상지 공개, 재원·사업 주체, 지구 지정과 인허가 일정을 순서대로 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '부천형 역세권 정비사업') {
+    $caption = @(
+      "🏙️ 부천형 역세권 정비사업, 소새울역·송내역 2곳이 선정됐습니다",
+      '',
+      "📌 선정 대상",
+      "소새울역 소중어린이공원 일원과 송내역 솔안말어린이공원 일원이 대상지로 선정됐습니다. 두 역세권과 원도심 결합 정비 대상지 5곳을 연계하는 방식입니다.",
+      '',
+      "🗺️ 왜 중요한가",
+      "역세권 주거지역의 고밀개발과 떨어진 원도심 정비 지역을 하나의 정비구역으로 묶어 추진하는 부천형 모델입니다.",
+      '',
+      "🔎 다음 확인",
+      "현재는 대상지 선정 단계입니다. 토지등소유자 50% 이상의 동의를 얻어 입안을 요청해야 하며, 부천시는 2027년까지 정비계획 수립 완료를 목표로 하고 있습니다.",
       '',
       "출처: $($article.source)",
       '',
@@ -877,19 +848,14 @@ foreach ($index in $indexes) {
     }
   } else {
     $caption = @(
-      "🏠 $($article.region), $(Short-Text $article.title 58)",
+      "$($article.region) $($article.title)",
       '',
-      "📌 현재 단계",
-      "$(Get-StageLabel $article)",
-      '',
-      "🔎 왜 중요한가",
+      "▪ $($article.title)",
       "$(Short-Text $article.summary 160)",
       '',
-      "👥 주요 확인 대상",
-      "$(Get-AudienceLabel (Get-EditorialKind $article))",
-      '',
-      "🗓️ 다음 확인",
-      "후속 고시·공고에서 규모, 일정, 적용 조건의 확정 여부를 확인합니다.",
+      "▪ 확인할 것",
+      "발표 내용과 실제 추진 일정은 구분해서 확인하세요.",
+      "공급 물량, 위치, 교통 영향권은 후속 공고와 행정 절차에 따라 달라질 수 있습니다.",
       '',
       "출처: $($article.source)",
       '',
