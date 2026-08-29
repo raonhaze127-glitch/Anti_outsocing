@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-28",
   "numbers": "28",
   "expected_articles": [
@@ -9,9 +9,9 @@
       "source": "연합뉴스"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "requested_at": "2026-08-29T00:00:00+09:00",
-  "note": "Publish only the reviewed August 28 article 28 carousel after title/source verification."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "2026-08-29T11:36:00+09:00",
+  "note": "Article 28 was published successfully. Disabled to prevent duplicate posting."
 }
