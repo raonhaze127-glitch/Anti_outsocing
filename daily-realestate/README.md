@@ -192,6 +192,48 @@ GitHub Actions:
 - 사업 단계 표현
 - 출처·날짜 표기
 
+### GitHub Actions 완전 자동 예약 게시
+
+PC나 Codex 앱이 꺼져 있어도 실행해야 하는 예약은 로컬 Codex 자동화를 사용하지 않는다. `daily-realestate/scheduled-publish-queue.json`에 검수 완료 기사를 등록하고 `Dispatch scheduled Instagram publish` 워크플로가 GitHub 서버에서 5분마다 기한 도래 여부를 확인한다.
+
+예약 작업 형식:
+
+```json
+{
+  "id": "2026-08-29-article-3",
+  "enabled": true,
+  "status": "pending",
+  "publish_at": "2026-08-29T19:10:00+09:00",
+  "date": "2026-08-29",
+  "number": 3,
+  "title": "검수한 candidates.json의 정확한 제목",
+  "source": "정확한 언론사명"
+}
+```
+
+예약 등록은 후보 제목과 출처를 수동 복사하지 않고 다음 스크립트로 수행한다.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\schedule-instagram-publish.ps1 `
+  -Date "2026-08-29" `
+  -Number 3 `
+  -PublishAt "2026-08-29T19:10:00+09:00"
+```
+
+스크립트가 해당 후보의 제목·출처를 자동으로 큐에 고정한다. 이후 `scheduled-publish-queue.json`을 커밋해 `main`에 push하면 예약이 활성화된다.
+
+동작 순서:
+
+1. GitHub Actions가 5분마다 `pending` 작업 중 기한이 지난 첫 작업을 찾는다.
+2. 번호·제목·출처를 검수한 후보 스냅샷과 정확히 비교한다.
+3. 일치할 때만 작업을 `dispatched`로 바꾸고 큐 변경을 `main`에 기록한다.
+4. GitHub API의 `workflow_dispatch`로 기존 게시 워크플로를 직접 호출한다. 예약 큐에 고정된 기대 제목·출처도 입력으로 전달해 게시 직전에 다시 검증한다.
+5. 기존 게시 워크플로가 카드 제작·공개 URL 검증·Meta 게시까지 수행한다.
+
+수동 `publish-request.json` 게시도 성공 후 GitHub Actions가 자동으로 `enabled:false`로 되돌린다.
+
+예약 시각은 ISO 8601 한국시간 오프셋(`+09:00`)을 포함해 기록한다. GitHub cron 특성상 실제 시작은 예약 시각에서 최대 약 5분 늦을 수 있다. 실패한 작업은 자동 재게시하지 않아 중복 게시를 방지한다.
+
 ## 10. 링크 기반 제작·게시
 
 파일:

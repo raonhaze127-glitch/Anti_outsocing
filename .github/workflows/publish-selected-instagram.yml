@@ -26,6 +26,14 @@ on:
         required: true
         default: false
         type: boolean
+      expected_title:
+        description: "Exact reviewed title for scheduled publishing. Leave empty only for a manual reviewed dispatch."
+        required: false
+        type: string
+      expected_source:
+        description: "Exact reviewed source for scheduled publishing. Leave empty only for a manual reviewed dispatch."
+        required: false
+        type: string
 
 jobs:
   publish:
@@ -42,6 +50,37 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Verify scheduled article mapping
+        if: ${{ inputs.expected_title != '' || inputs.expected_source != '' }}
+        shell: pwsh
+        env:
+          SCHEDULE_DATE: ${{ inputs.date }}
+          SCHEDULE_NUMBERS: ${{ inputs.numbers }}
+          EXPECTED_TITLE: ${{ inputs.expected_title }}
+          EXPECTED_SOURCE: ${{ inputs.expected_source }}
+        run: |
+          if (-not $env:EXPECTED_TITLE -or -not $env:EXPECTED_SOURCE) {
+            throw 'Both expected_title and expected_source are required for verified scheduled publishing.'
+          }
+          $numbers = @($env:SCHEDULE_NUMBERS -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique)
+          if ($numbers.Count -ne 1) { throw 'Verified scheduled publishing supports exactly one article per run.' }
+          $candidatePath = ".\daily-realestate\output\$($env:SCHEDULE_DATE)\candidates.json"
+          if (-not (Test-Path -LiteralPath $candidatePath)) { throw "Candidates not found: $candidatePath" }
+          $loaded = Get-Content -LiteralPath $candidatePath -Raw -Encoding UTF8 | ConvertFrom-Json
+          $candidates = @($loaded | ForEach-Object { $_ })
+          $number = $numbers[0]
+          if ($number -lt 1 -or $number -gt $candidates.Count) { throw "Invalid article number: $number" }
+          $normalize = { param([string]$value) (($value -replace '\s+', ' ').Trim()) }
+          $actual = $candidates[$number - 1]
+          $actualTitle = & $normalize ([string]$actual.title)
+          $actualSource = & $normalize ([string]$actual.source)
+          $expectedTitle = & $normalize $env:EXPECTED_TITLE
+          $expectedSource = & $normalize $env:EXPECTED_SOURCE
+          if ($actualTitle -ne $expectedTitle -or $actualSource -ne $expectedSource) {
+            throw "Reviewed mapping mismatch. Expected '$expectedTitle' / '$expectedSource'; actual '$actualTitle' / '$actualSource'."
+          }
+          Write-Host "Verified $number. $actualTitle | $actualSource"
 
       - name: Build selected carousels
         shell: pwsh

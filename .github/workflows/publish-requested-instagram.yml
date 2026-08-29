@@ -9,7 +9,7 @@ jobs:
   publish:
     runs-on: windows-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
 
@@ -218,6 +218,24 @@ jobs:
             $imageBaseUrl = "$pageUrl/realestate/$date/$setName"
             powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\publish-instagram-carousel.ps1 -CarouselDir $carouselDir -ImageBaseUrl $imageBaseUrl
           }
+
+      - name: Disable completed publish request
+        if: ${{ success() && steps.request.outputs.enabled == 'true' }}
+        shell: pwsh
+        run: |
+          $path = '.\daily-realestate\publish-request.json'
+          $request = Get-Content -LiteralPath $path -Raw -Encoding UTF8 | ConvertFrom-Json
+          $request.enabled = $false
+          $request.publish_to_instagram = $false
+          $request.review_confirmed = $false
+          $request.image_usage_confirmed = $false
+          $request.note = "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+          $request | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $path -Encoding UTF8
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $path
+          git commit -m "Disable completed Instagram publish request [skip ci]"
+          git push origin HEAD:main
 
       - name: Upload publish logs
         if: always()
