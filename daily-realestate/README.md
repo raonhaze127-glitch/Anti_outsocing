@@ -232,7 +232,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\schedule-
 
 수동 `publish-request.json` 게시도 성공 후 GitHub Actions가 자동으로 `enabled:false`로 되돌린다.
 
-예약 시각은 ISO 8601 한국시간 오프셋(`+09:00`)을 포함해 기록한다. GitHub cron 특성상 실제 시작은 예약 시각에서 최대 약 5분 늦을 수 있다. 실패한 작업은 자동 재게시하지 않아 중복 게시를 방지한다.
+예약 시각은 ISO 8601 한국시간 오프셋(`+09:00`)을 포함해 기록한다. 큐는 5분 간격으로 확인하지만 GitHub의 예약 이벤트 자체가 지연될 수 있으므로 실제 시작 시각은 수분 이상 늦어질 수 있다. 실패한 작업은 자동 재게시하지 않아 중복 게시를 방지한다.
 
 ## 10. 링크 기반 제작·게시
 
