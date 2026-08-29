@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-29",
   "numbers": "12",
   "expected_articles": [
@@ -9,9 +9,9 @@
       "source": "중앙이코노미뉴스"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "requested_at": "2026-08-29T21:11:00+09:00",
-  "note": "Immediate publish requested for reviewed article 12 after scheduled dispatcher did not run."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "2026-08-29T12:11:00+00:00",
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
