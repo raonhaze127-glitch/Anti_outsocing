@@ -1,17 +1,17 @@
 {
-  "enabled": false,
+  "enabled": true,
   "date": "2026-08-28",
-  "numbers": "26",
+  "numbers": "28",
   "expected_articles": [
     {
-      "number": 26,
-      "title": "광진 모아타운·성북 모아주택, 심의 통과…643가구 공급",
-      "source": "파이낸셜뉴스"
+      "number": 28,
+      "title": "SH, 두산위브더프레스티지 등 행복주택 1천484세대 입주자 모집",
+      "source": "연합뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-28T21:36:00+09:00",
-  "note": "Article 26 published successfully after the missed heartbeat. Disabled to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-29T00:00:00+09:00",
+  "note": "Publish only the reviewed August 28 article 28 carousel after title/source verification."
 }

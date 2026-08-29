@@ -74,7 +74,37 @@ jobs:
         if: ${{ steps.request.outputs.enabled == 'true' }}
         shell: pwsh
         run: |
-          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date "${{ steps.request.outputs.date }}" -Numbers "${{ steps.request.outputs.numbers }}"
+          $request = Get-Content -LiteralPath .\daily-realestate\publish-request.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          $date = "${{ steps.request.outputs.date }}"
+          $numbers = "${{ steps.request.outputs.numbers }}" -split '[,\s]+' | Where-Object { $_ -match '^\d+$' } | ForEach-Object { [int]$_ } | Select-Object -Unique
+
+          if (-not $request.expected_articles -or @($request.expected_articles).Count -ne $numbers.Count) {
+            throw "expected_articles must contain exactly one title/source record for every requested number"
+          }
+
+          $candidatesPath = ".\daily-realestate\output\$date\candidates.json"
+          if (-not (Test-Path -LiteralPath $candidatesPath)) { throw "Candidate snapshot not found: $candidatesPath" }
+          $candidates = Get-Content -LiteralPath $candidatesPath -Raw -Encoding UTF8 | ConvertFrom-Json
+          foreach ($expected in @($request.expected_articles)) {
+            $number = [int]$expected.number
+            if ($numbers -notcontains $number) { throw "expected_articles includes unrequested number $number" }
+            $candidate = @($candidates) | Select-Object -Index ($number - 1)
+            if (-not $candidate -or $candidate.title -ne $expected.title -or $candidate.source -ne $expected.source) {
+              throw "Candidate mismatch for number $number. Expected '$($expected.title)' / '$($expected.source)'"
+            }
+          }
+
+          foreach ($number in $numbers) {
+            $setName = "article-$('{0:D2}' -f $number)-carousel"
+            $carouselDir = ".\daily-realestate\output\$date\$setName"
+            $cards = if (Test-Path -LiteralPath $carouselDir) { @(Get-ChildItem -LiteralPath $carouselDir -Filter '*.png') } else { @() }
+            $isPrepared = (Test-Path -LiteralPath (Join-Path $carouselDir 'REVIEW.md')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'article-detail.json')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'caption.txt')) -and $cards.Count -eq 6
+            if ($isPrepared) {
+              Write-Host "Using prebuilt reviewed carousel: $setName"
+            } else {
+              powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date $date -Numbers "$number"
+            }
+          }
 
       - name: Prepare public JPEG site
         if: ${{ steps.request.outputs.enabled == 'true' }}

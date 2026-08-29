@@ -1,0 +1,29 @@
+﻿{
+    "number":  28,
+    "collectedAt":  "2026-08-28T15:56:51.9001417+09:00",
+    "title":  "SH, 두산위브더프레스티지 등 행복주택 1천484세대 입주자 모집",
+    "source":  "연합뉴스",
+    "sourceUrl":  "https://www.yna.co.kr",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpR9IBYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpRw?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpR9IBYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpRw?oc=5",
+    "resolvedUrl":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpR9IBYEFVX3lxTE9IQ2pMOG5BRi00VHBCbW45eGJQeHk3cEMtTEZrUFF2WVJ1LVdIRng4NWZMb3VGSzZ5MlUzUHJJY0JLeHR3T29qeHlucHdoR19wb19oMEhCMXlaM2lfZzVpRw?oc=5\u0026hl=en-US\u0026gl=US\u0026ceid=US:en",
+    "fetchStatus":  "http_200",
+    "metaTitle":  "Google News",
+    "metaDescription":  "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+    "bodyExcerpt":  "Google News",
+    "imageCandidates":  [
+                            {
+                                "url":  "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+                                "source":  "og:image",
+                                "alt":  "",
+                                "officialMaterialLikely":  false,
+                                "usage":  "do_not_use"
+                            }
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Google News intermediary page only. Original article body was not available from this URL.",
+                            "No clearly official rendering/map/plan image candidate detected. Do not use images automatically."
+                        ]
+}
