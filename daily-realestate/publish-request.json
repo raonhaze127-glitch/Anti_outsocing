@@ -1,10 +1,17 @@
 {
   "enabled": true,
-  "date": "2026-08-27",
-  "numbers": "1,2,13,21",
+  "date": "2026-08-28",
+  "numbers": "28",
+  "expected_articles": [
+    {
+      "number": 28,
+      "title": "SH, 두산위브더프레스티지 등 행복주택 1천484세대 입주자 모집",
+      "source": "연합뉴스"
+    }
+  ],
   "publish_to_instagram": true,
   "review_confirmed": true,
   "image_usage_confirmed": true,
-  "requested_at": "2026-08-27T17:09:53+09:00",
-  "note": "Publish reviewed articles 1, 2, 13, and 21 with approved article-image backgrounds."
+  "requested_at": "2026-08-29T00:00:00+09:00",
+  "note": "Publish only the reviewed August 28 article 28 carousel after title/source verification."
 }
