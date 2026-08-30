@@ -1,17 +1,17 @@
 {
-  "enabled": false,
-  "date": "2026-08-29",
-  "numbers": "12",
+  "enabled": true,
+  "date": "2026-08-30",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 12,
-      "title": "'부천형 역세권 정비사업' 대상지 2곳 선정",
-      "source": "중앙이코노미뉴스"
+      "number": 1,
+      "title": "‘20년 만기’ 장기전세 9361가구…서울시 “연장·분양 불가”",
+      "source": "경북매일"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-29T12:11:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-08-30T10:26:00+09:00",
+  "note": "Publish reviewed article 1 immediately. Disable automatically after success."
 }
