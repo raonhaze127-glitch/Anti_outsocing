@@ -1,10 +1,30 @@
 ﻿{
-    "runAt":  "2026-08-30T00:36:18.7551314+00:00",
+    "runAt":  "2026-08-30T10:23:29.2982337+09:00",
     "date":  "2026-08-30",
-    "fetched":  159,
-    "candidates":  19,
-    "selected":  0,
-    "slides":  0,
-    "rendered":  false,
-    "state":  "awaiting_selection"
+    "selectedNumbers":  [
+                            1,
+                            10
+                        ],
+    "selected":  2,
+    "sets":  [
+                 {
+                     "number":  1,
+                     "title":  "‘20년 만기’ 장기전세 9361가구…서울시 “연장·분양 불가”",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-08-30\\article-01-carousel",
+                     "slides":  5,
+                     "rendered":  true,
+                     "detail":  true
+                 },
+                 {
+                     "number":  10,
+                     "title":  "월세 25만원부터…서울 행복주택 1484세대 공급한다 \u003e 뉴스",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-08-30\\article-10-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
 }

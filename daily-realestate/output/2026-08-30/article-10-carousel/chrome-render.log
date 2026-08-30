@@ -1,0 +1,28 @@
+﻿## Attempt 1 / headless-new
+Browser: C:\Program Files\Google\Chrome\Application\chrome.exe
+Exit code: 
+Screenshot path: C:\Users\nahah\Documents\Anti_outsocing\_schedule-20260829\daily-realestate\output\2026-08-30\article-10-carousel\06.png
+HTML URL: file:///C:/Users/nahah/Documents/Anti_outsocing/_schedule-20260829/daily-realestate/output/2026-08-30/article-10-carousel/06.html
+Arguments:
+--headless=new
+--user-data-dir=C:\Users\nahah\Documents\Anti_outsocing\_schedule-20260829\daily-realestate\output\2026-08-30\_chrome-profile\profile-1
+--no-sandbox
+--disable-dev-shm-usage
+--disable-extensions
+--disable-background-networking
+--allow-file-access-from-files
+--no-first-run
+--hide-scrollbars
+--window-size=1080,1350
+--force-device-scale-factor=1
+--run-all-compositor-stages-before-draw
+--virtual-time-budget=1500
+--password-store=basic
+--disable-gpu
+--disable-gpu-compositing
+--enable-unsafe-swiftshader
+--screenshot=C:\Users\nahah\Documents\Anti_outsocing\_schedule-20260829\daily-realestate\output\2026-08-30\article-10-carousel\06.png
+file:///C:/Users/nahah/Documents/Anti_outsocing/_schedule-20260829/daily-realestate/output/2026-08-30/article-10-carousel/06.html
+Output:
+
+

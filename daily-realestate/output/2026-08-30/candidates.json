@@ -1,19 +1,5 @@
 ﻿[
     {
-        "title":  "서울시, 구의·성북동 노후주거지 정비…모아주택 643세대 공급",
-        "summary":  "서울시, 구의·성북동 노후주거지 정비…모아주택 643세대 공급 AP신문",
-        "source":  "AP신문",
-        "sourceUrl":  "https://www.apnews.kr",
-        "url":  "https://news.google.com/rss/articles/CBMibEFVX3lxTE13N2tfdDhrNFZzQy1tYzJhS1N3YXZPM3VKY3lXWW0yVjZVSWY3cWxJbW1MWjRjdFlYZEFfT2RaUEVBb1UyR2xIb2ZsRVRnRDZpU21uUUxvX2RZWjRLUTdnNjE5czMtVDVFWGlsedIBbEFVX3lxTE13N2tfdDhrNFZzQy1tYzJhS1N3YXZPM3VKY3lXWW0yVjZVSWY3cWxJbW1MWjRjdFlYZEFfT2RaUEVBb1UyR2xIb2ZsRVRnRDZpU21uUUxvX2RZWjRLUTdnNjE5czMtVDVFWGlseQ?oc=5",
-        "published":  "Sat, 29 Aug 2026 16:01:17 GMT",
-        "score":  29,
-        "publishedKst":  "2026-08-30 01:01",
-        "publishedKstDate":  "2026-08-30",
-        "category":  "주택공급",
-        "region":  "서울",
-        "clusterKey":  "title:서울시-구의-성북동-노후주거지-정비-모아주택-643세대-공급"
-    },
-    {
         "title":  "‘20년 만기’ 장기전세 9361가구…서울시 “연장·분양 불가”",
         "summary":  "‘20년 만기’ 장기전세 9361가구…서울시 “연장·분양 불가” 경북매일",
         "source":  "경북매일",
@@ -26,6 +12,34 @@
         "category":  "청약·분양",
         "region":  "서울",
         "clusterKey":  "title:‘20년-만기-장기전세-9361가구-서울시-연장-분양-불가"
+    },
+    {
+        "title":  "LH 개혁 ‘축소→공급 강화’…연 10만호 착공 체제로",
+        "summary":  "LH 개혁 ‘축소→공급 강화’…연 10만호 착공 체제로 한스경제",
+        "source":  "한스경제",
+        "sourceUrl":  "http://www.hansbiz.co.kr",
+        "url":  "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5YjU4eExPb1R1LUdzbU9oQXZoUTA2X2ZFc3dKMUZXbmVXVHBSRXk2Q0xNcEc5Xy1EdVd0N1ZsVThlQXQtRllkNHF4T1RuTUUyZzJ3eWt0RV9FaGhNQlA2YmJIM0ZEamFVVkFsSmJxRdIBb0FVX3lxTFB5YjU4eExPb1R1LUdzbU9oQXZoUTA2X2ZFc3dKMUZXbmVXVHBSRXk2Q0xNcEc5Xy1EdVd0N1ZsVThlQXQtRllkNHF4T1RuTUUyZzJ3eWt0RV9FaGhNQlA2YmJIM0ZEamFVVkFsSmJxRQ?oc=5",
+        "published":  "Sat, 29 Aug 2026 23:23:17 GMT",
+        "score":  29,
+        "publishedKst":  "2026-08-30 08:23",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "주택공급",
+        "region":  "전국",
+        "clusterKey":  "title:lh-개혁-‘축소→공급-강화-10만호-착공-체제로-lh"
+    },
+    {
+        "title":  "서울시, 구의·성북동 노후주거지 정비…모아주택 643세대 공급",
+        "summary":  "서울시, 구의·성북동 노후주거지 정비…모아주택 643세대 공급 AP신문",
+        "source":  "AP신문",
+        "sourceUrl":  "https://www.apnews.kr",
+        "url":  "https://news.google.com/rss/articles/CBMibEFVX3lxTE13N2tfdDhrNFZzQy1tYzJhS1N3YXZPM3VKY3lXWW0yVjZVSWY3cWxJbW1MWjRjdFlYZEFfT2RaUEVBb1UyR2xIb2ZsRVRnRDZpU21uUUxvX2RZWjRLUTdnNjE5czMtVDVFWGlsedIBbEFVX3lxTE13N2tfdDhrNFZzQy1tYzJhS1N3YXZPM3VKY3lXWW0yVjZVSWY3cWxJbW1MWjRjdFlYZEFfT2RaUEVBb1UyR2xIb2ZsRVRnRDZpU21uUUxvX2RZWjRLUTdnNjE5czMtVDVFWGlseQ?oc=5",
+        "published":  "Sat, 29 Aug 2026 16:01:17 GMT",
+        "score":  29,
+        "publishedKst":  "2026-08-30 01:01",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "주택공급",
+        "region":  "서울",
+        "clusterKey":  "title:서울시-구의-성북동-노후주거지-정비-모아주택-643세대-공급"
     },
     {
         "title":  "서울시민 \"스마트화 필요 1순위는 도로혼잡·미세먼지…\"",
@@ -56,20 +70,6 @@
         "clusterKey":  "title:장기전세-20년-채운-입주민들-살게-해달라-서울시-불가"
     },
     {
-        "title":  "경기도 건의 ‘노후청사 복합개발’ 특별법 반영…주민센터·우체국에 주택 공급",
-        "summary":  "경기도 건의 ‘노후청사 복합개발’ 특별법 반영…주민센터·우체국에 주택 공급 이코노뉴스",
-        "source":  "이코노뉴스",
-        "sourceUrl":  "https://www.econonews.co.kr",
-        "url":  "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJbWxhRVFreVdmTW5fR3B2aGV3WXJrMkstTHRsS3J5aUkzTkp2WjZYZGxSYnhuWUI1ZTBxelZjeDRSTTFreXBDRXFVVWd3eVdodmVwSk5KUkxZRGh5NUNveU91WTQtQjdGT19yZS1Maw?oc=5",
-        "published":  "Sat, 29 Aug 2026 23:55:00 GMT",
-        "score":  19,
-        "publishedKst":  "2026-08-30 08:55",
-        "publishedKstDate":  "2026-08-30",
-        "category":  "주택공급",
-        "region":  "경기",
-        "clusterKey":  "title:경기도-건의-‘노후청사-복합개발-특별법-반영-주민센터-우체국에"
-    },
-    {
         "title":  "노후 공공청사 복합개발 특별법 통과…경기도, 주택 공급 물꼬",
         "summary":  "노후 공공청사 복합개발 특별법 통과…경기도, 주택 공급 물꼬 동행미디어 시대",
         "source":  "동행미디어 시대",
@@ -82,6 +82,20 @@
         "category":  "주택공급",
         "region":  "경기",
         "clusterKey":  "title:노후-공공청사-복합개발-특별법-통과-경기도-주택-공급"
+    },
+    {
+        "title":  "경기도 건의 ‘노후청사 복합개발’ 특별법 반영…주민센터·우체국에 주택 공급",
+        "summary":  "경기도 건의 ‘노후청사 복합개발’ 특별법 반영…주민센터·우체국에 주택 공급 이코노뉴스",
+        "source":  "이코노뉴스",
+        "sourceUrl":  "https://www.econonews.co.kr",
+        "url":  "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJbWxhRVFreVdmTW5fR3B2aGV3WXJrMkstTHRsS3J5aUkzTkp2WjZYZGxSYnhuWUI1ZTBxelZjeDRSTTFreXBDRXFVVWd3eVdodmVwSk5KUkxZRGh5NUNveU91WTQtQjdGT19yZS1Maw?oc=5",
+        "published":  "Sat, 29 Aug 2026 23:55:00 GMT",
+        "score":  19,
+        "publishedKst":  "2026-08-30 08:55",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "주택공급",
+        "region":  "경기",
+        "clusterKey":  "title:경기도-건의-‘노후청사-복합개발-특별법-반영-주민센터-우체국에"
     },
     {
         "title":  "신동화 구리시장, 경기도교육감에 \u0027구리교육지원청 신설\u0027 건의",
@@ -98,6 +112,20 @@
         "clusterKey":  "title:신동화-구리시장-경기도교육감에-구리교육지원청-신설-건의-신동화-구리시장"
     },
     {
+        "title":  "롯데·현대건설 컨소시움, 안양 충훈부 재개발 수주…1조4278억원 공사 규모",
+        "summary":  "롯데·현대건설 컨소시움, 안양 충훈부 재개발 수주…1조4278억원 공사 규모 서울타임즈뉴스",
+        "source":  "서울타임즈뉴스",
+        "sourceUrl":  "https://www.seoultimes.news",
+        "url":  "https://news.google.com/rss/articles/CBMia0FVX3lxTE50OTYzaGF0aEQ4M3ZUOWJKUzd5bDFnYXJSU0pNVndicjViaDRhTnZ2Rlo0VWcwT21FQWJLVDhoblhrcXk1c2NHMnFfLVlrMEpDRERBWEJwWXNPZHJXem9KbVNLM3J0VlhWc3Fv?oc=5",
+        "published":  "Sun, 30 Aug 2026 00:50:03 GMT",
+        "score":  7,
+        "publishedKst":  "2026-08-30 09:50",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "재개발·재건축",
+        "region":  "서울",
+        "clusterKey":  "title:롯데-현대건설-컨소시움-안양-충훈부-재개발-수주-1조4278억원"
+    },
+    {
         "title":  "월세 25만원부터…서울 행복주택 1484세대 공급한다 \u003e 뉴스",
         "summary":  "월세 25만원부터…서울 행복주택 1484세대 공급한다 \u003e 뉴스 지데일리",
         "source":  "지데일리",
@@ -110,20 +138,6 @@
         "category":  "주택공급",
         "region":  "서울",
         "clusterKey":  "title:월세-25만원부터-서울-행복주택-1484세대-공급한다-뉴스-월세"
-    },
-    {
-        "title":  "일원상록수, 추진위원회 승인 완료…일원역 재건축 벨트 본격 점화",
-        "summary":  "일원상록수, 추진위원회 승인 완료…일원역 재건축 벨트 본격 점화 디벨로퍼뉴스",
-        "source":  "디벨로퍼뉴스",
-        "sourceUrl":  "https://www.dpnews.co.kr",
-        "url":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZY2tLZ1lsRzZCVVVDVG42WHFYY3FUV0Z5dGVmclJLcjBtR3lfbnVINEVxLUpIOTFzSHdyT3FNcGFmcmNTRkszV012eEFZeEMzQl9tczFPc1FnVVY3Z1F3Vi03LXZTUkND?oc=5",
-        "published":  "Sat, 29 Aug 2026 22:58:55 GMT",
-        "score":  7,
-        "publishedKst":  "2026-08-30 07:58",
-        "publishedKstDate":  "2026-08-30",
-        "category":  "재개발·재건축",
-        "region":  "전국",
-        "clusterKey":  "title:일원상록수-추진위원회-승인-완료-일원역-재건축-벨트-본격"
     },
     {
         "title":  "국토부, 서울 강남 1만3천가구 \u0027탄천 부지\u0027 주택공급 본격 검토",
@@ -154,6 +168,34 @@
         "clusterKey":  "title:10대-건설사-1순위-청약률-4대-非10대-보다-6배"
     },
     {
+        "title":  "일원상록수, 추진위원회 승인 완료…일원역 재건축 벨트 본격 점화",
+        "summary":  "일원상록수, 추진위원회 승인 완료…일원역 재건축 벨트 본격 점화 디벨로퍼뉴스",
+        "source":  "디벨로퍼뉴스",
+        "sourceUrl":  "https://www.dpnews.co.kr",
+        "url":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZY2tLZ1lsRzZCVVVDVG42WHFYY3FUV0Z5dGVmclJLcjBtR3lfbnVINEVxLUpIOTFzSHdyT3FNcGFmcmNTRkszV012eEFZeEMzQl9tczFPc1FnVVY3Z1F3Vi03LXZTUkND?oc=5",
+        "published":  "Sat, 29 Aug 2026 22:58:55 GMT",
+        "score":  7,
+        "publishedKst":  "2026-08-30 07:58",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "재개발·재건축",
+        "region":  "전국",
+        "clusterKey":  "title:일원상록수-추진위원회-승인-완료-일원역-재건축-벨트-본격"
+    },
+    {
+        "title":  "주택 공급 후보지 선정에 신중히 접근하라",
+        "summary":  "주택 공급 후보지 선정에 신중히 접근하라 대학신문",
+        "source":  "대학신문",
+        "sourceUrl":  "https://www.snunews.com",
+        "url":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LS255a0FUbVptZnJXejVpdDd4SHh6WUYtSlVfamZlRmlxX0EtWllzX1J0Zm9oZDQ5eTBIaFdyTmx0aTI4cDFqN0QyRC1KaEpRSG1nVWozU0pVSFExeXBFVmNMMEVFSUU4?oc=5",
+        "published":  "Sat, 29 Aug 2026 15:14:24 GMT",
+        "score":  7,
+        "publishedKst":  "2026-08-30 00:14",
+        "publishedKstDate":  "2026-08-30",
+        "category":  "주택공급",
+        "region":  "전국",
+        "clusterKey":  "title:주택-공급-후보지-선정에-신중히-접근하라-주택-공급"
+    },
+    {
         "title":  "[비즈토크] 용산 막히고 탄천은 난색…주택공급 \u0027땅 찾기\u0027부터 난항 - 경제 | 기사",
         "summary":  "[비즈토크] 용산 막히고 탄천은 난색…주택공급 \u0027땅 찾기\u0027부터 난항 - 경제 | 기사 더팩트",
         "source":  "더팩트",
@@ -180,20 +222,6 @@
         "category":  "주택공급",
         "region":  "전국",
         "clusterKey":  "title:임대사업자-대출-완화-주택-공급효과-미미-세입자-충격"
-    },
-    {
-        "title":  "주택 공급 후보지 선정에 신중히 접근하라",
-        "summary":  "주택 공급 후보지 선정에 신중히 접근하라 대학신문",
-        "source":  "대학신문",
-        "sourceUrl":  "https://www.snunews.com",
-        "url":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LS255a0FUbVptZnJXejVpdDd4SHh6WUYtSlVfamZlRmlxX0EtWllzX1J0Zm9oZDQ5eTBIaFdyTmx0aTI4cDFqN0QyRC1KaEpRSG1nVWozU0pVSFExeXBFVmNMMEVFSUU4?oc=5",
-        "published":  "Sat, 29 Aug 2026 15:14:24 GMT",
-        "score":  7,
-        "publishedKst":  "2026-08-30 00:14",
-        "publishedKstDate":  "2026-08-30",
-        "category":  "주택공급",
-        "region":  "전국",
-        "clusterKey":  "title:주택-공급-후보지-선정에-신중히-접근하라-주택-공급"
     },
     {
         "title":  "\u002730조 대어\u0027 목동 재건축 경쟁 실종…3개 단지 연속 수의계약 수순",

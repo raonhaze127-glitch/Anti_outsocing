@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Date = (Get-Date -Format 'yyyy-MM-dd'),
   [string]$Numbers = '',
   [switch]$NoRender
@@ -330,6 +330,27 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '장기전세 9361가구') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 장기전세'; title="20년 만기`n9,361가구"; body='2027년부터 순차 도래·서울시는 연장과 분양전환 불가 방침' },
+      [pscustomobject]@{ type='table'; kicker='만기 물량'; title='2031년 4,170가구로 증가'; body="2027년|310가구`n2028년|682가구`n2029년|1,747가구`n2030년|2,452가구`n2031년|4,170가구" },
+      [pscustomobject]@{ type='table'; kicker='현재 제도'; title='최장 거주기간은 20년'; body="도입|2007년`n계약|2년마다 갱신 가능`n최장 거주|20년`n분양전환|기존 장기전세는 불가" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='다음 무주택자 공급과 연결'; body="서울시 입장|순환 공급과 형평성 유지`n입주민 요구|연장 또는 분양전환`n평균 보증금|3억4,900만원`n서울 평균 전셋값 대비|약 54% 수준" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='만기 가구 지원책이 관건'; body="1. 고령자·저소득층 대체 주거 지원`n2. 다른 공공임대 연계 방안`n3. 2027년 첫 310가구 퇴거 절차`n4. 서울시 후속 주거복지 대책" }
+    )
+  }
+
+  if ([string]$article.title -match '행복주택 1484세대') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 행복주택'; title="1,484세대`n9월 청약"; body='월 임대료 25만원부터·청년·신혼부부·고령자 대상' },
+      [pscustomobject]@{ type='table'; kicker='공급 구성'; title='당장 입주 물량과 예비자를 구분'; body="신규 단지|154세대`n잔여 공가|391세대`n예비 입주자|939세대`n합계|1,484세대" },
+      [pscustomobject]@{ type='table'; kicker='임대 조건'; title='전용면적별 평균 조건'; body="29㎡ 이하|보증금 6,400만원·월 25만원`n39㎡ 이하|1억1,800만원·월 45만원`n49㎡ 이하|1억3,800만원·월 53만원`n59㎡ 이하|1억7,300만원·월 66만원" },
+      [pscustomobject]@{ type='table'; kicker='신청 기준'; title='무주택·소득·자산 확인'; body="기준일|2026년 8월 28일`n소득|도시근로자 월평균 100% 이하`n총자산|3억4,500만원 이하`n자동차|4,542만원 이하" },
+      [pscustomobject]@{ type='table'; kicker='청약 일정'; title='9월 9~11일 접수'; body="온라인 접수|9월 9~11일`n방문 접수|9월 10~11일`n서류 대상 발표|9월 21일`n당첨자 발표|2027년 1월 29일" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='실제 입주 가능 시점 체크'; body="1. 입주는 2027년 3월부터 예정`n2. 단지별 일정은 달라질 수 있음`n3. 대상별 소득·자산 기준 재확인`n4. SH 모집공고의 배치도·평면도 확인" }
+    )
+  }
+
   if ([string]$article.title -match '9월 첫주 3713가구') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='9월 첫째 주 분양'; title="3,713가구 공급`n모두 인천"; body='3개 단지·일반분양 2,387가구, 이번 주 확인할 숫자' },
@@ -647,7 +668,47 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '9월 첫주 3713가구') {
+  if ([string]$article.title -match '장기전세 9361가구') {
+    $caption = @(
+      "🏢 서울 장기전세 9,361가구, 20년 만기가 시작됩니다",
+      '',
+      "📌 현재 단계",
+      "2027년 310가구를 시작으로 향후 5년간 총 9,361가구가 최장 거주기간 20년을 순차적으로 채웁니다.",
+      '',
+      "🔢 만기 물량",
+      "2028년 682가구, 2029년 1,747가구, 2030년 2,452가구, 2031년 4,170가구로 늘어납니다.",
+      '',
+      "🔎 왜 중요한가",
+      "입주민은 거주 연장이나 분양전환을 요구하지만 서울시는 순환 공급과 형평성을 이유로 불가 방침을 밝혔습니다.",
+      '',
+      "✅ 다음 확인",
+      "고령자·저소득층의 대체 주거 지원과 다른 공공임대·주거복지 제도 연계 방안이 후속 확인 지점입니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      '#서울장기전세 #장기전세주택 #공공임대주택 #서울주거정책 #임대주택'
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '행복주택 1484세대') {
+    $caption = @(
+      "🏠 서울 행복주택 1,484세대, 9월 9일부터 청약합니다",
+      '',
+      "📌 공급 구성",
+      "신규 단지 154세대, 잔여 공가 391세대, 예비 입주자 939세대입니다. 전체 물량 중 예비 입주자 비중을 구분해서 확인해야 합니다.",
+      '',
+      "💰 임대 조건",
+      "전용 29㎡ 이하는 평균 보증금 6,400만원·월 25만원이며, 면적별로 보증금과 월 임대료가 달라집니다.",
+      '',
+      "🗓️ 청약 일정",
+      "온라인 접수는 9월 9~11일, 고령자·장애인 방문 접수는 9월 10~11일입니다. 최종 당첨자는 2027년 1월 29일 발표 예정입니다.",
+      '',
+      "🔎 다음 확인",
+      "무주택·소득·자산 기준은 공급 대상별로 다를 수 있습니다. 단지별 입주 일정과 세부 자격은 SH 모집공고에서 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      '#서울행복주택 #SH공사 #행복주택청약 #서울공공임대 #청년주택'
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '9월 첫주 3713가구') {
     $caption = @(
       "🏢 9월 첫째 주 3,713가구, 모두 인천에서 공급됩니다",
       '',
