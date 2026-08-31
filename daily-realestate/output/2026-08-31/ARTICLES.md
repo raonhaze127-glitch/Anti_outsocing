@@ -1,0 +1,193 @@
+﻿# 2026-08-31 부동산 공급 기사 후보
+
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. ‘용산공원 주택 공급ʼ 두고 정부 vs 서울시 대립각…여론은?
+- 분류/지역: 주택공급 / 서울
+- 출처: 한국금융신문
+- 발행: 2026-08-31 00:00 KST
+- 출처 사이트: https://www.fntimes.com
+- 링크: https://news.google.com/rss/articles/CBMifEFVX3lxTE1rTktuV1NaSHFVU3BNZEFNU0FEMjVzZG55SlVXSy0xYmVLaW5xcFVxNWlqTnNib1dEaGlucDJnUFJmOWd1TTFCd0VVOTU0UG9MaVBNal9KbVN1Tkd2cGdtc3owTnI3SWRqSkg2ZUlQZFZ6NFR2WmxXN0R5RFU?oc=5
+
+## 2. [속보]홍지선 국토장관 후보, "주택공급 서울시와 충분히 사전 협의 할 것"
+- 분류/지역: 주택공급 / 서울
+- 출처: 파이낸셜뉴스
+- 발행: 2026-08-31 09:08 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE56cDVzUFktUmo1dllhZGkzZ0gyUDZvSDQ3enlJcXp5VHFiUHp1UThJbHFUN01yOFBsaTBwRVctSEE0Rlh0SGJQUTRDalBkUEo2a1hUdHBBM1ljUQ?oc=5
+
+## 3. 李대통령 "소규모 정비사업 인허가권 구청장에"…서울시 반발 불가피
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 뉴스1
+- 발행: 2026-08-31 06:15 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UQTVzbmdLY0xjX3Z4ak5WaFFPbWg4MUhsUll6bmtpLW82dG5XaDV5MTdRa21mUmlUQ0RrWk9aZEhwaEpUSDBOMVpqanlnTkplWmxUUWV6V0NvaHFqVldoOdIBYEFVX3lxTE5UQTVzbmdLY0xjX3Z4ak5WaFFPbWg4MUhsUll6bmtpLW82dG5XaDV5MTdRa21mUmlUQ0RrWk9aZEhwaEpUSDBOMVpqanlnTkplWmxUUWV6V0NvaHFqVldoOQ?oc=5
+
+## 4. 장기전세 20년 만기 도래… "더 살게 해달라" 요구에 서울시 "퇴거 원칙"
+- 분류/지역: 주택공급 / 서울
+- 출처: CBC뉴스
+- 발행: 2026-08-31 00:00 KST
+- 출처 사이트: https://www.cbci.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QNi1xUzBrbEdWSkFLYXFXMnFiazk5MVNTeVFIbmdvSW5QU0lQM3NDdmFPTlFQUXZoVVo3bFlmcWNVQ2FUYmgwUXZOVWFxWjdoQl9TMTd2dzYyX0ZBWHMwYUhRN0JaVW1M?oc=5
+
+## 5. '기본주택'부터 3기 신도시까지…홍지선에 맡긴 '주택 공급 속도전'
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 노컷뉴스
+- 발행: 2026-08-31 05:00 KST
+- 출처 사이트: https://www.nocutnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NVmd3NlVOZ05tZFRmdHU5Z3pkYktERGMtSXd6ZXVreDNpQk5rbnR1NnV2aFZycjdRZXpJSWtObXl1bmk5RUdPSm16SHhWd001U1E?oc=5
+
+## 6. 싱가포르뉴스 신민·토아파요 지역, 대기 시간 단축된 신규 공공주택 공급 본격화
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스케이
+- 발행: 2026-08-31 05:30 KST
+- 출처 사이트: https://newsk.net
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JaUlSNGtKYWppR0hrNmVsMzJtcjZpYy0zMjhIeURYU3JhR01qYjlTQkVvMWVSVFpaUG9OMEJyS1NVS0c3cUs1LWpGeHhwRDYzSEtJSW1ERktKdw?oc=5
+
+## 7. “공공택지 비주거시설, 용도변경해 주택공급 활성화해야”
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 대한경제
+- 발행: 2026-08-31 05:20 KST
+- 출처 사이트: https://www.dnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE0xNGYyUXg1Zm0zVVpYaDJLbGJlR2lhWmNNVXJjYllzZi1pU19KVDJjZ3h5QnBpbXFJczZMbFpGVi1zbk9PTmJwRVBCQWJPMTRzeGl2Z3hyUnBfV1cwcWRyVzFoa0hIaTFPX3B0eVkzM3UtN0RN?oc=5
+
+## 8. 지난달 서울 공급지표 ‘반짝 개선’…공급 회복 체감은 아직 - 조선비즈
+- 분류/지역: 주택공급 / 서울
+- 출처: Chosunbiz
+- 발행: 2026-08-31 06:00 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPYm44NkZHeTV2Zm5jNEhfMUxOVzdTRDVoamNjeVhFclp5SEZCOFlBaXZNMTc0bEl5aG92QkhncE1FNkRsSXBkN1lzS0ZlS1lGTEJRT1dvMktmU3F4a0ZDbC03VUh1VEZfZDZ2cXgzTmI5UVh5NE10OXEyY0E2RFVBZ3V4ZVZUUWV4U3lVUnNnMjkyLUFCczlidNIBrAFBVV95cUxQZ2F0ZVdmU0lqcGlmUm1pMUZQNW1PLWw1OHJfM2hpUnFWS0JJazlrNGNZbk5iajhQSGV3MU1xd3R3MWRnclJzWDRpdTdKYWh4NW1JcFZyeUV0QVZsVDNacThYeGo3Q0otRFdXUEZYUEp5VVRSNFJNbGd5cnp0ME41dDVUOUdpUFg2SXI4SDVpNXB1LU42WHZaV1dLSXhGdzIwMXcwTW02b2hsRVhk?oc=5
+
+## 9. 수도권 13만 호 신속 공급! 달라지는 8.13 부동산 대책 - 카드/한컷 | 멀티미디어
+- 분류/지역: 주택공급 / 전국
+- 출처: 대한민국 정책브리핑
+- 발행: 2026-08-31 05:52 KST
+- 출처 사이트: https://www.korea.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5WaHhvMHBsVy1jMS10NHNnMnpxYXhsU1ZHbE1RNXMtcHMwQ3ktZU9Na21zV1MzS2Y3dDlLSFRHQWRBT3BxLXdPbUM4NlN2WENockRMXzFHS0w5eE9tRTNsdERhemJPRlQ0TTd0ZGJB?oc=5
+
+## 10. 국토부 수장 교체에 서울 주택공급 협의 '멈춤'…용산·탄천 논의 공백
+- 분류/지역: 주택공급 / 서울
+- 출처: 뉴스1
+- 발행: 2026-08-31 05:50 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mQmlCNjA0cEZRaFVHZUxMdnhEWGY3dDl3NWRxb2RNeF9Jc3gtbXlhVnZBRTVxWnZacU9xSHhqSnRMNXR0ZFlMRXhGWkVRSzQyZ0EwV3FPSEZBbTF2Zzc5TtIBYEFVX3lxTE1mQmlCNjA0cEZRaFVHZUxMdnhEWGY3dDl3NWRxb2RNeF9Jc3gtbXlhVnZBRTVxWnZacU9xSHhqSnRMNXR0ZFlMRXhGWkVRSzQyZ0EwV3FPSEZBbTF2Zzc5Tg?oc=5
+
+## 11. [포토뉴스]도자동차전문정비사업조합 원주지회 취약계층 후원
+- 분류/지역: 재개발·재건축 / 강원
+- 출처: 강원일보
+- 발행: 2026-08-31 00:05 KST
+- 출처 사이트: https://www.kwnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzSm03ZnpBUTAycFowVTkzNG9ZRXFwME1NSngxc2M3RjhZR09pMTN1bHNyTzRnT0xnaFdMRmFINXFYVWFndzJVOW5oNG0zdlFVZGt5NG5COWV3VmM?oc=5
+
+## 12. 9월 전국 아파트 분양 늘었지만…서울 일반분양 '29세대'
+- 분류/지역: 청약·분양 / 서울
+- 출처: 한국경제
+- 발행: 2026-08-31 09:05 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE90aFFHWl8wX1J5R25tYmhQX0FMRGM5aFhvREtfWHI1TERfTVY5dlBySnFJcFhSVkdMVWVVNmkyUjNfTjNiOFh4dGlfRlh5djQza2VRY21LVmRDUQ?oc=5
+
+## 13. 공급지표 살아나는데 거래는 ‘뚝’…7월 서울 아파트 매매 15% 감소
+- 분류/지역: 주택공급 / 서울
+- 출처: 이투데이
+- 발행: 2026-08-31 06:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UNXFudkdSY3Q3X0pfeXIzU21nS2hXc1g3RjB1bXlTWGk4NmFMZHpXZ1VxY0M2ZHA4Sk1jUUdCNXVNY0FmamltVnhVRFkyamZidXg3eg?oc=5
+
+## 14. [오늘의 청약 일정] '충정로역자이르네' 당첨자 발표 등
+- 분류/지역: 청약·분양 / 전국
+- 출처: 이투데이
+- 발행: 2026-08-31 06:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCOXZFRlN4UnZSSWJsRHl4WTVhdF9GYWRRdDZwT0FQVnZoRTM2M04yYUpOOVZHS0ZZOEVIaTQwZF9tM093ZXlhcHRPaG1BdkliR2FoOA?oc=5
+
+## 15. 9월, 전국 26개 단지 2만2704가구 분양 예정… 전년 동월比 15%↑ - 조선비즈
+- 분류/지역: 청약·분양 / 전국
+- 출처: Chosunbiz
+- 발행: 2026-08-31 08:25 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkYzdTZ4Y0R6OFVTbVF1TjFPTFFVZnQ4Ql8zR3k2UXVqZVk4M1dsTEFnd2pUMGxJRm5wbmZfbFQ0c0JSWENyUUUyVlUzYno2UWRTTU96M0ZmVVVqU3ZBRV9qSGlaQXVLQnA2NVJLN0VUQllUOWNWMUJ1cVg5NFIzQi05S1ZrSHQyakktZVJzVmpTdFdlNERWYdIBrAFBVV95cUxQeFhUUUxuTUs1aldiOW4wTm9BTXJGWl9YM2s3Vkg1dzE5ZWoxXzVKSVAzSEhrQmFaaXJjczF0bENVejhwNXo4cE82cHg3SE9ndGhheHdXcXMyVzQyT19uMlBOMl82WFRHbjZuYzlOd2ZLYXVDS1RxVk53UWpWZi05elBNd2g3MTdRTnEyRFhOTXA1ZlQtUV9MVVFsdU5FRmoxTGpBLUh2NDU4MXR4?oc=5
+
+## 16. 하노이 빈홈스 600ha 복합 신도시, 주거 유형 다양화
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 씬짜오베트남
+- 발행: 2026-08-31 03:35 KST
+- 출처 사이트: https://chaovietnam.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiSEFVX3lxTE82d0NEdGJmMlNRWEtzYll5anhxX0pwd1o3clBaTDg3M09uZWhsLXdKNG1jRVU0c1gxYUc3TE8yZlZQeXQ2MWJhZQ?oc=5
+
+## 17. 수도권 23만호 공급…용인, 주택보다 ‘일자리’ 경쟁력 주목
+- 분류/지역: 주택공급 / 전국
+- 출처: 용인시민신문
+- 발행: 2026-08-31 07:50 KST
+- 출처 사이트: https://www.yongin21.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5aVlFZNGdXQW1RX2N3TWVKdVV1T1F2MkNsUm1BSS1WV0NVU2JPeEFCSndFSkxZSTFsZE53VmVzcXN4VGlEUUZmYVotOXp4XzdNckxSRzFuX3Mydk5oODZzeE80eWt2aklvYjBjTA?oc=5
+
+## 18. 서울 주택 공급 지표 '확' 늘었는데…아파트 거래는 '뚝'
+- 분류/지역: 주택공급 / 서울
+- 출처: 더팩트
+- 발행: 2026-08-31 06:02 KST
+- 출처 사이트: https://news.tf.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uNEsxd0t3UmxIS1FCbnBFcXlIUXg3X3hWaENTMXZwNGFFaUVNc2pFSHV2QjlQRU5PYmlpMzB4YkMyX2N3MDYtaFRZSF9rLUZSU3g4WjU1LVZiQdIBVEFVX3lxTE5UMlozbEJBX084TFBGYkZxaUsxZWh5TU9rOUhtcl9NQTFZYVN0cmJQUmJqYVpqWGtaWnlzbVhCMC1wZHFFcWhmX1ZkcFhvM0htQ05XYw?oc=5
+
+## 19. 첫 삽 뜬 용산국제업무지구⋯주택 공급안은 7개월째 '평행선'
+- 분류/지역: 주택공급 / 전국
+- 출처: 이투데이
+- 발행: 2026-08-31 06:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzVjRtMkFlSVh0VjhHc0NBa0Ffcnp3UnlEUkNUMklYTlgtWkVKdFR5ejNBWEh1MVEwTjBLdm1XaThrU2l5R0hNVlV2RzNPTlVfUHRVQQ?oc=5
+
+## 20. 국토부, 탄천 주택공급 부지 본격 검토
+- 분류/지역: 주택공급 / 서울
+- 출처: TBS 서울
+- 발행: 2026-08-31 07:44 KST
+- 출처 사이트: https://m.tbs.seoul.kr
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxOWlBfeTZod3hxSllUaDFYM2thOFBTak1CYjlhSVRuMjJ3MGpTVkdTaEctbjNKREpHZno3MDVRQnFaRlhuRUhwM0RJLTZscFk1VGZiTVlXS3BOdzlPb2RLQVYxV0EyOHRqOXlydUM4cnl4Tm9sTmYxX3htRXk5XzFnQnlnUmhKaDdkZVE?oc=5
+
+## 21. 김이탁 국토부 1차관, 남양주 도심·왕숙 주택공급 속도전 주문
+- 분류/지역: 주택공급 / 전국
+- 출처: 서남투데이
+- 발행: 2026-08-31 08:56 KST
+- 출처 사이트: http://seonamtoday.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oU2YyTWZSbjJZdjRUaC1MMFFGdFF4MTV4eC11R0Z0ZHB4dWxoNG5HQnRFSzAwRWwwXzI0cnJlN1Z6SUZGVEdJbWtkYjJxOENUR1phaHU5SG92UQ?oc=5
+
+## 22. 후기 재개발 사업장에 관심을 가질 때입니다 [심형석의 부동산 정석]
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 한국경제
+- 발행: 2026-08-31 06:30 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wTThwRmR1UFVWeS12X3RsZkxfbXNVV25LSkQ3X2VDQ1hkbDl3dWlKZnlyU1RfZmg0M250MjhLUmwxX2RKYkJDemEzM3lCTjFEa0R2d1NSVnAxQQ?oc=5
+
+## 23. 관악구, 건영아파트 재건축 정비계획 변경 추진
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-08-31 08:30 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5EX2FUR0dLbFZqeWQ1NGRhWktLUUxuM2VEWWNGQUJUVHNycWRVRVZhTm9VSUFZWUNvc3lxY3MySnZNb1ZHTzRqc0hzcEpGaVpKSTFWUTZkeTk2YzF2Nm5aTG9BNEpXQklEWUFiVUlVME9MT0nSAXdBVV95cUxORERrZFNNazNfbElDcXhWNGxqQ0JYbTBiWHJJR2ZYS01hSm14YjVDRkxPcW9sQi0yNjE3czF1MC1KM3pCbk96b2NnREtBTFVqYUtNN3FGLWJjRjlqeEFqakd2ZlNvZEJjNGpFV212eF9xWkluV2c3VQ?oc=5
+
+## 24. 관악구, 건영아파트 재건축 사업 주민 의견 수렴 시작
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 여성종합뉴스
+- 발행: 2026-08-31 08:28 KST
+- 출처 사이트: https://womannews.net
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4dVNOc3ZqOVBiOXZkV1Rxa25Gc1VkTFJXYWs0OFNFY05MVlk0ZXJteW9FdExjdS11NHZMM3Y1eGFiYTdOc2Nwb3k3RF9UTHNUenB3TVptVWVnZw?oc=5
+
+## 25. 주택공급 막는 ‘돈줄’ 푼다…정부, 건설사 금융지원 속도
+- 분류/지역: 주택공급 / 전국
+- 출처: 산학뉴스
+- 발행: 2026-08-31 04:15 KST
+- 출처 사이트: https://www.sanhaknews.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBEdU5Cd3pManViOGdBMURiTld3SjFhUG9YNEhCMzZQTkUtQUpISGZBOGl4cFpNLU5raUNkNGtoWVk2V2NPY1JaaGVrbi1lbkxjcVlTYnJjN2txeHR1eWstQ0RsNlBjM1Fta1dZ?oc=5
+
+## 26. 과천경마공원 이전 반대…주택공급 졸속 추진 규탄
+- 분류/지역: 주택공급 / 전국
+- 출처: 농수축산신문
+- 발행: 2026-08-31 07:00 KST
+- 출처 사이트: https://www.aflnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE4zYUZsWnpxd2laVXVoSEFwRnZzNXpKRVI1QVdRY0UyVTJsN25scGVFOFNqdXlVNHd0aHdFYUZyckNqeExZNnlYb0hTVHQyWFJMTUQzRWxqZUJ4V01MQzFiRFVVRXhCQTNZcHFqRA?oc=5
+
+## 27. 국토부 수장 교체한 李정부, '공급 확대·투기 억제' 힘 싣는다
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴시스
+- 발행: 2026-08-31 05:00 KST
+- 출처 사이트: https://www.newsis.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KZTg1UXJ0YkppMUx1a203SFg4MmNER1FBOEREQnliRlNqUzVaV0NkWmlKTkFCR1BfZUZ5eUZ1V0tyc2pnS2ZXZGd2alpKS0ZLcUIxU0x5MkRlaHgwaGxVQQ?oc=5
+
