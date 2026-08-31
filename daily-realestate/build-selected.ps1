@@ -330,6 +330,27 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '인천 계양 A6블록.*663') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='3기 신도시 공공분양'; title="인천계양 A6`n663가구"; body='전용 59~84㎡·일반공급은 9월 30일부터 접수' },
+      [pscustomobject]@{ type='table'; kicker='공급 개요'; title='어떤 물량인가'; body="사업지|인천계양 A6블록`n공급 유형|LH 공공분양`n전체 규모|663가구`n주택형|전용 59~84㎡·13개 타입" },
+      [pscustomobject]@{ type='table'; kicker='물량 구분'; title='사전청약 412가구 우선'; body="사전청약 당첨자|412가구 본청약 우선`n나머지 물량|특별공급·일반분양`n전체|663가구`n확인|유형별 세부 물량은 공고문 기준" },
+      [pscustomobject]@{ type='table'; kicker='가격·규제'; title='59㎡ 5.3억·84㎡ 7.1억'; body="전용 59㎡|약 5억3,000만원`n전용 84㎡|약 7억1,000만원`n전매제한|3년`n실거주 의무|없음" },
+      [pscustomobject]@{ type='table'; kicker='청약 일정'; title='9월 17일부터 순차 접수'; body="사전청약 당첨자|9월 17~18일`n일반공급 등|9월 30일~10월 2일`n당첨자 발표|2026년 10월`n계약·입주|12월 계약·2029년 6월 입주" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='공고문에서 볼 것'; body="1. 특별·일반공급별 실제 배정 물량`n2. 신청 자격과 소득·자산 기준`n3. 주택형별 분양가·옵션·납부 일정`n4. LH청약플러스 모집공고 변경 여부" }
+    )
+  }
+
+  if ([string]$article.title -match '2026 하반기 주택매입 사업설명회') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 주택매입'; title="9월 1일`n사업설명회"; body='신축매입 기준 완화·민간 참여를 통한 도심 공급 속도 확대' },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='사업자 대상 기준 공개'; body="행사|2026년 하반기 주택매입 사업설명회`n일정|2026년 9월 1일`n장소|LH 경기남부지역본부`n대상|주택매입 사업 참여 민간사업자" },
+      [pscustomobject]@{ type='table'; kicker='무엇이 달라지나'; title='참여 문턱을 낮춘다'; body="가격 산정|원가법 병행 적용 기준 공개`n토지 확보 요건|75%로 완화`n서류 심사|기준 완화`n정책 연계|정부 8·13 대책 후속" },
+      [pscustomobject]@{ type='table'; kicker='사업 지원'; title='자금 부담도 낮춘다'; body="토지비|무이자 지원 방안`n상담|1대1 현장 상담부스`n목표|민간 사업 참여 확대`n방향|도심 주택 신속 공급" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='설명회 이후가 중요'; body="1. 원가법 적용 세부 기준과 대상`n2. 토지비 무이자 지원 조건`n3. 매입 신청·심사·약정 일정`n4. 실제 매입 물량과 공급 지역 공개" }
+    )
+  }
+
   if ([string]$article.title -match '장기전세 9361가구') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='서울 장기전세'; title="20년 만기`n9,361가구"; body='2027년부터 순차 도래·서울시는 연장과 분양전환 불가 방침' },
@@ -668,7 +689,47 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '장기전세 9361가구') {
+  if ([string]$article.title -match '인천 계양 A6블록.*663') {
+    $caption = @(
+      "🏢 인천계양 A6블록 공공분양 663가구가 공급됩니다",
+      '',
+      "📌 공급 규모",
+      "전용 59~84㎡, 13개 타입으로 구성됩니다. 2023년 사전청약을 받은 단지로 사전청약 당첨자 412가구의 본청약이 먼저 진행됩니다.",
+      '',
+      "💰 가격·규제",
+      "분양가는 전용 59㎡ 약 5억3,000만원, 84㎡ 약 7억1,000만원 수준입니다. 전매제한은 3년이며 실거주 의무는 없습니다.",
+      '',
+      "🗓️ 청약 일정",
+      "사전청약 당첨자는 9월 17~18일, 특별·일반공급 대상자는 9월 30일부터 10월 2일까지 접수합니다. 입주는 2029년 6월 예정입니다.",
+      '',
+      "🔎 다음 확인",
+      "공급 유형별 물량과 신청 자격, 소득·자산 기준, 주택형별 분양가는 LH청약플러스 모집공고에서 다시 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      '#인천계양신도시 #인천계양A6 #LH공공분양 #공공분양청약 #3기신도시'
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '2026 하반기 주택매입 사업설명회') {
+    $caption = @(
+      "🏗️ LH가 하반기 주택매입 사업의 참여 기준을 공개합니다",
+      '',
+      "📌 현재 단계",
+      "9월 1일 LH 경기남부지역본부에서 민간사업자를 대상으로 2026년 하반기 주택매입 사업설명회를 개최합니다.",
+      '',
+      "🔄 달라지는 기준",
+      "신축매입 가격 산정에 원가법을 병행하고, 토지 확보 요건을 75%로 완화합니다. 서류심사 기준도 낮춰 사업 참여 문턱을 줄이는 내용입니다.",
+      '',
+      "💰 지원 내용",
+      "토지비 무이자 지원 방안과 1대1 현장 상담이 제공됩니다. 목적은 민간 참여 확대와 도심 주택공급 속도 제고입니다.",
+      '',
+      "🔎 다음 확인",
+      "설명회 이후 원가법 적용 대상, 무이자 지원 조건, 매입 신청·심사 일정과 실제 매입 물량을 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      '#LH주택매입 #신축매입임대 #도심주택공급 #LH사업설명회 #주택공급정책'
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '장기전세 9361가구') {
     $caption = @(
       "🏢 서울 장기전세 9,361가구, 20년 만기가 시작됩니다",
       '',

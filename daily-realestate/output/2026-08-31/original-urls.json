@@ -1,6 +1,7 @@
 ﻿{
     "note":  "선택 기사 원문 URL을 알고 있으면 아래처럼 번호별로 입력하세요. 예: \"1\": \"https://media.example.com/article\"",
     "urls":  {
-
+                 "3": "https://www.yna.co.kr/view/AKR20260831077900003",
+                 "24": "http://www.paxetv.com/news/articleView.html?idxno=280556"
              }
 }

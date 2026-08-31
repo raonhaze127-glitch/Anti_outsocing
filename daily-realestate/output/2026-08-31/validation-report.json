@@ -1,0 +1,28 @@
+﻿{
+    "checkedAt":  "2026-08-31T16:42:52.0423009+09:00",
+    "date":  "2026-08-31",
+    "numbers":  [
+                    3,
+                    24
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-03-carousel",
+                     "slides":  6,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 },
+                 {
+                     "set":  "article-24-carousel",
+                     "slides":  5,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}
