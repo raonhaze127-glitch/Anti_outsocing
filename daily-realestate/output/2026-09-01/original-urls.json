@@ -1,6 +1,7 @@
 ﻿{
     "note":  "선택 기사 원문 URL을 알고 있으면 아래처럼 번호별로 입력하세요. 예: \"1\": \"https://media.example.com/article\"",
     "urls":  {
-
+                 "22": "https://www.newsis.com/view/NISX20260901_0003771839",
+                 "24": "https://homedubu.com/11896/"
              }
 }

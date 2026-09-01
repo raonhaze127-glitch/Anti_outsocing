@@ -112,6 +112,8 @@ function Get-ArticleHashtags($article) {
   if ($text -match '9월 첫주 3713가구') { foreach ($tag in @('인천분양','인천청약','분양캘린더','시티오씨엘9단지','검암역푸르지오라베뉴')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '화성 1만호 공공주택') { foreach ($tag in @('화성특례시','화성공공주택','공공주택프로젝트','주택공급정책','화성동행기구')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '부천형 역세권 정비사업') { foreach ($tag in @('부천정비사업','소새울역','송내역','역세권정비사업','정비계획')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match "'분양 성수기'.*3\.3만 가구") { $tags.Clear(); foreach ($tag in @('9월분양','아파트분양','수도권분양','서울분양','분양일정')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match '의정부우정지구 A-2블록 공공분양주택 청약') { $tags.Clear(); foreach ($tag in @('의정부우정지구','의정부공공분양','LH청약','의정부청약','공공분양')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
 
   if ($text -match '상계보람') {
     foreach ($tag in @('상계보람아파트','상계동재건축','노원구재건축','조합설립추진위원회','정비구역지정','재건축','정비사업','4483가구','서울재건축')) { Add-Hashtag $tags $tag }
@@ -450,6 +452,28 @@ function New-Slides($article, [int]$number) {
       [pscustomobject]@{ type='table'; kicker='첫 민간분양'; title='카이브 유보라 1110가구'; body="블록|AC3·AC4`n면적|전용 84~93㎡`n규모|16개 동·총 1110가구`n분양 예정|2026년 10월" },
       [pscustomobject]@{ type='table'; kicker='신도시 규모'; title='약 1만8000가구 계획'; body="위치|인천 계양구 일원`n면적|약 335만㎡`n계획 주택|약 1만8000가구`n계획 인구|약 4만4000명" },
       [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='계양 공급 체크'; body="1. 12월 A2·A3블록 1285가구 첫 입주`n2. 10월 계양 첫 민간분양 예정`n3. 첫 민간단지는 1110가구 주상복합`n4. 분양 일정·조건은 모집공고에서 재확인" }
+    )
+  }
+
+  if ([string]$article.title -match "'분양 성수기'.*3\.3만 가구") {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='9월 분양시장'; title='전국 33,268가구'; body='전월보다 74% 증가·서울 공급은 244가구' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='전월 대비 74% 증가'; body="전국 예정 물량|33,268가구`n전년 동기 대비|6% 증가`n전월 대비|74% 증가`n기준|임대 포함 예정 물량" },
+      [pscustomobject]@{ type='table'; kicker='수도권 물량'; title='19,949가구 예정'; body="경기|11,686가구`n인천|8,019가구`n서울|3개 단지 244가구`n전월 대비|56% 증가" },
+      [pscustomobject]@{ type='table'; kicker='지방 물량'; title='13,319가구 예정'; body="광주|3,216가구`n충남|2,025가구`n경남|1,963가구`n부산·울산|1,713·1,521가구" },
+      [pscustomobject]@{ type='table'; kicker='주요 대단지'; title='어디에 많이 나오나'; body="산곡역 자이힐스테이트&하늘채|2,706가구`n아크메르동탄|1,808가구`n경기광주역 롯데캐슬 2단지|1,249가구`n더샵분당하이스트|1,149가구" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='예정과 확정은 다릅니다'; body="1. 33,268가구는 월간 분양 예정치`n2. 단지별 모집공고와 실제 일반분양 물량 확인`n3. 청약 일정 변경·연기 여부 확인`n4. 서울은 예정 물량이 244가구에 그침" }
+    )
+  }
+
+  if ([string]$article.title -match '의정부우정지구 A-2블록 공공분양주택 청약') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 공공분양'; title="의정부우정 A-2`n174가구 본청약"; body='특별공급 147·일반공급 27가구, 9월 14일부터' },
+      [pscustomobject]@{ type='table'; kicker='단지 개요'; title='총 463가구 단지'; body="위치|의정부시 녹양동 A-2블록`n규모|6개 동·지상 19~20층`n주택형|전용 59㎡ A·B`n입주 예정|2029년 5월" },
+      [pscustomobject]@{ type='table'; kicker='공급 구분'; title='이번 접수는 174가구'; body="사전청약 당첨자|278가구`n이주자 공급|11가구`n특별공급|147가구`n일반공급|27가구" },
+      [pscustomobject]@{ type='table'; kicker='분양가'; title='3.84억~4.13억원'; body="59A|3.88억~4.13억원`n59B|3.84억~4.08억원`n발코니 확장비|포함 기준`n적용|분양가상한제" },
+      [pscustomobject]@{ type='table'; kicker='청약 조건'; title='제한사항 확인'; body="재당첨 제한|10년`n전매 제한|3년`n거주의무|없음`n지역 구분|비규제지역" },
+      [pscustomobject]@{ type='summary'; kicker='청약 일정'; title='9월 14일부터 접수'; body="1. 사전청약 당첨자 9월 7~8일`n2. 특별공급 9월 14~15일`n3. 일반공급 9월 16~17일`n4. 당첨자 발표 10월 8일" }
     )
   }
 
@@ -838,6 +862,10 @@ foreach ($index in $indexes) {
       '',
       $hashtags
     ) -join "`r`n"
+  } elseif ([string]$article.title -match "'분양 성수기'.*3\.3만 가구") {
+    $caption = @("🏢 9월 전국 분양 예정 물량은 33,268가구입니다",'',"📌 얼마나 늘었나","임대 물량을 포함해 전년 동기보다 6%, 전월보다 74% 증가한 규모입니다. 수도권은 19,949가구, 지방은 13,319가구가 예정됐습니다.",'',"🗺️ 지역별 차이","경기 11,686가구, 인천 8,019가구인 반면 서울은 3개 단지 244가구에 그칩니다. 지방에서는 광주가 3,216가구로 가장 많습니다.",'',"🔎 다음 확인","33,268가구는 월간 예정치입니다. 단지별 모집공고, 실제 일반분양 물량, 청약 일정 변경 여부를 함께 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '의정부우정지구 A-2블록 공공분양주택 청약') {
+    $caption = @("🏠 의정부우정 A-2블록, 174가구 본청약을 진행합니다",'',"📌 공급 물량","총 463가구 가운데 사전청약 당첨자 278가구와 이주자 공급 11가구를 제외하고 특별공급 147가구, 일반공급 27가구를 접수합니다.",'',"💰 분양가·규제","발코니 확장비를 포함한 공급가는 전용 59㎡ 기준 약 3.84억~4.13억원입니다. 분양가상한제가 적용되며 재당첨 제한 10년, 전매 제한 3년, 거주의무 없음 조건입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일이며 당첨자 발표는 10월 8일입니다. 신청 전 LH 모집공고문의 자격과 자금 일정을 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '의정부우정|A-2블록|공공주택지구') {
     $caption = @(
       "🏢 의정부우정 A-2블록, 내달 청약 시작",

@@ -1,10 +1,30 @@
 ﻿{
-    "runAt":  "2026-09-01T07:44:46.9603498+00:00",
+    "runAt":  "2026-09-01T16:55:10.0171763+09:00",
     "date":  "2026-09-01",
-    "fetched":  312,
-    "candidates":  30,
-    "selected":  0,
-    "slides":  0,
-    "rendered":  false,
-    "state":  "awaiting_selection"
+    "selectedNumbers":  [
+                            22,
+                            24
+                        ],
+    "selected":  2,
+    "sets":  [
+                 {
+                     "number":  22,
+                     "title":  "\u0027분양 성수기\u0027 9월 전국 3.3만 가구 공급…서울 244가구 불과",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-09-01\\article-22-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 },
+                 {
+                     "number":  24,
+                     "title":  "의정부우정지구 A-2블록 공공분양주택 청약 (’26. 9/14~17)",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-09-01\\article-24-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
 }

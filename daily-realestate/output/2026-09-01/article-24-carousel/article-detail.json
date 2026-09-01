@@ -1,0 +1,23 @@
+﻿{
+    "number":  24,
+    "collectedAt":  "2026-09-01T16:54:47.4436352+09:00",
+    "title":  "의정부우정지구 A-2블록 공공분양주택 청약 (’26. 9/14~17)",
+    "source":  "홈두부",
+    "sourceUrl":  "https://homedubu.com",
+    "manualOriginalUrl":  "https://homedubu.com/11896/",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5BV2xMSU1yOTd4MEFFTUNRbkppTjJtSEIxTzdLaXJjdVdoOExHUlFGU2VBd0tRVEJsRzVxS1dpOUs?oc=5",
+    "fetchedUrl":  "https://homedubu.com/11896/",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

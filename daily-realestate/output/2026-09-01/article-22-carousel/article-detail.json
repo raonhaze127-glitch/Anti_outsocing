@@ -1,0 +1,23 @@
+﻿{
+    "number":  22,
+    "collectedAt":  "2026-09-01T16:54:47.3667027+09:00",
+    "title":  "\u0027분양 성수기\u0027 9월 전국 3.3만 가구 공급…서울 244가구 불과",
+    "source":  "뉴시스",
+    "sourceUrl":  "https://www.newsis.com",
+    "manualOriginalUrl":  "https://www.newsis.com/view/NISX20260901_0003771839",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11UjF5X2NIQjZ2eThsN0E2NC15NEdFcERVNzRTU1JZN0N2Zlk4ejFoVUlSVnhhQ3QySTdaOGhOYXdOZjBqZzFsZUN3WWRnRjdBU0d0cW93U3F6bDNwcFlfSdIBeEFVX3lxTE1ZNy0tY3hiLWFNTFlrZkZIa0pkZ1FrNXFUd2RzRV80ajNuZE1SdklTMnZjNTN2TGFGeUxzcVhVRFlwdmI5U0tWbFVFcU9oU09INTQzbktpZUR2dFBfLTZhdkxGV2xuTHFFVWNnX0pJRjhaM21HeENncg?oc=5",
+    "fetchedUrl":  "https://www.newsis.com/view/NISX20260901_0003771839",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}
