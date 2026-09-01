@@ -1,0 +1,19 @@
+﻿{
+    "checkedAt":  "2026-09-01T17:03:03.6149984+09:00",
+    "date":  "2026-09-01-link-dt-housing-budget",
+    "numbers":  [
+                    1
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-01-carousel",
+                     "slides":  6,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}

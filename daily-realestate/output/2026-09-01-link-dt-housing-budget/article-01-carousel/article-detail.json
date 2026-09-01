@@ -1,0 +1,23 @@
+﻿{
+    "number":  1,
+    "collectedAt":  "2026-09-01T17:02:51.0538510+09:00",
+    "title":  "한성숙 “주택공급에 직 걸겠다”…집 ‘닥공’에 예산 30조",
+    "source":  "디지털타임스",
+    "sourceUrl":  "",
+    "manualOriginalUrl":  "https://v.daum.net/v/20260901162529479",
+    "googleNewsUrl":  "https://v.daum.net/v/20260901162529479",
+    "fetchedUrl":  "https://v.daum.net/v/20260901162529479",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

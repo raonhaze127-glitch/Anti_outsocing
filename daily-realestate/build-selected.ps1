@@ -112,6 +112,7 @@ function Get-ArticleHashtags($article) {
   if ($text -match '9월 첫주 3713가구') { foreach ($tag in @('인천분양','인천청약','분양캘린더','시티오씨엘9단지','검암역푸르지오라베뉴')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '화성 1만호 공공주택') { foreach ($tag in @('화성특례시','화성공공주택','공공주택프로젝트','주택공급정책','화성동행기구')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '부천형 역세권 정비사업') { foreach ($tag in @('부천정비사업','소새울역','송내역','역세권정비사업','정비계획')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match '주택공급에 직 걸겠다.*예산 30조') { $tags.Clear(); foreach ($tag in @('주택공급예산','공공주택','공공임대주택','PF지원','주택공급정책')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match "'분양 성수기'.*3\.3만 가구") { $tags.Clear(); foreach ($tag in @('9월분양','아파트분양','수도권분양','서울분양','분양일정')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match '의정부우정지구 A-2블록 공공분양주택 청약') { $tags.Clear(); foreach ($tag in @('의정부우정지구','의정부공공분양','LH청약','의정부청약','공공분양')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
 
@@ -463,6 +464,17 @@ function New-Slides($article, [int]$number) {
       [pscustomobject]@{ type='table'; kicker='지방 물량'; title='13,319가구 예정'; body="광주|3,216가구`n충남|2,025가구`n경남|1,963가구`n부산·울산|1,713·1,521가구" },
       [pscustomobject]@{ type='table'; kicker='주요 대단지'; title='어디에 많이 나오나'; body="산곡역 자이힐스테이트&하늘채|2,706가구`n아크메르동탄|1,808가구`n경기광주역 롯데캐슬 2단지|1,249가구`n더샵분당하이스트|1,149가구" },
       [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='예정과 확정은 다릅니다'; body="1. 33,268가구는 월간 분양 예정치`n2. 단지별 모집공고와 실제 일반분양 물량 확인`n3. 청약 일정 변경·연기 여부 확인`n4. 서울은 예정 물량이 244가구에 그침" }
+    )
+  }
+
+  if ([string]$article.title -match '주택공급에 직 걸겠다.*예산 30조') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='2027 주택 예산'; title='주택공급 30조원'; body='올해보다 8.8조원 증가·공적주택 21.8만가구' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 예산 41.5% 증가'; body="주택공급 예산|30조원`n올해 대비|8.8조원 증가`n증가율|41.5%`n국토부 전체 예산|69조원" },
+      [pscustomobject]@{ type='table'; kicker='공급 목표'; title='공적주택 21.8만가구'; body="2026년|19.4만가구`n2027년 계획|21.8만가구`n증가 폭|12% 이상`n기준|정부 예산안 공급 계획" },
+      [pscustomobject]@{ type='table'; kicker='공공임대'; title='보편형 3.6만가구'; body="신규 투입|6.2조원`n공급 규모|3.6만가구`n청년 우선공급|2만가구`n특징|역세권·중형·장기거주형" },
+      [pscustomobject]@{ type='table'; kicker='PF 지원'; title='착공 병목도 지원'; body="PF 이차보전|1,696억원`nPF 앵커리츠|1,000억원`n우선 관리|수도권 325개 사업장`n목표|자금난 사업장 조기 착공" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='예산과 입주는 다릅니다'; body="1. 현재는 2027년도 정부 예산안`n2. 국회 심의 뒤 최종 예산 확정`n3. 인허가·지자체 협의 진행 여부 확인`n4. 공급 유형별 사업지·입주자 공고 확인" }
     )
   }
 
@@ -862,6 +874,8 @@ foreach ($index in $indexes) {
       '',
       $hashtags
     ) -join "`r`n"
+  } elseif ([string]$article.title -match '주택공급에 직 걸겠다.*예산 30조') {
+    $caption = @("🏘️ 2027년 주택공급 예산안이 30조원으로 확대됐습니다",'',"💰 예산 변화","주택공급 관련 예산은 올해 21조2,000억원에서 내년 30조원으로 8조8,000억원, 41.5% 늘어납니다. 정부는 이를 바탕으로 공적주택 21만8,000가구 공급을 계획했습니다.",'',"🏠 공공임대·청년 공급","보편형 공공임대에 6조2,000억원을 새로 투입해 역세권 등에서 3만6,000가구를 공급하고, 이 가운데 2만가구를 청년에게 우선 공급할 계획입니다.",'',"🏗️ PF 지원","조기 착공 사업장의 PF 대출 금융비용 지원에 1,696억원, 주택사업장 PF 앵커리츠에 1,000억원을 배정했습니다.",'',"🔎 다음 확인","현재는 2027년도 정부 예산안 단계입니다. 국회 심의 결과와 사업지별 인허가, 실제 착공 및 입주자 모집공고를 구분해 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match "'분양 성수기'.*3\.3만 가구") {
     $caption = @("🏢 9월 전국 분양 예정 물량은 33,268가구입니다",'',"📌 얼마나 늘었나","임대 물량을 포함해 전년 동기보다 6%, 전월보다 74% 증가한 규모입니다. 수도권은 19,949가구, 지방은 13,319가구가 예정됐습니다.",'',"🗺️ 지역별 차이","경기 11,686가구, 인천 8,019가구인 반면 서울은 3개 단지 244가구에 그칩니다. 지방에서는 광주가 3,216가구로 가장 많습니다.",'',"🔎 다음 확인","33,268가구는 월간 예정치입니다. 단지별 모집공고, 실제 일반분양 물량, 청약 일정 변경 여부를 함께 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '의정부우정지구 A-2블록 공공분양주택 청약') {

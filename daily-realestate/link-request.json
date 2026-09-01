@@ -1,27 +1,27 @@
 {
   "enabled": false,
-  "date": "2026-08-26-link-housingherald-62697",
+  "date": "2026-09-01-link-dt-housing-budget",
   "articles": [
     {
-      "url": "https://www.housingherald.co.kr/news/articleView.html?idxno=62697",
-      "title": "상계보람, 정비구역 지정 전 추진위 승인…4천483가구 재건축 속도",
-      "source": "하우징헤럴드",
-      "summary": "노원구는 상계보람아파트 조합설립추진위원회 구성을 승인했다. 현재 단계는 정비구역 지정·고시 전이며, 정비계획안은 기존 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 내용이다.",
-      "category": "재개발·재건축",
-      "region": "서울 노원구",
-      "publishedKstDate": "2026-08-26"
+      "url": "https://v.daum.net/v/20260901162529479",
+      "title": "한성숙 “주택공급에 직 걸겠다”…집 ‘닥공’에 예산 30조",
+      "source": "디지털타임스",
+      "summary": "정부의 2027년 주택공급 관련 예산안은 올해보다 8조8,000억원 늘어난 30조원이다. 공적주택 21만8,000가구를 공급하고, 보편형 공공임대 3만6,000가구와 PF 금융 지원을 추진한다.",
+      "category": "주택공급",
+      "region": "전국",
+      "publishedKstDate": "2026-09-01"
     }
   ],
   "publish_to_instagram": false,
   "review_confirmed": false,
   "image_usage_confirmed": false,
-  "requested_at": "2026-08-27T17:40:00+09:00",
+  "requested_at": "2026-09-01T17:05:00+09:00",
   "expected_articles": [
     {
       "number": 1,
-      "title": "상계보람, 정비구역 지정 전 추진위 승인…4천483가구 재건축 속도",
-      "source": "하우징헤럴드"
+      "title": "한성숙 “주택공급에 직 걸겠다”…집 ‘닥공’에 예산 30조",
+      "source": "디지털타임스"
     }
   ],
-  "note": "Published reviewed Housing Herald Sanggye Boram carousel. Request disabled after completion to prevent duplicate posting."
+  "note": "Build-only carousel completed. Request disabled to prevent unintended duplicate workflow execution."
 }
