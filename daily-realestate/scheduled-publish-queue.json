@@ -74,6 +74,17 @@
                      "title":  "의정부우정지구 A-2블록 공공분양주택 청약 (’26. 9/14~17)",
                      "source":  "홈두부",
                      "created_at":  "2026-09-01T16:57:39.4443403+09:00"
+                 },
+                 {
+                     "id":  "2026-09-01-link-dt-housing-budget-article-1-202609012300",
+                     "enabled":  true,
+                     "status":  "pending",
+                     "publish_at":  "2026-09-01T23:00:00.0000000+09:00",
+                     "date":  "2026-09-01-link-dt-housing-budget",
+                     "number":  1,
+                     "title":  "한성숙 “주택공급에 직 걸겠다”…집 ‘닥공’에 예산 30조",
+                     "source":  "디지털타임스",
+                     "created_at":  "2026-09-01T17:21:28.7593386+09:00"
                  }
              ]
 }
