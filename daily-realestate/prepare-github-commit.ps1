@@ -50,7 +50,6 @@ $sourceFiles = @(
   'daily-realestate/run-daily.ps1',
   'daily-realestate/build-selected.ps1',
   'daily-realestate/enrich-selected.ps1',
-  'daily-realestate/generate-fallback-backgrounds.ps1',
   'daily-realestate/publish-instagram-carousel.ps1',
   'daily-realestate/verify-public-image-urls.ps1',
   'daily-realestate/validate-news-output.ps1',

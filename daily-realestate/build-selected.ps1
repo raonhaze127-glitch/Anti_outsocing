@@ -32,11 +32,6 @@ if (Test-Path -LiteralPath $enrichScript) {
   & $enrichScript -Date $Date -Numbers ($indexes -join ',')
 }
 
-$fallbackImageScript = Join-Path $root 'generate-fallback-backgrounds.ps1'
-if (Test-Path -LiteralPath $fallbackImageScript) {
-  & $fallbackImageScript -Date $Date -Numbers ($indexes -join ',')
-}
-
 function Html([string]$value) { return [System.Net.WebUtility]::HtmlEncode($value) }
 
 function Short-Text([string]$value, [int]$max = 72) {

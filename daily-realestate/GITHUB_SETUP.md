@@ -101,14 +101,6 @@ GitHub repository에서 아래 설정을 확인합니다.
 - Meta 문서상 카드는 공개 URL에서 Meta가 직접 가져갈 수 있어야 합니다. 드라이런에서 `public-image-url-report.json`이 `valid`인지 먼저 확인하세요.
 - 토큰은 만료될 수 있으므로 게시 실패 시 먼저 secret 만료 여부를 확인합니다.
 
-### OpenAI 이미지 생성 Secret
-
-기사에 사용할 수 있는 공식 이미지가 없을 때 자동 생성 배경을 사용하려면 같은 repository secrets 화면에 다음 값을 추가합니다.
-
-- `OPENAI_API_KEY`: OpenAI API 프로젝트 키
-
-워크플로는 기존 기사 배경 파일이 없을 때만 `gpt-image-2`로 `1024x1536`, `low` 품질 이미지 한 장을 생성합니다. 키가 없거나 생성이 실패하면 카드 제작과 게시를 중단하지 않고 기본 네이비 배경을 사용합니다. 실행 결과는 해당 날짜 출력 폴더의 `image-generation-report.json`에서 확인할 수 있습니다.
-
 ## 5. 첫 수집 테스트
 
 GitHub Actions 탭에서 수동 실행합니다.

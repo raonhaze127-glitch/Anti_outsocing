@@ -24,9 +24,6 @@ jobs:
 
       - name: Build selected carousels
         shell: pwsh
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_IMAGE_MODEL: gpt-image-2
         run: |
           powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\build-selected.ps1 -Date "${{ inputs.date }}" -Numbers "${{ inputs.numbers }}"
 
@@ -54,7 +51,6 @@ jobs:
           path: |
             daily-realestate/output/${{ inputs.date }}/article-*-carousel/**
             daily-realestate/output/${{ inputs.date }}/original-urls.json
-            daily-realestate/output/${{ inputs.date }}/image-generation-report.json
             daily-realestate/output/${{ inputs.date }}/validation-report.json
           if-no-files-found: error
           retention-days: 14
