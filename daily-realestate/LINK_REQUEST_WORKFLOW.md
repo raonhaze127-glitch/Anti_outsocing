@@ -109,6 +109,8 @@ Expected result:
 - Do not simplify business terms in a misleading way. For example, keep terms such as `sin-tong-gihoeg`, `Moatown`, `public housing district`, or the exact Korean source wording when it affects meaning.
 - Use article-contained building exteriors, architectural renderings, terrain maps, location maps, district maps, layout maps, and route maps first without pausing for a separate usage-condition check.
 - Do not automatically use photographs containing people or text-dominant images such as notices, tables, posters, document screenshots, or promotional copy.
+- When Codex builds the carousel and no usable article image remains, generate a topic-appropriate editorial background automatically and save it as the article background asset before rendering. Do not include people, readable text, numbers, logos, signs, documents, or charts in the generated image.
+- GitHub Actions only publishes the already produced and reviewed carousel; it does not need an image-generation API.
 - Apply the selected article image to only one or two slides; build the remaining slides as original comparison tables, timelines, or process diagrams from article facts.
 - After reviewing the draft, replace the article image with a generated image only when the user requests it.
 - If article extraction is weak, fill `title`, `summary`, `category`, `region`, and `source` manually before publishing.
