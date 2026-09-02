@@ -113,6 +113,8 @@ function Get-ArticleHashtags($article) {
   if ($text -match '화성 1만호 공공주택') { foreach ($tag in @('화성특례시','화성공공주택','공공주택프로젝트','주택공급정책','화성동행기구')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '부천형 역세권 정비사업') { foreach ($tag in @('부천정비사업','소새울역','송내역','역세권정비사업','정비계획')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
   if ($text -match '주택공급에 직 걸겠다.*예산 30조') { $tags.Clear(); foreach ($tag in @('주택공급예산','공공주택','공공임대주택','PF지원','주택공급정책')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match '인천 구월2 공공주택지구 토지거래허가구역') { $tags.Clear(); foreach ($tag in @('구월2공공주택지구','인천공공주택','토지거래허가구역','구월동부동산','공공주택공급')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match '공적주택 21만8000호.*청년월세') { $tags.Clear(); foreach ($tag in @('공적주택','공공임대','공공분양','청년주거','2027국토부예산')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match "'분양 성수기'.*3\.3만 가구") { $tags.Clear(); foreach ($tag in @('9월분양','아파트분양','수도권분양','서울분양','분양일정')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match '의정부우정지구 A-2블록 공공분양주택 청약') { $tags.Clear(); foreach ($tag in @('의정부우정지구','의정부공공분양','LH청약','의정부청약','공공분양')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
 
@@ -332,6 +334,28 @@ function New-Slides($article, [int]$number) {
   $source = Short-Text $article.source 28
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
+
+  if ([string]$article.title -match '인천 구월2 공공주택지구 토지거래허가구역') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='구월2 공공주택지구'; title='허가구역 1년 연장'; body='5.43㎢ 재지정·2027년 9월 20일까지' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='총 15,996가구 계획'; body="공공임대|4,843가구`n공공분양|4,857가구`n전체 계획|15,996가구`n현재 성격|공공주택지구 공급 계획" },
+      [pscustomobject]@{ type='table'; kicker='현재 적용 범위'; title='인천 4개 동·5.43㎢'; body="연수구|선학동`n남동구|구월동·남촌동·수산동`n대상|개발제한구역 일원`n기간|2027년 9월 20일까지" },
+      [pscustomobject]@{ type='table'; kicker='거래 조건'; title='허가받아야 거래 가능'; body="허가 주체|관할 구청장`n주택 취득|2년 실거주 목적`n허가 기준|주거 60㎡ 초과·상업 150㎡ 초과`n녹지 기준|100㎡ 초과" },
+      [pscustomobject]@{ type='table'; kicker='위반 시'; title='취득가 10%까지 이행강제금'; body="먼저|최대 3개월 이행명령`n미이행 시|토지 취득가의 최대 10%`n지정 목적|투기성 거래 차단`n보호 대상|실수요자 중심 거래" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='계획과 확정을 구분'; body="1. 지구계획과 실제 공급 일정`n2. 공공임대·분양별 입주자 공고`n3. 2027년 만료 전 재연장 여부`n4. 기간 내 토지거래는 허가 필요" }
+    )
+  }
+
+  if ([string]$article.title -match '공적주택 21만8000호.*청년월세') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='2027 국토부 예산안'; title='공적주택 21.8만호'; body='올해보다 12% 이상 확대·주택공급 예산 30조원' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='19.4만 → 21.8만호'; body="2026년|19.4만호`n2027년 계획|21.8만호`n증가 물량|2.4만호`n기준|정부 예산안의 공급·착공 계획" },
+      [pscustomobject]@{ type='table'; kicker='공급 구성'; title='임대 17.2만호가 중심'; body="공공임대|17.2만호`n공공분양|3.4만호`n공공지원 민간임대|1.2만호`n합계|21.8만호" },
+      [pscustomobject]@{ type='table'; kicker='청년 공급'; title='7.1만 → 10.6만호'; body="2026년|7.1만호`n2027년 계획|10.6만호`n증가 물량|3.5만호`n보편형 공공임대|3.6만호 추진" },
+      [pscustomobject]@{ type='table'; kicker='예산 변화'; title='주택공급 예산 30조원'; body="2026년|21.2조원`n2027년 계획|30조원`n증가액|8.8조원`n국토부 전체 예산안|69조원" },
+      [pscustomobject]@{ type='summary'; kicker='아직 확정 전'; title='국회 심의 뒤 최종 확정'; body="1. 현재는 2027년도 정부 예산안`n2. 공급 지역·주택형은 후속 공고 확인`n3. 청년 월세의 소득·지원액은 최종 지침 확인`n4. 착공 계획과 실제 입주 시점을 구분" }
+    )
+  }
 
   if ([string]$article.title -match '인천 계양 A6블록.*663') {
     return @(
@@ -640,6 +664,7 @@ $createdSets = @()
 
 foreach ($index in $indexes) {
   $article = $candidates[$index - 1]
+  if ([string]$article.source -eq 'gukjenews.com') { $article.source = '국제뉴스' }
   $setName = 'article-{0:D2}-carousel' -f $index
   $setDir = Join-Path $outDir $setName
   New-Item -ItemType Directory -Path $setDir -Force | Out-Null
@@ -725,7 +750,11 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '인천 계양 A6블록.*663') {
+  if ([string]$article.title -match '인천 구월2 공공주택지구 토지거래허가구역') {
+    $caption = @("🗺️ 구월2 공공주택지구, 토지거래허가구역이 1년 연장됐습니다",'',"📌 현재 적용","인천 연수구 선학동과 남동구 구월·남촌·수산동 개발제한구역 일원 5.43㎢가 2027년 9월 20일까지 허가구역으로 재지정됐습니다.",'',"🏘️ 계획 규모","구월2 공공주택지구에는 총 15,996가구가 계획돼 있습니다. 이 가운데 공공임대 4,843가구, 공공분양 4,857가구입니다.",'',"🔎 거래 전 확인","토지거래는 관할 구청장 허가가 필요하고 주택은 2년 실거주 목적이어야 합니다. 주거 60㎡, 상업 150㎡, 녹지 100㎡를 초과하면 허가 대상입니다.",'',"✅ 다음 확인","지구계획과 실제 공급 일정, 유형별 입주자 모집공고, 2027년 만료 전 재연장 여부를 구분해 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '공적주택 21만8000호.*청년월세') {
+    $caption = @("🏘️ 2027년 공적주택 공급 계획은 21만8,000호입니다",'',"📌 공급 변화","2026년 19만4,000호에서 2만4,000호 늘어난 규모입니다. 공공임대 17만2,000호, 공공분양 3만4,000호, 공공지원 민간임대 1만2,000호로 구성됩니다.",'',"🧑‍💼 청년 주거","청년 대상 주택 공급은 7만1,000호에서 10만6,000호로 확대하는 계획입니다. 보편형 공공임대 3만6,000호 추진 내용도 예산안에 담겼습니다.",'',"💰 예산 변화","주택공급 예산은 21조2,000억원에서 30조원으로 8조8,000억원 늘어납니다. 국토부 전체 예산안은 69조원입니다.",'',"🔎 다음 확인","현재는 정부 예산안 단계입니다. 국회 심의 결과와 공급 지역, 실제 입주자 모집공고, 청년 월세 지원의 최종 소득·지원 기준을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '인천 계양 A6블록.*663') {
     $caption = @(
       "🏢 인천계양 A6블록 공공분양 663가구가 공급됩니다",
       '',

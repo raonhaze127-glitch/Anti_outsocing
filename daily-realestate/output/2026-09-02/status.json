@@ -1,10 +1,30 @@
 ﻿{
-    "runAt":  "2026-09-02T01:29:02.0620092+00:00",
+    "runAt":  "2026-09-02T10:37:32.2650739+09:00",
     "date":  "2026-09-02",
-    "fetched":  318,
-    "candidates":  15,
-    "selected":  0,
-    "slides":  0,
-    "rendered":  false,
-    "state":  "awaiting_selection"
+    "selectedNumbers":  [
+                            5,
+                            8
+                        ],
+    "selected":  2,
+    "sets":  [
+                 {
+                     "number":  5,
+                     "title":  "인천 구월2 공공주택지구 토지거래허가구역 1년 연장",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-09-02\\article-05-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 },
+                 {
+                     "number":  8,
+                     "title":  "내년 공적주택 21만8000호 공급·청년월세 지원 2배↑ 국토부 예산안 발표",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-09-02\\article-08-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
 }

@@ -1,0 +1,23 @@
+﻿{
+    "number":  5,
+    "collectedAt":  "2026-09-02T10:37:05.7762606+09:00",
+    "title":  "인천 구월2 공공주택지구 토지거래허가구역 1년 연장",
+    "source":  "연합뉴스",
+    "sourceUrl":  "https://www.yna.co.kr",
+    "manualOriginalUrl":  "https://www.yna.co.kr/view/AKR20260902025900065",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rMUF3TUhGekhpWEJVYkNqejY3ZjNOZ21Ta1JOWmNNemtoT283X2swSU55UENaZ1l5M3g1Q0pJYzRVeVRldzNvTWFLTG1sZEgyY1FjSnNYZDFfRWozUldzcdIBYEFVX3lxTE9rMUF3TUhGekhpWEJVYkNqejY3ZjNOZ21Ta1JOWmNNemtoT283X2swSU55UENaZ1l5M3g1Q0pJYzRVeVRldzNvTWFLTG1sZEgyY1FjSnNYZDFfRWozUldzcQ?oc=5",
+    "fetchedUrl":  "https://www.yna.co.kr/view/AKR20260902025900065",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}
