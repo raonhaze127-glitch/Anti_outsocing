@@ -45,6 +45,7 @@ $requiredScripts = @(
   'run-daily.ps1',
   'build-selected.ps1',
   'enrich-selected.ps1',
+  'generate-fallback-backgrounds.ps1',
   'publish-instagram-carousel.ps1',
   'verify-public-image-urls.ps1',
   'validate-news-output.ps1',
