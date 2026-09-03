@@ -113,8 +113,8 @@
                  },
                  {
                      "id":  "2026-09-03-article-18-202609032215",
-                     "enabled":  true,
-                     "status":  "pending",
+                     "enabled":  false,
+                     "status":  "cancelled",
                      "publish_at":  "2026-09-03T22:15:00.0000000+09:00",
                      "date":  "2026-09-03",
                      "number":  18,
