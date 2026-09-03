@@ -102,8 +102,8 @@
                  },
                  {
                      "id":  "2026-09-03-article-3-202609032015",
-                     "enabled":  true,
-                     "status":  "pending",
+                     "enabled":  false,
+                     "status":  "cancelled",
                      "publish_at":  "2026-09-03T20:15:00.0000000+09:00",
                      "date":  "2026-09-03",
                      "number":  3,
