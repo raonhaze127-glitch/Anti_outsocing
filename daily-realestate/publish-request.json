@@ -1,17 +1,17 @@
 {
-  "enabled": false,
-  "date": "2026-08-30",
+  "enabled": true,
+  "date": "2026-09-03",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "‘20년 만기’ 장기전세 9361가구…서울시 “연장·분양 불가”",
-      "source": "경북매일"
+      "title": "성남복정2 A1블록 신혼희망타운 입주자모집공고",
+      "source": "LH"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-08-30T01:26:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-09-03T20:36:00+09:00",
+  "note": "Publish the user-approved, eight-card Seongnam Bokjeong 2 A1 newly built carousel only."
 }

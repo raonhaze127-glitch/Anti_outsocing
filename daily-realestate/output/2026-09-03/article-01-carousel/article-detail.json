@@ -1,23 +1,8 @@
-﻿{
-    "number":  1,
-    "collectedAt":  "2026-09-03T18:12:49.1130957+09:00",
-    "title":  "LH 부채 2030년 373조 \u0027폭증\u0027…공공주택 공급에 경고등",
-    "source":  "아이뉴스24",
-    "sourceUrl":  "http://www.inews24.com",
-    "manualOriginalUrl":  "https://www.inews24.com/view/2000936",
-    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wV0hwdkRRb3dzYmFpa3NhUFVTNC1xWVNBSkVmRXAyYk83enhMUTFSNzVtc2tGRWh1NlU5aHpUclRGU2htMVpsZUJDdw?oc=5",
-    "fetchedUrl":  "https://www.inews24.com/view/2000936",
-    "resolvedUrl":  "",
-    "fetchStatus":  "fetch_failed",
-    "metaTitle":  "",
-    "metaDescription":  "",
-    "bodyExcerpt":  "",
-    "imageCandidates":  [
-
-                        ],
-    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
-    "contextWarnings":  [
-                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
-                            "Use RSS title/summary only and verify manually."
-                        ]
+{
+  "number": 1,
+  "title": "성남복정2 A1블록 신혼희망타운 입주자모집공고",
+  "source": "LH",
+  "sourceUrl": "",
+  "contentType": "user-provided brief",
+  "imageUsage": "Original text-and-shape carousel artwork; no third-party imagery used."
 }

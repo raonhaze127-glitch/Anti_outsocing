@@ -98,7 +98,7 @@ jobs:
             $setName = "article-$('{0:D2}' -f $number)-carousel"
             $carouselDir = ".\daily-realestate\output\$date\$setName"
             $cards = if (Test-Path -LiteralPath $carouselDir) { @(Get-ChildItem -LiteralPath $carouselDir -Filter '*.png') } else { @() }
-            $isPrepared = (Test-Path -LiteralPath (Join-Path $carouselDir 'REVIEW.md')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'article-detail.json')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'caption.txt')) -and $cards.Count -eq 6
+            $isPrepared = (Test-Path -LiteralPath (Join-Path $carouselDir 'REVIEW.md')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'article-detail.json')) -and (Test-Path -LiteralPath (Join-Path $carouselDir 'caption.txt')) -and $cards.Count -ge 2 -and $cards.Count -le 10
             if ($isPrepared) {
               Write-Host "Using prebuilt reviewed carousel: $setName"
             } else {
