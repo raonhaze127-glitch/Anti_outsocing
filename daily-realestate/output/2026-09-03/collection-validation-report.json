@@ -1,9 +1,9 @@
 ﻿{
-    "checkedAt":  "2026-09-03T00:32:53.8542626+00:00",
+    "checkedAt":  "2026-09-03T18:05:10.3252295+09:00",
     "date":  "2026-09-03",
     "state":  "valid",
-    "candidates":  7,
-    "minCandidates":  5,
+    "candidates":  30,
+    "minCandidates":  30,
     "blockedSourceHits":  [
 
                           ],

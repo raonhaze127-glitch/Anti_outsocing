@@ -119,9 +119,20 @@ foreach ($query in $config.queries) {
 
 $minimumYear = ([int]$Date.Substring(0,4)) - 1
 $blockedPattern = (($config.blockedSources | ForEach-Object {[regex]::Escape($_)}) -join '|')
+$kstZone = [System.TimeZoneInfo]::FindSystemTimeZoneById('Korea Standard Time')
+$nowKst = [System.TimeZoneInfo]::ConvertTime([datetimeoffset]::UtcNow, $kstZone)
+$targetDate = [datetime]::ParseExact($Date, 'yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture)
+$isToday = $targetDate.Date -eq $nowKst.Date
+$windowStart = $nowKst.AddHours(-24)
 $candidates = @($items | Where-Object {
+  $publishedAt = Get-KoreaPublishedAt ([string]$_.published)
+  $inCollectionWindow = if ($isToday) {
+    $publishedAt -and $publishedAt -ge $windowStart -and $publishedAt -le $nowKst
+  } else {
+    $_.publishedKstDate -eq $Date
+  }
   $_.score -gt 0 -and
-  $_.publishedKstDate -eq $Date -and
+  $inCollectionWindow -and
   (-not $blockedPattern -or $_.source -notmatch $blockedPattern) -and
   $_.title -notmatch "\b(19|20)\d{2}\b.*\b(19|20)\d{2}\b" -and
   $_.title -notmatch "\([A-Za-z0-9_-]{8,}\)" -and
@@ -139,8 +150,9 @@ foreach ($pick in $candidates) {
 $selected = @($selectedList)
 $candidates | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $outDir 'candidates.json') -Encoding UTF8
 
-$articleMd = @("# $Date 부동산 공급 기사 후보", '', '> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`', '')
-$articleTxt = @("[$Date 부동산 공급 기사 후보]", '')
+$windowLabel = if ($isToday) { '최근 24시간' } else { $Date }
+$articleMd = @("# $Date 부동산 공급 기사 후보", '', "> 수집 범위: $windowLabel / 최대 $($config.maxCandidates)건", '> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`', '')
+$articleTxt = @("[$Date 부동산 공급 기사 후보]", "수집 범위: $windowLabel / 최대 $($config.maxCandidates)건", '')
 for ($i=0; $i -lt $candidates.Count; $i++) {
   $n = $i + 1; $x = $candidates[$i]
   $articleMd += "## $n. $($x.title)"

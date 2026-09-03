@@ -1,6 +1,6 @@
 ﻿param(
   [Parameter(Mandatory=$true)][string]$Date,
-  [int]$MinCandidates = 5,
+  [int]$MinCandidates = 30,
   [switch]$Strict
 )
 

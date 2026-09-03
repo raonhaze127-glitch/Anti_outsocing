@@ -40,7 +40,7 @@ jobs:
       - name: Validate news candidates
         shell: pwsh
         run: |
-          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-news-output.ps1 -Date "${{ steps.date.outputs.value }}" -MinCandidates 5
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\daily-realestate\validate-news-output.ps1 -Date "${{ steps.date.outputs.value }}" -MinCandidates 30
 
       - name: Commit daily review files
         shell: pwsh
