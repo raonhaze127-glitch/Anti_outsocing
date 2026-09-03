@@ -115,6 +115,9 @@ function Get-ArticleHashtags($article) {
   if ($text -match '주택공급에 직 걸겠다.*예산 30조') { $tags.Clear(); foreach ($tag in @('주택공급예산','공공주택','공공임대주택','PF지원','주택공급정책')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match '인천 구월2 공공주택지구 토지거래허가구역') { $tags.Clear(); foreach ($tag in @('구월2공공주택지구','인천공공주택','토지거래허가구역','구월동부동산','공공주택공급')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match '공적주택 21만8000호.*청년월세') { $tags.Clear(); foreach ($tag in @('공적주택','공공임대','공공분양','청년주거','2027국토부예산')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match 'LH 부채 2030년 373조') { $tags.Clear(); foreach ($tag in @('LH부채','공공주택공급','매입임대','LH재무건전성','공공임대주택')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match '모아타운 후보지 도로.*5년간') { $tags.Clear(); foreach ($tag in @('모아타운','토지거래허가구역','서울모아타운','사도지분거래','정비사업')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
+  if ($text -match '부천대장 공공분양.*하우스토리 디센트') { $tags.Clear(); foreach ($tag in @('부천대장지구','하우스토리디센트','3기신도시','부천공공분양','대장홍대선')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match "'분양 성수기'.*3\.3만 가구") { $tags.Clear(); foreach ($tag in @('9월분양','아파트분양','수도권분양','서울분양','분양일정')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
   if ($text -match '의정부우정지구 A-2블록 공공분양주택 청약') { $tags.Clear(); foreach ($tag in @('의정부우정지구','의정부공공분양','LH청약','의정부청약','공공분양')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 5 | ForEach-Object { "#$_" }) }
 
@@ -343,6 +346,39 @@ function New-Slides($article, [int]$number) {
       [pscustomobject]@{ type='table'; kicker='거래 조건'; title='허가받아야 거래 가능'; body="허가 주체|관할 구청장`n주택 취득|2년 실거주 목적`n허가 기준|주거 60㎡ 초과·상업 150㎡ 초과`n녹지 기준|100㎡ 초과" },
       [pscustomobject]@{ type='table'; kicker='위반 시'; title='취득가 10%까지 이행강제금'; body="먼저|최대 3개월 이행명령`n미이행 시|토지 취득가의 최대 10%`n지정 목적|투기성 거래 차단`n보호 대상|실수요자 중심 거래" },
       [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='계획과 확정을 구분'; body="1. 지구계획과 실제 공급 일정`n2. 공공임대·분양별 입주자 공고`n3. 2027년 만료 전 재연장 여부`n4. 기간 내 토지거래는 허가 필요" }
+    )
+  }
+
+  if ([string]$article.title -match 'LH 부채 2030년 373조') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 재무 전망'; title='197.5조 → 372.8조'; body='2030년까지 부채 175.3조원 증가 전망' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 확대의 재무 부담'; body="2026년 부채|197.5조원`n2030년 전망|372.8조원`n증가액|175.3조원`n근거|공공기관 중장기재무관리계획" },
+      [pscustomobject]@{ type='table'; kicker='착공 계획'; title='2028년부터 연 10만가구'; body="2026년|5만가구`n2027년|7만6,000가구`n2028~2030년|매년 10만가구 이상`n2030년까지|연평균 12만가구 공급 목표" },
+      [pscustomobject]@{ type='table'; kicker='부채비율'; title='250.6% → 351.2%'; body="2026년|250.6%`n2030년 전망|351.2%`n상승 폭|100.6%포인트`n배경|착공·매입임대 투자 확대" },
+      [pscustomobject]@{ type='table'; kicker='공실 체크'; title='장기공실 8,279가구'; body="매입임대 재고|203,247가구`n6개월 이상 공실|8,279가구`n전국 공가율|4.1%`n수도권 장기공실|반년간 47.7% 증가" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='부채와 공급효율을 함께'; body="1. 372.8조원은 2030년 전망치`n2. 착공 확대에 따른 실제 자금 집행`n3. 지역·주택유형별 공실 변화`n4. 공급량과 수요·입지의 일치 여부" }
+    )
+  }
+
+  if ([string]$article.title -match '모아타운 후보지 도로.*5년간') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 모아타운'; title='후보지 도로 5년 규제'; body='9월 16일부터 토지거래허가구역 지정' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='골목길 지분 거래 차단'; body="적용 대상|사업구역 내 지목이 도로인 토지`n규제 목적|사도 지분 쪼개기 투기 차단`n허가 주체|관할 구청장`n이용 의무|신고한 목적대로 사용" },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='3개 구 심의 예정'; body="심의 대상|마포구·노원구·서초구 3개 구역`n전문가 자문회의|9월 9일`n서울시보 공고|9월 11일`n주의|최종 후보지로 선정된 지역만 적용" },
+      [pscustomobject]@{ type='table'; kicker='지정 기간'; title='2026.09.16~2031.09.15'; body="시작|2026년 9월 16일`n종료|2031년 9월 15일`n기간|5년`n지정 범위|최종 선정지의 도로 토지" },
+      [pscustomobject]@{ type='table'; kicker='허가 기준'; title='도로 지분도 면적 확인'; body="주거지역|6㎡ 초과`n상업·공업지역|15㎡ 초과`n녹지지역|20㎡ 초과`n계약 전|소유권·지상권 이전은 허가 필요" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='아직 대상지는 최종 전'; body="1. 9월 9일 최종 후보지 선정 결과`n2. 9월 11일 서울시보의 정확한 경계`n3. 토지 지목과 허가 대상 면적`n4. 후보지 선정과 사업 확정을 구분" }
+    )
+  }
+
+  if ([string]$article.title -match '부천대장 공공분양.*하우스토리 디센트') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='부천대장 A-2블록'; title='공공분양 548가구'; body='전용 59~84㎡·2026년 10월 공급 예정' },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='부천대장 첫 공공분양'; body="사업지|부천대장 공공주택지구 A-2블록`n단지명|하우스토리 디센트`n공급 규모|총 548가구`n공급 시기|2026년 10월 예정" },
+      [pscustomobject]@{ type='table'; kicker='주택형'; title='전용 59~84㎡ 구성'; body="전용 59㎡|A·B·C 타입`n전용 74㎡|A 타입`n전용 84㎡|A 타입`n유형별 물량|입주자모집공고에서 확인" },
+      [pscustomobject]@{ type='table'; kicker='사업 구조'; title='LH·남광토건 컨소시엄'; body="시행|LH·남광토건 컨소시엄`n시공|남광토건 컨소시엄`n공급 유형|공공분양 아파트`n현재 단계|10월 공급 예정 발표" },
+      [pscustomobject]@{ type='table'; kicker='입지·일정'; title='대장역 예정지 인근'; body="교통 계획|대장홍대선 대장역 예정`n견본주택|부천시 원미구 상동 529-38`n개관 시기|2026년 10월 예정`n청약 일정|모집공고에서 최종 확인" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='공급 예정과 공고를 구분'; body="1. 특별·일반공급별 실제 배정 물량`n2. 분양가·소득·자산·거주지역 기준`n3. 청약 접수와 당첨자 발표 일정`n4. 대장홍대선은 예정 사업임을 구분" }
     )
   }
 
@@ -665,6 +701,8 @@ $createdSets = @()
 foreach ($index in $indexes) {
   $article = $candidates[$index - 1]
   if ([string]$article.source -eq 'gukjenews.com') { $article.source = '국제뉴스' }
+  if ([string]$article.source -eq 'Chosunbiz') { $article.source = '조선비즈' }
+  if ([string]$article.source -eq 'etoday.co.kr') { $article.source = '이투데이' }
   $setName = 'article-{0:D2}-carousel' -f $index
   $setDir = Join-Path $outDir $setName
   New-Item -ItemType Directory -Path $setDir -Force | Out-Null
@@ -750,7 +788,13 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '인천 구월2 공공주택지구 토지거래허가구역') {
+  if ([string]$article.title -match 'LH 부채 2030년 373조') {
+    $caption = @("🏘️ LH 부채가 2030년 372조8,000억원으로 늘어날 전망입니다",'',"📌 부채 변화","공공기관 중장기재무관리계획에 따르면 LH 부채는 2026년 197조5,000억원에서 2030년 372조8,000억원으로 175조3,000억원 증가할 전망입니다.",'',"🏗️ 공급 계획","LH는 2026년 5만가구, 2027년 7만6,000가구를 착공하고 2028년부터 2030년까지 매년 10만가구 이상 착공할 계획입니다.",'',"🔢 함께 볼 숫자","부채비율은 250.6%에서 351.2%로 높아질 전망입니다. 6개월 이상 비어 있는 매입임대주택은 올해 6월 기준 8,279가구로 집계됐습니다.",'',"🔎 다음 확인","372조8,000억원은 전망치입니다. 실제 착공·자금 집행과 지역별 공실, 수요가 있는 입지에 공급되는지를 함께 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '모아타운 후보지 도로.*5년간') {
+    $caption = @("🛣️ 서울 모아타운 후보지의 도로가 5년간 토지거래허가구역으로 지정됩니다",'',"📌 적용 대상","9월 9일 전문가 자문회의 심의 대상인 마포·노원·서초구 3개 구역 가운데 최종 후보지로 선정되는 지역의 ‘도로’ 토지에 적용됩니다.",'',"🗓️ 일정","최종 지정 범위는 9월 11일 서울시보에 공개되고, 9월 16일부터 2031년 9월 15일까지 5년간 효력이 적용됩니다.",'',"🔎 거래 전 확인","주거지역 6㎡, 상업·공업지역 15㎡, 녹지지역 20㎡를 초과하는 토지의 소유권·지상권 이전 계약은 관할 구청장 허가가 필요합니다.",'',"✅ 다음 확인","현재 3개 구역 모두가 최종 지정된 것은 아닙니다. 후보지 선정 결과와 서울시보의 정확한 경계, 토지 지목을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '부천대장 공공분양.*하우스토리 디센트') {
+    $caption = @("🏢 부천대장 첫 공공분양, 하우스토리 디센트 548가구가 10월 공급될 예정입니다",'',"📌 공급 규모","부천대장 공공주택지구 A-2블록에 총 548가구가 공급됩니다. 전용 59㎡ A·B·C, 74㎡ A, 84㎡ A 타입으로 구성됩니다.",'',"🏗️ 사업 구조","시행은 LH·남광토건 컨소시엄, 시공은 남광토건 컨소시엄이 맡습니다. 현재는 10월 공급 예정이 발표된 단계입니다.",'',"🚆 입지·일정","대장홍대선 대장역 예정지 인근이며 견본주택은 부천시 원미구 상동 529-38 일원에 마련될 예정입니다.",'',"🔎 다음 확인","특별·일반공급별 물량과 분양가, 소득·자산·지역 기준, 청약 일정은 입주자모집공고에서 최종 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '인천 구월2 공공주택지구 토지거래허가구역') {
     $caption = @("🗺️ 구월2 공공주택지구, 토지거래허가구역이 1년 연장됐습니다",'',"📌 현재 적용","인천 연수구 선학동과 남동구 구월·남촌·수산동 개발제한구역 일원 5.43㎢가 2027년 9월 20일까지 허가구역으로 재지정됐습니다.",'',"🏘️ 계획 규모","구월2 공공주택지구에는 총 15,996가구가 계획돼 있습니다. 이 가운데 공공임대 4,843가구, 공공분양 4,857가구입니다.",'',"🔎 거래 전 확인","토지거래는 관할 구청장 허가가 필요하고 주택은 2년 실거주 목적이어야 합니다. 주거 60㎡, 상업 150㎡, 녹지 100㎡를 초과하면 허가 대상입니다.",'',"✅ 다음 확인","지구계획과 실제 공급 일정, 유형별 입주자 모집공고, 2027년 만료 전 재연장 여부를 구분해 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '공적주택 21만8000호.*청년월세') {
     $caption = @("🏘️ 2027년 공적주택 공급 계획은 21만8,000호입니다",'',"📌 공급 변화","2026년 19만4,000호에서 2만4,000호 늘어난 규모입니다. 공공임대 17만2,000호, 공공분양 3만4,000호, 공공지원 민간임대 1만2,000호로 구성됩니다.",'',"🧑‍💼 청년 주거","청년 대상 주택 공급은 7만1,000호에서 10만6,000호로 확대하는 계획입니다. 보편형 공공임대 3만6,000호 추진 내용도 예산안에 담겼습니다.",'',"💰 예산 변화","주택공급 예산은 21조2,000억원에서 30조원으로 8조8,000억원 늘어납니다. 국토부 전체 예산안은 69조원입니다.",'',"🔎 다음 확인","현재는 정부 예산안 단계입니다. 국회 심의 결과와 공급 지역, 실제 입주자 모집공고, 청년 월세 지원의 최종 소득·지원 기준을 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"

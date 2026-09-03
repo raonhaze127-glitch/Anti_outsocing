@@ -1,0 +1,23 @@
+﻿{
+    "number":  18,
+    "collectedAt":  "2026-09-03T18:12:49.2289489+09:00",
+    "title":  "부천대장 공공분양 ‘하우스토리 디센트’ 10월 공급…548가구 규모",
+    "source":  "etoday.co.kr",
+    "sourceUrl":  "https://www.etoday.co.kr",
+    "manualOriginalUrl":  "https://www.etoday.co.kr/news/view/2621621",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uaGhTNmE2Z3VORGtCakVaZkQ5RklYRDd5SUNOLUs2VGdITlBXWDVRQXVHQWx0eGRKRzZ4MExURVB6eHlpVUJ1elBMbERKczE0Q2IySA?oc=5",
+    "fetchedUrl":  "https://www.etoday.co.kr/news/view/2621621",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

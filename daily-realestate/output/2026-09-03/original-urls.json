@@ -1,6 +1,8 @@
 ﻿{
     "note":  "선택 기사 원문 URL을 알고 있으면 아래처럼 번호별로 입력하세요. 예: \"1\": \"https://media.example.com/article\"",
     "urls":  {
-
+                 "1": "https://www.inews24.com/view/2000936",
+                 "3": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/03/NTMWTFJETVF3FEXL5OCIMIMAGE/",
+                 "18": "https://www.etoday.co.kr/news/view/2621621"
              }
 }
