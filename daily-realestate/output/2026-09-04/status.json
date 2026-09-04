@@ -1,10 +1,21 @@
 ﻿{
-    "runAt":  "2026-09-04T00:18:10.8066790+00:00",
+    "runAt":  "2026-09-04T16:19:50.4012351+09:00",
     "date":  "2026-09-04",
-    "fetched":  325,
-    "candidates":  30,
-    "selected":  0,
-    "slides":  0,
-    "rendered":  false,
-    "state":  "awaiting_selection"
+    "selectedNumbers":  [
+                            19
+                        ],
+    "selected":  1,
+    "sets":  [
+                 {
+                     "number":  19,
+                     "title":  "개포우성7차·가락삼익 재건축 탄력…면목7구역 1천515세대 공급",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\_schedule-20260829\\daily-realestate\\output\\2026-09-04\\article-19-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
 }

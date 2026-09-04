@@ -2,14 +2,14 @@
 
 - 선택 번호: 19
 - 제목: 개포우성7차·가락삼익 재건축 탄력…면목7구역 1천515세대 공급
-- 분류/지역: 재개발·재건축 / 전국
+- 분류/지역: 재개발·재건축 / 서울
 - 출처: 연합뉴스
-- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tai1sZ18xUENKMzVUTkh5MnVLaVpqaVplUV9kVk5EN0tXdHRZa0FnaE5RTGtVYW5wOHNCRWM2M0VPd1hldnotMEczTkpWZWhBaUdXVFRwN3RmTW_SAWBBVV95cUxOZ0dJYnhKWl9BODgtSVFuUzBJb01XbmM3Qnc0TWVEZGt3Q01hbkhXOFZFeUdxUjc5cUNiZ08ySTN0a0lKNm45Ymg4Sjd1YW9ZenVQM0R0eVA0RnQtSzh1VlA?oc=5
+- 링크: https://www.yna.co.kr/view/AKR20260904050200004
 
 ## 원문/문맥 추출 상태
 - 추출 상태: fetch_failed
 - 수동 원문 URL: 없음
-- 실제 추출 URL: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tai1sZ18xUENKMzVUTkh5MnVLaVpqaVplUV9kVk5EN0tXdHRZa0FnaE5RTGtVYW5wOHNCRWM2M0VPd1hldnotMEczTkpWZWhBaUdXVFRwN3RmTW_SAWBBVV95cUxOZ0dJYnhKWl9BODgtSVFuUzBJb01XbmM3Qnc0TWVEZGt3Q01hbkhXOFZFeUdxUjc5cUNiZ08ySTN0a0lKNm45Ymg4Sjd1YW9ZenVQM0R0eVA0RnQtSzh1VlA?oc=5
+- 실제 추출 URL: https://www.yna.co.kr/view/AKR20260904050200004
 - 해석 가능한 원문 URL: 확인 필요
 - 원문 메타 설명: 확인 필요
 

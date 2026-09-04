@@ -1,0 +1,19 @@
+﻿{
+    "checkedAt":  "2026-09-04T16:19:51.9852032+09:00",
+    "date":  "2026-09-04",
+    "numbers":  [
+                    19
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-19-carousel",
+                     "slides":  6,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}

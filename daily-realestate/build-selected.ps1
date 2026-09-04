@@ -126,6 +126,11 @@ function Get-ArticleHashtags($article) {
     return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
   }
 
+  if ($text -match '개포우성7차.*가락삼익.*면목7구역') {
+    foreach ($tag in @('개포우성7차','가락삼익맨숀','면목7구역','서울재건축','통합심의')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" })
+  }
+
   if ($text -match '양주회천 A-26블록') { foreach ($tag in @('양주회천','A26블록','LH공공분양','공공분양','청약일정','덕정역','GTXC','양주청약','분양정보')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '모아주택 1호.*준공') { foreach ($tag in @('모아주택','광진구','구의동','한양연립','서울정비사업','소규모주택정비')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '2028년부터 매년 10만 가구 착공') { foreach ($tag in @('LH','공공주택','착공계획','주택공급정책','813주택대책','도심주택공급','학교용지복합개발')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
@@ -647,6 +652,17 @@ function New-Slides($article, [int]$number) {
     )
   }
 
+  if ([string]$article.title -match '개포우성7차.*가락삼익.*면목7구역') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 정비사업'; title="3곳 통합심의`n조건부 통과"; body='개포우성7차·가락삼익맨숀·면목7구역의 확정 단계와 규모' },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='통합심의 조건부 의결'; body="의결일|2026년 9월 3일`n개포우성7차|재건축 통합심의 통과`n가락삼익맨숀|재건축 통합심의 통과`n면목7구역|재개발 통합심의 통과" },
+      [pscustomobject]@{ type='table'; kicker='개포우성7차'; title='최고 39층·1,134세대'; body="위치|강남구 일원동`n층수|35층 계획에서 39층으로 상향`n주민시설|놀이·돌봄·작은도서관`n다음|사업시행·관리처분인가" },
+      [pscustomobject]@{ type='table'; kicker='가락삼익맨숀'; title='936 → 1,485세대'; body="증가 물량|549세대`n규모|최고 29층·15개 동`n공공임대|168세대`n계획|서측 공원·노인복지시설" },
+      [pscustomobject]@{ type='table'; kicker='면목7구역'; title='총 1,515세대'; body="위치|중랑구 면목본동 69-1 일대`n규모|최고 35층·12개 동`n공공주택|290세대`n기존 단계|2024년 조합설립인가" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='통과가 곧 착공은 아니다'; body="1. 조건부 의결 사항 반영 여부`n2. 사업시행계획인가 일정`n3. 관리처분계획인가와 이주 계획`n4. 세대수·공공시설의 최종 확정 내용" }
+    )
+  }
+
   $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
   $numberText = ($numbers -join ' · ')
 
@@ -1083,6 +1099,26 @@ foreach ($index in $indexes) {
         $hashtags
       ) -join "`r`n"
     }
+  } elseif ([string]$article.title -match '개포우성7차.*가락삼익.*면목7구역') {
+    $caption = @(
+      "🏙️ 개포우성7차·가락삼익맨숀·면목7구역, 통합심의를 조건부 통과했습니다",
+      '',
+      "📌 현재 단계",
+      "서울시 제18차 정비사업 통합심의위원회가 9월 3일 세 사업 안건을 조건부 의결했습니다.",
+      '',
+      "🏢 계획 규모",
+      "개포우성7차는 최고 39층 1,134세대, 가락삼익맨숀은 936세대에서 1,485세대, 면목7구역은 최고 35층 1,515세대로 추진됩니다.",
+      '',
+      "🔢 공공 물량",
+      "가락삼익맨숀에는 공공임대 168세대, 면목7구역에는 공공주택 290세대가 포함됩니다.",
+      '',
+      "🔎 다음 확인",
+      "통합심의 통과가 착공을 의미하지는 않습니다. 조건부 의결 사항 반영과 사업시행계획인가, 관리처분계획인가 등 후속 절차를 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
   } else {
     $caption = @(
       "$($article.region) $($article.title)",
