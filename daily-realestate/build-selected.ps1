@@ -109,6 +109,24 @@ function Get-ArticleHashtags($article) {
 
   foreach ($tag in @('부동산뉴스','주택공급','부동산브리핑')) { Add-Hashtag $tags $tag }
 
+  if ($text -match '9월 첫주 3713가구') { foreach ($tag in @('인천분양','인천청약','분양캘린더','시티오씨엘9단지','검암역푸르지오라베뉴')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match '화성 1만호 공공주택') { foreach ($tag in @('화성특례시','화성공공주택','공공주택프로젝트','주택공급정책','화성동행기구')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+  if ($text -match '부천형 역세권 정비사업') { foreach ($tag in @('부천정비사업','소새울역','송내역','역세권정비사업','정비계획')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" }) }
+
+  if ($text -match '상계보람') {
+    foreach ($tag in @('상계보람아파트','상계동재건축','노원구재건축','조합설립추진위원회','정비구역지정','재건축','정비사업','4483가구','서울재건축')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" })
+  }
+
+  if ($text -match '통합 17년만에 다시 쪼개지는 LH') {
+    foreach ($tag in @('LH','LH분리','공적주택','주택도시개발공사','주택도시자산공사')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" })
+  }
+  if ($text -match '개포우성7차.*가락삼익.*면목7구역') {
+    foreach ($tag in @('개포우성7차','가락삼익맨숀','면목7구역','서울재건축','통합심의')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" })
+  }
+
   if ($text -match '양주회천 A-26블록') { foreach ($tag in @('양주회천','A26블록','LH공공분양','공공분양','청약일정','덕정역','GTXC','양주청약','분양정보')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '모아주택 1호.*준공') { foreach ($tag in @('모아주택','광진구','구의동','한양연립','서울정비사업','소규모주택정비')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '2028년부터 매년 10만 가구 착공') { foreach ($tag in @('LH','공공주택','착공계획','주택공급정책','813주택대책','도심주택공급','학교용지복합개발')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
@@ -321,6 +339,50 @@ function New-Slides($article, [int]$number) {
   $region = if ($article.region) { $article.region } else { '전국' }
   $category = if ($article.category) { $article.category } else { '주택공급' }
 
+  if ([string]$article.title -match '9월 첫주 3713가구') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='9월 첫째 주 분양'; title="3,713가구 공급`n모두 인천"; body='3개 단지·일반분양 2,387가구, 이번 주 확인할 숫자' },
+      [pscustomobject]@{ type='number'; kicker='왜 중요한가'; title='일반분양 2,387가구'; body="전체 3,713가구 가운데`n약 64%가 일반분양 물량`n3개 단지가 모두 인천에 집중" },
+      [pscustomobject]@{ type='table'; kicker='주요 단지'; title='두 곳부터 확인'; body="미추홀구|시티오씨엘9단지{br}오션파크뷰`n서구|검암역 푸르지오 라베뉴`n견본주택|전국 4곳 개관 예정`n기준|부동산R114 집계" },
+      [pscustomobject]@{ type='table'; kicker='대표 단지 규모'; title='시티오씨엘 1,949가구'; body="위치|미추홀구 학익동`n규모|9개 동·최고 49층`n면적|전용 59~136㎡`n교통|2028년 학익역 개통 예정" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정 전'; title='예정과 공고를 구분'; body="학익역|2028년 개통 예정`n학교|용현학익초·학익중 개교 예정`n조망|일부 가구 서해 조망 가능`n청약 조건|단지별 모집공고 확인" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='청약 전 체크'; body="1. 단지별 특별·일반공급 일정`n2. 일반분양 물량과 주택형`n3. 분양가·자격·전매 제한`n4. 견본주택 개관 및 모집공고" }
+    )
+  }
+
+  if ([string]$article.title -match '화성 1만호 공공주택') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='화성 공공주택 제안'; title="공공주택`n1만호 프로젝트"; body='화성특례시가 대통령 주재 국정설명회에서 정부에 건의' },
+      [pscustomobject]@{ type='number'; kicker='핵심 숫자'; title='1만호'; body="화성특례시가 건의한`n공공주택 공급 프로젝트 규모`n현재는 정부 건의 단계" },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='확정 사업이 아닌 정책 건의'; body="건의 주체|화성특례시`n건의 자리|민선 9기 시·군·구청장{br}국정설명회`n행사일|2026년 8월 27일`n상태|중앙정부에 정책 건의" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 확대와 연결'; body="목표|속도감 있는 주택 공급`n대상 지역|세부 대상지는 기사 미공개`n주택 유형|세부 유형은 기사 미공개`n일정|착공·입주 시점 미공개" },
+      [pscustomobject]@{ type='table'; kicker='함께 건의한 현안'; title='지역 성장 과제도 제시'; body="시민협치|화성동행기구 소개`n에너지|수도권 재생에너지{br}공급 거점 조성`n상생|주민참여형 수익 공유 모델`n주택|1만호 공공주택 프로젝트" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='확정 여부를 볼 지점'; body="1. 중앙정부의 사업 반영 여부`n2. 대상지·주택 유형 공개`n3. 사업 주체와 재원 확정`n4. 지구 지정·인허가·착공 일정" }
+    )
+  }
+
+  if ([string]$article.title -match '부천형 역세권 정비사업') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='부천 원도심 정비'; title="소새울역·송내역`n2곳 선정"; body='역세권 2곳과 원도심 5곳을 하나의 정비사업으로 연계' },
+      [pscustomobject]@{ type='table'; kicker='선정 대상'; title='역세권 2곳 확정'; body="소새울역|소중어린이공원 일원{br}53,714.1㎡`n송내역|솔안말어린이공원 일원{br}53,535.4㎡`n선정 방식|현장 확인·실현 가능성 평가`n현재 단계|공모 대상지 선정" },
+      [pscustomobject]@{ type='number'; kicker='왜 중요한가'; title='2곳 + 5곳'; body="역세권 고밀개발 2곳과`n원도심 결합 정비 대상지 5곳을`n하나의 정비구역으로 연계" },
+      [pscustomobject]@{ type='table'; kicker='결합 대상'; title='원도심 5곳 연결'; body="소새울역 연계|원미동 115-1·59-3`n송내역 연계|삼정동 303-2`n추가 연계|오정동 559-5`n추가 연계|소사동 41-18" },
+      [pscustomobject]@{ type='table'; kicker='현재와 다음 단계'; title='주민 동의 50%가 관건'; body="현재|대상지 선정 완료`n입안 요청|토지등소유자 50% 이상 동의`n후속|관련 정비계획 절차 진행`n목표|2027년까지 정비계획 수립" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='아직 확정되지 않은 것'; body="1. 주민 동의율과 입안 요청 시점`n2. 정비구역 경계·용적률·세대수`n3. 공원·주차장 등 기반시설 계획`n4. 정비계획 결정·고시 일정" }
+    )
+  }
+
+  if ([string]$article.title -match '상계보람') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='노원구 재건축'; title="상계보람`n추진위 승인"; body='정비구역 지정 전 승인·4,483가구 재건축 계획' },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='정비구역 지정 전 추진위 승인'; body="추진위 동의 시작|2026년 6월 11일`n승인 신청|2026년 7월 16일`n노원구 승인|2026년 8월 20일`n현재|정비구역 지정·고시 전" },
+      [pscustomobject]@{ type='table'; kicker='계획 규모'; title='3,315 → 4,483가구'; body="기존|15층·21개 동·3,315가구`n계획|지하 3층~최고 45층`n계획 동수|41개 동`n계획 가구|총 4,483가구" },
+      [pscustomobject]@{ type='table'; kicker='핵심 수치'; title='1,168가구 증가 계획'; body="가구 증가|1,168가구`n추진위 최종 동의율|약 55%`n현재 용적률|약 197%`n계획 용적률|299.99%" },
+      [pscustomobject]@{ type='table'; kicker='다음 절차'; title='정비구역 고시 이후'; body="우선|정비구역 지정·고시`n이후|협력업체 선정`n조합 단계|조합설립 동의서 징구`n주의|4,483가구는 정비계획안 기준" },
+      [pscustomobject]@{ type='summary'; kicker='핵심 요약'; title='재건축 단계 체크'; body="1. 현재는 추진위 승인 단계`n2. 정비구역 지정·고시는 아직 전`n3. 최고 45층·4,483가구 재건축 계획`n4. 확정 규모와 일정은 후속 결정 확인" }
+    )
+  }
+
   if ([string]$article.title -match '양주회천 A-26블록') {
     return @(
       [pscustomobject]@{ type='cover'; kicker='LH 공공분양'; title="양주회천 A-26블록`n792가구 공급"; body='덕정역 도보권 공공분양 청약 일정과 면적 구성' },
@@ -390,7 +452,9 @@ function New-Slides($article, [int]$number) {
     )
   }
 
-  if ([string]$article.title -match '양주회천 A-26블록') {
+  if ([string]$article.title -match '상계보람') {
+    $caption = @("🏗️ 상계보람아파트, 정비구역 지정 전 추진위 승인",'',"📌 현재 사업 단계","노원구는 8월 20일 상계보람아파트 조합설립추진위원회 구성을 승인했습니다. 현재는 정비구역 지정·고시 전 단계입니다.",'',"🏢 계획 규모","기존 최고 15층, 21개 동, 3,315가구를 지하 3층~지상 최고 45층, 41개 동, 총 4,483가구로 재건축하는 정비계획안입니다.",'',"🔢 숫자로 보면","기존보다 1,168가구가 늘어나는 계획이며 추진위 최종 동의율은 약 55%로 알려졌습니다. 계획용적률은 299.99%입니다.",'',"✅ 확인할 것","정비구역 지정·고시 이후 협력업체 선정과 조합설립 동의 절차가 이어질 예정입니다. 4,483가구와 일정은 후속 결정 과정에서 다시 확인해야 합니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
+  } elseif ([string]$article.title -match '양주회천 A-26블록') {
     $caption = @("🏢 양주회천 A-26블록 공공분양 792가구",'',"📌 전용 59~84㎡ 구성","전용 59㎡ 394가구, 74㎡ 168가구, 84㎡ 230가구로 구성됩니다. 입주는 2029년 10월 예정입니다.",'',"🗓️ 청약 일정","특별공급은 9월 14~15일, 일반공급은 9월 16~17일 접수합니다. 10월 당첨자 발표 후 12월 계약 체결 예정입니다.",'',"🚆 입지 체크","GTX-C 개통 예정인 덕정역과 도보 500m 이내입니다. 신청 자격과 분양가는 LH청약플러스 모집공고문에서 다시 확인하세요.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
   } elseif ([string]$article.title -match '모아주택 1호.*준공') {
     $caption = @("🏙️ 서울 모아주택 1호, 광진 한양연립 준공",'',"📌 99세대에서 215세대로","광진구 구의3동 한양연립이 지하 2층, 지상 10~15층, 4개 동 215세대 단지로 재탄생했습니다.",'',"⏱️ 사업 진행","2024년 2월 착공해 2026년 8월 25일 준공됐으며, 9월부터 입주를 시작합니다. 통합심의 후 8개월 만에 착공하고 착공 후 2년 6개월 만에 준공한 사례입니다.",'',"✅ 의미","서울시는 모아주택·모아타운을 통해 2031년까지 4만호 착공을 목표로 제시했습니다.",'',"출처: $($article.source)",'',$hashtags) -join "`r`n"
@@ -454,6 +518,28 @@ function New-Slides($article, [int]$number) {
     )
   }
 
+  if ([string]$article.title -match '통합 17년만에 다시 쪼개지는 LH') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 구조개혁'; title="17년 만에`n두 회사로 분리"; body='공급 조직과 임대·주거복지 조직을 나누는 정부 구상' },
+      [pscustomobject]@{ type='table'; kicker='무엇이 달라지나'; title='개발과 자산관리 분리'; body="주택도시개발공사|택지개발·주택건설`n주택도시자산공사|임대운영·주거복지`n토지비축|자산공사 담당`n현재 단계|정부 구조개혁 구상" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 속도와 재무를 함께 본다'; body="정부 목표|공급 조직 재무 여건 개선`n개발이익|주거복지 재원 활용 구상`n핵심 과제|두 회사 간 교차보전`n변수|조직 분리 비용·내부 갈등" },
+      [pscustomobject]@{ type='number'; kicker='공급 계획'; title='2030년까지 110만호+'; body="정부가 제시한 공적주택 공급 목표`n2027년 공적주택 건설 21.8만호 계획`n2026년 19.4만호보다 12% 확대" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정 전'; title='세부 설계는 다음 발표'; body="추가 재정|공개되지 않음`n주택관리공단|업무 조정·통합 여부 검토`n직원·조직 배치|구체안 미공개`n세부 방안|9월 말~10월 발표 예정" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='공급 속도는 여기서 갈린다'; body="1. 두 공사의 법적 설립 방식`n2. 개발이익 이전과 재정 지원 구조`n3. 기존 사업·인력 이관 일정`n4. 공적주택 착공 계획의 실제 집행" }
+    )
+  }
+
+  if ([string]$article.title -match '개포우성7차.*가락삼익.*면목7구역') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='서울 정비사업'; title="3곳 통합심의`n조건부 통과"; body='개포우성7차·가락삼익맨숀·면목7구역의 확정 단계와 규모' },
+      [pscustomobject]@{ type='table'; kicker='현재 단계'; title='통합심의 조건부 의결'; body="의결일|2026년 9월 3일`n개포우성7차|재건축 통합심의 통과`n가락삼익맨숀|재건축 통합심의 통과`n면목7구역|재개발 통합심의 통과" },
+      [pscustomobject]@{ type='table'; kicker='개포우성7차'; title='최고 39층·1,134세대'; body="위치|강남구 일원동`n층수|35층 계획에서 39층으로 상향`n주민시설|놀이·돌봄·작은도서관`n다음|사업시행·관리처분인가" },
+      [pscustomobject]@{ type='table'; kicker='가락삼익맨숀'; title='936 → 1,485세대'; body="증가 물량|549세대`n규모|최고 29층·15개 동`n공공임대|168세대`n계획|서측 공원·노인복지시설" },
+      [pscustomobject]@{ type='table'; kicker='면목7구역'; title='총 1,515세대'; body="위치|중랑구 면목본동 69-1 일대`n규모|최고 35층·12개 동`n공공주택|290세대`n기존 단계|2024년 조합설립인가" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='통과가 곧 착공은 아니다'; body="1. 조건부 의결 사항 반영 여부`n2. 사업시행계획인가 일정`n3. 관리처분계획인가와 이주 계획`n4. 세대수·공공시설의 최종 확정 내용" }
+    )
+  }
+
   $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
   $numberText = ($numbers -join ' · ')
 
@@ -468,7 +554,8 @@ function New-Slides($article, [int]$number) {
 
 $baseCss = @'
 *{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;font-family:Pretendard,"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#081426;color:#fff}.slide{width:1080px;height:1350px;position:relative;padding:150px 120px 94px;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;overflow:hidden;background:radial-gradient(circle at 16% 18%,rgba(31,90,219,.30),transparent 27%),radial-gradient(circle at 84% 82%,rgba(245,166,35,.16),transparent 24%),linear-gradient(160deg,#102A43 0%,#0A1726 46%,#050910 100%)}.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.040) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:96px 96px;mask-image:linear-gradient(180deg,rgba(0,0,0,.52),rgba(0,0,0,.12));opacity:.42}.slide:after{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(180deg,#1F5ADB,#F5A623 58%,transparent)}.inner{position:relative;z-index:2;width:100%;height:100%;display:flex;flex-direction:column;padding-top:118px}.count{position:absolute;z-index:3;left:120px;top:72px;color:rgba(255,255,255,.76);font-size:25px;font-weight:850;letter-spacing:.8px}.count:before{content:"SLIDE ";color:#F5A623}.kicker{align-self:flex-start;background:rgba(31,90,219,.94);color:#fff;border-radius:12px;padding:13px 22px;font-size:25px;font-weight:950;margin-bottom:32px;text-align:center;max-width:780px;box-shadow:0 12px 36px rgba(31,90,219,.22)}.title{font-size:60px;line-height:1.22;letter-spacing:-2.2px;font-weight:950;word-break:keep-all;max-width:840px;text-align:left;white-space:pre-line;text-shadow:0 3px 18px rgba(0,0,0,.38)}.body{font-size:31px;line-height:1.62;color:rgba(255,255,255,.88);margin-top:34px;text-align:left;white-space:pre-line;font-weight:750;word-break:keep-all;max-width:820px}.accent{width:168px;height:10px;border-radius:0;background:linear-gradient(90deg,#F5A623,#1F5ADB);margin:34px 0 24px}.footer{position:absolute;z-index:3;left:120px;right:120px;bottom:52px;display:flex;justify-content:space-between;gap:24px;border-top:1px solid rgba(255,255,255,.20);padding-top:26px;font-size:22px;color:rgba(255,255,255,.68)}.footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rows{width:100%;margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.row{min-height:138px;border:1px solid rgba(255,255,255,.20);border-radius:22px;padding:22px 24px;background:linear-gradient(180deg,rgba(255,255,255,.095),rgba(255,255,255,.045));display:flex;flex-direction:column;justify-content:center;gap:13px}.row .label{font-size:24px;font-weight:900;color:rgba(255,255,255,.82)}.row .value{font-size:30px;line-height:1.25;font-weight:950;color:#F5A623;text-align:left;word-break:keep-all;overflow-wrap:normal}.cover .inner{justify-content:center;padding-top:0;padding-bottom:58px}.cover .kicker{position:absolute;top:180px;left:0;background:rgba(245,166,35,.95);color:#09111F}.cover .title{font-size:68px;max-width:780px}.cover .body{font-size:31px;color:rgba(255,255,255,.88);max-width:780px}.table .title{font-size:56px;margin-bottom:10px;max-width:820px}.number .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32);padding:12px 20px;margin-bottom:26px}.number .title{font-size:76px;color:#F5A623;letter-spacing:-2px}.number .body{font-size:34px;color:#fff;line-height:1.55;max-width:820px;background:rgba(255,255,255,.08);border-radius:26px;padding:28px 32px}.summary .kicker{background:rgba(255,255,255,.10);color:#F5A623;border:1px solid rgba(245,166,35,.32)}.summary .title{font-size:62px}.summary .body{font-size:35px;color:#fff;line-height:1.70;border-left:0;padding-left:0;background:rgba(255,255,255,.085);border-radius:28px;padding:34px 38px}
-.photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.82;filter:saturate(.95) contrast(1.12);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.84) 0%,rgba(6,13,24,.72) 44%,rgba(6,13,24,.50) 100%),linear-gradient(180deg,rgba(8,20,38,.18),rgba(0,0,0,.74));}.cover .photo-bg{opacity:.88}.table .photo-bg{opacity:.80}.summary .photo-bg{opacity:.82}
+.photo-bg{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;opacity:.88;filter:saturate(1.02) contrast(1.08);pointer-events:none}.photo-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,18,.68) 0%,rgba(6,13,24,.54) 44%,rgba(6,13,24,.32) 100%),linear-gradient(180deg,rgba(8,20,38,.10),rgba(0,0,0,.58));}.cover .photo-bg{opacity:.94}.table .photo-bg{opacity:.88}.summary .photo-bg{opacity:.90}
+.cover .kicker{top:170px;font-size:52px;line-height:1.15;letter-spacing:-1.3px;padding:20px 30px;border-radius:18px}.cover .body{font-size:52px;line-height:1.3;letter-spacing:-1.3px;font-weight:500;color:#D9E2EC;max-width:780px}
 .slide{padding-left:150px;padding-right:150px}.count{left:150px}.footer{left:150px;right:150px}.title,.body{max-width:780px}
 '@
 
@@ -523,6 +610,7 @@ foreach ($index in $indexes) {
   if ($article.publishedKstDate) {
     try { $articleDisplayDate = ([datetime]::Parse([string]$article.publishedKstDate)).ToString('yyyy.MM.dd') } catch { $articleDisplayDate = [string]$article.publishedKstDate }
   }
+  if ([string]$article.title -match '화성 1만호 공공주택|부천형 역세권 정비사업') { $articleDisplayDate = '2026.08.28' }
   if ($slides.Count -lt 5 -or $slides.Count -gt 8) { throw "슬라이드 수 규칙 위반: $setName / $($slides.Count)장" }
 
   for ($i = 0; $i -lt $slides.Count; $i++) {
@@ -591,7 +679,58 @@ foreach ($index in $indexes) {
 
   $hashtagList = @(Get-ArticleHashtags $article)
   $hashtags = $hashtagList -join ' '
-  if ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
+  if ([string]$article.title -match '9월 첫주 3713가구') {
+    $caption = @(
+      "🏢 9월 첫째 주 3,713가구, 모두 인천에서 공급됩니다",
+      '',
+      "📌 전체 공급 물량",
+      "전국 3개 단지에서 총 3,713가구가 공급되며, 이 가운데 일반분양은 2,387가구입니다. 3개 단지가 모두 인천에 집중됐습니다.",
+      '',
+      "🏙️ 주요 단지",
+      "미추홀구 시티오씨엘9단지 오션파크뷰와 서구 검암역 푸르지오 라베뉴 등의 청약이 진행됩니다. 시티오씨엘9단지는 총 1,949가구, 최고 49층 규모입니다.",
+      '',
+      "🔎 다음 확인",
+      "단지별 특별·일반공급 일정과 주택형, 분양가, 신청 자격은 입주자 모집공고에서 확인해야 합니다. 학익역과 학교 개교 일정은 아직 예정 단계입니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '화성 1만호 공공주택') {
+    $caption = @(
+      "🏗️ 화성특례시, 공공주택 1만호 프로젝트를 정부에 건의했습니다",
+      '',
+      "📌 현재 단계",
+      "화성특례시가 대통령 주재 민선 9기 시·군·구청장 국정설명회에서 1만호 공공주택 공급 프로젝트를 정책 과제로 건의했습니다.",
+      '',
+      "🔢 핵심 숫자",
+      "제안된 공급 규모는 1만호입니다. 다만 대상지와 주택 유형, 사업 주체, 착공·입주 일정은 기사에서 공개되지 않았습니다.",
+      '',
+      "🔎 다음 확인",
+      "현재는 확정 사업이 아닌 정책 건의 단계입니다. 중앙정부 반영 여부와 대상지 공개, 재원·사업 주체, 지구 지정과 인허가 일정을 순서대로 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '부천형 역세권 정비사업') {
+    $caption = @(
+      "🏙️ 부천형 역세권 정비사업, 소새울역·송내역 2곳이 선정됐습니다",
+      '',
+      "📌 선정 대상",
+      "소새울역 소중어린이공원 일원과 송내역 솔안말어린이공원 일원이 대상지로 선정됐습니다. 두 역세권과 원도심 결합 정비 대상지 5곳을 연계하는 방식입니다.",
+      '',
+      "🗺️ 왜 중요한가",
+      "역세권 주거지역의 고밀개발과 떨어진 원도심 정비 지역을 하나의 정비구역으로 묶어 추진하는 부천형 모델입니다.",
+      '',
+      "🔎 다음 확인",
+      "현재는 대상지 선정 단계입니다. 토지등소유자 50% 이상의 동의를 얻어 입안을 요청해야 하며, 부천시는 2027년까지 정비계획 수립 완료를 목표로 하고 있습니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '검암역 푸르지오 프라베뉴') {
     $caption = @(
       "인천 검암역 푸르지오 프라베뉴 청약 체크",
       '',
@@ -739,6 +878,46 @@ foreach ($index in $indexes) {
         $hashtags
       ) -join "`r`n"
     }
+  } elseif ([string]$article.title -match '통합 17년만에 다시 쪼개지는 LH') {
+    $caption = @(
+      "🏗️ LH, 통합 17년 만에 두 회사로 나누는 방안이 추진됩니다",
+      '',
+      "📌 달라지는 역할",
+      "가칭 주택도시개발공사는 택지개발과 주택건설을, 주택도시자산공사는 임대주택 운영·주거복지와 토지비축을 맡는 구상입니다.",
+      '',
+      "🏢 왜 중요한가",
+      "정부는 공급 조직의 재무 여건을 개선해 공적주택 공급 속도를 높인다는 방침입니다. 개발이익을 주거복지 재원으로 이전하는 구조가 핵심 과제입니다.",
+      '',
+      "🔢 공급 계획",
+      "2030년까지 공적주택 110만호 이상을 공급하고, 2027년 건설 규모는 21만8천호로 확대할 계획입니다.",
+      '',
+      "🔎 다음 확인",
+      "추가 재정 투입, 주택관리공단 업무 조정, 기존 사업과 인력 이관 방식은 아직 세부안이 공개되지 않았습니다. 9월 말~10월로 예고된 후속 발표를 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
+  } elseif ([string]$article.title -match '개포우성7차.*가락삼익.*면목7구역') {
+    $caption = @(
+      "🏙️ 개포우성7차·가락삼익맨숀·면목7구역, 통합심의를 조건부 통과했습니다",
+      '',
+      "📌 현재 단계",
+      "서울시 제18차 정비사업 통합심의위원회가 9월 3일 세 사업 안건을 조건부 의결했습니다.",
+      '',
+      "🏢 계획 규모",
+      "개포우성7차는 최고 39층 1,134세대, 가락삼익맨숀은 936세대에서 1,485세대, 면목7구역은 최고 35층 1,515세대로 추진됩니다.",
+      '',
+      "🔢 공공 물량",
+      "가락삼익맨숀에는 공공임대 168세대, 면목7구역에는 공공주택 290세대가 포함됩니다.",
+      '',
+      "🔎 다음 확인",
+      "통합심의 통과가 착공을 의미하지는 않습니다. 조건부 의결 사항 반영과 사업시행계획인가, 관리처분계획인가 등 후속 절차를 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
   } else {
     $caption = @(
       "$($article.region) $($article.title)",
