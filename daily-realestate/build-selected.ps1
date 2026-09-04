@@ -130,6 +130,10 @@ function Get-ArticleHashtags($article) {
     foreach ($tag in @('개포우성7차','가락삼익맨숀','면목7구역','서울재건축','통합심의')) { Add-Hashtag $tags $tag }
     return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" })
   }
+  if ($text -match '통합 17년만에 다시 쪼개지는 LH') {
+    foreach ($tag in @('LH','LH분리','공적주택','주택도시개발공사','주택도시자산공사')) { Add-Hashtag $tags $tag }
+    return @($tags | Select-Object -First 8 | ForEach-Object { "#$_" })
+  }
 
   if ($text -match '양주회천 A-26블록') { foreach ($tag in @('양주회천','A26블록','LH공공분양','공공분양','청약일정','덕정역','GTXC','양주청약','분양정보')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
   if ($text -match '모아주택 1호.*준공') { foreach ($tag in @('모아주택','광진구','구의동','한양연립','서울정비사업','소규모주택정비')) { Add-Hashtag $tags $tag }; return @($tags | Select-Object -First 14 | ForEach-Object { "#$_" }) }
@@ -663,6 +667,17 @@ function New-Slides($article, [int]$number) {
     )
   }
 
+  if ([string]$article.title -match '통합 17년만에 다시 쪼개지는 LH') {
+    return @(
+      [pscustomobject]@{ type='cover'; kicker='LH 구조개혁'; title="17년 만에`n두 회사로 분리"; body='공급 조직과 임대·주거복지 조직을 나누는 정부 구상' },
+      [pscustomobject]@{ type='table'; kicker='무엇이 달라지나'; title='개발과 자산관리 분리'; body="주택도시개발공사|택지개발·주택건설`n주택도시자산공사|임대운영·주거복지`n토지비축|자산공사 담당`n현재 단계|정부 구조개혁 구상" },
+      [pscustomobject]@{ type='table'; kicker='왜 중요한가'; title='공급 속도와 재무를 함께 본다'; body="정부 목표|공급 조직 재무 여건 개선`n개발이익|주거복지 재원 활용 구상`n핵심 과제|두 회사 간 교차보전`n변수|조직 분리 비용·내부 갈등" },
+      [pscustomobject]@{ type='number'; kicker='공급 계획'; title='2030년까지 110만호+'; body="정부가 제시한 공적주택 공급 목표`n2027년 공적주택 건설 21.8만호 계획`n2026년 19.4만호보다 12% 확대" },
+      [pscustomobject]@{ type='table'; kicker='아직 확정 전'; title='세부 설계는 다음 발표'; body="추가 재정|공개되지 않음`n주택관리공단|업무 조정·통합 여부 검토`n직원·조직 배치|구체안 미공개`n세부 방안|9월 말~10월 발표 예정" },
+      [pscustomobject]@{ type='summary'; kicker='다음 확인'; title='공급 속도는 여기서 갈린다'; body="1. 두 공사의 법적 설립 방식`n2. 개발이익 이전과 재정 지원 구조`n3. 기존 사업·인력 이관 일정`n4. 공적주택 착공 계획의 실제 집행" }
+    )
+  }
+
   $numbers = Get-KeyNumbers "$($article.title) $($article.summary)"
   $numberText = ($numbers -join ' · ')
 
@@ -1099,6 +1114,26 @@ foreach ($index in $indexes) {
         $hashtags
       ) -join "`r`n"
     }
+  } elseif ([string]$article.title -match '통합 17년만에 다시 쪼개지는 LH') {
+    $caption = @(
+      "🏗️ LH, 통합 17년 만에 두 회사로 나누는 방안이 추진됩니다",
+      '',
+      "📌 달라지는 역할",
+      "가칭 주택도시개발공사는 택지개발과 주택건설을, 주택도시자산공사는 임대주택 운영·주거복지와 토지비축을 맡는 구상입니다.",
+      '',
+      "🏢 왜 중요한가",
+      "정부는 공급 조직의 재무 여건을 개선해 공적주택 공급 속도를 높인다는 방침입니다. 개발이익을 주거복지 재원으로 이전하는 구조가 핵심 과제입니다.",
+      '',
+      "🔢 공급 계획",
+      "2030년까지 공적주택 110만호 이상을 공급하고, 2027년 건설 규모는 21만8천호로 확대할 계획입니다.",
+      '',
+      "🔎 다음 확인",
+      "추가 재정 투입, 주택관리공단 업무 조정, 기존 사업과 인력 이관 방식은 아직 세부안이 공개되지 않았습니다. 9월 말~10월로 예고된 후속 발표를 확인해야 합니다.",
+      '',
+      "출처: $($article.source)",
+      '',
+      $hashtags
+    ) -join "`r`n"
   } elseif ([string]$article.title -match '개포우성7차.*가락삼익.*면목7구역') {
     $caption = @(
       "🏙️ 개포우성7차·가락삼익맨숀·면목7구역, 통합심의를 조건부 통과했습니다",

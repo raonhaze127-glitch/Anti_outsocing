@@ -1,0 +1,23 @@
+﻿{
+    "number":  2,
+    "collectedAt":  "2026-09-04T21:29:00.1222268+09:00",
+    "title":  "통합 17년만에 다시 쪼개지는 LH…\u0027공적주택\u0027 공급 속도낼까",
+    "source":  "연합뉴스",
+    "sourceUrl":  "https://www.yna.co.kr",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://www.yna.co.kr/view/AKR20260903140100003",
+    "fetchedUrl":  "https://www.yna.co.kr/view/AKR20260903140100003",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

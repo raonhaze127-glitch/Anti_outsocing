@@ -1,17 +1,17 @@
 {
-  "enabled": false,
+  "enabled": true,
   "date": "2026-09-04",
-  "numbers": "19",
+  "numbers": "2",
   "expected_articles": [
     {
-      "number": 19,
-      "title": "개포우성7차·가락삼익 재건축 탄력…면목7구역 1천515세대 공급",
+      "number": 2,
+      "title": "통합 17년만에 다시 쪼개지는 LH…'공적주택' 공급 속도낼까",
       "source": "연합뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-09-04T07:30:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-09-04T21:29:42+09:00",
+  "note": "Publish only the reviewed article 2 carousel, then disable this request after success."
 }
