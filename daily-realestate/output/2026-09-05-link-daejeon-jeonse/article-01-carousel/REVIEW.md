@@ -1,0 +1,1 @@
+8 slides, 1080x1350. Source: user-supplied August 27 draft; original notice not independently verified. Updated eligibility phrasing to retain regional requirements. No countdown or engagement CTA. No publishing requested.

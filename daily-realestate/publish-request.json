@@ -1,17 +1,1 @@
-{
-  "enabled": false,
-  "date": "2026-09-04",
-  "numbers": "2",
-  "expected_articles": [
-    {
-      "number": 2,
-      "title": "통합 17년만에 다시 쪼개지는 LH…'공적주택' 공급 속도낼까",
-      "source": "연합뉴스"
-    }
-  ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-09-04T12:29:42+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
-}
+{"enabled":true,"date":"2026-09-05-link-daejeon-jeonse","numbers":"1","expected_articles":[{"number":1,"title":"대전·충남 2차 든든전세주택 입주자모집","source":"LH 대전충남지역본부"}],"publish_to_instagram":true,"review_confirmed":true,"image_usage_confirmed":true,"requested_at":"2026-09-05T07:04:46.599Z","note":"Publish the exact eight prebuilt slides approved by the user. Disable after success."}

@@ -1,0 +1,19 @@
+﻿{
+    "checkedAt":  "2026-09-05T16:04:51.9491814+09:00",
+    "date":  "2026-09-05-link-daejeon-jeonse",
+    "numbers":  [
+                    1
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-01-carousel",
+                     "slides":  8,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}
