@@ -1,1 +1,17 @@
-{"enabled":true,"date":"2026-09-05-link-daejeon-jeonse","numbers":"1","expected_articles":[{"number":1,"title":"대전·충남 2차 든든전세주택 입주자모집","source":"LH 대전충남지역본부"}],"publish_to_instagram":true,"review_confirmed":true,"image_usage_confirmed":true,"requested_at":"2026-09-05T07:04:46.599Z","note":"Retry after initial media fetch error 2207052 on first child creation; no publish occurred. Use same eight approved slides. Disable after success."}
+{
+  "enabled": false,
+  "date": "2026-09-05-link-daejeon-jeonse",
+  "numbers": "1",
+  "expected_articles": [
+    {
+      "number": 1,
+      "title": "대전·충남 2차 든든전세주택 입주자모집",
+      "source": "LH 대전충남지역본부"
+    }
+  ],
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "2026-09-05T07:04:46.599Z",
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+}
