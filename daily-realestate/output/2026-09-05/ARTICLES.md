@@ -1,0 +1,215 @@
+﻿# 2026-09-05 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 서울시, '가락삼익맨숀아파트' 1,485세대 재건축 추진…공공임대 168세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: newszoom.kr
+- 발행: 2026-09-04 12:33 KST
+- 출처 사이트: http://www.newszoom.kr
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE5vVVNEdHJ1Rm9xcjd6WTZSYXV5dHJ4UlJvdWctaFVkVXE5RkpNOE00Mmx2enM4emZib05GV2dSRUR0Z3dk?oc=5
+
+## 2. 서울시, 강남구 일원동 '개포우성7차' 재건축 1,134세대 주택공급 추진
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: newszoom.kr
+- 발행: 2026-09-04 12:35 KST
+- 출처 사이트: http://www.newszoom.kr
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE5EdUszSXk4RFRHcUtsVVZiaTFMallLT1dzVEZyQnd6MDJKM1JjMUk1SE1RS1NrTE00M2tEd0lMN0RRM1p4?oc=5
+
+## 3. 서울시, '면목7구역' 통합심의 통과 공공주택 290세대 공급 추진
+- 분류/지역: 주택공급 / 서울
+- 출처: 더뉴스코리아
+- 발행: 2026-09-04 12:32 KST
+- 출처 사이트: http://www.newskorea21.com
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTFBuNE5ieHZYRWhOYjhJUy1neTFlUEticW9CX1NfcHluZFBRTmJpbU9Xa3VPbk1IX294S3RqVzI0OGdaZE1taFQtam53?oc=5
+
+## 4. 2026년 제18차 서울시 정비사업 통합심의위원회 개최
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 서프라이즈뉴스
+- 발행: 2026-09-04 13:03 KST
+- 출처 사이트: http://www.surprisenews.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBQai14UFNwUlVHWFNRTnpBMlYzWkM5OUlEZnhzMHFqNDJxTEFzLXFqNkRaelAyLW01Rjd4a3dsb0ZRZkFGMjdraGpWTnR0UlFKUXA3U1NzaTVRdGtSNlhxMTBZSU5JZVJTWHgyTnhB?oc=5
+
+## 5. 17년만 다시 쪼개는 LH…"주택공급·부채 해결"
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-04 20:10 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4clo2VFhPOEcyM0lCbF94cEpGMUQ1T192ckJzbUlHXzNpYWtvUkJJZ2wzaTJ6MEFUUHd0V0ZQMnNwY0J6cVViZmZkLUE2ZjNadzI1MmdrZG9oeWk2Tk5HddIBYEFVX3lxTFB4clo2VFhPOEcyM0lCbF94cEpGMUQ1T192ckJzbUlHXzNpYWtvUkJJZ2wzaTJ6MEFUUHd0V0ZQMnNwY0J6cVViZmZkLUE2ZjNadzI1MmdrZG9oeWk2Tk5HdQ?oc=5
+
+## 6. LH 분리 17년 만에 재추진…공적주택 공급 속도 낼까
+- 분류/지역: 주택공급 / 전국
+- 출처: 씬짜오베트남
+- 발행: 2026-09-04 10:44 KST
+- 출처 사이트: https://chaovietnam.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VQlpSUkpRc3pxeUZtWTdBTzJtY0tveXc3M3JEYjdENjJhTkxSc0VONFpUVzhmWkY0OUJuS3VzT3dEWHViNEhMMA?oc=5
+
+## 7. LH, 통합 17년 만에 결국 '분리'…'공적주택' 공급 속도낼까
+- 분류/지역: 주택공급 / 전국
+- 출처: 국토매일
+- 발행: 2026-09-04 09:49 KST
+- 출처 사이트: http://www.pmnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE1FMENWNzAzQzJ3YzRlRnI1SS1EVWZrQkI4UWV6Vm9Pal9rcDB6Yk1pZXBlR3ZPaXBadjM2Q1NvNjNKQWJk?oc=5
+
+## 8. 토공·주공 합쳤던 LH, 주택공급·주거복지 둘로 쪼갠다
+- 분류/지역: 주택공급 / 전국
+- 출처: SBS Biz
+- 발행: 2026-09-04 11:14 KST
+- 출처 사이트: https://biz.sbs.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE0ybjQzd3VJNVA1ek1IUHVjVXNrMnMwN0NDcDFueGNsUDVYbk1PMHVYLVdZOFZ2Snp1V0FRMmZ1dGRBdEFmbUNjTVVReFl0LTBPX3VN0gFYQVVfeXFMT3ppTGVSNDFVc1B3U1JxTkEzd0RWTUFFamRDdnBmMWxsQjFIR3gzc29ETHFKLTJMTHcxOERCTkdYUUh2d25ReWZrWjN3UEhhOFBCa3U0ajh6WA?oc=5
+
+## 9. 17년만에 다시 쪼개지는 LH…8·13대책 주택공급 속도전 '지연 우려'
+- 분류/지역: 주택공급 / 전국
+- 출처: 파이낸셜포스트
+- 발행: 2026-09-04 09:48 KST
+- 출처 사이트: https://www.financialpost.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE5RTl9MQkdoLWZjS0RUNnlRNWdmOENMTXJiYjdvLWVJS3ZwRHRtZkl2VmNMVl9HeU1rX3dJXzJqVFctbnZNSklUcExNMHdMS1Jub0tmYmRvUU9OYmlkX3lUazRWRTQ0NVhHTjhmUmFMdF80MUl6?oc=5
+
+## 10. 왜 LH만 다시 쪼개나…주택공급 '골든타임' 낭비 우려
+- 분류/지역: 주택공급 / 전국
+- 출처: 포쓰저널
+- 발행: 2026-09-04 10:28 KST
+- 출처 사이트: https://www.4th.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLSS1RaFk3b2xjalJKejJWTzJJdFJ6X0pYWDVna3p1U3FqSXR2ZFpOMC1aY1NRYUgxTGhkcXZDeGRkamlMZ3lEODc1UkI4U0ZMdVRwbHgyd1BIQmhHMXFqZm1yVGs?oc=5
+
+## 11. 통합 17년 만의 분리…LH를 쪼개면 주택 공급은 정말 빨라질까
+- 분류/지역: 주택공급 / 전국
+- 출처: 한국M&A경제신문
+- 발행: 2026-09-04 13:31 KST
+- 출처 사이트: https://www.kmnanews.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE1UMjhON3lnT1lXVTRac2Y4blVnejR1aW95eEpHRGRuRjA2RmRqMC1MVVlJQ1JpMFVPYTFqeUZtRFV5bG5QcDRMZEZqNkpoRWNmZE5sOFJaZC0yRWFTWjhEQjRCVENaYWw0dFE?oc=5
+
+## 12. 빚 173조 떠안고 쪼개는 LH…‘주택 공급’ 속도 붙을까
+- 분류/지역: 주택공급 / 서울
+- 출처: 서울경제TV
+- 발행: 2026-09-04 18:16 KST
+- 출처 사이트: https://www.sentv.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcFZuaVBkYnZXX3NHZDZLY1l5Tk1tRTJ3VnBiNEZDS3Bic2h4dWNORFJLdWtPcThKQW85d2lfVFNHdzgyZmtYWG1aTWtFRWlkZ0VSc05xWjdRQV9NQnFfTFN6UlE?oc=5
+
+## 13. 김윤덕 국토교통부장관, 전북 · 새만금 국토교통 R&D 참여 확대 나서
+- 분류/지역: 교통·SOC / 전북
+- 출처: 와이뉴스
+- 발행: 2026-09-04 18:10 KST
+- 출처 사이트: https://whynews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MVzNJcTdUVFVweDg0THBqdi1tdVBpdnlZN2U5VHN6ZHJlYVB0eXpXcUJPcEpUazdncTVpUjVPN2k4ekZ4a3B4RE53WHRYcldtM2NyRl82SXBoM2JCTEE?oc=5
+
+## 14. [신수용 뉴스창] LH, '개발·주택건설 분야'와 '주거복지' 분리해 둘로 쪼개는 이유
+- 분류/지역: 주택공급 / 세종
+- 출처: 이세종경제
+- 발행: 2026-09-04 09:32 KST
+- 출처 사이트: https://www.e-sejong.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZZkdEYTV5YzNVNDcyODllYlNnRk1JV3hVSHJ2OUprVnlXcjVLTEp3cHNCUmRaUlh2NmtMZmpZbjhReXB6UFE2bU9NeDdTanFSdmc4bUVDeEdIOGl6TWN1S0hrVGFZcEFOQWVtRw?oc=5
+
+## 15. 뉴홈 선택형 관계자들 "장관 간담회 이어 국회 토론회서도 LH 답변 회피 반복"
+- 분류/지역: 주택공급 / 전국
+- 출처: everynews.co.kr
+- 발행: 2026-09-04 14:51 KST
+- 출처 사이트: http://www.everynews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9uU2k5SUx3cmFZZFhmWExpTEtBV2E1emdfd1NmS25nY2dLdUZjU0EzUTQ2Yk5wbEhCSmdKT3ZhMURnQmFCTWRlaW5paVBWZnN0Yi0yMW9KN2VhV1g0RnZOZWF1N0tzODBNN3NJcw?oc=5
+
+## 16. 집값 오를수록 LH 회수액·당첨자 부담↑…'선택형 공공임대'의 역설
+- 분류/지역: 주택공급 / 전국
+- 출처: MTN 머니투데이방송
+- 발행: 2026-09-04 15:34 KST
+- 출처 사이트: https://news.mtn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tdzhnQk9qT2VWOVhfeXVZbktGbnpkVFFMU1BySzR1N3c3eE8tVUhVR3Z2dHhaV0FQMW9ZMnlPYjBOWng3dmRpcTlrUGFYa0h6Yjh1emhlSWpINV8zZGMtUXRhVUo?oc=5
+
+## 17. 경기도의회 정현미 의원, 도정질문서 팔당 상수원 규제 상생대책·공공주택지구 지정 등 남양주 현안 집중 질의
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 수원인터넷뉴스
+- 발행: 2026-09-04 16:20 KST
+- 출처 사이트: https://m.swinews.com
+- 링크: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GVHhLV2ViM1puMXYxZkpST2VrTS1UVTBPZG16RTNQcjYtbC04clBRN2VvN0E2RzRsZ19aaXFEMFhuMWJIMHluZTRMXzFHN0sw?oc=5
+
+## 18. 인천도시공사, 노후주거지 찾아가 자율주택정비사업 상담
+- 분류/지역: 재개발·재건축 / 인천
+- 출처: 노컷뉴스
+- 발행: 2026-09-04 15:42 KST
+- 출처 사이트: https://www.nocutnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE40RFlycU9WT0xxOE9rOExRRVhXMjFBZTltcVBJa3BLaS16NFc5OE15TGhtSFB1NWJaaHVva01hS2pvVzBDYnZvQy16V2NxMnBfaEE?oc=5
+
+## 19. [아유경제_부동산] 노원구, 재개발ㆍ재건축 불합리한 규제 100개 개선 추진
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 아유경제
+- 발행: 2026-09-04 11:13 KST
+- 출처 사이트: http://www.areyou.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE15M2xKa3lJcEtWYjJnd0s3Z1I4WTVwN2xpOWxGUDc1RW5Xb0FPOWVPTlRUblNzclc3VnBFZ1cyVnVSX2MtUzNWWmxOVVpGVEZpTkl5VDBVcTRhUVRyakZnSTlOQlBXRUda?oc=5
+
+## 20. 청약홈 분양정보 2026년 09월 05일 분양·임대 18건｜세대수·입주예정·접수일정 신혼집 후보 정리
+- 분류/지역: 청약·분양 / 전국
+- 출처: minsimnews.com
+- 발행: 2026-09-05 05:00 KST
+- 출처 사이트: https://www.minsimnews.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFByMUl3a1VCRGduMjJwSUxFRDNtSDZkM1B1TGwxQnM1LTN6Y0ZhMTBfNXE1T2tqXzBlZllPaDhOVktsazM1c3B5TzFrTklJTXA3TEFKUDYxZ255QlRQLXphVmhhSV9CWHByajhGRQ?oc=5
+
+## 21. 공급 확대 체감은 아직…전매 빠른 수도권 단지 분양
+- 분류/지역: 청약·분양 / 전국
+- 출처: 데일리안
+- 발행: 2026-09-05 08:05 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMimAJBVV95cUxPRVZxYmNCcW1hXzBjekthT2xMYXZSeDZEZG9tRnN0aURYZHF5bm1OR2dyT1F5Q2ZuckFEOWtjc3F1ZlFORVo3S1hjajhNYjBVVk5CMUJnRDJXR1BXZzZkTl9RbEpTaWJ6aTFqS05ncWh5RlRxZkNfMmdBUFlJNU9welRRaDJZckpXcG9kMldYSHdWZzRpaDNRQklKR2xHRFNlM3FqN3FxTDVvRnV4VlpLaXM1dnlQV1N4UHItWHBUZXBybzBYSWhXdjZ6WHk2dlpOUUFVaEVEV1V6aGRSZ1dORDNDTEdqWjZMS0IyOXdhdl9saGJVS0kybmtIZWVfSmVqa2F0RnI5dUVmRmFGZGtha003bUNucXJG?oc=5
+
+## 22. 청약홈 분양정보 당첨 발표·계약 기간 언제? 3건 요약｜2026년 09월 05일 청약 일정 타이밍
+- 분류/지역: 청약·분양 / 전국
+- 출처: minsimnews.com
+- 발행: 2026-09-05 05:00 KST
+- 출처 사이트: https://www.minsimnews.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFAxSnU1MWtIdldBTWhIZm4xNFhVQkVyb2xzV1ktcGpWQjlxTk1qWTl5YkhYM3hMenZhV3hzZnNDZjhYY1pXVUNhQTFsdGFPZTV1OGNkTlFsbC0zMlM0UVZhNVdUUFczVzR3ZTBhNw?oc=5
+
+## 23. "첨단 교육에 지역 상생 더했다"…경북인재개발원, 신도시 이전 1년 결실
+- 분류/지역: 재개발·재건축 / 경북
+- 출처: gukjenews.com
+- 발행: 2026-09-05 07:04 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFA5VUNhbzg4R3Ytc0ZabkZSZlJLeTFOTmlmZWlDQzBpUkJRUGhCYU5lOTRVNXhRdXZ4dmpBcnhVZV9DaHlfazlyUDk5aGJmWDl0NThxbTBYdVRIY0Q5YzJwOTdqRjBIY1ZwekhEZERR?oc=5
+
+## 24. 부산 연산교차로 일대 재개발 활발…‘연제갤러리자이’ 분양 관심
+- 분류/지역: 재개발·재건축 / 부산
+- 출처: 뉴스락
+- 발행: 2026-09-04 15:42 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5BOVRtOWk0aGJqWDhJVUZzXzJGNXphbjNVeFB0cU1BRHgwTlFESFk1Zm9COHlaNDQtd2FNdTc4OXFVR3Y3OXpPc0FUazlSbElTaU5KTUNMRk0wb1JDSlprY29ZUk11VU9Xcm11Yg?oc=5
+
+## 25. 청약홈 분양정보 청약 접수 D-day 8건 공고 링크 정리｜2026년 09월 05일 당첨·계약 일정 확인
+- 분류/지역: 청약·분양 / 전국
+- 출처: minsimnews.com
+- 발행: 2026-09-05 05:00 KST
+- 출처 사이트: https://www.minsimnews.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1jMjNBSE5WVUhWS3dnRWxINnpMMzRwc01yMFpLQU9TLWtTVGhIVGoxSEJlaTNTaFc4TVB6NXNKZjVvX2gzZDY0bmUtQzd1T3MxWmQzdHJjYTZEUkNTZHZJQ205ZWEydVRkY3J3UQ?oc=5
+
+## 26. 개포우성7차·가락삼익 재건축 탄력…면목7구역 1천515세대 공급
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-04 10:00 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tai1sZ18xUENKMzVUTkh5MnVLaVpqaVplUV9kVk5EN0tXdHRZa0FnaE5RTGtVYW5wOHNCRWM2M0VPd1hldnotMEczTkpWZWhBaUdXVFRwN3RmTW_SAWBBVV95cUxOZ0dJYnhKWl9BODgtSVFuUzBJb01XbmM3Qnc0TWVEZGt3Q01hbkhXOFZFeUdxUjc5cUNiZ08ySTN0a0lKNm45Ymg4Sjd1YW9ZenVQM0R0eVA0RnQtSzh1VlA?oc=5
+
+## 27. 서울 정비사업 ‘속도전’…면목·송파·개포 4,134세대 공급길 열렸다
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 얼리어답터뉴스
+- 발행: 2026-09-04 16:37 KST
+- 출처 사이트: https://www.eanews.kr
+- 링크: https://news.google.com/rss/articles/CBMiSEFVX3lxTE91SkI4RnFxSUJUbElJdG9pbEQtSEJfaDY2Q3pyRzRFOGJydFl2RHN4bk9TalFwaklzY3cyLWlkYUxQcEd5OGJIZQ?oc=5
+
+## 28. 연신내·면목동 정비사업 속도⋯복합개발·1515가구 공급
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 이투데이
+- 발행: 2026-09-04 10:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE56ZG00ZVNOZ1dZSTU2X0tTaE1zZW9CR0lfdkZsNWtUM3psdDN5ZEliZ1p6MjdVaVYzYWJ3RGJKbEE0QXBFempvbGswSmVjU1hvdkRfZ0t0MHphbHQxejNrRVZhZzlPeDVYc0Nudkt3NENwM1lE?oc=5
+
+## 29. 가락삼익맨숀아파트, 1,485세대 재건축 추진…공공임대 168세대 공급
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 아시아뉴스통신
+- 발행: 2026-09-04 10:59 KST
+- 출처 사이트: https://www.anewsa.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YRG5qTXQtS1hPU2xIUDdRempRX29xYmJSa3RRZV9ycDF0Y0R5QmNDX3pOamxVeHJvSTJYVUQxblBvWnc4VlYtX05zckRMQXphNVpEQTdCaGNpVExp?oc=5
+
+## 30. 개포우성7차·가락삼익 재건축 탄력…면목7구역 1,515세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: TBS 서울
+- 발행: 2026-09-04 10:49 KST
+- 출처 사이트: https://www.tbs.seoul.kr
+- 링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUXdMNVFDaHZVTVBMYlF5ejV1THpVRlFkUWF2cnhjUWR2c1dGeXJIYkoweFhfaXhLS1VxQzN3TGNkQlNybUVlNlN6YmFkQlZFeXA4ZjM4TXFYRHY2WFpjT3FxNlVtVkFiSWk0V3NwZFQxM1VIY3NTQVA3OGJNNjVtQ0xPOTZxRW5NMFpZ?oc=5
+
