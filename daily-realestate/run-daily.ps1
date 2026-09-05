@@ -18,6 +18,13 @@ function Clean-Text([string]$value) {
 
 function Html([string]$value) { return [System.Net.WebUtility]::HtmlEncode($value) }
 
+function Test-RailPriority([string]$title) {
+  $rail = $title -match '광역철도|도시철도|지하철|전철|철도|GTX|경전철|경강선|경춘선|경의중앙선|신분당선|신안산선|서해선|인덕원동탄선|동탄인덕원선|신림선|우이신설선|[0-9]+호선'
+  $progress = $title -match '연장|신설|노선|예타|예비타당성|기본계획|기본 계획|승인|고시|착공|개통|역세권|신설역|사업비|공사|수혜'
+  $noise = $title -match '기념|주년|공모|여행|축제|채용|슈퍼카|그래픽|보일러|화재|사고'
+  return ($rail -and $progress -and -not $noise)
+}
+
 function Get-Score([string]$text) {
   $score = 0
   foreach ($prop in $config.priorityKeywords.PSObject.Properties) {
@@ -29,6 +36,7 @@ function Get-Score([string]$text) {
 }
 
 function Get-Category([string]$text) {
+  if (Test-RailPriority $text) { return '교통·SOC' }
   $rules = [ordered]@{
     '재개발·재건축' = '재개발|재건축|정비사업|모아타운|신속통합기획'
     '청약·분양' = '청약|분양|입주자모집|특별공급'
@@ -110,6 +118,7 @@ foreach ($query in $config.queries) {
         publishedKstDate=(Get-KoreaPublishedDate ([string]$entry.pubDate))
         category=(Get-Category $combined); region=if($region){$region[0]}else{'전국'}
         clusterKey=(Get-ClusterKey $title $description)
+        railPriority=(Test-RailPriority $title)
       }
     }
   } catch {
@@ -137,7 +146,13 @@ $candidates = @($items | Where-Object {
   $_.title -notmatch "\b(19|20)\d{2}\b.*\b(19|20)\d{2}\b" -and
   $_.title -notmatch "\([A-Za-z0-9_-]{8,}\)" -and
   -not ($_.title -match '\b(20\d{2})[./-]' -and [int]$Matches[1] -lt $minimumYear)
-} | Sort-Object score -Descending | Group-Object clusterKey | ForEach-Object { $_.Group[0] } | Select-Object -First $config.maxCandidates)
+} | Sort-Object score -Descending | Group-Object clusterKey | ForEach-Object { $_.Group[0] } | Sort-Object score -Descending)
+# Reserve the first slots for concrete rail-project news before applying the total cap.
+$railSlots = if ($config.railPrioritySlots) { [int]$config.railPrioritySlots } else { 5 }
+$railFirst = @($candidates | Where-Object railPriority | Select-Object -First $railSlots)
+$railKeys = @($railFirst | ForEach-Object { $_.clusterKey })
+$remaining = @($candidates | Where-Object { $_.clusterKey -notin $railKeys })
+$candidates = @(($railFirst + $remaining) | Select-Object -First $config.maxCandidates)
 $selectedList = [System.Collections.ArrayList]::new()
 foreach ($category in @('재개발·재건축','청약·분양','교통·SOC','신도시·택지','주택공급')) {
   $pick = $candidates | Where-Object category -eq $category | Select-Object -First 1
