@@ -147,12 +147,17 @@ $candidates = @($items | Where-Object {
   $_.title -notmatch "\([A-Za-z0-9_-]{8,}\)" -and
   -not ($_.title -match '\b(20\d{2})[./-]' -and [int]$Matches[1] -lt $minimumYear)
 } | Sort-Object score -Descending | Group-Object clusterKey | ForEach-Object { $_.Group[0] } | Sort-Object score -Descending)
-# Reserve the first slots for concrete rail-project news before applying the total cap.
+# Keep rail-project coverage within the cap, then order the displayed topic groups.
 $railSlots = if ($config.railPrioritySlots) { [int]$config.railPrioritySlots } else { 5 }
 $railFirst = @($candidates | Where-Object railPriority | Select-Object -First $railSlots)
 $railKeys = @($railFirst | ForEach-Object { $_.clusterKey })
 $remaining = @($candidates | Where-Object { $_.clusterKey -notin $railKeys })
 $candidates = @(($railFirst + $remaining) | Select-Object -First $config.maxCandidates)
+$candidates = @($candidates | Sort-Object @{Expression={
+  if ($_.category -in @('주택공급','청약·분양')) { 0 }
+  elseif ($_.category -eq '교통·SOC') { 1 }
+  else { 2 }
+}}, @{Expression={ $_.score }; Descending=$true})
 $selectedList = [System.Collections.ArrayList]::new()
 foreach ($category in @('재개발·재건축','청약·분양','교통·SOC','신도시·택지','주택공급')) {
   $pick = $candidates | Where-Object category -eq $category | Select-Object -First 1
