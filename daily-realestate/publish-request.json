@@ -1,17 +1,17 @@
 {
-  "enabled": false,
-  "date": "2026-09-05-link-daejeon-jeonse",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-06",
+  "numbers": "23",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "대전·충남 2차 든든전세주택 입주자모집",
-      "source": "LH 대전충남지역본부"
+      "number": 23,
+      "title": "철산주공12단지 조합설립인가…'49층·2718가구' 재건축 본궤도",
+      "source": "땅집고"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-09-05T07:04:46.599Z",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-09-06T16:00:00+09:00",
+  "note": "Publish only the reviewed September 6 article 23 carousel. Article 11 is excluded because its original publication date is 2025-06-18."
 }
