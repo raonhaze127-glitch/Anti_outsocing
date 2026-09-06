@@ -1,17 +1,17 @@
 {
-  "enabled": false,
-  "date": "2026-09-06",
-  "numbers": "23",
+  "enabled": true,
+  "date": "2026-08-31-link-namyangju-jinjeop2-a4",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 23,
-      "title": "철산주공12단지 조합설립인가…'49층·2718가구' 재건축 본궤도",
-      "source": "땅집고"
+      "number": 1,
+      "title": "남양주진접2 A-4블록 신혼희망타운 잔여세대 추가입주자모집",
+      "source": "LH 입주자모집공고"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-09-06T07:00:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "requested_at": "2026-09-06T20:40:00+09:00",
+  "note": "Publish only the reviewed user-supplied LH Namyangju Jinjeop2 A-4 residual five-unit carousel. No external images are used."
 }
