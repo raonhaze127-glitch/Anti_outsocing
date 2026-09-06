@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-09-06",
   "numbers": "23",
   "expected_articles": [
@@ -9,9 +9,9 @@
       "source": "땅집고"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "requested_at": "2026-09-06T16:00:00+09:00",
-  "note": "Publish only the reviewed September 6 article 23 carousel. Article 11 is excluded because its original publication date is 2025-06-18."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "requested_at": "2026-09-06T07:00:00+00:00",
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
