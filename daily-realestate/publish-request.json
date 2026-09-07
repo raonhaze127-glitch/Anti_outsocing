@@ -1,17 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-08-31-link-namyangju-jinjeop2-a4",
+  "enabled": true,
+  "date": "2026-08-28-link-sh-happy",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "남양주진접2 A-4블록 신혼희망타운 잔여세대 추가입주자모집",
-      "source": "LH 입주자모집공고"
+      "title": "SH 2026년 2차 행복주택 입주자모집",
+      "source": "서울주택도시개발공사(SH)"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "requested_at": "2026-09-06T11:40:00+00:00",
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User approved publishing the supplied-document-based eight-slide SH carousel. Preserve the prepared PNGs and caption."
 }
