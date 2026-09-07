@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-08-28-link-sh-happy",
   "numbers": "1",
   "expected_articles": [
@@ -9,8 +9,8 @@
       "source": "서울주택도시개발공사(SH)"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "note": "User approved publishing the supplied-document-based eight-slide SH carousel. Preserve the prepared PNGs and caption."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
