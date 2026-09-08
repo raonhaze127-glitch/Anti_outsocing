@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-09-08",
   "numbers": "2",
   "expected_articles": [
@@ -9,8 +9,8 @@
       "source": "munhwa.com"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "note": "Publish only the approved six-slide September 8 article 2 carousel. Preserve prepared PNGs and caption; AI-generated cover disclosed on card and caption."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
