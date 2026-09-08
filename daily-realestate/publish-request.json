@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-08-28-link-sh-happy",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-08",
+  "numbers": "2",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "SH 2026년 2차 행복주택 입주자모집",
-      "source": "서울주택도시개발공사(SH)"
+      "number": 2,
+      "title": "3기 신도시 ‘더 많이 더 빨리’… LH, 주택공급 속도전 ‘총력’",
+      "source": "munhwa.com"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish only the approved six-slide September 8 article 2 carousel. Preserve prepared PNGs and caption; AI-generated cover disclosed on card and caption."
 }
