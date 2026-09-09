@@ -1,0 +1,215 @@
+﻿# 2026-09-09 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. “이젠 손으로 청약정보 읽어요”... 한국토지주택공사(LH), 청약플러스 전자점자서비스 제공
+- 분류/지역: 청약·분양 / 전국
+- 출처: 내외뉴스통신
+- 발행: 2026-09-08 16:03 KST
+- 출처 사이트: http://www.nbnnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1XRXhwV3dQeDVxVktJRkdfSGtlMkxGYmRRb3htbjFSb3BqT19kb09KejFnYVktLWNJaU5YamthSjNyQlJIVl9VbUU2TUlYWVpjQ3ZMbUhRS2hpYzJuZlFDNXROdE8wSm5COURaV9IBcEFVX3lxTE41OERXZ0tJZzhBSmUxSzFoeU12dkhpZURZMnNuYU5zVncxX2MxWlVEWk4yb2UxUExDQmNxUnpxVWNTVXVpOTBXREtUNjY4MGtBSmYzTmxPYWRpRE5vNE5QNXR5MW1RX1JoMXN1aVhBT3I?oc=5
+
+## 2. "계약 연장·분양전환 없다" 못박은 서울시…2031년까지 장기전세 9300호 재공급 [부동산360]
+- 분류/지역: 청약·분양 / 서울
+- 출처: Nate News
+- 발행: 2026-09-08 10:31 KST
+- 출처 사이트: https://m.news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE5ldmJFcVJYell5MVZnMk53VUtRNS1WNlpfU1F3VjNHZzVCaW1OVzBiYmtOTGMxbWs2eUxEYzVSMUZPV283NFZXTmUxVjhjQmF5bkFlSlN4cGplTFNYUzhRM2pfbGxhVXlvOVE?oc=5
+
+## 3. 장기전세 ‘분양 전환 불가’ 재확인한 서울시···2031년까지 9300가구 반환받아 재공급
+- 분류/지역: 청약·분양 / 서울
+- 출처: 경향신문
+- 발행: 2026-09-08 13:06 KST
+- 출처 사이트: https://www.khan.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzYyOWxsNWRZVFFBNE05V0p4SE9mRzhxUlhhc1lhd3JCS2ZhX042RDkySTZabU04bzNQU1VNWWU4SmNWOFhfc3dHQ3kyTU02UjhWeENWR2I1ZTVCZ256OWdFT2stQkJjVE9PLUh6eXBXLWZqWDBycDJpQXJKRktDTFBzUlJmOUE3LWlsV1h3dDM3XzhFdVRjNGJyOS11UDYyeGd4THIxVklXZw?oc=5
+
+## 4. 장기전세 '분양 전환 불가' 재확인한 서울시···2031년까지 9300가구 반환받아 재공급
+- 분류/지역: 청약·분양 / 서울
+- 출처: Nate News
+- 발행: 2026-09-08 13:07 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhdUN1c2tTOElWTE9Ed3NlWjllaEItRDc2eEI5d1hmSEZzU09Dcy1LOEI4OVB4bHRLUzlFM2Z2Q2JubFBndlVoY2w1cU9QSHJVaGlF?oc=5
+
+## 5. 손으로 쉽게... LH, 청약플러스 전자점자서비스 제공
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴스락
+- 발행: 2026-09-08 11:38 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5BX0ZhY1djb2pDS182NU5aZkIwRG5iUnFXeEc3ZWFHaVJvanVWVmtuaG5PaGZDTHpFRXdSdWxuRWk0U1FDdHM2cmFuVmU2aE1uS1RBZExLY1lqQmh0NFRpeHk1emFnOGxPV1V6Ug?oc=5
+
+## 6. 이성훈 LH 사장 “서울 도심, 3년간 매입임대 2만 가구 공급”
+- 분류/지역: 주택공급 / 서울
+- 출처: 이투데이
+- 발행: 2026-09-08 16:30 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XRS1YME8wYVVLa29qRFlpZDdqTU1VTnhUaE1LaHV0MDQyQnhHVVdVSF9PYWFpbktna1JpdWRxX1J0UmtaWmh4eWQ5a3l6RDM4VHg1ZA?oc=5
+
+## 7. 국토부-LH, 5000억 규모 주택공급용 토지 매입 나선다
+- 분류/지역: 주택공급 / 전국
+- 출처: Nate News
+- 발행: 2026-09-08 11:05 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE42aW1Mb0FjenNkbndmLWFfelBpc3FTVDlUQjlHaU1oNU90Y0V2U1BFZU5YdXlqMTdXbVVacW5sMXVxNk9CaHM0VnRUM2lIejM1Zl93?oc=5
+
+## 8. LH 청약플러스, 전자점자서비스 도입…시각장애인 청약 접근성 높여
+- 분류/지역: 청약·분양 / 전국
+- 출처: Nate News
+- 발행: 2026-09-08 10:39 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sUnMzSW9vaHB5dkdWbE0tSnAzZzQ3T0RyWnJDMXl0ekJkeE5xWXV3RnE3TFBtdnNZM2dzUFQ1cjZKcktnSDhlSWpwdVE5dVRzTlM4?oc=5
+
+## 9. LH 청약공고, 이제 손끝으로 읽는다…'실시간 전자점자' 도입
+- 분류/지역: 청약·분양 / 전국
+- 출처: Nate News
+- 발행: 2026-09-08 09:58 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CeTg2enFCUnZXT3lZd2YyUkFPRml3TDFRYVNRcXlEODBCNER6SzBIZHhQMTBYRzdBZXd2NEg5X3dzeW5QR040Z1c3VGVUUWFMTkNZ?oc=5
+
+## 10. LH, 서울 도심 매입임대 2만가구 공급…청년주택 1.5만가구
+- 분류/지역: 주택공급 / 서울
+- 출처: Nate News
+- 발행: 2026-09-08 17:31 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQUXkySmRnclJXWVBsanBwU05wRmdxdXdDSXk5NHE3d0ZhZmNKRVNqS01nTVJBbFlwRUstZHNhNjY5aVk0dmt3aWR1TXJJT1UydXow?oc=5
+
+## 11. LH, 청약시스템에 전자점자 서비스 도입…시각장애인 접근성 확대
+- 분류/지역: 청약·분양 / 전국
+- 출처: Nate News
+- 발행: 2026-09-08 14:36 KST
+- 출처 사이트: https://m.news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE5LSFg2U3A3REhDakhjUW5VU0ZuTThvYlZUalFrVWN0MmxTcVBDM2ZjVUktNjJtVzI5by1taUNaQWpZMlJfN2lkVDBfZ1FaM3lib1RzTUZlR3I5VWVPamR2TWctcWtrMEI2RENCaVZFaS1Hb1IxMmxiTQ?oc=5
+
+## 12. LH, 수도권 주택공급용 공공토지 5000억원 규모 매입
+- 분류/지역: 주택공급 / 전국
+- 출처: ilyoeconomy.com
+- 발행: 2026-09-08 09:40 KST
+- 출처 사이트: https://www.ilyoeconomy.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5sM3AtcDYtdVh2aVQ1VnlQTUFCQ1dBd2tTRW5DV3NqNU1naVB1NVl1N1FTTmJJVUREX3BtTXFwYm05U1RWcTRpSHlTR0kxNm9UT1VCZV8tVkJNekhhOU82bmhQV1c3Z0FITG5PdnJ3?oc=5
+
+## 13. 국토부·LH, 주택공급 확대 위해 수도권 유휴부지 확보
+- 분류/지역: 주택공급 / 전국
+- 출처: MTN 머니투데이방송
+- 발행: 2026-09-08 17:33 KST
+- 출처 사이트: https://news.mtn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE91QmNzVWxLWUxaQWZOTExBWGYwWTg4ME1NbWxJMUFRem9XV0VTbXMtcjRMM2QtMlh5aEVDRWdteFE5X3otM3JUcDA0b2ppN1hNOHhxZWNSSFItenFQTGpONjJTWHY?oc=5
+
+## 14. LH 청약 공고문 실시간 점자로…시각장애인 정보 접근 개선
+- 분류/지역: 청약·분양 / 전국
+- 출처: 파이낸셜뉴스
+- 발행: 2026-09-08 14:24 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE94OWdrVlQ1bmlVQ1JidnFjUmF3S0NFWTV1ZWFzNTAyZUNnYWhBbXIzSW9ubmF2YVBKSXdyQ2JMclI1V1JteDV0WUx0RnBQU1F5d3lYNDc4OWQwUQ?oc=5
+
+## 15. LH, 3년간 서울 도심 매입임대 2만호 공급…청년 물량 1만5000호
+- 분류/지역: 주택공급 / 서울
+- 출처: Nate News
+- 발행: 2026-09-08 17:04 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MVHhMQ3plUGZMQm8xUzNzR0hnczBxRF96RFJtNEFJZ2V6M1JyQzVMbkpLTmZZdTg2YUEyaTNHTlZfZTU1anZQRGlldmlkVVhsbVF3?oc=5
+
+## 16. LH, '전자점자 서비스' 도입…시각장애인 청약정보 접근성 높인다
+- 분류/지역: 청약·분양 / 전국
+- 출처: gukjenews.com
+- 발행: 2026-09-08 23:12 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1RX1FiYno1T0ZGcE9xZjFvQzJubkdQeE5PdllYTkV2NEZrOFlEV0hOb3A4a3lwYlVFcDJJMVRwalJ3M2xpOVdmMmtkNDV6TGxSU1JnT2VQUFZFT2E1OUFEaXY0ak03eDJaM0xObkxn?oc=5
+
+## 17. LH, 서울 도심에 3년간 매입임대 2만호 공급
+- 분류/지역: 주택공급 / 서울
+- 출처: 아주경제
+- 발행: 2026-09-08 16:59 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE0ybXNPdk5JSGZIVU5QQU9FODg0UlBrVlVEVkw0dUpiOTVoRmstNlhtamJ0TG9Pbnhla2RPLTZsVDh3Zi1NRkxvYVZwQ09YaW9zN3FpcnJrdjHSAVhBVV95cUxNMm1zT3ZOSUhmSFVOUEFPRTg4NFJQa1ZVRFZMNHVKYjk1aEZrLTZYbWpidExvT254ZWtkTy02bFQ4d2YtTUZMb2FWcENPWGlvczdxaXJya3Yx?oc=5
+
+## 18. 손끝으로 청약정보를…LH, 청약플러스에 전자점자 서비스
+- 분류/지역: 청약·분양 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-08 09:32 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE03UEZCU3VzN3o5bzItekRBZmMxdzlkVF9HOGpHdkxuQ2NobE04REtWRUdiaTQ1R3lHbWptMnFuZHJfWjRGamRpNUx0X2xLZ2JCdENFaExibi1LWmN3TWozd9IBYEFVX3lxTE03UEZCU3VzN3o5bzItekRBZmMxdzlkVF9HOGpHdkxuQ2NobE04REtWRUdiaTQ1R3lHbWptMnFuZHJfWjRGamRpNUx0X2xLZ2JCdENFaExibi1LWmN3TWozdw?oc=5
+
+## 19. LH, 청약플러스에 '실시간 전자점자 서비스' 도입…시각장애인 정보 접근성 확대
+- 분류/지역: 청약·분양 / 전국
+- 출처: 비즈니스플러스
+- 발행: 2026-09-08 09:47 KST
+- 출처 사이트: https://www.businessplus.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE8tLVRSQ3BaV0NKQVlaRWhqTjgzLWo0MVhDemh2Smd0ZU1XbVd5QXBaZ19McHRJVm54aHR6WmJKbnY4T3V4LVZxdG5RSU9SWTZnV3FhZ29fNW9IdnFlcnJHNzc3Z1cxajJCTUtSWDJVZw?oc=5
+
+## 20. LH, 청약플러스에 '실시간 전자점자 서비스' 도입
+- 분류/지역: 청약·분양 / 전국
+- 출처: Nate News
+- 발행: 2026-09-08 10:12 KST
+- 출처 사이트: https://m.news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE8zWWxyc3l0Vm1vV0hwSTUwQXNRZlZSeEVPSURSVnNBbFJUZDVtc3IzdUhhbUFoRV9nUVVoTElTSWNCVW53MmE2NjQ1UHRyaFZGQ2FfaWFLZUExNG5aNjZPNDU1UFplUDd4LUo2TXBoN2UwNGZCM0JYcQ?oc=5
+
+## 21. LH 청약정보, 점자로도 확인한다…‘전자점자 서비스’ 도입
+- 분류/지역: 청약·분양 / 전국
+- 출처: edaily.co.kr
+- 발행: 2026-09-08 10:13 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkh1TlZoYlRJYnhYWDZNeDMtYk51U1dGb2RfTlk1N3pibjVKNk04ZC14ak9KT1ctXzJWb2VSSjJCN0NBYWU5Q04yU3J2d2dqdnl2Vjc5ZzM5SGQ5LUtrc3M1QzhWYzJQRVdfbl9ORXdVdWxjallVS0hoZ2d1c2s5UQ?oc=5
+
+## 22. [부동산브리핑] 국토교통부,주택 공급용 공공토지 비축매입 외
+- 분류/지역: 교통·SOC / 서울
+- 출처: 서울파이낸스
+- 발행: 2026-09-08 12:29 KST
+- 출처 사이트: https://www.seoulfn.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE5MU3ZQWEtscVdUaC1kU1o5d2dDYTQ3bHZTZy1GUkFvTno3U3l3NEpVQTgtVlZWTzNzMWZPckdKUmRBNlJ1V2NiTHItZGkzOGVfR05JWWRHempudFdZUkt4Ny0yajlreXJyYkE?oc=5
+
+## 23. 경기도의회 건설교통위원회, 현장정책회의 철도·도로공사 현장시찰 ‘민생추경’ 당부
+- 분류/지역: 교통·SOC / 경기
+- 출처: 화성인터넷신문
+- 발행: 2026-09-08 14:51 KST
+- 출처 사이트: https://m.hsinews.com
+- 링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3aDlETWtGa1JBMGZzcHgtdEt3ZUFSQlpORlRfOUtDaUEteVJ3QWlLRnNkeXdJRGd3ZDVNbFhHZ2xBelczZVVUaEd5ZHpOWTg?oc=5
+
+## 24. 김포시, 2000번 버스 노선 김포한강신도시-서울역 GTX-A 킨텍스역 경유 운행
+- 분류/지역: 교통·SOC / 서울
+- 출처: gukjenews.com
+- 발행: 2026-09-09 09:07 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBvQmN3VGdiVkhyRzRiZ0lwUXo0WERsbkwyU2lYMFppTDJ4bU9ZX00yVVZZTkNxQzhwbV9ST1dyT0VuLUk0blA4TjFXRGF4dHA5U2NtOWNYWXMwa3Z0dTk0LTJMM1ZsbFo0N05nSkNn?oc=5
+
+## 25. 김포한강신도시서 GTX-A 킨텍스역 바로 간다…2000번 버스 노선 개편
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아시아경제
+- 발행: 2026-09-09 07:41 KST
+- 출처 사이트: https://www.asiae.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lMW93bUFsTW0tSVNjZWtoMGQ3YkoyNG55V0o4bnk0UEw2cTFmdFZoc1JHYi12aDNiZExMSHFhcXdpNUtLUzUtb2s1ejJfeTVVMUVod1RnX2phVHlVa2ROWA?oc=5
+
+## 26. 교산신도시의 미래, AI 클러스터와 3호선 연장으로 달라진다
+- 분류/지역: 교통·SOC / 전국
+- 출처: 공감신문
+- 발행: 2026-09-08 17:15 KST
+- 출처 사이트: https://www.gokorea.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zZlJtdGhybldJaFJpU1ROVDRRbTUzdFJwSlRaQW82akVJWHdVWjdJcE5HNFl5aGh5Q0FYVTRDX0ZEYzdOZkFYRzNaOHZQeGlKTnFfN0JmUXNFRmtKQmZlbUtxaVhKSGd1?oc=5
+
+## 27. [반려된 민자철도②]“4만가구 입주에 BRT가 웬 말”…동명·쌍용 신분당선 연장 좌절
+- 분류/지역: 교통·SOC / 전국
+- 출처: 엔지니어링데일리
+- 발행: 2026-09-08 14:11 KST
+- 출처 사이트: https://www.engdaily.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE83RmVkZFNybDZtSGkxaGp2RzFnRW0tS09CalR6aUIyUDBlQlRuMVlVaVN0bjJhckhwekkzNnVELS05RzhVN2ZmdUhBV0hzLWJQdUhVUXcyQWtsSEFHd2lWbGxsUzRSZGF3X0E?oc=5
+
+## 28. [LH 분사 주택공급 대격변]① 자산公 ‘매입임대’… 개발公은 택지개발ㆍ주택건설 전담
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 대한경제
+- 발행: 2026-09-09 05:00 KST
+- 출처 사이트: https://www.dnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE9ST3Q0VkhlakQ1YmlSdDlnRDI5Uk41ZFVWd0NhMWlhYkR0ejB5THdVTzdoNlRQZVgzdFJmcjJTQ0lLbWhBTnhJRDBSdm1jWXRHYzBVQVdhaXRQU3RfWHVNYk13RTM5QkRlam9QLUdEUXpYSkNm?oc=5
+
+## 29. [LH 분사 주택공급 대격변]② 택지 매각 수익원 끊긴 채 임대만 확대… 재무 구조 악화 어쩌나
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 대한경제
+- 발행: 2026-09-09 05:00 KST
+- 출처 사이트: https://www.dnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE4zejU1WmpycHVwd3p6b0lYb0MwS0stWGd3UmhfOEdTcVlyN1Q0MmJMZmluendvOExST2V2SUxjaVFuM3RSUC11QmdXMmdKZ2hkaUhCajYyRzV2WDR0TTJZS25wWHRKaUh6V3dhaWo4aXNKRmsw?oc=5
+
+## 30. 김이탁 국토교통부 제1차관, 서울 도심 공공재개발 현장 방문, 국민 체감 가능한 속도제고 강조
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 케이에스피뉴스
+- 발행: 2026-09-08 16:44 KST
+- 출처 사이트: https://m.kspnews.com
+- 링크: https://news.google.com/rss/articles/CBMidkFVX3lxTE1laWJpX2V2X3A4U1Z5X0xOT3A1NGY1Q3hPNXVTdVVUS09vaWtkRXU4TXU1NWMxbGZ3bFBhS213bGptNVl0cUZEVHRsbnk4b1JHcnM5dm1KcmcwLVlRdktWb0I5dlBuNGlGYWFSTnZxQmlTaTZQN3c?oc=5
+
