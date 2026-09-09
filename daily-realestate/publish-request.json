@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-08",
-  "numbers": "2",
+  "enabled": true,
+  "date": "2026-09-09",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 2,
-      "title": "3기 신도시 ‘더 많이 더 빨리’… LH, 주택공급 속도전 ‘총력’",
-      "source": "munhwa.com"
+      "number": 1,
+      "title": "SH, 재개발임대주택 3,821세대 모집 재공고",
+      "source": "한국건설신문"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed article 1 carousel immediately. Article image is the SH headquarters building provided in the source article."
 }
