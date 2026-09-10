@@ -12,5 +12,5 @@
   "publish_to_instagram": true,
   "review_confirmed": true,
   "image_usage_confirmed": true,
-  "note": "User requested immediate publishing after reviewing the prepared 7-slide carousel."
+  "note": "Retry after synchronizing the reviewed 30-item candidate snapshot; the first run stopped before Meta publishing."
 }
