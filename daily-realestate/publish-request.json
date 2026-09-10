@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-09",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-10",
+  "numbers": "11",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "SH, 재개발임대주택 3,821세대 모집 재공고",
-      "source": "한국건설신문"
+      "number": 11,
+      "title": "KB부동산신탁·포스코이앤씨, ‘아크메르 동탄’ 1808가구 9월 분양",
+      "source": "인더뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested immediate publishing after reviewing the prepared 7-slide carousel."
 }
