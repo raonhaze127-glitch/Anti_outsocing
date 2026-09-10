@@ -1,0 +1,215 @@
+﻿# 2026-09-10 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. LH, 서울 도심 매입임대 2만가구 공급…수도권 주택용지 5000억원 선매입
+- 분류/지역: 주택공급 / 서울
+- 출처: 얼리어답터뉴스
+- 발행: 2026-09-09 10:37 KST
+- 출처 사이트: https://www.eanews.kr
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTFBQbUdrMVNKamFEdmU4X2szNHhvemNFTjY3clhvYVRLa1E0U3BWQldGeGRlM0NNNHIwdmZYOGRhblhpcDA2c3NkcmN3?oc=5
+
+## 2. [단독]LH 노조, 창사 첫 총파업 예고…정부 '닥치고 공급' 차질 불가피 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 발행: 2026-09-09 13:44 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBWSnZDN0NMcHA5Nm1MT2VGbzV5TERuSE9VNnFkTFBNMUY2S3l2My1jTjR0TjdoVmpXVllkM3pPS2NvNjRfMk1mbnlPTWdzUDRQSm9aMlFaRWlSejEyQ3hxMUUxaG1oZTVSb2djb0RpY9IBb0FVX3lxTFBWSnZDN0NMcHA5Nm1MT2VGbzV5TERuSE9VNnFkTFBNMUY2S3l2My1jTjR0TjdoVmpXVllkM3pPS2NvNjRfMk1mbnlPTWdzUDRQSm9aMlFaRWlSejEyQ3hxMUUxaG1oZTVSb2djb0RpYw?oc=5
+
+## 3. [단독]"분사 협의 안해" LH 노조, 창사 첫 총파업 예고…'닥치고 공급' 흔들 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 발행: 2026-09-09 13:44 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE4tTjVTbWJvS21MeHk0VkdOdXJFSUIzQkhJZ2FsdjU3VExSYTVXeEVha1VuaHRYZy1OdUc1dXh2YWNNSTVBNVk4WExPU1Ric2VfYU01N05iTDNVQkRKRlhjUTNac0lEaDdMVFHSAW9BVV95cUxQVkp2QzdDTHBwOTZtTE9lRm81eUxEbkhPVTZxZExQTTFGNkt5djMtY040dE43aFZqV1ZZZDN6T0tjbzY0XzJNZm55T01nc1A0UEpvWjJRWkVpUnoxMkN4cTFFMWhtaGU1Um9nY29EaWM?oc=5
+
+## 4. LH, ‘AI 도시’ 미래상 제시… 청년주택 공급 확대까지 도시·주거 혁신 속도
+- 분류/지역: 주택공급 / 전국
+- 출처: 비즈트리뷴
+- 발행: 2026-09-09 21:04 KST
+- 출처 사이트: https://www.biztribune.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1Wem9BZHhBdU5jT3lOdUd6NEF3SjFReE5Bd2RaRmNSRklpTi1NYllpMnhEM2lJaWYzUldJaUtSSVIxc2lzZDZkc3lGQkNwdFV4YTZMYzhfSE1nTFgtLW5UQXRhd3dzSjlfbkJxaFNmaWU?oc=5
+
+## 5. LH, 시각장애인 청약정보 접근성 ‘청약플러스’ 전자점자서비스 제공
+- 분류/지역: 청약·분양 / 전국
+- 출처: 에이블뉴스
+- 발행: 2026-09-09 17:35 KST
+- 출처 사이트: https://www.ablenews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5DUUdMYlBBbzFFVVdvVFFtbGFEQlJkZXFlSHBpcl9jbjJYMzctdGJubVUzRHppTkl0MXpFTWpsb0syMm9RWHQ3bzd4Wldkai1LaVZ6cDZKblp3YVpWa0JIcDFoM2pXWjk2TTZKeDZn0gFyQVVfeXFMTkF0Q1hPSEhCNlVxZGczNmxtd3JUTlVRcC04NzItYTFzRTI5RFV5Q1R4OExKMmF1MEFpaU1qbUVPNWtjMWtYbk91ZUlPVlFBMmJqMVJjd1JiQVBVbXh4LTg0Uy0xZDFMeV9OZWdhRGhFMUJn?oc=5
+
+## 6. LH 분사에 노조 총파업 카드…정부 ‘주택공급 속도전’ 복병 자초
+- 분류/지역: 주택공급 / 전국
+- 출처: 포쓰저널
+- 발행: 2026-09-09 18:47 KST
+- 출처 사이트: https://www.4th.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE42THZyYktuaGVkc3p5eHp6V1lvZ1d3TU5Za01HT1ZWQkJXVmNHVXVjUDJtTW4zT1ZVQWlKSGxwbWlZWW9RcE1qSUdPdXZLSTEwd0dRYWZPc29uZWx2WFpESUNSWXM?oc=5
+
+## 7. 완주군, 국토부·LH에 “삼봉2지구 공공지원민간임대주택 공급” 촉구
+- 분류/지역: 주택공급 / 전국
+- 출처: 쿠키뉴스
+- 발행: 2026-09-09 15:18 KST
+- 출처 사이트: https://www.kukinews.com
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MeHZKaFk2UDdobGMtZ0xJOTlWeVBfcU5SVmFxeWJ4LUhlWF9PU3FxeWtuc0huRllzNlIwSWpSWDh2ZWVXYzdOUF9RUEF1UXZra2pEU2pONlZLeUFKV0MxUWRuOA?oc=5
+
+## 8. [단독]"분사 협의 안해" LH 노사, 창사 첫 총파업 예고…'닥치고 공급' 흔들
+- 분류/지역: 주택공급 / 전국
+- 출처: Nate News
+- 발행: 2026-09-09 13:45 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kX3pXVnJRWW5zZUhyUDdfdzVYTUVPWWRkQmloaU1XaTZULWpfMXlRX09pWXhWUktLcEpJT0JKWDJsSVpqdEJqZ0FqNmhkQTc3cDdj?oc=5
+
+## 9. [아유경제_부동산] LH, 청약플러스에 전자점자 서비스 도입… 시각장애인 정보 접근성 개선
+- 분류/지역: 청약·분양 / 전국
+- 출처: 아유경제
+- 발행: 2026-09-09 11:04 KST
+- 출처 사이트: http://www.areyou.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vMl85SlNhQV9CTW4xNl9BOWxEQ3d4OUtudFF5a3NhcWw0R2JXZEt3cTJGa0ktdjlYYnBkSHlhT3h4Xy1OZGdMd293c0lab01OZEUwSGJWaFNXQmNHU2NZN0ZDRGFINlM3?oc=5
+
+## 10. LH 노조, 분사안 반대 움직임…사측에 교섭 요구
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-09 17:58 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wUEJYS0dHemZWVnZ6bGxjb3VRUXptMzgzYmp4RzJVRGdYbFA3aDhJSy1SM1A0V1FiV213VV9DVTRNYVpiYnBqcVlIaUNQeW16OTczVXpIUEJKN1JjUnhNadIBYEFVX3lxTE1wUEJYS0dHemZWVnZ6bGxjb3VRUXptMzgzYmp4RzJVRGdYbFA3aDhJSy1SM1A0V1FiV213VV9DVTRNYVpiYnBqcVlIaUNQeW16OTczVXpIUEJKN1JjUnhNaQ?oc=5
+
+## 11. 최형규 서울시의원 면목선 기본계획 재검토 및 광역 연장 촉구 > 뉴스
+- 분류/지역: 주택공급 / 서울
+- 출처: 더코리아
+- 발행: 2026-09-09 18:26 KST
+- 출처 사이트: http://www.thekorea.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9FeUVWQThhbTdXclpDRTJaR1dNaElDOHZtVlJkQi1jaURQSVlPV1dtYUJTTENKenRYYVZqdE9yOUhSUzg0ME5QMGoxS1N1djUzWmJZbkM2YUQ2eUd1Y09GcWpId2tPSGd5Y0RVWUE4XzA?oc=5
+
+## 12. LH 노조 '총파업' 불사…국토부 "분사 협의 검토"
+- 분류/지역: 주택공급 / 전국
+- 출처: Nate News
+- 발행: 2026-09-09 16:05 KST
+- 출처 사이트: https://m.news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE14RVJGSXlpaTFKY19JOExVY2JGSm9kVTBKcWthUXFPSW50eFBfR3dEbVNYVnQzVUt3NDU5cjRpMkNMcHpOcHJ5QWM3YmdTUnVvZlhjNjc0QU4wMVpybkE1eGQ5WENZcUU2UDItWFBubENfZzB2ZUtZUw?oc=5
+
+## 13. 완주군, 삼봉2지구 조속 추진 국토부·LH에 재차 촉구
+- 분류/지역: 주택공급 / 경남
+- 출처: 경남도민뉴스
+- 발행: 2026-09-09 12:30 KST
+- 출처 사이트: https://www.gndnews1.com
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE44MjZQSzRYREFlRm1ldDA1UWRJOFdXMHRua1FyZFM0WUwwSzd5UEpWbDI0YmN3LUs0cnlOdi13Yng5QXJxNHltTDAxR3pKM3BRWXRoMHZfNXZoVzdwQlVUdlBONA?oc=5
+
+## 14. 공공기관 브랜드평판 1위 LH…한국부동산원과 격차 5만여점
+- 분류/지역: 주택공급 / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-09-10 07:07 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFAzTWNVam94WjlLOXNZa3R0V1Ftb2o4WEhRanRaRlJpMU10MWh6dzRPNU9ibFNVU014azg1VTBXRVJsb0hqeEljVmdPa0IzRy1QSVdWYkhneE1xX1E2RnJJMl8xUUNUQ0dDTlhxeklBdEZ4N03SAXdBVV95cUxOSE1vSUdJejR1ZkF4dEZ6RHRRM0VyRzY5VFBVSlIwakVtTWdUNm56UW5OcTczOHV4bnpIUU5kekxrVEdJMVQ3YnpkVE5QZ3cwQkctR3RTcmF0bG1FRnE4Z2dfaFEtV090bnJBck9xejh2eWRRWGpMYw?oc=5
+
+## 15. [국토위] 집이 급한데 땅부터 사겠다는 LH
+- 분류/지역: 교통·SOC / 전국
+- 출처: 국토교통신문
+- 발행: 2026-09-09 20:28 KST
+- 출처 사이트: https://www.itbs1.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Qd05sWnp5NU1ZR2FOMzd4d1JFRG9sbV9tTGpwdXNSRGZMRDB2QUlVRDZrblpwZE9uN0ltTFFQWTkteVBKZE9nSFYwSnUxTm5NTkZ4c1NkVnNWclJRTFRlaEhfd2lWZFU?oc=5
+
+## 16. 최형규 서울시의원 “면목선, 서울 동북권 교통체계 개선 대책으로 접근해야”
+- 분류/지역: 교통·SOC / 서울
+- 출처: 파이낸스투데이
+- 발행: 2026-09-09 17:59 KST
+- 출처 사이트: https://www.fntoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5CUi1mSkJpb1A5OTdhb0g3bEhKVGIxY3Bkd1ZYenF0SmdWTkQ0emVNOHh2SzY2bjF1d2ZwMFdNcjdmSFNXVkc3NlNYN1I3TXpLMHJ0RHYwQnZWcURpMUFvMU11UlNCYmVvQ3lQVQ?oc=5
+
+## 17. 최형규 서울시의원 "면목선, 서울 동북권 교통체계 개선 대책의 하나로 접근해야"
+- 분류/지역: 교통·SOC / 서울
+- 출처: Nate News
+- 발행: 2026-09-09 17:22 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZX1V0bUhnaGNTZXloeDdoQW50OE1BczdYZjFXV2J6VmRMYVNtOGhIU2IxQkZVclEwTGJYUzlZNkVpTG1jMENDdXVhM0N5X1VHWTNZ?oc=5
+
+## 18. 의왕시 오전·왕곡 대규모 주택공급, 철도는 제자리…위례~과천선 연장 ‘사활’
+- 분류/지역: 교통·SOC / 전국
+- 출처: 중부일보
+- 발행: 2026-09-09 15:36 KST
+- 출처 사이트: https://www.joongboo.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ndnc5eWg0N3Zfakc1SjVGSy11bkhlczdoalo3cWZ2SV9pbjlXNkp5MElRWDJyYTZuT2tDMTgwRGdLYUhZV2UtakNrTHpYSXk2SGV6cFJVMThGajlaRHVzS3VmVmtadDkzdS1LeEhEVQ?oc=5
+
+## 19. 김성제 의왕시장, 유의동 국토교통위원장 만나 위례~과천선 의왕 연장 제5차 국가철도망 반영 건의
+- 분류/지역: 교통·SOC / 전국
+- 출처: newszoom.kr
+- 발행: 2026-09-09 11:41 KST
+- 출처 사이트: http://www.newszoom.kr
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE1kaHJlNmppNWNBcVFYR0hKbjRJOW1Yc3hzVEU2SXFrYVpuNVJQcFp5aHJwUThvYmNTTkpSemFHWUpXOVlD?oc=5
+
+## 20. 남부내륙철도 앞둔 거제…역세권 준비 부족 비판 제기
+- 분류/지역: 교통·SOC / 전국
+- 출처: GIB 거제인터넷방송
+- 발행: 2026-09-09 13:04 KST
+- 출처 사이트: https://www.gibnews.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VRnRRZGR3dVhycjVPRFBaUHVpNlM2NHhvTFRGeEZwUzFna2tWczl0eFdGaF8yZjZWQm5ncDRLWW8wZXg4enlKWjF1OGl5eXM3THA1SXp2djd2YUJtbXE4bW4zVnNNMEU?oc=5
+
+## 21. '문경~김천 철도' 도심 통과 놓고 주민 반발… 외곽으로 노선 변경 요구
+- 분류/지역: 교통·SOC / 전국
+- 출처: 매일일보
+- 발행: 2026-09-09 14:13 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFAyTV9MUjF4OEp1MWJ6Mjl4cmVCc1BnYlZ1RElaM3JwNWZXbzNTMjNiVnB0SWRJYkJyWjV6SGsxeHJyMjhDUEE2S3FCdDMtd0lQd3BMMC1fQ09ncXZBcDBWRW9FN1ZsbXZx0gFoQVVfeXFMUDJNX0xSMXg4SnUxYnoyOXhyZUJzUGdiVnVESVozcnA1ZldvM1MyM2JWcHRJZEliQnJaNXpIazF4cnIyOENQQTZLcUJ0My13SVB3cEwwLV9DT2dxdkFwMFZFb0U3VmxtdnE?oc=5
+
+## 22. 한국철도공사, 지역관광 철도 연계 방안 모색
+- 분류/지역: 교통·SOC / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-09-09 15:31 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5hU01fN1BfaVVNWVkxcmpFZnF0WTJxajhIMzZVc2psVUtQSVg2WnJENmptTTk0V0FYbWxDVC1mWUlKZWlTY0lkb0M2M3hNT3czSXdqOTQ2SnFORDZnaGc4MDQ0YkJBRVctLURBWFlPV0YzZFnSAXdBVV95cUxQaDVhc1dzbW1FYVdaTEpZczNsX2JwQWhJSGFmUlIxQ2Q3T3RNbmI1TEVZVk5pTFg0Vmx3YkZmMTRVajJyaUVKcXBvWGdCT21WajNEd1lqYXlLWDZlRTJlVFlCNk1IOF9ST1dXMHMzSkJDVFZ2N09uMA?oc=5
+
+## 23. LH, 인천 계양테크노밸리 공공택지지구 근린생활시설용지 공급
+- 분류/지역: 신도시·택지 / 인천
+- 출처: 기호일보
+- 발행: 2026-09-09 15:39 KST
+- 출처 사이트: https://www.kihoilbo.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9WTzktaS05ZnJQLV9MUkdzQm5tSWpqUnctQUpoLVA3UFphWkp4MURXbjV6Yi1rcVRnSk9IaGFhNkxtZnM4bkZyWHlMMnJtMlc3Z0w1MGI3eFg1cURfNEI0M09jZXJlNUVldmllc3BxZw?oc=5
+
+## 24. SH, 재개발임대주택 3821가구 재공급…29일부터 청약
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 데일리안
+- 발행: 2026-09-09 18:23 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMDQtcERZaHZ6T2g5bGZaUVZXS1JYUGpKNTdRbGptUE9hNnl6Vms4dTN0YlMwaUFuMERlVlpuLWcwM0E0dm5aVkFTX25XRWpsa1o1TzRiTzhtUC1MREZjbGFrWXpXSDkyLVZ6bGoyLUNfWVV2MWJNOGlyUjMwS2NWOE9aNFF6RFRQRUhjdzFzMzNkcFU2WEtJWndueWMzalhaLWktUjR0bzdPR2Nuc21aRWJoU1AwQmhyWE5fX084bXAwTGhwYi1aNjVoYkdrZ3FycVVrV3BtYk9nbV9qb0Z0bXV1ZFI2anppVUhYTHd3?oc=5
+
+## 25. 서울시, 도림동 재개발 확정…용도지역 상향·최고 45층
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: Nate News
+- 발행: 2026-09-09 11:22 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1c1U4WmY5UFVNaGhlUWlFVXRTbjdJVXJDOFRLS0RoTGQzRTBFb1hUa1pva2duZVR6RURjUFpDcXI1a0R1LTNDSkdxa0tQWllMZVBR?oc=5
+
+## 26. 목동 49층 재건축 지키기… 서울시, 국토부에 고도제한 ‘예외 규정’ 건의 - 조선비즈
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: Chosunbiz
+- 발행: 2026-09-10 06:00 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxORmRjMW9GZTBqM0cxZmxKSXFxY1NpNTRYODZCMl82c1NLekpsVDhVVjV3cV9YUmtoYjZJWnpSNEdLbWV1UXM2SmpIRWpvaXNvanFZSE5QVDNlbzlDTVFQZ05rNkpXVnBfSU03N1V6RXlGQUZzTlN1d05LZVFpSGJZX0FMTlRoLXBBSHJUR0o4REFYeWZ2REtwTdIBrAFBVV95cUxPWEdXYUFycVI5UEJ0MF9GcTd0MHlyOEs4OFBxdVF4Y2toS0tEWWcyZmdyWlUzREpUNmNGZEJSMGZJTEF1Z1FaQlVuM0dST0RjWmE4bkF1V0FpdHpXMG5XOV8wOFBDRWhfejdOTXlhaGdOdUJrbGdmREVfdEsxVnVFOHJGOGJ4R2FMSUdIQkpybndvaFNSZU10ejVYc0JRMC1lMVJESWNoWW5zWDUt?oc=5
+
+## 27. 이상식 “이동호수 주변 신도시 만들자”…LH 사장 “위치도 좋다”
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 월드장애인사랑뉴스
+- 발행: 2026-09-09 18:48 KST
+- 출처 사이트: https://www.youcandonews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE1xaHFnQWN4RWZDYjVCYkZBYW8wTW15bWpCQ2R6NUhuV3RvLV92VW83bktSei10NDdXZ2dMeWt5UEhPMFRTeDl2SVRIeDgxLXVnMW5XSHVlQnhHNGU3dzRGNnMtblM3Q3dWOERVbm04RQ?oc=5
+
+## 28. SH, 재개발임대주택 3821가구 입주자 모집…29일부터 청약 접수
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: Nate News
+- 발행: 2026-09-09 18:35 KST
+- 출처 사이트: https://news.nate.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RcVBRcDROWUY5NTlKaV9OSGFBTG04YmIzLTIwNEJ1ZllTdktLYW93cHlkTWVaYkpUUUtsZ0hhSHFtd1pEV1hLY2hDamxhT0tXWkkw?oc=5
+
+## 29. 서울시, 도림동 133-1 일대 신속통합기획 확정
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: surprisenews.kr
+- 발행: 2026-09-09 13:12 KST
+- 출처 사이트: https://www.surprisenews.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBnTE1ZZC1uc3YycnhnTDk3WjQwZ0pmRTlrV2E3VTJpaHpLdFYwRklCRC1OYS1kdUkzS1dsdmNyWUZJQmo4LVdDbjZMZ0l3WUktM0xTdEkxU1JKVkduN0tOenhNQ1VqcHF1VVFNYi1UVQ?oc=5
+
+## 30. 한국부동산원, 재개발․재건축 주택공급 물꼬를 튼다
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: conslove.co.kr
+- 발행: 2026-09-09 16:53 KST
+- 출처 사이트: http://www.conslove.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBQVTM5SnkyVVJJcFRZREZCQTBvbDlncDgwRngtdHBFOHh4dUkwMnlpekxWb3NtUFJLdnQwVUk2UzUyYWlYY3JOU2VVY242VnZlZDVOV1lCbW1sREVRdE1EdUF6Q0E4a3Y0XzUw?oc=5
+
