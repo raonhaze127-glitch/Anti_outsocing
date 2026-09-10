@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-09-10",
   "numbers": "11",
   "expected_articles": [
@@ -9,8 +9,8 @@
       "source": "인더뉴스"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "note": "Retry after synchronizing the reviewed 30-item candidate snapshot; the first run stopped before Meta publishing."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
