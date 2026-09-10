@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-10",
-  "numbers": "11",
+  "enabled": true,
+  "date": "2026-09-10-osan-segyo2-umi-youth-rental",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 11,
-      "title": "KB부동산신탁·포스코이앤씨, ‘아크메르 동탄’ 1808가구 9월 분양",
-      "source": "인더뉴스"
+      "number": 1,
+      "title": "오산세교2 A5BL 우미 린 포레아시티 청년 특별공급 195세대",
+      "source": "우미 린 포레아시티 임차인모집공고"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested immediate publishing of the reviewed 8-slide carousel built from the confirmed recruitment document."
 }

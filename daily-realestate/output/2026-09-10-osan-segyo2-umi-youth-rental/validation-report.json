@@ -1,0 +1,19 @@
+﻿{
+    "checkedAt":  "2026-09-10T21:42:35.9424675+09:00",
+    "date":  "2026-09-10-osan-segyo2-umi-youth-rental",
+    "numbers":  [
+                    1
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-01-carousel",
+                     "slides":  8,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}
