@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-10-osan-segyo2-umi-youth-rental",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-11",
+  "numbers": "16",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "오산세교2 A5BL 우미 린 포레아시티 청년 특별공급 195세대",
-      "source": "우미 린 포레아시티 임차인모집공고"
+      "number": 16,
+      "title": "대장홍대선 청라연장, 서해구 광역교통망 혁신 가속",
+      "source": "경기도민일보 미디어"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested immediate publishing of the reviewed 7-slide article 16 carousel."
 }
