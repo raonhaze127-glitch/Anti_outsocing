@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-11-link-yangju-hoecheon-a26",
+  "enabled": true,
+  "date": "2026-09-12-link-uijeongbu-ujeong-a2",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "양주회천 A-26BL 공공분양주택 입주자모집공고",
+      "title": "의정부우정 A-2블록 공공분양주택 입주자모집공고",
       "source": "LH"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested immediate publishing of the reviewed 8-slide Uijeongbu Ujeong A-2 carousel."
 }
