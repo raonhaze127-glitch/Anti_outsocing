@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-09-12-link-uijeongbu-ujeong-a2",
   "numbers": "1",
   "expected_articles": [
@@ -9,8 +9,8 @@
       "source": "LH"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "note": "User deleted the prior post and requested republishing after correcting the cover to name Uijeongbu Ujeong A-2 explicitly."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
