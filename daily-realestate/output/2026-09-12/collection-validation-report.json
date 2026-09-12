@@ -1,0 +1,17 @@
+﻿{
+    "checkedAt":  "2026-09-12T00:32:20.1463138+00:00",
+    "date":  "2026-09-12",
+    "state":  "valid",
+    "candidates":  30,
+    "minCandidates":  30,
+    "blockedSourceHits":  [
+
+                          ],
+    "excludedKeywordHits":  [
+
+                            ],
+    "missingSourceUrl":  [
+
+                         ],
+    "strict":  false
+}
