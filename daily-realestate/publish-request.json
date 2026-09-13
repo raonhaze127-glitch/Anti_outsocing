@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-12-link-uijeongbu-ujeong-a2",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-13",
+  "numbers": "4",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "의정부우정 A-2블록 공공분양주택 입주자모집공고",
-      "source": "LH"
+      "number": 4,
+      "title": "[부동산캘린더] 내주 천안아이파크시티 등 전국 1만1천521가구 분양",
+      "source": "연합뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish user-reviewed six-slide carousel for 2026-09-13 candidate 4. Generated generic apartment background used because article image prohibits redistribution."
 }
