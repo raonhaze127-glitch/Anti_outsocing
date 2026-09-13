@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-13",
-  "numbers": "4",
+  "enabled": true,
+  "date": "2026-09-13-link-yongin-youth-purchase-rental",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 4,
-      "title": "[부동산캘린더] 내주 천안아이파크시티 등 전국 1만1천521가구 분양",
-      "source": "연합뉴스"
+      "number": 1,
+      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고",
+      "source": "LH"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish user-reviewed eight-slide Yongin youth purchase-rental carousel using the user-provided non-person building exterior image."
 }
