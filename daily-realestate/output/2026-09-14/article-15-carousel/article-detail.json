@@ -1,0 +1,23 @@
+﻿{
+    "number":  15,
+    "collectedAt":  "2026-09-14T22:56:35.8032886+09:00",
+    "title":  "GTX-C 15일 착공…수원~청량리 75→30분으로",
+    "source":  "이데일리",
+    "sourceUrl":  "https://www.edaily.co.kr",
+    "manualOriginalUrl":  "",
+    "googleNewsUrl":  "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWh0MkkzYjFIdHE2dV9RV2pFVFU0WUpuWUFaQm9Ga0MzVThhOEFwc2FjdDh5WmVLX0hnUXYwbFpCYktfdHgtSmJJNzBNcmJYb2JBX2lXZjZ4bXFyZGgxZXJhd0I2MHh2eHNtUWJjTzJrS2RTU1ctNmNuM0lxeVNTSA?oc=5",
+    "fetchedUrl":  "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWh0MkkzYjFIdHE2dV9RV2pFVFU0WUpuWUFaQm9Ga0MzVThhOEFwc2FjdDh5WmVLX0hnUXYwbFpCYktfdHgtSmJJNzBNcmJYb2JBX2lXZjZ4bXFyZGgxZXJhd0I2MHh2eHNtUWJjTzJrS2RTU1ctNmNuM0lxeVNTSA?oc=5",
+    "resolvedUrl":  "",
+    "fetchStatus":  "fetch_failed",
+    "metaTitle":  "",
+    "metaDescription":  "",
+    "bodyExcerpt":  "",
+    "imageCandidates":  [
+
+                        ],
+    "imagePolicy":  "Use only article-contained renderings, location maps, district maps, layout maps, or route maps that appear to be official-source materials. If unclear, ask user before use.",
+    "contextWarnings":  [
+                            "Fetch failed: 원격 서버에 연결할 수 없습니다.",
+                            "Use RSS title/summary only and verify manually."
+                        ]
+}

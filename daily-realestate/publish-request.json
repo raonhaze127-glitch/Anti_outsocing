@@ -1,16 +1,16 @@
 {
-  "enabled": false,
+  "enabled": true,
   "date": "2026-09-14",
-  "numbers": "1",
+  "numbers": "15",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "3기 신도시 분양가 더뛴다…두 달 새 기본형 건축비 4% 넘게 상승",
-      "source": "서울경제"
+      "number": 15,
+      "title": "GTX-C 15일 착공…수원~청량리 75→30분으로",
+      "source": "이데일리"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed article 15 carousel only. Background image is AI-generated because no reusable article image was available. Disable after successful publication."
 }

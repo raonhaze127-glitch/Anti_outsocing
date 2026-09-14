@@ -1,14 +1,14 @@
 ﻿{
-    "checkedAt":  "2026-09-14T22:37:18.6653190+09:00",
+    "checkedAt":  "2026-09-14T23:24:31.4046877+09:00",
     "date":  "2026-09-14",
     "numbers":  [
-                    1
+                    15
                 ],
     "requireJpeg":  false,
     "state":  "valid",
     "sets":  [
                  {
-                     "set":  "article-01-carousel",
+                     "set":  "article-15-carousel",
                      "slides":  6,
                      "size":  "1080x1350",
                      "review":  true,
