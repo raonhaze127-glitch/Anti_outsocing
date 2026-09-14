@@ -746,6 +746,13 @@ foreach ($index in $indexes) {
   }
 
   $slides = @(New-Slides $article $index)
+  foreach ($slide in $slides) {
+    foreach ($property in @('kicker','title','body')) {
+      if ($slide.$property) {
+        $slide.$property = ([string]$slide.$property).Replace('기사상 목표', '보도된 목표').Replace('기사상', '보도 기준')
+      }
+    }
+  }
   $articleDisplayDate = $displayDate
   if ($article.publishedKstDate) {
     try { $articleDisplayDate = ([datetime]::Parse([string]$article.publishedKstDate)).ToString('yyyy.MM.dd') } catch { $articleDisplayDate = [string]$article.publishedKstDate }
@@ -1170,6 +1177,7 @@ foreach ($index in $indexes) {
       $hashtags
     ) -join "`r`n"
   }
+  $caption = $caption.Replace('기사상 목표', '보도된 목표').Replace('기사상', '보도 기준')
   Set-Content -LiteralPath (Join-Path $setDir 'caption.txt') -Value $caption -Encoding UTF8
   Set-Content -LiteralPath (Join-Path $setDir 'hashtags.txt') -Value ($hashtagList -join "`r`n") -Encoding UTF8
 
