@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-13-link-yongin-youth-purchase-rental",
+  "enabled": true,
+  "date": "2026-09-14",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "[경기남부] 용인시 청년 매입임대주택 예비입주자 모집공고",
-      "source": "LH"
+      "title": "3기 신도시 분양가 더뛴다…두 달 새 기본형 건축비 4% 넘게 상승",
+      "source": "서울경제"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed article 1 carousel only. Background image is AI-generated because no reusable article image was available. Disable after successful publication."
 }

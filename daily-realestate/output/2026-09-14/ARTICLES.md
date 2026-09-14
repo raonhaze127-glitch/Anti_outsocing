@@ -1,215 +1,184 @@
-﻿# 2026-09-14 부동산 공급 기사 후보
+# 2026-09-14 부동산 뉴스 후보 30건
 
-> 수집 범위: 최근 24시간 / 최대 30건
-> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+주택공급·청약 14건 → 철도·교통 8건 → 개발·정비사업 8건. 2026-09-14 발행 기사 중 반복 보도·버스 파업 안내·홍보성·무관 기사를 제외하고 선별했습니다. 제작 시 원문을 다시 확인합니다.
 
-## 1. [단독]2년 전 서울시 '탄천 마스터플랜'엔 주택공급 계획 없었다 - 머니투데이
-- 분류/지역: 주택공급 / 서울
+## 1. 3기 신도시 분양가 더뛴다…두 달 새 기본형 건축비 4% 넘게 상승
+- 분야: 주택공급·청약
+- 출처: 서울경제
+- 발행: 2026-09-14 11:00 KST
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE95Z3BTODVHYnFpV1lySTBENHd4cDlySDNlVllRcTNjUmJCUWZXT0V4N0RBOHp3RlEzalZwUlREeDlyWGUwNjhTQ1kzN00tNnNTYmfSAVNBVV95cUxNdzdmQnhKV1NEaDMxeG03TkpyaUM5dk9qdHdod2lFU3lrVkszVnZmMGJBWmxnM0ktTVZQY3ZTUnozLTlSeXdUbVFnNWxVU0NBWU1Lcw?oc=5
+
+## 2. 계양·대장 신도시 분양 본격화…주택 공급 속도
+- 분야: 주택공급·청약
+- 출처: LG헬로비전
+- 발행: 2026-09-14 17:00 KST
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE9zRk81bFV6MnBNOU9mWk9lb1J3SHJjYjB4dUhwVTZiZmpqdnhKNWl4dkxhRUdRSjUxeHZVMF9QcF9fekppQU55SXRUeTBjSnUxZW5zaHdrVzVyeTdKTjQ0TmF2eFk1cG9FSHgxY0I0YXlzZ9IBdkFVX3lxTE52VFVmMnZCOXNSMldqTXVKalI3TXZVeHFfVFp0M0hWbGlDREg2ZkJtdVNldW80YVplWVRzSmVVd01KQ0g0YmRYalBVMGhwWnNHQWI4Q0VKcDAyWUtzZWt5WVVQTzZQeFp1MG9hS2NZd1lpeFZkY2c?oc=5
+
+## 3. [단독]홍지선 “3기신도시 분양전환 임대, 순수 공공임대로 전환 검토”
+- 분야: 주택공급·청약
+- 출처: 매일경제
+- 발행: 2026-09-14 15:29 KST
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xY2Y5TmxZY3FvcFJWWWt5VTN5QUdCdm8zS19xcmlpc3pXeGJ5dTRZSTRDMVdQWVNTaFlGZGdqTmU1VXhBY2dkMVE2M192R1pyRFJmRF9oTlc?oc=5
+
+## 4. 송파·위례 더그리드 첫 분양...'힐스테이트 송파더그리드' 14일 청약접수
+- 분야: 주택공급·청약
+- 출처: 땅집고
+- 발행: 2026-09-14 09:27 KST
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5Sck12VWtoUEZpeHRtbVBmVUlWQzFhVng3WDg3N2M5R183ZmExWE1QTXdiNjdTNGI3MHpQRi1qMkVGZ0luS2QzRUJVMUpIMHcxUXNfeFdmZS1nVkNiLWZnZU9mOUFvV3hRaHF4ZEcwYXE0WUHSAXNBVV95cUxOUnJNdlVraFBGaXh0bW1QZlVJVkMxYVZ4N1g4NzdjOUdfN2ZhMVhNUE13YjY3UzRiNzB6UEYtajJFRmdJbktkM0VCVTFKSDB3MVFzX3hXZmUtZ1ZDYi1mZ2VPZjlBb1d4UWhxeGRHMGFxNFlB?oc=5
+
+## 5. 부산시, ‘모듈러 주택’ 카드 만지작…공공주택 공급 새판
+- 분야: 주택공급·청약
+- 출처: 서울경제
+- 발행: 2026-09-14 10:46 KST
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3QldsQ0d1MUNCWWtEa0xiUENfbXMtbXR0OG5RN3lBYXRyN0dGM2ZGOVJPbUFOR1ZsYzkxaDVDbnp0TmZ2Z3BBd0JkeG1nQWVQOWfSAVNBVV95cUxOUEhPdW1HY1dQN0lDa0V2ZWhqMGlMVVJFX3VISnlkUURLYS02Y3hfOXNTa1E3aEVkUkUtU1VLQzhzQXY2Mlg4cFo3U1F4N2wwU2V2VQ?oc=5
+
+## 6. 정부, 주택공급에 금융지원…주요 내용은?[금알못]
+- 분야: 주택공급·청약
+- 출처: 뉴시스
+- 발행: 2026-09-14 07:00 KST
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE8zVURZajgyR3NjMER3TjFMblpOLVFPRzZmYktzTVZfNW1zY1U0YzJDNTZ6RFljQUtueDc5dGpVM1FONGV1c1UzRTRsSFlLajU0ckR3TFJqeERFY3g0X0JjUjhOZ3M4d2ZlTFZpX1M2Ylg2Mm5UdW1VbtIBeEFVX3lxTE8zVURZajgyR3NjMER3TjFMblpOLVFPRzZmYktzTVZfNW1zY1U0YzJDNTZ6RFljQUtueDc5dGpVM1FONGV1c1UzRTRsSFlLajU0ckR3TFJqeERFY3g0X0JjUjhOZ3M4d2ZlTFZpX1M2Ylg2Mm5UdW1Vbg?oc=5
+
+## 7. 빈 오피스·상가를 집으로…도심 주택공급 새 카드 부상
+- 분야: 주택공급·청약
+- 출처: greened.kr
+- 발행: 2026-09-14 11:31 KST
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE56VS15bklyZEN4ek9EOTVyZ1RXMmJ6bi1qR3l6Q2ppZ0tTMkNvaFJGVzFDS2c1Y1V5M0hCTFFPbGoteVYtRllzUFR3NjhDUW5PT0VNcU5aNHd1dF9uSXptNmNha3FQLUJf?oc=5
+
+## 8. ‘흥행할까’ 제주 동부공원 아파트-단독주택 공급
+- 분야: 주택공급·청약
+- 출처: 제주의소리
+- 발행: 2026-09-14 17:43 KST
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1ERFB2YWxBN05BU01FUjZsYkJOUk1GN25mN1hqWElhM3pWeTg5ZTF0X2czMmxnbXMzYnZqMTJSVkJacXZwampkcDQydjhucmpWT1ZVMjZfUXc2VXFzd0FTX1BlbGVfektxdWdz?oc=5
+
+## 9. 다시 불붙은 세종 특공 부활론…"연 6000가구 공급 가능" vs "부작용 살펴봐야" - 머니투데이
+- 분야: 주택공급·청약
 - 출처: 머니투데이
-- 발행: 2026-09-14 05:15 KST
-- 출처 사이트: https://www.mt.co.kr
-- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaWo1b1lyYXBEMFBKZ05GaER5T2tSZm1WaVRiQ1NxN3p4OHJNdDFiamJSUVlNLWU4QVlpLTFhMnN1T2c4d19CQ2w1aG9OQVB1SG5rSURfN1dKWDkzNjdGSGg4RXVydGhrNHfSAW9BVV95cUxNRHZkSDh1V2tZczV3eElyemlJOHBjQWozRVRSOGxjNVpjYUNMM0lJbkY3Q3ZoSUdKNXV1X21vN09IZHZCVjVMSXRDckxTUk5jT0RXN1dnaXFLdmhLSzZ5YlhVcUY2ZERoMENuV1hyVUk?oc=5
+- 발행: 2026-09-14 15:18 KST
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5oQXlFYWJXaGdtUkNJem1hTkJNN3BNVGdMSWQ0QVEzUGVpRmh2eWpReUdZaDRGX1B4SU53aW1hN3lfNHBxbDJRX2RlQ25HenlvZ0dvX2NubHI0R0NtUEozdTd3UFhSSW5wRUprZFUxb9IBb0FVX3lxTE5oQXlFYWJXaGdtUkNJem1hTkJNN3BNVGdMSWQ0QVEzUGVpRmh2eWpReUdZaDRGX1B4SU53aW1hN3lfNHBxbDJRX2RlQ25HenlvZ0dvX2NubHI0R0NtUEozdTd3UFhSSW5wRUprZFUxbw?oc=5
 
-## 2. 서울시 ‘추석 연휴’ 막차 시간 연장
-- 분류/지역: 주택공급 / 서울
-- 출처: 경향신문
-- 발행: 2026-09-13 20:50 KST
-- 출처 사이트: https://www.khan.co.kr
-- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JR2dIUE9wb2JCOGpldnI2UDl1R0pfc0xDUktDTEM3MVFzWDQ3emxta0dtVnZXYmtJQ0RFTjVQMEswMmp4SlBSSnlMUkJqYW01M0hRclBTYnhRMG5IN3Jz0gFfQVVfeXFMT0lHZ0hQT3BvYkI4amV2cjZQOXVHSl9zTENSS0NMQzcxUXNYNDd6bG1rR21Wdldia0lDREVONVAwSzAyanhKUFJKeUxSQmphbTUzSFFyUFNieFEwbkg3cnM?oc=5
+## 10. 국토부 ‘임대주택 공급 드라이브’…매입임대 세제는 되레 축소 ‘엇박자’
+- 분야: 주택공급·청약
+- 출처: 브릿지경제
+- 발행: 2026-09-14 13:06 KST
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PMmZXQzdxaG0wU19femZydW94cmZhcmNsLW0wYU4zYm5TM3lGMy04TzdnRkx1bXJpSzA1NEU2OUlHYkwxV09Wdlc0NmpjRkVUbEJXR3NUVktEdw?oc=5
 
-## 3. 서울시, 추석연휴 응급의료기관 74곳 운영…막차 연장
-- 분류/지역: 주택공급 / 서울
-- 출처: 한스경제
-- 발행: 2026-09-13 14:00 KST
-- 출처 사이트: https://www.hansbiz.co.kr
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFAzbVZSa3ZMaWNXRFpxWDNMZVF5a0ZOY1lxUHplQ0dVMXNlRk5sZWx2MTJQTUI5cnlfcVVObHdDNUVkd3Utb0JmbTZ3NnpGRG54Z1BIbVY0Ym0zRlNSZWJKeURQenlrcjJ4S0NVLdIBb0FVX3lxTFA0OVRmV25YYmZaSDQ0NnpnaU1tZTg3T0JIUFBPSlQ3MUI3Yy1ERGVWc3lpcWU2dWVlVFlNUFVfUmhkVGdzUkFnTVB1SVVGZEQwZmQ4MW5wV0FfdmlSV3VGTjRzOFRndzFmVUhfWHVkRQ?oc=5
+## 11. 서울 85대 1 vs 강원·충남 0.02대 1…청약시장 양극화 극심
+- 분야: 주택공급·청약
+- 출처: ajunews.com
+- 발행: 2026-09-14 15:51 KST
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4WEJUVEwydE1BeEc1aWZPMV9EOWxjdURfM0NWVXM0OF8yQzJERE5JZDZRSGN2QnFXRGY3WnEwMlY3VnBSM0ZYV0hYa0xlRDdHeE5mTHpPQnTSAVhBVV95cUxQOFhCVFRMMnRNQXhHNWlmTzFfRDlsY3VEXzNDVlVzNDhfMkMyREROSWQ2UUhjdkJxV0RmN1pxMDJWN1ZwUjNGWFdIWGtMZUQ3R3hOZkx6T0J0?oc=5
 
-## 4. [LH 분할의 역설] 둘로 나눠도 사업은 한몸…풀어야 할 책임의 경계
-- 분류/지역: 주택공급 / 전국
-- 출처: 아주경제
-- 발행: 2026-09-13 14:15 KST
-- 출처 사이트: https://www.ajunews.com
-- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sQnJ5LVJxdUpITnB4dVZnLUJfUTNiQWkxcWtzYlZuYUstRzFRNFRtUF93dXVCTElvd2d3S1k5WDBpLU1CY0pLa2xWSzZyZGptM09hV3d4MDTSAVhBVV95cUxObEJyeS1ScXVKSE5weHVWZy1CX1EzYkFpMXFrc2JWbmFLLUcxUTRUbVBfd3V1QkxJb3dnd0tZOVgwaS1NQmNKS2tsVks2cmRqbTNPYVd3eDA0?oc=5
+## 12. 홍지선 "주택, 실수요자 우선 공급돼야…공공임대 지속 확충"(종합) |
+- 분야: 주택공급·청약
+- 출처: 연합인포맥스
+- 발행: 2026-09-14 16:59 KST
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTFB0RDN5amhUSkpkSTNZc05xTXRQYU5TZWFJRG03a0hybEtBOUpCNDNaZFRMdkVMQ2dBVTNkQjBHUURmcU1scmhackV0VDU0eXMwU3k4WVBHUGlFMUE4c3R0Y0J3UUlwNWdFX2lhc1htTHczMFVP?oc=5
 
-## 5. 막차 연장·24시간 응급진료…서울시, ‘추석 종합대책’ 가동
-- 분류/지역: 주택공급 / 서울
-- 출처: 아시아투데이
-- 발행: 2026-09-13 14:05 KST
-- 출처 사이트: https://www.asiatoday.co.kr
-- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBFUUtlOXNmXzBkOUNWaVpNRUVrVllXZ1VxbWtMTlBBSURNYUswOXl3N2owTC1FOXE1dWxPbTZJTGlhWTUtS0tBcXpkem5nSWhuZ0tfeHpXYTJmYVhqWTRKSFc3OWgzNm1LUmh6d09R?oc=5
+## 13. 한준호 의원, 수도권 기존 주택 활용해 청년·신혼부부 장기임대주택 공급
+- 분야: 주택공급·청약
+- 출처: gukjenews.com
+- 발행: 2026-09-14 16:17 KST
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBQX09ON0ktaTdxQ0JZZGNxbTVXcGF6ZGNNUTV3cTJ1cG9DejVoUThybjZZeTJHUDhBaVFaekdEU1hzaGQ3NnFNRDgwd1NDNEJid1VNWEFpanZwd0txa3hDMW9CcGM4Qm1GeXpZTnBn?oc=5
 
-## 6. 서울특별시의회 정진철 의원 발의, 역세권 도시형생활주택 공급 확대 조례안 본회의 통과
-- 분류/지역: 주택공급 / 서울
-- 출처: 산경일보
-- 발행: 2026-09-13 13:19 KST
-- 출처 사이트: https://www.sankyungilbo.com
-- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9ESGpaWkJ1TVI0OFBDTXhaOS1UX1hMRm52enk2MmZzS1h0NzBoS0NxaDNVTm96WGFwVTZxNVg2bHBWdXktOGRhb0l2d2FjZjJ4ZWtudzdPSDRjSkR4ZGlHM0VpREJjVlJJVDJ4a2djM2M?oc=5
+## 14. 홍지선 "주택 신속공급 직접 챙길 것…대출규제 보완 검토"
+- 분야: 주택공급·청약
+- 출처: 노컷뉴스
+- 발행: 2026-09-14 16:46 KST
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE00S0JsbWNfbGdtNUtWUXVsT3puTjNMSGl3Ti1OWVl5a244NHgwXzZDVFA4b1J5d25KV2p0WUI3aWNfWllCTm9BOUlwNFJjZWZBcFE?oc=5
 
-## 7. 청약홈 분양정보 오늘 뜬 분양·임대 22건｜접수·당첨·계약 일정 확인 (2026년 09월 14일)
-- 분류/지역: 청약·분양 / 전국
-- 출처: minsimnews.com
-- 발행: 2026-09-14 05:00 KST
-- 출처 사이트: https://www.minsimnews.com
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE82N1VkcXc3NjRBM1Rrb2EtYlJJUmdLeEIybDNnZ2lSdGVmdmZ2S2Z5OF8tX3Jqc2EzRGxMTXdLaUdxYmhPTDgzdUtuR2dIX0h6REpOM1ZORzF1eXZkVkkwdWFub3YtLXZlTTV0cw?oc=5
+## 15. GTX-C 15일 착공…수원~청량리 75→30분으로
+- 분야: 철도·교통
+- 출처: edaily.co.kr
+- 발행: 2026-09-14 11:00 KST
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWh0MkkzYjFIdHE2dV9RV2pFVFU0WUpuWUFaQm9Ga0MzVThhOEFwc2FjdDh5WmVLX0hnUXYwbFpCYktfdHgtSmJJNzBNcmJYb2JBX2lXZjZ4bXFyZGgxZXJhd0I2MHh2eHNtUWJjTzJrS2RTU1ctNmNuM0lxeVNTSA?oc=5
 
-## 8. 청약홈 분양정보 분양 30건 접수기간·당첨발표·계약기간｜2026년 09월 14일 내집마련 일정 한눈에
-- 분류/지역: 청약·분양 / 전국
-- 출처: minsimnews.com
-- 발행: 2026-09-14 05:00 KST
-- 출처 사이트: https://www.minsimnews.com
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1vN1hHOV9TaE0tb2c4bnhtMGJGalZwd3RtN2k0LVZidktRVWx0QUpDU1ZXbHdpeEFjVDVSalp2cWlydGowMUxsRDVMTjFjMTdqc3FWQlVPblZucno2cEl0ZUFpMkFWczBxaXltZQ?oc=5
-
-## 9. 청약홈 분양정보 청약 공고 30건 ‘내가 넣을 수 있는 곳’ 찾기｜2026년 09월 14일 일정·세대수 정리
-- 분류/지역: 청약·분양 / 전국
-- 출처: minsimnews.com
-- 발행: 2026-09-14 05:00 KST
-- 출처 사이트: https://www.minsimnews.com
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9PcjFUTk1SYW90bVJVX2ZGelpSeGUwSlY1czdfdFNRNVlnNXNKd0REV3JETVhKR3hCanh6Nko1bW4wT1E4M3JMUjNJaGt6N1paSy0yYWRxTThPYnNGY3gwZHBEbUlsTTB2amp1Yg?oc=5
-
-## 10. 청약홈 분양정보 분양 공고 3건 접수 시작·종료·당첨일｜2026년 09월 14일 우리 지역 청약 일정
-- 분류/지역: 청약·분양 / 전국
-- 출처: minsimnews.com
-- 발행: 2026-09-14 05:00 KST
-- 출처 사이트: https://www.minsimnews.com
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFB2Q0NQTjJzNUxlWGtsZUhTamVZbnZ3QUlNN2Q5VzYybFY3UzZpT21hcFNyaXJVaDlBb09ZNlFDUFFES1ZSZ2NhVXZrMTA4RGdrUVMxMUkzMTFQYlZzMTVJaU9EMmp3NFdoS2JmNQ?oc=5
-
-## 11. 청약홈 분양정보 한국부동산원 공고 10건 정리｜2026년 09월 14일 신혼부부 청약 접수·당첨 일정
-- 분류/지역: 청약·분양 / 전국
-- 출처: minsimnews.com
-- 발행: 2026-09-14 05:00 KST
-- 출처 사이트: https://www.minsimnews.com
-- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBlSUxwbEIzU3dCMVlWcHEwUENYSnVSZEdFRHBJcVNhc19ISF9iem54dWVYY0l4Mm1ZM3pPZGd5V3ZBRDlSajI2QS1kMkhsbGQwQkpQNTY0ZlRsaVhqaF95T2ttWU9nRTBJQVFDNA?oc=5
-
-## 12. 문승호 경기도의회 보건복지위 부위원장 “취약계층 예산은 최후 보루…제대로 반영해야”
-- 분류/지역: 주택공급 / 경기
-- 출처: 인천일보
-- 발행: 2026-09-13 17:54 KST
-- 출처 사이트: https://www.incheonilbo.com
-- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1OckxhTld0aldhZ014Xzh1Sk81bmdta2RMemYzVHJpdko0UkxQNmhFUnVvbW16RkVwS1RlcFA1UXE0V1A5ekl4SGZFOTBPbTNSeFhlMzVReWdjVGdPSmxDZlE3X2NlQjJZRC1BMi1yU1E?oc=5
-
-## 13. 염창공원 공공주택 공급 설명회, 주민 반발에 무산
-- 분류/지역: 주택공급 / 전국
-- 출처: 연합뉴스TV
-- 발행: 2026-09-13 09:31 KST
-- 출처 사이트: https://www.yonhapnewstv.co.kr
-- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jZXVQN01UNm91TWI0UG9ka1hVanBmTG85aVdmT0hFMU8ybE9HQkRIMU5TZ0NjbWZkdWg1eVp4WWs1SXhGN1p4NXNnMGhES3FnNG15d2o4MkladUpXOGJRV2RsVUx3a2c?oc=5
-
-## 14. 1급 발암물질 '범벅' 용산 땅… "주택 공급 전 정화부터" > 뉴스
-- 분류/지역: 주택공급 / 대구
-- 출처: 대구경북일보
-- 발행: 2026-09-13 20:21 KST
-- 출처 사이트: http://dgn.kr
-- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCRUM4R2tqVUZDUGZrSmE2VjE4TEx4Nl8xbWlkNGlvbGVGMXpvVW44c3FVRTBGRms5ZW1lRmpoLTBuTTFnLXVIbFZZMGRSTGtPUEFvanVsNnAxZXVuSnJtWV9PMy0?oc=5
-
-## 15. '주택공급 검토' 용산기지 인근서 '기준치 335배' 발암물질 검출
-- 분류/지역: 주택공급 / 전국
-- 출처: 한국경제
-- 발행: 2026-09-13 14:43 KST
-- 출처 사이트: https://www.hankyung.com
-- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zZ0x3cE9RN2Q2Mkd6UmpCS05LWXJlRHRiOXNBWVBRTzR4UjhjbVphMjk2bmh0dnFvbnl0UF9QcnBVc19TcHpKYklHQXZYU3JGQzQtTndHNnNnQQ?oc=5
-
-## 16. 경기도선 “선교통·후입주”… 홍지선 국토장관 후보자, 공급 속도전 해법 내놓나 - 조선비즈
-- 분류/지역: 교통·SOC / 경기
-- 출처: Chosunbiz
-- 발행: 2026-09-14 06:07 KST
-- 출처 사이트: https://biz.chosun.com
-- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkZFRnRYSTBVczhaUzFhR2VXckEwOUYzRjhDOVFyeGlYRVE3OHRybGRFY0FPTnV4Yl9qWXFHbUZGNkNNN3JCeUFvR2R6TVNweU1oSHc1ekYzTWZIUGpacm1qVzVJT0gwb1gzOEhtUVNRVmwwbmNHSFRYcDVIdUpFMUh1U1VNVHluR0hOcWJZbUlvT3VySUlBLUJnMjNZX3JnY3JiVDhGS05DVUZr0gGsAUFVX3lxTE9CRkVGdFhJMFVzOFpTMWFHZVdyQTA5RjNGOEM5UXJ4aVhFUTc4dHJsZEVjQU9OdXhiX2pZcUdtRkY2Q003ckJ5QW9HZHpNU3B5TWhIdzV6RjNNZkhQalpybWpXNUlPSDBvWDM4SG1RU1FWbDBuY0dIVFhwNUh1SkUxSHVTVU1UeW5HSE5xYlltSW9PdXJJSUEtQmcyM1lfcmdjcmJUOEZLTkNVRms?oc=5
-
-## 17. 경기도의회 조명자 의원, 경기남부광역철도 제5차 국가철도망 구축계획 반영 촉구 > 뉴스
-- 분류/지역: 교통·SOC / 경기
-- 출처: 더코리아
-- 발행: 2026-09-13 22:43 KST
-- 출처 사이트: http://www.thekorea.kr
-- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFAzTFE4TEwyU0pZU2ZyS0xnVkdwSzhBemxjVHVsZ2xkWmNFMzh3M3A5My1nVTV0M19DU1c0NHN1cHAzaDl4bHl0azgweERwV1BuM09KZllqNWh5clZMTXlGeFVBZGctZk5kZjN4R0Qyalg?oc=5
-
-## 18. 최수연 경기도의원, 도봉산옥정 광역철도 실집행 강화 주문 > 뉴스
-- 분류/지역: 교통·SOC / 경기
-- 출처: 더코리아
-- 발행: 2026-09-13 19:15 KST
-- 출처 사이트: http://www.thekorea.kr
-- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFBjZXJfMjVZeTF3NGxjVmNscEpIYS1qcnRSenZlbXJ0ZWRueWZJQVNxOGJlY3dIRkNIM2NjbmVwNWxWaTNabTdpZjZleUkxRV9KZk8zX3ZMSF9TaE01THV0MFduQlZiT0N2Tk01Vi1CVEQ?oc=5
-
-## 19. '3호선 파주 연장' 경기도 청원 1만명 돌파…경기지사 답변 요건 성립
-- 분류/지역: 교통·SOC / 경기
-- 출처: 뉴스1
-- 발행: 2026-09-13 14:40 KST
-- 출처 사이트: https://www.news1.kr
-- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0b2RtYkVLelJEelUwaHh0ajlKMGoyOWtSMnJUSkc4eDZlSU9YWFVIb25DSmpPeTNJXzZkU0ZEVWhXOWVTRFd4U2k1VWtKUkM2VkUtc1A1Mm9SVXfSAVtBVV95cUxQdG9kbWJFS3pSRHpVMGh4dGo5SjBqMjlrUjJyVEpHOHg2ZUlPWFhVSG9uQ0pqT3kzSV82ZFNGRFVoVzllU0RXeFNpNVVrSlJDNlZFLXNQNTJvUlV3?oc=5
-
-## 20. [단독]12월 첫 입주 3기 신도시 교통대책 87% 일정 지연
-- 분류/지역: 교통·SOC / 전국
-- 출처: donga.com
+## 16. [단독]12월 첫 입주 3기 신도시 교통대책 87% 일정 지연
+- 분야: 철도·교통
+- 출처: 동아일보
 - 발행: 2026-09-14 04:30 KST
-- 출처 사이트: https://www.donga.com
 - 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yaXpjc0UyVUZDb204d0RzeE1wTjFqNjkyWXFrcWFCYm5FSG1QWDdXLTBvVklHY25RWVFabjZDV1dMVENLQi1WbkhDMUM2dVM0VHlrbFlheFNfaF9rTjRDN2dpZDZWUdIBZkFVX3lxTE8yaXpjc0UyVUZDb204d0RzeE1wTjFqNjkyWXFrcWFCYm5FSG1QWDdXLTBvVklHY25RWVFabjZDV1dMVENLQi1WbkhDMUM2dVM0VHlrbFlheFNfaF9rTjRDN2dpZDZWUQ?oc=5
 
-## 21. [세교3지구 교통망 진단 上] 반쪽난 ‘세교3지구 교통망 예산’ 타 신도시 절반 수준
-- 분류/지역: 교통·SOC / 전국
-- 출처: 중부일보
-- 발행: 2026-09-13 17:30 KST
-- 출처 사이트: https://www.joongboo.com
-- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9IWTRERWkwMm5ZS3gzd2dORzVmckZiejlMaWxhVGRNX1Z2dGc3V2RlN3ZNQWtjOVlJUllTUG1MSXhUTDlmNVcydmxENTVtTlFYQjlyR1luVldrZURHRGxXQ3ZZQXZvQlpvbHpFSTB6aw?oc=5
+## 17. 지하철 3호선 파주 연장 청원 1만 명 돌파…경기도 직접 답변 받는다
+- 분야: 철도·교통
+- 출처: 한국철도일보
+- 발행: 2026-09-14 11:19 KST
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE55M21pUXVJNmRWdUl1Ql9SX0EwaU5NcWI0UGdBTDR2TVNDNldVRXVYcG9WZGx5d0hYb2xrd3RaYnROUWNkamgtVERCQUFQMzV6TmFMLVpVTENpQ19NOGk1VkZ0Y2tSbVV3TkhiREdzb0s?oc=5
 
-## 22. "우리 동네에 KTX·GTX를"… 서울 자치구 '철도 유치전'
-- 분류/지역: 교통·SOC / 서울
-- 출처: 파이낸셜뉴스
-- 발행: 2026-09-13 18:44 KST
-- 출처 사이트: https://www.fnnews.com
-- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE80QktlRjRwZUoxdzRwQ0ljUTNWN3NQa3I3REdRTGtnUlRGcFpUS2J2dFk4eldGUEY0a1hWXzg4Uy1RS1NBWjhvZ25HQXFqUXdzTlVESFpPUExSQQ?oc=5
+## 18. 김지호 경기도의원, 도봉산~옥정 광역철도 개통 지연·장암역 대책 집중 점검
+- 분야: 철도·교통
+- 출처: 포커스경제
+- 발행: 2026-09-14 13:03 KST
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9YbllVN24wZ3hCZDJEck5JcXc4WkQwSVNwLTI4eFF1MmliczJiVHh1Z2hOVlZfSnJneXN3OWJBUkJ0TXVfb2xFbjV3aG1ZV0t6ZE5GVFVxTjRtSzRCTnZQSE9Pa2NQd2YxVFRzTGtYczbSAXBBVV95cUxPWG5ZVTduMGd4QmQyRHJOSXF3OFpEMElTcC0yOHhRdTJpYnMyYlR4dWdoTlZWX0pyZ3lzdzliQVJCdE11X29sRW41d2htWVdLemRORlRVcU40bUs0Qk52UEhPT2tjUHdmMVRUc0xrWHM2?oc=5
 
-## 23. ‘GTX 연장 기대감’…평택 교통허브에 ‘한화포레나 지제역’ 1098가구 나온다
-- 분류/지역: 교통·SOC / 전국
-- 출처: 헤럴드경제
-- 발행: 2026-09-14 08:56 KST
-- 출처 사이트: https://biz.heraldcorp.com
-- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UNWd0RjRNQWNpempTTzdzM0Fac3dvSGhmcXhVdVZycERZVm1TN1hRN1ZBQkFaME11M3B3ZDhSTUotaVFVb2dwdWlSbW0wVHN0TS1oTXFB?oc=5
-
-## 24. 박권현 청도군수, 국토부 철도국장 만나 ‘대경선 청도 연장’ 건의
-- 분류/지역: 교통·SOC / 전국
-- 출처: hidomin.com
-- 발행: 2026-09-13 15:59 KST
-- 출처 사이트: https://www.hidomin.com
-- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE00aEs4MUUySWZEQ0NnS2lrN0xoNGlleWVrZG1zcFBqanVINTA4cXc2clhNRkNZUlE2cXd1MUEyaVZ6RW9TVy1TRG9pMWVfRWwzblB1b1I0cmdnalVLOFdzMHgtdTY4Y2RNYnc?oc=5
-
-## 25. 시민이 청원하고 1만명이 응답한 3호선 파주 연장…파주시, 국가철도망 반영 넘어 ‘사업 추진’ 총력
-- 분류/지역: 교통·SOC / 전국
-- 출처: 서프라이즈뉴스
-- 발행: 2026-09-14 08:20 KST
-- 출처 사이트: http://www.surprisenews.kr
-- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFB3cFg2bEg2UXZwM0RKRjZZSkIwNFhZaTNNLVJHY0FncVJSTzFkU2pRSlpDZnloYXBjRlo1eWU5WjJQdUI2TW9haWdMNFpFOGpLaU45NEFJNE9kelpndGp1eXhLTUEtZ25jZEIwU0N3?oc=5
-
-## 26. 인천 GTX-B 청학역 신설 ‘제동’…2031년 개통 차질 및 청학역 무산 우려 [집중취재]
-- 분류/지역: 교통·SOC / 경기
-- 출처: 경기일보
-- 발행: 2026-09-13 16:52 KST
-- 출처 사이트: https://www.kyeonggi.com
-- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GWDNGVURiOFZYeERhZ2ZiSFlpN0hCTE80MTExQ2tta0VWcy1GYXMycEw0WmhETXc4bEFyckxyTVJrNXUwS2RlUFk3MzViYy11ZkVUcFk1dURTTHc?oc=5
-
-## 27. 노원, 재건축·재개발 민관협의체 출범
-- 분류/지역: 재개발·재건축 / 서울
+## 19. 이대한 경기도원, 강동하남남양주선 추진상황 집중 점검… “주택보다 교통이 늦어선 안 돼”
+- 분야: 철도·교통
 - 출처: 서울신문
-- 발행: 2026-09-13 23:44 KST
-- 출처 사이트: https://amp.seoul.co.kr
-- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyWHNkWlhDdElfMWVFOTFxOVJZekJ6cXBTc0I2akNtQmdrYlFON2IzUnFDZjhaWmo0SjN2bm1XajFWZkduTDhSU2taakt1eWVnUVhR?oc=5
+- 발행: 2026-09-14 17:06 KST
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PVU1ZdllmNjhKTFVpZ0JwNE9aYUZlTGJIZ08zUDNkOEw5NEdoRjdwT0RNemluTkIzNlB2VkNsV19BOU51amJicnAtU3pZMFBfQzk0?oc=5
 
-## 28. 재건축 조합원 덮칠 '금리 청구서'…정비사업 속도 늦춰지나
-- 분류/지역: 재개발·재건축 / 전국
+## 20. GTX-B 청학역, 변전소 주민 반발에 '좌초' 위기
+- 분야: 철도·교통
+- 출처: nbn 시사경제
+- 발행: 2026-09-14 09:39 KST
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE1fLVdqanpidmhhY2Njb083eWs4S19FRlBOdkl5Q0hMd0daTmZyVVFsSnlyb1dBZ2hkanlYOV9CdmdOc0tqbUNPYUJvX1o0bHlha2JQYkxSdUplT25XaHFnQjdhLU9uVG9FMVE?oc=5
+
+## 21. 7호선 청라연장 6공구 계측값 기준 초과…인천시, 공사 중지·정밀조사
+- 분야: 철도·교통
+- 출처: 한국철도일보
+- 발행: 2026-09-14 16:33 KST
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1hckhnVEFYR09GR3dEbTBUY0VoYS1leTNidHp0a201cldYdk80b2doN2MyZUs0QWNPQWl4QjF1SGV1Q081OXZ1TnlXOE83WkhvS00tVk1XbmEzbkRwWkdueS1yTS1XMVdvc2R4cFkwTlY?oc=5
+
+## 22. 홍지선 "5차 철도망 투자규모 확대…비수도권 비중 적극 늘릴 것"
+- 분야: 철도·교통
+- 출처: 뉴스1
+- 발행: 2026-09-14 11:16 KST
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fQUE3Und3SDBmYUVuOG80YWM1dHNCTHoyRloxaWZiekdfT0dHQ0tVUnJNMWw1S1BNYlp0Z25iUlY4d1JMcEt2cVNBaEdXd2kxLV94TjFCaGNQRGtTdUpMN9IBYEFVX3lxTE9fQUE3Und3SDBmYUVuOG80YWM1dHNCTHoyRloxaWZiekdfT0dHQ0tVUnJNMWw1S1BNYlp0Z25iUlY4d1JMcEt2cVNBaEdXd2kxLV94TjFCaGNQRGtTdUpMNw?oc=5
+
+## 23. LH, 군포 산본 9-2구역 시공자 선정 착수…3천376가구 재건축
+- 분야: 개발·정비사업
+- 출처: 연합뉴스
+- 발행: 2026-09-14 09:50 KST
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVN3JhSzdBZ3BJMnMyUnVRUWdlek9xQkI3UEdnalFyMGcyZ21teFNmLXRBa1E5WFF1enFNQXl5NFF0R04zaVpCeThOOGhuN3pybkNDdjJpdFhGWGg2TlNieNIBYEFVX3lxTFBVN3JhSzdBZ3BJMnMyUnVRUWdlek9xQkI3UEdnalFyMGcyZ21teFNmLXRBa1E5WFF1enFNQXl5NFF0R04zaVpCeThOOGhuN3pybkNDdjJpdFhGWGg2TlNieA?oc=5
+
+## 24. 與 "오세훈 시정으로 공급절벽…재개발 권한 구청장 이양해야"
+- 분야: 개발·정비사업
+- 출처: 연합뉴스
+- 발행: 2026-09-14 17:41 KST
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wT2JWWXVoMTRQOEdZSnRVZHlhMEgyS01OY19qcXB6YllaNjFhMmczcEFfY0dKUU9QenFpV080SjVTWGktQmtfX2dacnc4V1lraXV2MThnU0xwSnBDYnlORdIBYEFVX3lxTE9wT2JWWXVoMTRQOEdZSnRVZHlhMEgyS01OY19qcXB6YllaNjFhMmczcEFfY0dKUU9QenFpV080SjVTWGktQmtfX2dacnc4V1lraXV2MThnU0xwSnBDYnlORQ?oc=5
+
+## 25. 금호건설, 수원 파장1구역 재건축 정비사업 시공사 선정
+- 분야: 개발·정비사업
+- 출처: 오피니언뉴스
+- 발행: 2026-09-14 10:50 KST
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFBORVJKNHRRVGVhQnV6cVRMZGJKLUozRzVYay1zVm1lYzZYeGhZaGtkY3dDZ1hPOTdIU3lFc3MwSHYyZkl5RHlMcWRCb3RqNWFxSGJGWlMtdEpYbEp2dlZNNDdFRVJySGN2LVJGdUJOeHZ4UQ?oc=5
+
+## 26. [아유경제_재개발] 2999가구 자양4동 A구역 재개발, 조합설립인가… 지상 49층 공동주택 2999가구 공급
+- 분야: 개발·정비사업
+- 출처: areyou.co.kr
+- 발행: 2026-09-14 13:33 KST
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYnJGQ1VRZGlCWXpseW5SMUJpclFDSnlicjdNeFJuWHV6dDhtbmN1ZjBJbmpSb1NBdG1YYWpUbEpMR3d0dHFfYTF1S0NmMkZNOExvRnBLcEZpZkh3dlN3ZXZ1bVdyZkFK?oc=5
+
+## 27. 재건축 조합원 덮칠 '금리 청구서'…정비사업 속도 늦춰지나
+- 분야: 개발·정비사업
 - 출처: 뉴스1
 - 발행: 2026-09-14 05:12 KST
-- 출처 사이트: https://www.news1.kr
-- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zam5pRzVNV2t2WWhZWFhJemhSN2lYbE4tZFhQWWNidktFbzlYRmwzZFhXbDE2dTEzQm1YanVNekE4bVJtNkhLUjJEeHdsV3I1aEJpR0FlUXdiWEhlT3JLNtIBYEFVX3lxTE1zam5pRzVNV2t2WWhZWFhJemhSN2lYbE4tZFhQWWNidktFbzlYRmwzZFhXbDE2dTEzQm1YanVNekE4bVJtNkhLUjJEeHdsV3I1aEJpR0FlUXdiWEhlT3JLNg?oc=5
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WcGNieHlfUFdBYkVoaTBhb2djR29BVU12eVNBU3lldHY3SEY5OXMxX0lhRERvek14bzN6czRBLTlHS0NiZ0xLdzVhdHc4RzRzY3dBX1FsZzgzVmPSAWBBVV95cUxNc2puaUc1TVdrdlloWVhYSXpoUjdpWGxOLWRYUFljYnZLRW85WEZsM2RYV2wxNnUxM0JtWGp1TXpBOG1SbTZIS1IyRHh3bFdyNWhCaUdBZVF3YlhIZU9ySzY?oc=5
 
-## 29. 염창공원부터 막힌 8·13 공급대책?…주민수용성, 신규택지 변수 되나
-- 분류/지역: 신도시·택지 / 전국
-- 출처: 아시아투데이
-- 발행: 2026-09-13 17:33 KST
-- 출처 사이트: https://www.asiatoday.co.kr
-- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1aOU9ha0ExLXFzelpjSlZQeXdWUTJGa0ktTDFWQmN2WFdPaXBES1pJX3NpNkdBS0ttNGlYNnBFamUwNEk0dzJVanZnVHhvZWg5U1ZzdWg4d0U3UVZvWHNZOE9tY0ctTGZ6bVBCRU5R?oc=5
+## 28. 관악구, 정비사업 신속추진 위해 첫 '공정촉진회의' 개최
+- 분야: 개발·정비사업
+- 출처: GNN 뉴스통신
+- 발행: 2026-09-14 07:14 KST
+- 링크: https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5vSzFSTkZ4c3NuS0JfRGtSWkJzRTI5QWdSdndwVXd0dnVtTHpwMGtfa2dqUlpncU5zZkFQNWlYWUc1cE0?oc=5
 
-## 30. “공공주택지구 지정 철회하라”… 염창 개발 설명회 주민 반발에 무산
-- 분류/지역: 신도시·택지 / 전국
-- 출처: donga.com
-- 발행: 2026-09-13 17:02 KST
-- 출처 사이트: https://www.donga.com
-- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ScjdUcWhjS2hBQzJ6S3B2OXo0TkdraUFob3NaWVFRWmg4NTlLZVZjZU5BenhESkFkSkdIRWJKU09uRFZHYl9WS2RFa0tuV0Q4cFAwRXQwaGpNZVNTR2Uwb3ZvZXAtZ9IBZkFVX3lxTE9ScjdUcWhjS2hBQzJ6S3B2OXo0TkdraUFob3NaWVFRWmg4NTlLZVZjZU5BenhESkFkSkdIRWJKU09uRFZHYl9WS2RFa0tuV0Q4cFAwRXQwaGpNZVNTR2Uwb3ZvZXAtZw?oc=5
+## 29. [창간포럼] 명노준 주택실장 "서울 새 집 74%가 정비사업…신통기획 적극 지원"
+- 분야: 개발·정비사업
+- 출처: 땅집고
+- 발행: 2026-09-14 16:01 KST
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE0wQVhmLTB6VExaTW9RTm5LeGtWMmJxVFREeDFaOEVvTU9wSnVKYXVTSm9LQVpCcTQ4bEFxTXNmQjdFblBXZHB5TW5ESEF5eV9CdGpYREJoZE5qekt4YllrZ25GVjFqUzJJT0hrcFZqS0xDc1nSAXNBVV95cUxNMEFYZi0welRMWk1vUU5uS3hrVjJicVRURHgxWjhFb01PcEp1SmF1U0pvS0FaQnE0OGxBcU1zZkI3RW5QV2RweU1uREhBeXlfQnRqWERCaGROanpLeGJZa2duRlYxalMySU9Ia3BWaktMQ3NZ?oc=5
+
+## 30. 국가철도공단, '부산 센텀역과 거제역 유휴부지' 민간개발사업 본격화
+- 분야: 개발·정비사업
+- 출처: BBS불교방송
+- 발행: 2026-09-14 10:48 KST
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBMYWljQzVKc1AtTkt2NTc4RnRrdm94cHI4eW5lNjBqdXBybUJxU01HMVJwQlRUMF9CbXk4RTByZy14dnVZczZCQ3JMNzFkNzh1SncyOGNoQzE1elh2eF9CZFBiWnpNWDhKSUpr?oc=5
 
