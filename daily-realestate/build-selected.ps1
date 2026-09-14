@@ -685,7 +685,7 @@ function New-Slides($article, [int]$number) {
     [pscustomobject]@{ type='cover'; kicker=$topic; title=(Get-ReferenceHookTitle $article); body="$title" },
     [pscustomobject]@{ type='table'; kicker='핵심만 보면'; title='그래서 뭐가 바뀌나'; body="분류|$category`n지역|$region`n출처|$source`n키워드|$topic" },
     [pscustomobject]@{ type='number'; kicker='숫자 체크'; title=$numberText; body=$summary },
-    [pscustomobject]@{ type='table'; kicker='확인 포인트'; title='추진 단계와 일정을 나눠보세요'; body="추진 단계|기사에서 확인된 범위 중심`n일정|변경 가능성 함께 체크`n수치|보도 기준일 기준`n영향권|위치·노선·생활권 구분" },
+    [pscustomobject]@{ type='table'; kicker='확인 포인트'; title='추진 단계와 일정을 나눠보세요'; body="추진 단계|확인된 범위 중심`n일정|변경 가능성 함께 체크`n수치|작성일 기준`n영향권|위치·노선·생활권 구분" },
     [pscustomobject]@{ type='summary'; kicker='요약'; title='공급 관점 체크'; body="1. 발표 내용과 실제 추진 단계를 구분`n2. 공급 물량·위치·일정을 함께 확인`n3. 교통·생활권 영향은 후속 절차까지 추적`n4. 투자·청약 판단은 공식 공고와 함께 비교" }
   )
 }
@@ -749,7 +749,7 @@ foreach ($index in $indexes) {
   foreach ($slide in $slides) {
     foreach ($property in @('kicker','title','body')) {
       if ($slide.$property) {
-        $slide.$property = ([string]$slide.$property).Replace('기사상 목표', '보도된 목표').Replace('기사상', '보도 기준')
+        $slide.$property = ([string]$slide.$property).Replace('기사상 목표', '목표').Replace('보도된 목표', '목표').Replace('보도 기준일', '작성일').Replace('보도 기준 ', '').Replace('보도 기준', '기준').Replace('기사에서 확인된 내용', '확인 내용').Replace('기사에서 확인된', '확인된')
       }
     }
   }
@@ -972,7 +972,7 @@ foreach ($index in $indexes) {
       "인천 검암역 푸르지오 프라베뉴 청약 체크",
       '',
       "▪ 검암역세권 B1블록 첫 공공분양",
-      "인천도시공사가 검암역세권 B1블록 '검암역 푸르지오 프라베뉴' 입주자 모집 공고를 냈습니다. 보도 기준 총 441세대, 전용 60㎡ 150세대·84㎡ 291세대 구성입니다.",
+      "인천도시공사가 검암역세권 B1블록 '검암역 푸르지오 프라베뉴' 입주자 모집 공고를 냈습니다. 총 441세대, 전용 60㎡ 150세대·84㎡ 291세대 구성입니다.",
       '',
       "▪ 일정",
       "특별공급 2026년 8월 31일, 일반공급 2026년 9월 1~2일, 당첨자 발표 2026년 9월 8일 순서로 보도됐습니다.",
@@ -996,7 +996,7 @@ foreach ($index in $indexes) {
       "🏢 의정부우정 A-2블록, 내달 청약 시작",
       '',
       "📌 LH 공공분양 463세대",
-      "의정부우정 공공주택지구 A-2블록 공공분양주택이 본청약 일정에 들어갑니다. 보도 기준 전체 463세대 중 사전청약 당첨자 278세대를 제외한 185세대가 특별공급·일반공급으로 나옵니다.",
+      "의정부우정 공공주택지구 A-2블록 공공분양주택이 본청약 일정에 들어갑니다. 전체 463세대 중 사전청약 당첨자 278세대를 제외한 185세대가 특별공급·일반공급으로 나옵니다.",
       '',
       "🔢 숫자로 보면",
       "전용 59㎡ A·B 타입, 평균 분양가는 약 4억300만원으로 보도됐습니다. 전매제한은 3년, 거주의무는 없는 것으로 안내됐습니다.",
@@ -1073,7 +1073,7 @@ foreach ($index in $indexes) {
       "서울시가 동작구 사당동 305-35 일대 신속통합기획을 확정했습니다. 7호선 남성역 도보 10분권 입지와 협소한 사당로16길 개선이 핵심 포인트입니다.",
       '',
       "🔢 숫자로 보면",
-      "보도 기준 약 970세대, 최고 34층 규모 주거단지로 계획됐습니다. 제3종일반주거지역 상향과 사업성 보정계수 1.17 적용도 함께 언급됐습니다.",
+      "약 970세대, 최고 34층 규모 주거단지로 계획됐습니다. 제3종일반주거지역 상향과 사업성 보정계수 1.17 적용도 함께 언급됐습니다.",
       '',
       "🚶 달라지는 점",
       "사당로16길 단계적 확폭, 진출입구 2곳 분산, 공공보행통로 조성, 청소년수련시설 확충 등이 계획에 담겼습니다.",
@@ -1177,7 +1177,7 @@ foreach ($index in $indexes) {
       $hashtags
     ) -join "`r`n"
   }
-  $caption = $caption.Replace('기사상 목표', '보도된 목표').Replace('기사상', '보도 기준')
+  $caption = $caption.Replace('기사상 목표', '목표').Replace('보도된 목표', '목표').Replace('보도 기준일', '작성일').Replace('보도 기준 ', '').Replace('보도 기준', '기준').Replace('기사에서 확인된 내용', '확인 내용').Replace('기사에서 확인된', '확인된')
   Set-Content -LiteralPath (Join-Path $setDir 'caption.txt') -Value $caption -Encoding UTF8
   Set-Content -LiteralPath (Join-Path $setDir 'hashtags.txt') -Value ($hashtagList -join "`r`n") -Encoding UTF8
 
