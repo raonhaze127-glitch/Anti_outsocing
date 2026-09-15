@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-14",
-  "numbers": "15",
+  "enabled": true,
+  "date": "2026-09-15",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 15,
-      "title": "GTX-C 15일 착공…수원~청량리 75→30분으로",
-      "source": "이데일리"
+      "number": 1,
+      "title": "GH, 국내 첫 ‘지분적립형 분양주택’ 10월 광교서 공급…주택 구입 문턱 낮춘다",
+      "source": "필드뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed 2026-09-15 article 1 carousel with generated non-person background."
 }
