@@ -1,10 +1,30 @@
 ﻿{
-    "runAt":  "2026-09-16T00:43:59.6040908+00:00",
+    "runAt":  "2026-09-16T20:42:32.1589775+09:00",
     "date":  "2026-09-16",
-    "fetched":  445,
-    "candidates":  30,
-    "selected":  0,
-    "slides":  0,
-    "rendered":  false,
-    "state":  "awaiting_selection"
+    "selectedNumbers":  [
+                            14,
+                            29
+                        ],
+    "selected":  2,
+    "sets":  [
+                 {
+                     "number":  14,
+                     "title":  "지방 분양시장 한파 속 ‘브랜드·역세권·인프라’ 단지 쏠림 심화",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-09-16\\article-14-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 },
+                 {
+                     "number":  29,
+                     "title":  "광명 철산·하안 재건축, 공공임대 1%로 대폭 낮춘다",
+                     "dir":  "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\output\\2026-09-16\\article-29-carousel",
+                     "slides":  6,
+                     "rendered":  true,
+                     "detail":  true
+                 }
+             ],
+    "rendered":  true,
+    "enriched":  true,
+    "state":  "article_carousels_created"
 }

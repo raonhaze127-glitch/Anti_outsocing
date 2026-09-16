@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-15",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-16",
+  "numbers": "14",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "GH, 국내 첫 ‘지분적립형 분양주택’ 10월 광교서 공급…주택 구입 문턱 낮춘다",
-      "source": "필드뉴스"
+      "number": 14,
+      "title": "지방 분양시장 한파 속 ‘브랜드·역세권·인프라’ 단지 쏠림 심화",
+      "source": "브릿지경제"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested immediate publication of reviewed article 14 carousel."
 }
