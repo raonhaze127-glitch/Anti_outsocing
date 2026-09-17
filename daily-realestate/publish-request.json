@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-16",
-  "numbers": "29",
+  "enabled": true,
+  "date": "2026-09-16-link-incheon-deundeun-jeonse",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 29,
-      "title": "광명 철산·하안 재건축, 공공임대 1%로 대폭 낮춘다",
-      "source": "연합뉴스"
+      "number": 1,
+      "title": "26-4차 인천본부 든든전세주택 입주자모집공고",
+      "source": "LH 인천지역본부"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested publication of reviewed Incheon office Deundeun Jeonse carousel."
 }

@@ -1,0 +1,19 @@
+﻿{
+    "checkedAt":  "2026-09-17T22:16:19.3125097+09:00",
+    "date":  "2026-09-16-link-incheon-deundeun-jeonse",
+    "numbers":  [
+                    1
+                ],
+    "requireJpeg":  false,
+    "state":  "valid",
+    "sets":  [
+                 {
+                     "set":  "article-01-carousel",
+                     "slides":  8,
+                     "size":  "1080x1350",
+                     "review":  true,
+                     "detail":  true,
+                     "publishJpegs":  0
+                 }
+             ]
+}
