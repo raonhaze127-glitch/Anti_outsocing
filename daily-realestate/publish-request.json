@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-16-link-incheon-deundeun-jeonse",
+  "enabled": true,
+  "date": "2026-09-18",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "26-4차 인천본부 든든전세주택 입주자모집공고",
-      "source": "LH 인천지역본부"
+      "title": "왕숙2 A-4 다음 A-2 488호까지 1천호 넘는 LH 분양… 내년 상반기",
+      "source": "남양주뉴스"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested publication of reviewed Sep 18 article 1 carousel."
 }
