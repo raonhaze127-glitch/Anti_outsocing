@@ -1,0 +1,11 @@
+{
+  "number": 6,
+  "title": "[분양캘린더]추석 앞두고 전국 8개 단지 청약…총 4591가구 규모",
+  "source": "뉴스1",
+  "sourceDate": "2026-09-19",
+  "sourceUrl": "https://www.news1.kr/realestate/general/6295521",
+  "fetchStatus": "direct_article_verified",
+  "imagePolicy": "기사의 유일한 이미지는 문자 중심 인포그래픽이므로 제외. 인물·문자·로고 없는 생성형 공동주택 배경 사용.",
+  "generatedImagePrompt": "Photorealistic modern Korean apartment community, no people, text, signs, logos or identifiable real complex.",
+  "contentNote": "기사에 기재된 총 공급·일반분양 물량과 주요 3개 단지 중 세부 수치가 제공된 2개 단지를 중심으로 구성."
+}

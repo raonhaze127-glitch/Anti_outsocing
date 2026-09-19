@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-18",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-19",
+  "numbers": "6",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "왕숙2 A-4 다음 A-2 488호까지 1천호 넘는 LH 분양… 내년 상반기",
-      "source": "남양주뉴스"
+      "number": 6,
+      "title": "[분양캘린더]추석 앞두고 전국 8개 단지 청약…총 4591가구 규모",
+      "source": "뉴스1"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested publication of reviewed Sep 19 article 6 carousel."
 }
