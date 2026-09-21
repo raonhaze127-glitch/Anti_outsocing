@@ -1,0 +1,16 @@
+{
+  "number": 2,
+  "type": "daily-selection",
+  "title": "고양 대장·의왕 오전왕곡에 공공주택 2.3만호 공급...2029년 착공",
+  "source": "대한민국 정책브리핑",
+  "sourceDate": "2026-09-21",
+  "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148972315",
+  "imagesUsed": [
+    "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\assets\\article-backgrounds\\2026-09-21\\article-02\\goyang-daegok-location.jpg",
+    "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\assets\\article-backgrounds\\2026-09-21\\article-02\\uiwang-ojeon-wanggok-location.jpg"
+  ],
+  "imageAttribution": "고양대곡지식융합·의왕오전왕곡 지구 위치도, 국토교통부 제공",
+  "imagePolicy": "기사에 포함된 비인물 공식 위치도 2장을 표지와 위치 설명 카드에 사용",
+  "verification": "대한민국 정책브리핑 원문과 국토교통부 2026 업무계획에서 2만3400호, 두 지구의 입지, 지구 지정 완료, 2027년 하반기 지구계획 승인 및 2029년 착공 목표를 대조",
+  "editorialDecision": "착공과 입주를 구분하고, 현재 확정 단계는 지구 지정까지로 명시. 지구별 공급량은 공식 원문이 총량만 제시해 카드에 임의 배분하지 않음."
+}

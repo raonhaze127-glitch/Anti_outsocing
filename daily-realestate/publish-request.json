@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-20-link-seoul-youth-purchase-rental",
-  "numbers": "1",
+  "enabled": true,
+  "date": "2026-09-21",
+  "numbers": "2",
   "expected_articles": [
     {
-      "number": 1,
-      "title": "서울지역본부 청년매입임대주택 예비입주자 모집(26년 3차)",
-      "source": "LH 서울지역본부"
+      "number": 2,
+      "title": "고양 대장·의왕 오전왕곡에 공공주택 2.3만호 공급...2029년 착공",
+      "source": "대한민국 정책브리핑"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "User requested publication of reviewed Sep 21 article 2 carousel."
 }
