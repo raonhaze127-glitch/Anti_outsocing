@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-21",
-  "numbers": "2",
+  "enabled": true,
+  "date": "2026-09-22-link-mokdong-9-13",
+  "numbers": "1",
   "expected_articles": [
     {
-      "number": 2,
-      "title": "고양 대장·의왕 오전왕곡에 공공주택 2.3만호 공급...2029년 착공",
-      "source": "대한민국 정책브리핑"
+      "number": 1,
+      "title": "목동9·13단지 재건축 통합심의 통과…최고 49층·7810가구",
+      "source": "뉴스1"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed Mokdong 9 and 13 redevelopment carousel through an isolated confirmed-content path."
 }
