@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "date": "2026-09-23-link-gangbyeon-central-ipark",
   "numbers": "1",
   "expected_articles": [
@@ -9,8 +9,8 @@
       "source": "뉴시스"
     }
   ],
-  "publish_to_instagram": true,
-  "review_confirmed": true,
-  "image_usage_confirmed": true,
-  "note": "Publish reviewed Gangbyeon Central IPARK no-priority subscription carousel through an isolated confirmed-content path."
+  "publish_to_instagram": false,
+  "review_confirmed": false,
+  "image_usage_confirmed": false,
+  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
 }
