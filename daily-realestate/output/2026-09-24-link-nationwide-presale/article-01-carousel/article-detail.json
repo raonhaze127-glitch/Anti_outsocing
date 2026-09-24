@@ -1,0 +1,16 @@
+{
+  "number": 1,
+  "type": "confirmed-link",
+  "title": "추석 이후 전국 분양 큰장…연말까지 4만8000가구 분양",
+  "source": "아시아경제",
+  "sourceDate": "2026-09-24",
+  "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwRkdIQVVqWG10RHczV1BmM2FzUlVPZkpNdlVGd1ZYR1hxZ3c1NFl1bTlwUGl5dER1Q01aX0RwdnFtNl80cHBGTG1BME5nWF9TeHFOTDMzM09FQmV1RDlfMQ?oc=5",
+  "imagesUsed": [
+    "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\assets\\generated-backgrounds\\2026-09-24\\article-08\\nationwide-presale-supply.png"
+  ],
+  "imageAttribution": "OpenAI 이미지 생성 도구로 제작한 비특정 전국 아파트 공급 배경",
+  "imagePolicy": "기사의 일반 아파트 전경 사진은 사용하지 않고, 인물·문자·특정 단지 식별 요소가 없는 생성 이미지를 표지와 설명 카드에 사용",
+  "verification": "전국 총공급·일반분양·월별·권역별 물량과 주요 단지 수치를 원문 내용과 대조",
+  "editorialDecision": "4만8,000가구는 반올림된 제목 수치이므로 본문에는 일반분양 4만8,829가구를 사용하고, 총공급 6만5,598가구와 구분",
+  "generatedImagePrompt": "Photorealistic nationwide Korean apartment supply editorial background, no people, no text, no logos, no identifiable real development."
+}
