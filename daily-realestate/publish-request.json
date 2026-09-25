@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-24-link-nationwide-presale",
+  "enabled": true,
+  "date": "2026-09-25-link-incheon-gyeyang-a6",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "추석 이후 전국 분양 큰장…연말까지 4만8000가구 분양",
-      "source": "아시아경제"
+      "title": "인천계양지구 A6블록 공공분양주택 입주자모집공고",
+      "source": "LH 입주자모집공고"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed Incheon Gyeyang A6 public housing carousel through an isolated confirmed-content path."
 }
