@@ -1,0 +1,16 @@
+{
+  "number": 1,
+  "type": "confirmed-link",
+  "title": "추석 뒤 분양 쏟아진다…10월 전국 3만가구 공급",
+  "source": "아주경제",
+  "sourceDate": "2026-09-26",
+  "sourceUrl": "https://www4.ajunews.com/view/20260923144746885",
+  "imagesUsed": [
+    "C:\\Users\\nahah\\Documents\\Anti_outsocing\\daily-realestate\\assets\\generated-backgrounds\\2026-09-26\\article-06\\october-national-presale.png"
+  ],
+  "imageAttribution": "OpenAI 이미지 생성 도구로 제작한 비특정 전국 아파트 분양 배경",
+  "imagePolicy": "기사의 문자 포함 분양 물량 그래픽은 사용하지 않고, 인물·문자·특정 단지 식별 요소가 없는 생성 이미지를 표지와 설명 카드에 사용",
+  "verification": "아주경제 원문에서 전국·월별·권역별 일반분양 물량과 주요 단지 공급 규모를 확인",
+  "editorialDecision": "제목의 3만가구는 반올림 수치이므로 카드 본문에는 10월 일반분양 3만66가구를 사용. 총공급과 일반분양을 구분",
+  "generatedImagePrompt": "Photorealistic October apartment presale season in Korea, no people, no text, no logos, no identifiable real development."
+}

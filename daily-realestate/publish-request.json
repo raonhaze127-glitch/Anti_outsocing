@@ -1,16 +1,16 @@
 {
-  "enabled": false,
-  "date": "2026-09-25-link-incheon-gyeyang-a6",
+  "enabled": true,
+  "date": "2026-09-26-link-october-presale-ajunews",
   "numbers": "1",
   "expected_articles": [
     {
       "number": 1,
-      "title": "인천계양지구 A6블록 공공분양주택 입주자모집공고",
-      "source": "LH 입주자모집공고"
+      "title": "추석 뒤 분양 쏟아진다…10월 전국 3만가구 공급",
+      "source": "아주경제"
     }
   ],
-  "publish_to_instagram": false,
-  "review_confirmed": false,
-  "image_usage_confirmed": false,
-  "note": "Published successfully by GitHub Actions. Disabled automatically to prevent duplicate posting."
+  "publish_to_instagram": true,
+  "review_confirmed": true,
+  "image_usage_confirmed": true,
+  "note": "Publish reviewed October nationwide presale carousel from Aju News through an isolated confirmed-content path."
 }

@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-26T22:04:04.2097433+09:00",
+  "date": "2026-09-26-link-october-presale-ajunews",
+  "numbers": [
+    1
+  ],
+  "requireJpeg": false,
+  "state": "valid",
+  "sets": [
+    {
+      "set": "article-01-carousel",
+      "slides": 8,
+      "size": "1080x1350",
+      "review": true,
+      "detail": true,
+      "publishJpegs": 0
+    }
+  ]
+}
