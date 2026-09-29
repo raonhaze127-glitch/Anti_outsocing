@@ -1,0 +1,215 @@
+﻿# 2026-09-29 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 한국토지주택공사(LH), 도심 주택공급 확대 위한 우량토지 무제한 매입...우선 5,000억 규모로 확보
+- 분류/지역: 주택공급 / 전국
+- 출처: 내외뉴스통신
+- 발행: 2026-09-28 16:40 KST
+- 출처 사이트: http://www.nbnnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBjaldsWmV6UnM5bXFWZmM4V2dXS1lwanViNmF6RUU0VEZwMS1jR2FxUl9WNHNBdjNIcXRfbWVVdk5VeGF0R0RXWVRzXzdsNXRKQ1NZYzhNN1FoUlU0SWJjVDJfVlh1SFJkdDIwUdIBcEFVX3lxTE1FLVhpNUxVdUlka2g3VUctSU95NzE2WkZiT1dILXVZdjRfa29CVk9sQlloRUtqWFRrem9kc1NabmVfVTBrVmRyeDZRZ0pBTFhHU1p1eXFuVXNBckxubkt5aXl1a0FyV2xQWV9BNWVfekc?oc=5
+
+## 2. 땅 사고 착공 당기고…LH, 수도권 공급 '속도전'
+- 분류/지역: 주택공급 / 전국
+- 출처: 한스경제
+- 발행: 2026-09-28 19:10 KST
+- 출처 사이트: http://www.hansbiz.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE9Na0MxbVl6QlBVR0lQVmV1bDJxRHNPWnlma3JXdGdsR2JQZFF6S1dGTHdyTzlQUW1DaUVsdDB4NkJXMWJUZUFZeld3QUFDLXpqTmxsVXRCREpLc0dFR1FyWThxcXl4NExqNnNN0gFvQVVfeXFMTzlVd3NNMkR4YkVrakkwazB2TUZpcUlSOEN6S0t0cEZlNnhZWkVEdHFKSFVhLVN3Ujd6aEF6MEotRU56RUcxX2ZjbG5VNDIxaU5sZ2NRdWRvVHl6bkdfNTI5WVNlcDEwN0s0Qlg5dTdz?oc=5
+
+## 3. LH, 공사비용 산정 방식 개선…4000억 아껴 주택공급 늘린다
+- 분류/지역: 주택공급 / 인천
+- 출처: 인천일보
+- 발행: 2026-09-28 18:23 KST
+- 출처 사이트: https://www.incheonilbo.com
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9fV2x2OTA4and6QV92Szh1YTFrTWlNc1FEenJmZzNlbjI1ZS1lYVhjYmVzd2lhZkowd3ZSVVdLaDdfaUExVlpzNUQ5bkgwY1NUcXFUd3RUMDVTTy1Xd3l6ZFZQX01WNmhLV1dlOUtNMFE?oc=5
+
+## 4. LH, 제주서 15년 만에 단독주택용지 공급…10필지 나온다
+- 분류/지역: 주택공급 / 제주
+- 출처: 뉴스1
+- 발행: 2026-09-28 13:53 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UbHduSzlHa2NtRE5Pa0xQbmNVWkV1Y2xvRnZWWXpjbzVzVVJFeUROUWFERDRqNnMxMkVnMFVjZlY4bEpWYi1RSVVfUzNXdWoxUm9DY3VmVWRGemdWUFpEWNIBYEFVX3lxTE9UbHduSzlHa2NtRE5Pa0xQbmNVWkV1Y2xvRnZWWXpjbzVzVVJFeUROUWFERDRqNnMxMkVnMFVjZlY4bEpWYi1RSVVfUzNXdWoxUm9DY3VmVWRGemdWUFpEWA?oc=5
+
+## 5. ‘분사’ 반발 거세지는 LH 노조…주택 공급 활성화 변수되나
+- 분류/지역: 주택공급 / 전국
+- 출처: 아시아투데이
+- 발행: 2026-09-28 17:30 KST
+- 출처 사이트: https://www.asiatoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1pZnBVVTNPdk1Pa3FDNHNjZjRvZGtJejR2c05EZWM1Uzg0Nkd4VUtUQ05uZVpINGxyUnlRU3Q3ZGZhdlFPeUROd2RyLUFDVTR1Ml9pcTZydVNJVXNnSkJ4dDBsc2R0UU5lMmpoRVdR?oc=5
+
+## 6. 주택용지 5000억 매입 나선 LH…상업용지는 5년 무이자에도 유찰
+- 분류/지역: 주택공급 / 전국
+- 출처: ajunews.com
+- 발행: 2026-09-28 15:36 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HQV9ES191R19DZnFmbERlMkpJUTkyYXJEbFZUXzc4aUtRTzhURjZwdkU0aEUzbEJOSHVWWVplTWI5Mk5LYTBvLXNPZUxSSmZyc1F4LUJEc2PSAVhBVV95cUxNR0FfREtfdUdfQ2ZxZmxEZTJKSVE5MmFyRGxWVF83OGlLUU84VEY2cHZFNGhFM2xCTkh1VllaZU1iOTJOS2Ewby1zT2VMUkpmcnNReC1CRHNj?oc=5
+
+## 7. 높아진 서울 청약 문턱…경기도민 2년 새 3만명 급감
+- 분류/지역: 청약·분양 / 서울
+- 출처: 뉴스1
+- 발행: 2026-09-28 11:34 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE85TzNBQ0pkb3hsdmZFU3J5N1RFOHJfRFZtV0plSTNhVU5RZGtmcS1HZDdYR3hzeWc4enhXU2pORG9JaFdLZE9KT3N6ODR3elRVOTlJX3hxcTAxMXQyWDhfdtIBYEFVX3lxTE85TzNBQ0pkb3hsdmZFU3J5N1RFOHJfRFZtV0plSTNhVU5RZGtmcS1HZDdYR3hzeWc4enhXU2pORG9JaFdLZE9KT3N6ODR3elRVOTlJX3hxcTAxMXQyWDhfdg?oc=5
+
+## 8. 용산공원도 탄천도 주택공급 '반대' #딜라이브뉴스 #shorts
+- 분류/지역: 주택공급 / 전국
+- 출처: 딜라이브뉴스
+- 발행: 2026-09-28 18:19 KST
+- 출처 사이트: https://news.dlive.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aTjd1YW9sa1hBU2FudGs2NmdTR0JTR1RtbFNBcDJWbVRxeVRLZDVOWGFDR1NuZXRiUGNJakpGM1J4dUZ5d29paW96MF9rUDRUVXZNOC1kTk1GNlhuQzYySG5Ec05iZw?oc=5
+
+## 9. 최규진 경기도의원, 고양창릉 신도시 지연 없어야…주택 공급·교통 대책 추진 필요
+- 분류/지역: 교통·SOC / 경기
+- 출처: nspna.com
+- 발행: 2026-09-28 17:20 KST
+- 출처 사이트: https://www.nspna.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKd01WendZX0pqYnZId0R4bW96dHZiTzdScEZxSFhSMVl4U1BBX283bHhfSDhpYzRsdXVjYS1HLVg0Y04wbWphTVk1YVkxdnc4cnFYbnc5dDhDTmV6YXdYQw?oc=5
+
+## 10. 서울시, 구로역 일대 저개발지 재정비…산업·상업 기능 강화
+- 분류/지역: 교통·SOC / 서울
+- 출처: 한국철도일보
+- 발행: 2026-09-28 12:01 KST
+- 출처 사이트: https://www.korearailroad.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFBrY2JqelVLMUlxMm1ZV3dnWnRxNXNsNG9VUlFMdjhzRmlyZnhnS09yclpuTFV0RjRhbFdOVlRqWUlHYWRNQllIblNMYXZibEZHQ1VnSEpTMmpTODllWVVQYlNyVjZDajhSTFlqXzhNUTQ?oc=5
+
+## 11. 경기도, 3기 신도시 신속추진·자족기능 강화 위한 13개 과제 국회서 논의 추미애 “‘선 교통, 후 입주’ 현재 제도로는 불가능…제도개선 필요”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 투데이경제
+- 발행: 2026-09-28 21:24 KST
+- 출처 사이트: https://www.tookyung.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE4tUVpDemwteVROaVJScG1SU0x0ZjllTnlncHV4WWJrRVBSTlhMY3pSZGh4V2tOdXlkTXQxYTlFUVplankwSUJ5Vk14N3pjcmdSX0pnbXJpTVZGTkRxM1JvN0pEbWJHX1Jub3A0?oc=5
+
+## 12. 경기도 추미애 지사, "창릉 입주 교통 불편 없도록"…주택공급 현장 점검
+- 분류/지역: 교통·SOC / 경기
+- 출처: 메트로신문
+- 발행: 2026-09-28 15:47 KST
+- 출처 사이트: https://www.metroseoul.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoYjI0V2Z0Vjdfd0RBR1BuNVZDaWFKejlqcUZaSEg0SEV5U1ZydFZ3YjAxVHA0eUlaRFNsRS03S3BldWM5NDZGMkhibHpJYlY2X1ZBQ254YWM2OTA5R0phYw?oc=5
+
+## 13. 추미애 “3기 신도시 적기 입주 위해 광역교통 예타 면제해야”…경기도, 13개 제도개선안 제시
+- 분류/지역: 교통·SOC / 경기
+- 출처: 월드장애인사랑뉴스
+- 발행: 2026-09-28 19:25 KST
+- 출처 사이트: https://www.youcandonews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFB2M2pQWWhPOW9GOUVtUzJmMkhtVHUzR2hEYmlVNF9PN3N2aEp4QVJ3NVFXQmlQQlRIN2dpdnRwVjc0WHFLR05Td2UwblM2ZVBLeVdtWDlwcDdla2pSMklwNWVtQ2Q0ZzBzUF9HdkpVVQ?oc=5
+
+## 14. 추미애 “3기 신도시, 주택만 공급해선 안 돼…교통·교육, 생활 인프라 함께 갖춰져야”
+- 분류/지역: 교통·SOC / 전국
+- 출처: 이코노뉴스
+- 발행: 2026-09-28 21:09 KST
+- 출처 사이트: https://www.econonews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBOVHdRanR3emxZRTFQS0Y5aUpVZWw0NlFBQzFSWEVCWjY5ZHBzLVRnTXdCTFVBeVQwZC1YWmIxQmZxaWk3ZTZPNThSbk1YMk1weGtmXzh4aUpjZnVDcU9oQ3lGZEpVbjNnVzkwMXlsQQ?oc=5
+
+## 15. 내년 입주인데 철도는 3~5년 뒤… 창릉신도시 ‘선입주 후교통’ 우려
+- 분류/지역: 교통·SOC / 전국
+- 출처: 고양신문
+- 발행: 2026-09-29 10:31 KST
+- 출처 사이트: https://www.mygoyang.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE5MM2ctRTIxcnhuMkpGY2tLVUJ5NFBNRWRXem9xMXN5MUY1M1JDWHpBc20yZWE3YmItaV85REU5U2hmUWVtbnBkZGJETWEzRm5SX3lZNnd1eDZwbUdheE5idm4zNnE5VzY0d2c?oc=5
+
+## 16. 민경선 고양시장, 창릉신도시 현장점검…GTX 창릉역 조기 개통 요청
+- 분류/지역: 교통·SOC / 전국
+- 출처: 한국철도일보
+- 발행: 2026-09-28 16:51 KST
+- 출처 사이트: https://www.korearailroad.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1fYlJrSlhKSUNLd3cxTy1yNUZLbElreS12cmhRQnNZS2dNT0w2WUdpSmd4bkNQZjhrOUF1SnZsVmNsckFQWmZnQlZ1eGszd0Myc1N6UXJlYnRPTzRvaHJrNjd2c1N4SEJGTV9yMjVpb0w?oc=5
+
+## 17. "수서까지 21분" GTX 역세권…'e편한세상 동탄역 어반원' 분양 - 머니투데이
+- 분류/지역: 교통·SOC / 전국
+- 출처: 머니투데이
+- 발행: 2026-09-28 14:52 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE1OQkhNdEF6c200ZExSRmU1alV5M1ZYTVl4b2JXUS13TlZFejc2UkNwUHMtWXJ6WkFmMWVSVzF4UDQzY2tMakxXQlBkSEJJYlo4NkRLUDdXbEJ0NzRmYzg3b3J1UmQySDhqUUpiVktfTdIBb0FVX3lxTE1OQkhNdEF6c200ZExSRmU1alV5M1ZYTVl4b2JXUS13TlZFejc2UkNwUHMtWXJ6WkFmMWVSVzF4UDQzY2tMakxXQlBkSEJJYlo4NkRLUDdXbEJ0NzRmYzg3b3J1UmQySDhqUUpiVktfTQ?oc=5
+
+## 18. 민경선 시장, 창릉신도시 현장서 “GTX 창릉역 조기 개통·자족기능 강화해야”
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아시아경제
+- 발행: 2026-09-28 15:43 KST
+- 출처 사이트: https://www.asiae.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiggFBVV95cUxOVS0xSVJqYXlRT2dNU0xwb1JTaWhDWGV0cFRHOTRPOWN4dnJVeXFuVU0yZl9NY0t3VEdSNDlaRzVycktuWXF1MndBQTBQcHp4MTdMWUhzTFVIcjRwX1JGRWFTTGlKUVQ4eG5XclpVSF95eWRrSmFlbWhWdFB0YmYxZUtR?oc=5
+
+## 19. 고양 창릉신도시, '자족도시' 도약 위한 현장점검... GTX 조기 개통·공업지역 배분 '총력'
+- 분류/지역: 교통·SOC / 전국
+- 출처: 피디언뉴스
+- 발행: 2026-09-28 15:51 KST
+- 출처 사이트: https://www.pedien.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kbGpPVEcyOWJKTGhVWW1GV2thbXBHRko0LUFvU3pIODFBV3kwWnA0SEFnSVpvTndtdkx2S0tza0NqeVFFVnVfWDRDRkdQVEowT3oycnBzMS1qRHNp?oc=5
+
+## 20. 추미애 "신도시 철도·도로, 예비타당성조사 면제 제도화해야"
+- 분류/지역: 교통·SOC / 전국
+- 출처: joongangenews.com
+- 발행: 2026-09-28 16:09 KST
+- 출처 사이트: https://www.joongangenews.com
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE1jTThIeW9PQTVnWGRPN2pUNE9nLTctRVdYazFxX0ZwRkNleTJ6NDJNN1pGaWhKTkRtdVhJRy1sWG1POEc3N3poVFdhcFNiaDVXNHJFSnJldjVXSVZCMVFtSG9YejkzYk5mZG5hYlF6Z1BlUQ?oc=5
+
+## 21. 강남 한솔·용산 반도아파트 재건축…서울시 도시계획위 의결
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: TBS 서울
+- 발행: 2026-09-29 10:30 KST
+- 출처 사이트: https://www.tbs.seoul.kr
+- 링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVW1aOWlYTWtIT0ZKaThkdUpqV0UzMHhtcU50UVdtaHZKS2RQQUx3T0ZxdDFnLXB5ZDBnS1pLZ3FPdW9yRmRNMXRpRlZvamtTdFR0Q2NmaExDaGxJczlfNUxyNW4wdmtKT05ZcmJmM1RQNWpxdlE2SEJYaUd4OU9aS2hTcDZ2MkxhT0pR?oc=5
+
+## 22. 3기 신도시 LH 명도소송 2959건…68.6% ‘고양창릉’ 집중, 미이전 사유는 관리 안 해
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 월드장애인사랑뉴스
+- 발행: 2026-09-28 18:55 KST
+- 출처 사이트: https://www.youcandonews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFA0MVR5R2NsaFdadmxlcHNsYXJLMjVlaUxOY0lwblZUNWhtdzBVaXd1akh5YzlnZEloTXBRTHhFRXJlYkxIbnV2enZweHo3amJMQm1vOFBtYmhNRE0zMmpkUFYwZ1FCY19OSW5ia1Bscw?oc=5
+
+## 23. 모아타운 1호 주민들과 간담회하는 오세훈 서울시장
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 서울뉴스통신
+- 발행: 2026-09-28 15:25 KST
+- 출처 사이트: http://www.snakorea.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBDOVM3QVZmR1V2czFtQzFZSS1GQ1RXQUxDbHJLVjhZYlJBX0lGME9odVY3bHBUMFJncERNUnNUelpHTFVtMzVtZEMyeEpHeHo0cm14QktKbUpScFVwOEx6LXdobjBtRFBwRVI4?oc=5
+
+## 24. 최규진 경기도의원 “주택공급 핵심축 3기 신도시 고양창릉, 신속 추진해야”
+- 분류/지역: 신도시·택지 / 서울
+- 출처: 서울신문
+- 발행: 2026-09-28 17:42 KST
+- 출처 사이트: https://amp.seoul.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRFlhdUNhQlN3dVNlYUZEZTFPV3RWcTR2UUpvRjRiTlM0WldqckFJN3R3NFhtaGhCUGxTTDJKcER5OFFsWkM1NUtqQlc3TzRvM1hj?oc=5
+
+## 25. 경기도의회 최규진 의원, “주택공급 핵심축 3기 신도시 고양창릉, 신속 추진해야”
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 엔디엔뉴스
+- 발행: 2026-09-28 22:05 KST
+- 출처 사이트: https://www.ndnnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFBvLU5LREpYT0RzMTNEeGxhMWkyV2FEb2ZjM1VmRUVrTmd0WWdUSTl3dGloY3d5TUwzV3hkNEE0NVhsdU1UTUYwekVjZldyd0Zzal8zVFRLdkFOMy1LczU0cFdKaHF4dmFTYW9LSVJEdzhTQdIBckFVX3lxTFBvLU5LREpYT0RzMTNEeGxhMWkyV2FEb2ZjM1VmRUVrTmd0WWdUSTl3dGloY3d5TUwzV3hkNEE0NVhsdU1UTUYwekVjZldyd0Zzal8zVFRLdkFOMy1LczU0cFdKaHF4dmFTYW9LSVJEdzhTQQ?oc=5
+
+## 26. 경기도의회 최규진 의원 고양창릉 공공주택지구 현장보고회 참석
+- 분류/지역: 신도시·택지 / 경기
+- 출처: onews.tv
+- 발행: 2026-09-29 09:32 KST
+- 출처 사이트: http://www.onews.tv
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLeER4QVkydFNvR0xac0JNdXZ0SHlUZGhIb1Z6WjNMRVVob0Y4SUE3V2tIdWhYR18wZ0NXMzFEWk5Ib2pWNnRBeEJOSFViRnU4OGphVmd0YUF1ZHlSUEI0VS16NHo?oc=5
+
+## 27. 경기도의회 임유진 의원, 고양창릉 공공주택지구 현장 점검
+- 분류/지역: 신도시·택지 / 경기
+- 출처: newszoom.kr
+- 발행: 2026-09-29 09:52 KST
+- 출처 사이트: http://www.newszoom.kr
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTFBOY091NUJDS0NST1k0TlJxT3AtWV84YnVFMnhVN240SW5jaFM5YmZuNFNfQkpuU0kwUFBxS3VRR0hKcXZZ?oc=5
+
+## 28. 추미애 경기도지사, 3기 신도시 신속 추진 위한 13개 제도개선 과제 제시:경인투데이뉴스
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 경인투데이뉴스
+- 발행: 2026-09-28 15:46 KST
+- 출처 사이트: http://www.ktin.net
+- 링크: https://news.google.com/rss/articles/CBMiQkFVX3lxTE1UcS1nclNuSTRCWHpBWDZfZ2R0YW02alVtQUxyYmRhTXk3Wk9qLW53eWFuZmlaU1Mtc1N1eDQ0WHN3UdIBX0FVX3lxTFA5QUc1cTFPdldEcWJFdGpBTFRqeDYwQThaTk5YYm9hcVJsQTlLdHNjQ0oyd2MwdFFlT2NOajZRbWVocnliYjZNTzVTeGw0RXlxN2xwb2JFWS11anhEbHlB?oc=5
+
+## 29. 최규진 경기도의원 “3기 신도시 고양창릉, 더 늦어져선 안 돼…신속 추진해야”
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 선데이뉴스신문
+- 발행: 2026-09-28 16:25 KST
+- 출처 사이트: https://newssunday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVSWpYNnN4NmpqNHZocUp2NWpYS05FejRhUnViYWI2dnFsV2xfcmNqTkNTVkdTajJsTWRwd05YRGprd2JScmxPSWR3RjFFNmZGYkJJMndQb2t0WGsz?oc=5
+
+## 30. 인천도시공사, 검단신도시에서 환경정화활동 실시
+- 분류/지역: 신도시·택지 / 인천
+- 출처: 아시아뉴스통신
+- 발행: 2026-09-28 14:37 KST
+- 출처 사이트: https://www.anewsa.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuUEV4RTI2YTcyazY4ZHQxTFNPN25wM0NReHNWR18zNE0xTkRiekt3ZC1ITnRmQ3M2Uk5tMHJGaVdlOFFCdk9JZVpaYU1HVWxTVG5neU96RHBOVmNs?oc=5
+
