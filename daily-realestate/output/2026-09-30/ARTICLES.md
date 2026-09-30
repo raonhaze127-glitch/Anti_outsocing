@@ -1,0 +1,215 @@
+﻿# 2026-09-30 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. LH 공공주택 공급 확대 속 세대당 하자 4년 새 2.3배 폭증 > 뉴스
+- 분류/지역: 주택공급 / 전국
+- 출처: 더코리아
+- 발행: 2026-09-30 08:27 KST
+- 출처 사이트: http://www.thekorea.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFBRS0hpM1BER0VmTWs3OVlLVlpuUnF0SzNENkJIZW9iR0lqZWtYVU1vZmlqT3JSckNlYXh5RWFTMFZRaW5RdlNzS05FMl9KaGRZaUFzR1VITWVDUkpqWUlUUUxDaVIwY0hhZU1XYnE1akk?oc=5
+
+## 2. LH 노조, 일방적 분사에 반발…“주택공급 차질 우려”
+- 분류/지역: 주택공급 / 전국
+- 출처: 데일리안
+- 발행: 2026-09-29 15:14 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMijgJBVV95cUxONEdoT1FnOTZyZEM0Wmh3VGJqM29sZEV2RDVpWTJkeTBwNGlPR0Z3RGRNclhtNnh5b0Z6Si1vNWRhZE9vTlNZWWpqTWk2Rlc3RnNRWmNMc3NuWlA3aVMzWDF3OTBYWV93N0JOSlZyNHo4d0RkV04tVndFdjh0T1pZb05jemtTVENmc2FnSmFhb2xUamxhMk00VFk0LUVjNEZRMkUtY2FtX0JFODBJUERaUHVLQkM5UXVLTTBLbDZpd1NHcXhPVnN0RHJpT0s3VVNjSEpRVWUxWVB3ZVR1VEJqQ3pmVTVNUXZNZTl1RDdodGxhaGw5TmoteGxzZld2UWI3dDh5WG1VWDFRd3F5WGc?oc=5
+
+## 3. ‘하자 다발’ 건설사, LH 공공주택 5년간 2조9천억 수주…입찰제도 실효성 논란
+- 분류/지역: 주택공급 / 전국
+- 출처: 월드장애인사랑뉴스
+- 발행: 2026-09-29 20:02 KST
+- 출처 사이트: https://www.youcandonews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5oRHZLb3g2a01tTzR1MFRaY29fVk5uYlhZLVNQeVFCUzhpcVlxSnFwT2Q4TWZkNWZnY1JMN2E1bjVORWhoZnFzVGxSUFNva0J3Nm56VDgwM2Q3Rmg2enVDRlJWTXRxWVozMERoX0lPOA?oc=5
+
+## 4. 정희용 의원, “LH, 공공주택 늘린다는데... 세대당 하자는 4년 새 2.3배 증가”
+- 분류/지역: 주택공급 / 전국
+- 출처: 다경뉴스
+- 발행: 2026-09-30 08:56 KST
+- 출처 사이트: http://www.dkitnews.com
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE1uU1RFeVVWV1hVWEEycGNLS0FTdlZTWHZ4RWJKZDNjal94bkZRbTdVRlktNC1ybmlJeFcwYzl5dE5xYUI5?oc=5
+
+## 5. LH, 고양은평선 내년 1월 착공… 창릉역에서 강남까지 30분만에 간다 - 조선비즈
+- 분류/지역: 주택공급 / 전국
+- 출처: Chosunbiz
+- 발행: 2026-09-30 09:59 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxON0oxdWZKeFZ3ZWZwS3lhY29aRmcwLTZpTTMyUzhBb2JVVHdCdUJRUmJHTlhodEp1R0JsS1RxYXM4aC1sVWE4a20tYTBNa1pkTElJTFJWUFdzdmw2OGZtbjF6MWNDT3JOWEhfWXZDTHhfWVRwVm1NSXE4N0hjMmstQ3FJY0h5c1pnMEcySHpsVDhVRkIxbHJCcNIBrAFBVV95cUxQMEs4RjlCNjRzRlBXdF9vcjVLUTBHakJDaGZSQmRMZU8zZGRKWmJPUkoxX0wxWHEwekhlNlNodG84dkQyZ3ZqMkEzZ0xMSl9LMTQyb2c0TkFUQTJJdTlJOVMydC1OUzE1TUtiS3Vadk16WUpIbTJwU2hTUG1jNWtMVTk1MXptazJGWWl3LWczVVZHZ0hjUXc3ei1fU05KSlVsZFNQSFozM0lqWUg1?oc=5
+
+## 6. LH, 고양은평선 2031년 개통 추진…고양시청~새절역 50분→20분 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: mt.co.kr
+- 발행: 2026-09-30 10:24 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMid0FVX3lxTE5yQmNOckNnamxteVdSVGYydlh0ZGdlTFQ3M04zNXdHVDh1WDZIWnZOQ2xjUjUyNGVyaHRnOGdvUnh2VEdqangyc3h6QmJnZGZfdmdCMWFsNkZsWlR4VVF0T0NDZU9Va0lkSTNrTzZhS3B3MlRRUm9F0gF8QVVfeXFMUGR0d1JaaWZkNVF1bTNpR3F0SmdWNzZOMnlIV1ZFdWJ4Z0JsNmdIRlViZGJ2QXRiQjB5c0ZzOU9vU3pEb0lRd1FyR2VOV2VGQ1RReldoak81dG10clJFUWk3bkJScDhiQ0VLOS1PLTM2VGMwY3JqTDVFRlVITg?oc=5
+
+## 7. LH, 고양은평선 내년 1월 착공…2031년 개통 목표
+- 분류/지역: 주택공급 / 전국
+- 출처: fnnews.com
+- 발행: 2026-09-30 09:33 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJYnJyV0EwNDUyVFF6VlY5ZVN1a1FuOGM1MkZCYWdJSDhQWkVabmc4eXZ1UzdIUWxYcGdja0hzekdCVEZPSFFrc056T1Y1VGxMLWp2VjZEYVNwQQ?oc=5
+
+## 8. LH, 석수역세권 통합심의 첫 통과... 사업기간 16개월 단축
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스락
+- 발행: 2026-09-29 11:18 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1EN1FGSXQ5cEg3YTJGdmxvajU3cmp0c1k4enpFcDJmX2tscGpBSVNoXzR6T3pxa21sQXktaHNCQlMtajRsUW9FdkloanktSG52Wll0bmNkaW5RVHhoTmRRMk1WQVJ5NzlNM01CcQ?oc=5
+
+## 9. LH 노조 "강제분할 강행시 총파업 등 대정부 총력투쟁"
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-29 14:07 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rM2JhQlFlMEM0VnpuS3VvV1ZUYkNMQmRUR0daU2cyYmNZOU04dGV5ekI2blB0RXJ3Vk5zZ1owMFRYTURqMTJsb200NE1jd3RZYzVadG8yX244SnZEYWgtadIBYEFVX3lxTE5rM2JhQlFlMEM0VnpuS3VvV1ZUYkNMQmRUR0daU2cyYmNZOU04dGV5ekI2blB0RXJ3Vk5zZ1owMFRYTURqMTJsb200NE1jd3RZYzVadG8yX244SnZEYWgtaQ?oc=5
+
+## 10. "고양창릉서 강남까지 30분대"…LH, 고양은평선 2031년 개통
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스핌
+- 발행: 2026-09-30 10:01 KST
+- 출처 사이트: https://www.newspim.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JeVlwMFlaTkNxUnpPd3hITW52b2JoQlhRR1ZkUmhpYWZpSTViZnVPZ1JEdFd0azZqU09uQUJGYW02Mk9OQjA5LVJjbjA5WHVBUF9Sc1NPdi1ERnBl?oc=5
+
+## 11. LH, 고양은평선 내년 착공… 고양창릉·서울도심 30분대 연결
+- 분류/지역: 주택공급 / 서울
+- 출처: 국토일보
+- 발행: 2026-09-30 10:08 KST
+- 출처 사이트: http://www.ikld.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IN0NLWlFKTlVubkpISHd6dmVhQ3JXVnJ5TzM3emRQSXoxWWhCS3h6ZU9ob0ZWTHZmUU9RRkJCOS1ScGsyUHhPNnRncnhncEp2VjYxRzBiNUpmWm5USkFTM2lFaw?oc=5
+
+## 12. LH, 고양창릉에 '고양은평선' 추진…서울 강남까지 30분대
+- 분류/지역: 주택공급 / 서울
+- 출처: KB Think
+- 발행: 2026-09-30 09:32 KST
+- 출처 사이트: https://kbthink.com
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE1lOXhTYTJXbkk1a0FZci1SSXNUeV9pRHE4clVEMGZGLWdDdDZMUkwxTEhTMlVTQ3J6cWNrbHpiRE1VZ185dk1OeDBHeUQ2NlBqNjNJMUJ4eTF0ZFlrRFRPNXVSS3pTQlpxTmdWNmg3U3I0QQ?oc=5
+
+## 13. LH, 3기 신도시 고양창릉 교통망 확충…고양은평선 2031년 개통 목표
+- 분류/지역: 교통·SOC / 전국
+- 출처: 글로벌이코노믹
+- 발행: 2026-09-30 09:21 KST
+- 출처 사이트: https://www.g-enews.com
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxPRVlOM01GZ3Y3VHFfUXY1QlA3QURsN3pxd1drTzFMWGd0dEJCN1VBcWJjMjVCOGZSUjFWejhfbDc2S2w2dmlLLUZyUUVKT3NXcVl2U3BCZmFibzdtSXd0cHZ4elo1cUpKSUdCTnQtczhFLVE5X20zcDU4Z09kQjRsSkVLeTkyOXlzT2c?oc=5
+
+## 14. LH, 3기 신도시 고양창릉에 ‘고양은평선 광역철도’ 추진
+- 분류/지역: 교통·SOC / 전국
+- 출처: 싱글리스트
+- 발행: 2026-09-30 09:23 KST
+- 출처 사이트: https://www.slist.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BOFg1SFE5dFpxM0kwVGJkNnV6MHNLV3Y5RHZiQU1GRFZzWkZac1U2REpXM2pTU0M2LUxpWG1NbEdhRVBobG5UZWdJX0w2dHFvQnNzOV95U3A5SDBUOFNQUGhENnRSUQ?oc=5
+
+## 15. LH, 3기 신도시 고양창릉에 ‘고양은평선 광역철도’ 본격 추진
+- 분류/지역: 교통·SOC / 전국
+- 출처: BBS불교방송
+- 발행: 2026-09-30 09:25 KST
+- 출처 사이트: https://news.bbsi.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE5nLWtMQkRnandhQ0UtaHpqdEVjalA1OGpCU0x1N29vcGV4M0ZBVTdEOFRwRFQ3aExWck1xTW5MWkRuczlyeC1ZdzhVSmhiUzVvOWd1RXFxRG1EMHlWbkF2eEQ3cUI4UEVUZmlN?oc=5
+
+## 16. LH, 고양은평선 광역철도 건설 본격 추진…2031년 개통 목표
+- 분류/지역: 교통·SOC / 전국
+- 출처: 파이낸셜투데이
+- 발행: 2026-09-30 09:42 KST
+- 출처 사이트: http://www.ftoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBpeWN3Wjk2M3p4Z0wwQ2Vua0N3c0lyZ3dibE44OUJ6V1ZFWXhrd3pTOW1sSmpncnJBcGprdkhfN09OWGRVSzljbzhtem5McDR3YTJkRjN4a1Y1bXJpSmNKcXgxY0EwWDBUSWx2LTRn0gFuQVVfeXFMUGl5Y3daOTYzenhnTDBDZW5rQ3dzSXJnd2JsTjg5QnpXVkVZeGt3elM5bWxKamdyckFwamt2SF83T05YZFVLOWNvOG16bkxwNHdhMmRGM3hrVjVtcmlKY0pxeDFjQTBYMFRJbHYtNGc?oc=5
+
+## 17. LH, 고양 창릉지구 '고양은평선 광역철도' 추진…2031년말 개통
+- 분류/지역: 교통·SOC / 전국
+- 출처: 연합뉴스
+- 발행: 2026-09-30 09:54 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SeWwxOHItdWpMVUNidkk1U09SUV9VU3JLZWZMNVRkMTJUSHBQUTRGV2ptZ3JFM2kzek1XZ2x5WEtIVDIyVF9aR3FVNFV4NktXdFg3SHR5Qzd6QXPSAWBBVV95cUxObmt5akFDN0kwN0VYVnozTURtcHJJWUZLZTNpQTJrZW5DOG1EY3N5dXJTbklkRXBNaHhBYlROZndRZ09VT3BKN2ZMSE5TZ2x1RnpsVHpwR2otbkJqMXFjbU8?oc=5
+
+## 18. LH, '고양은평선 광역철도 건설사업' 본격화…내년 착공·2031년 개통 목표
+- 분류/지역: 교통·SOC / 전국
+- 출처: 데일리안
+- 발행: 2026-09-30 09:59 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMijgJBVV95cUxOQlBnZ0NwMmVZUVdsM2FnX3Z6dFZBX0ZKZ2ZwX0pqclBMRnBVOE9uVFR4eVhId2I3TjNVVHEtLW1JaU5nN2RDZ3hMcVBMTjRZeDBoMktVaVE2VjZ4Nm55OTVOVGxnSDJ1aTFtN2xZc2NhalV4MTRiVlV3ZXBRYTZwZ05XY0pEeDdLUlByMXIwSG05eFAxOW10c2ZEV203Zl96NnhhTEp2cDRyc1FSOWtqNHUxV01McnRDTExybjBqYVhhNDZXekRnVTJhTVNDWGZlajJETGVSM2JIOFpTVHlLMzFWRTdXZmhjUXFIM1JvZW9lSTZNYWNGbDJwS1JWcGFsYmJiQWFqYzBDU2Z2eEE?oc=5
+
+## 19. [비즈+]고양창릉~서울 도심 30분대 연결…LH, '고양은평선' 광역철도 본격 추진
+- 분류/지역: 교통·SOC / 서울
+- 출처: 비즈니스플러스
+- 발행: 2026-09-30 09:35 KST
+- 출처 사이트: http://www.businessplus.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1VOE5mTXpRazZNbmdPNllWaHRPSFdfUzM2ak9ZdlVYSFJNX0RrR1hjeDhUaDlvbWU0NVMxcUZCb0JSVkh0MUdEQTVXWjZ1b1BnUVhfVVlBYmY0N0UyMDZrVFFWVXR2WG9RWk9ldFl3?oc=5
+
+## 20. LH, 고양은평선 광역철도 본격 추진…2027년 착공·2031년 개통 목표
+- 분류/지역: 교통·SOC / 전국
+- 출처: 헤럴드경제
+- 발행: 2026-09-30 09:23 KST
+- 출처 사이트: https://biz.heraldcorp.com
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QYnM4WWlsMWZFY3ZxMjllQy1YQ3Q0aXprX3gwMTJmQmgtSEVuNE9kWFVUYVJUVGE5b2J4QTBtRTdkbFJDbVpxb3RST1NqYjR5d1g4NjZR?oc=5
+
+## 21. LH, 고양창릉지구서 ‘고양은평선 광역철도’ 본격 추진…강남·도심권 30분대 연결
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아시아투데이
+- 발행: 2026-09-30 09:35 KST
+- 출처 사이트: https://www.asiatoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE9CQXBONmFQZU53OTFsMW5kVmtFNmJqeTI3Z1c3d21nd09MTFZDVW5mVmVDNTdPdW13cHBZaWtmeUN1TUE1Nm1sbU1tY2ZqY3ZOejItZ1JsYmpoZHVmMkpUOXJFYzYyanVRaXJNalJn?oc=5
+
+## 22. LH, 고양은평선 광역철도 사업 본격 추진
+- 분류/지역: 교통·SOC / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-09-30 09:50 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE8wMnZNa1pJdDQzRjE1RU5BVUc4X2piT0JfNUVXV090M3lkX2E5cTdUckpGTTVGVHJNVG5ySV8xS0ZERExQVzhXT0FzeEFFaHMyR3c1ZnhGUjVsQ2Q3eTJJY3R3NHpKenpKd1IzbExLWloxS2PSAXdBVV95cUxNUHZ4QUNwNWFPYzI2bW9Xc2ppVUVfV1NlYkRhR2E0Z29CRU11UnpidVo2aUVFYm81VDBvQ2dac1ItVFpwX3BGV283MDhBVUxTVkFvYW0yWFJKZFFLVTZSMm9PRl9kNHB1dWk2bVI0bTFaOHZYeFRvZw?oc=5
+
+## 23. 경기도, 3기 신도시 신속추진·자족기능 강화 위한 13개 과제 국회서 논의 추미애 “‘선 교통, 후 입주’ 현재 제도로는 불가능…제도개선 필요”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 국민기자뉴스
+- 발행: 2026-09-29 11:30 KST
+- 출처 사이트: http://www.kmkj.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nVWU2czQtV3oxcFFBaHRMRy14akhkNHFGZW9JWlpCdkFfdUZwRWNNd3NUUjFsdmlkaFlaUGJzenNSaGttVkxOdWNINFNVcjl4Nm9iellxQS1BbFFNWUZkQlR5MNIBZ0FVX3lxTE5XTFpNaTdxYzI0OEQ3NDFkWnEtMDJfRnFnMEFsNHdxZkhIZGtUWUpWckVxUTVBdlVlMFBCM3NBZ1loajBiVk93TlhqUGVfbUVLcHlmNlZxR0pKVl8wX1pNVTdyWG5XWGc?oc=5
+
+## 24. 추미애 경기도지사, 고양창릉 첫마을 방문해 3기 신도시 광역교통·보육 대책 점검
+- 분류/지역: 교통·SOC / 경기
+- 출처: AI경기방송
+- 발행: 2026-09-29 11:17 KST
+- 출처 사이트: https://www.kfm.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE15cDMzQng3a3lmUnJ6VUo5ejlKcEhMTDNEVzFuMDEwU2JGNldjdDEyZW52dDZRenpkbmczVkNDb0dEaVFwSF9vX0xtMHZvbGYwVXc?oc=5
+
+## 25. 추미애 경기도지사 “3기 신도시 선교통 후입주…예타 면제 불가피”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 엔지니어링데일리
+- 발행: 2026-09-29 15:52 KST
+- 출처 사이트: https://www.engdaily.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ka2ZLaF9sZEdpY2hoNlgxaUdsMDByYlpkMEpvLTQ3WnFkcTlPWkNEVGNXcThZWXQza2UtX0Y0RWZPV05aSXNOdlpLT0hWTzJleGliYmhWWVA4clQ3R0xwd3JzRTJXWjRqNUE?oc=5
+
+## 26. [경기in] 3년 넘게 표류…`인천2호선 김포~고양 연장` 경기도청원 1만 명 성립
+- 분류/지역: 교통·SOC / 경기
+- 출처: 경기in
+- 발행: 2026-09-29 20:39 KST
+- 출처 사이트: http://www.gipress.com
+- 링크: https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBPR2hiZnhiNGxKNE8yUTNtSThabnpZb200TmZRdlZaMm1xOVF6bUl3QkZFQWlySzY4WlNCYVVqRWUzRFE?oc=5
+
+## 27. 서울시, 강남구 일원동 한솔아파트 재건축 기존 570세대 → 960세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 더뉴스코리아
+- 발행: 2026-09-29 12:04 KST
+- 출처 사이트: http://www.newskorea21.com
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UVjdfdHF2bTYySl9DX0xCWTh1NWRaTnFhVEtrN2F1V3VKdGRCNk5QSWFyOVpqeGV6WDRuTXdKWU1CV2lGbXQtVG1n?oc=5
+
+## 28. 서울시, 이촌동 반도아파트 재건축 첫발…최고 58층 276세대, 공공주택 55세대 포함
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 더뉴스코리아
+- 발행: 2026-09-29 12:06 KST
+- 출처 사이트: http://www.newskorea21.com
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ScFp1RDYwSEpTMklqenhrRS1qVzRTUE55VG01OTBPMDFSeU45TG91ZUpsTU9EUHhjclpVMjNoM3I1eHNVQk02R2Rn?oc=5
+
+## 29. 서울시, 강서 염창동 재건축, 602세대→986세대로…최고 39층, 공공주택 224세대 포함
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: newszoom.kr
+- 발행: 2026-09-29 12:08 KST
+- 출처 사이트: https://www.newszoom.kr
+- 링크: https://news.google.com/rss/articles/CBMiRkFVX3lxTE5jY1I1MGJxdWZNNEh6aFNleGZDa2tGWjI0ZlU4RlBCdnNPaHJBX1doM1VwWERWYTN6V1lGTnFVQjQ2YVhzeWc?oc=5
+
+## 30. 강남 한솔·용산 반도아파트 재건축…서울시 도시계획위 의결
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: TBS 서울
+- 발행: 2026-09-29 10:30 KST
+- 출처 사이트: http://m.tbs.seoul.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFBkRUxPWXEzcklSSDZBQ1V4alFCUFZJOU4tR0lFcFBPMWNNVDE4TXNLWFZXZmpVOGFhTl9qTHdrb2d1cFU2d3JvSk5zN0dkVFNpRlFyVF9IeEpUMUw4R0E1NWNJYl9YTGZZYVZDODBZUVowRUU?oc=5
+
