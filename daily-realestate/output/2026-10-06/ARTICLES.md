@@ -1,0 +1,215 @@
+﻿# 2026-10-06 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 李 대통령 “집값 반드시 안정”…LH 미분양 매입확약 지시
+- 분류/지역: 청약·분양 / 전국
+- 출처: newscenterkorea.com
+- 발행: 2026-10-05 22:08 KST
+- 출처 사이트: https://www.newscenterkorea.com
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFBJa2RQTV9IRWNKZ2NzVm1RV2pYSXNDQjdTMWQ4c2tCWGJEb2NEOE9kNXJKSW52LXVBMWs4Y3dhOUxLRzdLT3FROXh0b0lnY1VZc19EektlbWpLc0g5eTE3QV9DRGowbjZNT2ZSdUVfRDlTZw?oc=5
+
+## 2. LH, 수도권 주택공급 속도 높인다…보상인력 250명 채용·2만6607호 사업 추진
+- 분류/지역: 주택공급 / 전국
+- 출처: 웹이코노미
+- 발행: 2026-10-06 00:23 KST
+- 출처 사이트: https://www.webeconomy.co.kr
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE16TV90SVRwSXN1YzBkM0pLRkdvR2U4czlKTnpiamNJWHdSTThrU1NrMTJSRjRqRVk5bzVoOGFfdXIycWpOVVR6YzhoOTBaRXdEVmRoaVdnN2VpUnppd3NGOG1VaEJkWWdBN3lFRmp4ZWNxUQ?oc=5
+
+## 3. "수도권은 공급, 지방은 수요 부족"…LH, 14개 사업 착공 연기
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스TV
+- 발행: 2026-10-06 07:18 KST
+- 출처 사이트: https://www.yonhapnewstv.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wSzZYXzdVWk5xMXVLRXZqR1ZLUHRYX0tzOTdFRE1ERm5OajFnNEJ2ZmlJNW52ZzZkMVpoUXFrN0N6eFdEWnBRUzAyeGhLanBSSlpCNHUxZmZEdHAwVW5xWDlyZGpFcDA?oc=5
+
+## 4. LH, 서울대와 기숙사형 전세임대 공급…2030년까지 200가구
+- 분류/지역: 주택공급 / 서울
+- 출처: 연합뉴스
+- 발행: 2026-10-06 09:12 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFByN2FrNlBGQy0wUTFKdHdlWnpYNF9ZU09CU2RfRlp1YWp1YjBLTkh1SG5VR3NnZlo4emQ0aUFqaW9OSEwwOWVzcUNyYmM3NS1ZRDU5WVhiMndEVWU3VVNFcNIBYEFVX3lxTFByN2FrNlBGQy0wUTFKdHdlWnpYNF9ZU09CU2RfRlp1YWp1YjBLTkh1SG5VR3NnZlo4emQ0aUFqaW9OSEwwOWVzcUNyYmM3NS1ZRDU5WVhiMndEVWU3VVNFcA?oc=5
+
+## 5. 주택 공급 늘린다는데…LH엔 5년 넘게 안 팔린 토지·주택 7조원 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 발행: 2026-10-06 04:30 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5LZHgyUUJOTzg1LW5QMWU0TTREUFRJNm9IUWZzN3hjdl80QUo3VkFmYjFFV3J4NnZSRXZ4TjBmb0tIdnRQQzllM3ZFQ1lXUzZUOWttQTF6MjA5cGFsU0pHZHRSMWp3dGRHQlVzY2lQWdIBb0FVX3lxTE5LZHgyUUJOTzg1LW5QMWU0TTREUFRJNm9IUWZzN3hjdl80QUo3VkFmYjFFV3J4NnZSRXZ4TjBmb0tIdnRQQzllM3ZFQ1lXUzZUOWttQTF6MjA5cGFsU0pHZHRSMWp3dGRHQlVzY2lQWQ?oc=5
+
+## 6. "세제개편 후 코레일 종부세 410억원·LH 129억원↑"
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-10-06 08:05 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HREQzMmtTcUU2NTFMYWEyeWQxQURRdjhWajMyeDRaTDRaYlNuM0FXUzZ0Vy1EdENVdkpTSGN2Qk5OcnZqOG1SLS14UEJWYzlydFpmTHMtSEJCZ2VxTUo4cg?oc=5
+
+## 7. 분양 늘었는데 청약자 떠나…서울·3기 신도시로 몰린 이유
+- 분류/지역: 청약·분양 / 서울
+- 출처: 한국경제
+- 발행: 2026-10-06 08:45 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IeG1ySDNHbmJCcWcyLWZpR3VzZkJhWXpYcmdxX1RKTF9kQURGaFZWWG14bHJ1bUZEaGpVbkI5LUt6dkhuTjhLLWU1anJoRGJZbjU1eVozeXpXdw?oc=5
+
+## 8. 공급 34% 늘었는데 청약은 27% 줄어…서울·3기 신도시로 수요 쏠림
+- 분류/지역: 청약·분양 / 서울
+- 출처: 이투데이
+- 발행: 2026-10-06 08:48 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTFBiMm0tRGVscTRWRzNMbkttWDR4NVJLWGZXYVF6TEhCZEU3SVBmcm9sS3F2VkxTNVJfR2tmNlZXWTBYR1VkTm96aTJmNE5FbHBsVm42TjZvUFNqRHppZHpMaV9BWWNNUW8zUWpsbnpJeFdZZXhi?oc=5
+
+## 9. 추미애, 홍지선 장관에 ‘경기도형 주택공급 전략’ 건의
+- 분류/지역: 주택공급 / 경기
+- 출처: newstown.co.kr
+- 발행: 2026-10-05 14:54 KST
+- 출처 사이트: https://www.newstown.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5xNFdYbjNVR24xdWJsOGVfTUE2YndtZGV0ZlRKUFUzcG9kcHZKMTdTMjhkVlQwai02aF9mZHpXdUxuYW9qTFAxV2J0Ti1Cd2t5d2JOWmRfMGVwbFIwZVFPTzhZOExNV2xRMnZvbW5B?oc=5
+
+## 10. 미리보는 국토부 국정감사…GTXㆍ가덕도ㆍLHㆍ부동산 쟁점
+- 분류/지역: 교통·SOC / 전국
+- 출처: 대한경제
+- 발행: 2026-10-06 06:00 KST
+- 출처 사이트: https://www.dnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZRXRldVFyUzRUYWRzaWhqZHR4UVVUMDBqa0pGbmJ1Ti1EbHhfNUJ2M3dheE9fdnptZ3d4Y0pUWTJXdlp6N1RTUVJnaDA3NDVVVmJObmpTWF9IaS1Pa1JuSTJnV3pMY1RLcWxiOGJ4cGVTWnRL?oc=5
+
+## 11. 서울시, 도시철도 환기구 높이 1.5m 이상으로 통일한다
+- 분류/지역: 교통·SOC / 서울
+- 출처: 산경일보
+- 발행: 2026-10-05 15:58 KST
+- 출처 사이트: https://www.sankyungilbo.com
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5jb05LcWQ3STNfbWlsSVl2Qm9EN2tWTjBXUm81R0djWmdqSFJWeU9hSkpqMVVXbFAwQjlqcC1yUFF3UGV6ZlJ3NGJfdEI3UHNaSlBfblRYQThFQW1IN3BsSXFoaVVTdmxOVm9MMnFiTkQ?oc=5
+
+## 12. 추미애, 국토부에 ‘경기도형 주택공급’ 제안 “집만 짓는 시대 끝내야…일자리·교통·주거 함께 설계해야”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 의왕미디어저널
+- 발행: 2026-10-05 18:47 KST
+- 출처 사이트: https://www.uiwangmedia.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBQN2hOZkxjOWRfT3IteXFjZGNYOGxqNGZwbWpyZndRX1lkeUlSSFN2Smt3Vk01Wmxyb2lkcjljSlRXLVhabkdhOVRCd1l0SVg1c1dGc3E5UUhkWjVFeVRDLUU1RTNJajVJb0VXZDJR?oc=5
+
+## 13. 추미애 도지사, 국토부 장관 만나 ‘경기도형 주택공급’ ‘광역교통망 확충’ 제안
+- 분류/지역: 교통·SOC / 경기
+- 출처: 국토일보
+- 발행: 2026-10-05 16:24 KST
+- 출처 사이트: https://www.ikld.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtZUJLN0l1UFFvVmxvQ2JKS2hfYzRNWm1KazBNaVZQWGpGdllpYWc3SjFJLWFwMU84cktxYl9ZZDltYTloM2hQQl9DbXhZb1oyTXpoWUxkMTR0RWRfUDZXU3BfZjA?oc=5
+
+## 14. 경기도, 40개 철도 사업 국가철도망 반영 요구…신도시 예타 면제도
+- 분류/지역: 교통·SOC / 경기
+- 출처: newscenterkorea.com
+- 발행: 2026-10-05 15:56 KST
+- 출처 사이트: https://www.newscenterkorea.com
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFBvQldiaW9wQk5TUVZacTdJeEdDQWNtUmo2QktJNnpUbGN5S3ZGWW9aVEMtRW1ZVW1hd1JVSTFXRlYzM1plRzAySklyV1FWOXYyT2hrOUs3d1FVRXdCWERSVnpyZlZiVHpaYkstQk9jd1JEUQ?oc=5
+
+## 15. GTX D·E·F·G·H 국가철도망 반영될까…경기도, 40개 철도사업 건의
+- 분류/지역: 교통·SOC / 경기
+- 출처: 로컬세계
+- 발행: 2026-10-05 16:03 KST
+- 출처 사이트: https://localsegye.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE04MDEwbVdOc2hXaERlNUlUanNaRVV2RVFIckc2TXVMbEVoMExVXzJPb2ctTHNSZHg5ZDlnSlFFY0ZMWXRKcGZzeGRMcGthR1RhWUxWWVVHdjl1cVVIQWNDV9IBWEFVX3lxTE9BaHVQeTBHb1JmbmgzV2VTbWhqRTl0a2MyVExTeTlDaDBYOHdnZ3YzY00ycTA3YVc4akRMcUJENU92Q29xX0luTTJlMnJZc2pvYUl2QnNmMDY?oc=5
+
+## 16. 추미애 경기도지사, GTX 등 40개 철도사업 국가철도망 반영 요청:경인투데이뉴스
+- 분류/지역: 교통·SOC / 경기
+- 출처: 경인투데이뉴스
+- 발행: 2026-10-05 13:40 KST
+- 출처 사이트: https://www.ktin.net
+- 링크: https://news.google.com/rss/articles/CBMiQ0FVX3lxTE55Y3ZlMGdpMHZ3WVBDbXl0V2RMUVp5WHN5bm5rQ0lEY0FMeWNJbTN1ZV9pWWMzXzhnbTUyaHVDNG1kV0nSAV9BVV95cUxQbjFaTldobk1KY084T21TQTlFSDVmX2xoU19uSFJMTDJPV3JibVNXajZCVWxHRWU5a1dfcDRkTWt6ZktPWmNoZUlNY3NCSVAxTFFmcWpDTmo5TEdWXzNyQQ?oc=5
+
+## 17. [국토부 기획-상] 경기도 철도 요구, 국토부의 실행 과제로
+- 분류/지역: 교통·SOC / 경기
+- 출처: 국토교통신문
+- 발행: 2026-10-05 16:53 KST
+- 출처 사이트: https://www.itbs1.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iNk9OOWswRldoRWZabXgzYUxtc296ZmFvZm0xcTBFWVZGeVVhejE5dHF5Z3d4S0E4NWJ0bzdPWGRibVZwZnpSdFg1elNCam0zMU9PT1VGbDF2dGpFNklYRmR1clBLWDA?oc=5
+
+## 18. 추미애 경기도지사, GTX D·E·F·G·H 등 40개 철도사업 국가철도망 반영 요청
+- 분류/지역: 교통·SOC / 경기
+- 출처: 월드장애인사랑뉴스
+- 발행: 2026-10-05 20:07 KST
+- 출처 사이트: https://www.youcandonews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9RTlZmeXJmbXJUT0dYN3VPX0VEbFVFYjdLMjYyVTJQdUp0dk5wMFNkNWdhUGFfRDg1NXNLd0hzRnQtWjBlNHVSem13VEt3WHdrbWNOV0RTSnZDM2k3RjZaWFFSaGdBaDJTaExHdTNtWQ?oc=5
+
+## 19. GTX부터 KTX·SRT까지 40개…경기도 철도계획, 몇 개나 국가계획에 들어갈까
+- 분류/지역: 교통·SOC / 경기
+- 출처: 제이앤엠뉴스
+- 발행: 2026-10-05 17:58 KST
+- 출처 사이트: https://www.jnmnews.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE10MGlyRDJuMnNKVG9lQjE1OXFqWEYwVlgyV3lQLS05Q1lhR3ptczJTWFM4UThSSjZ2TVZZcEpXMkx1Q2huczNJcTlQZmRJakJmQVVNT3RKYy1CaEw0d1lBQw?oc=5
+
+## 20. 경기도, 수도권 철도망 대수술 나섰다… GTX 등 40개 사업 '100조' 반영 촉구
+- 분류/지역: 교통·SOC / 경기
+- 출처: 커넥트이천
+- 발행: 2026-10-05 15:44 KST
+- 출처 사이트: https://www.connecticheon.com
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE90QkJkRU1HZ0FHclAza2s3OW5oT1ZoUWhxUllCUlE1cXk2SzN0UkhVdTJ3R2xvdi01R1Z1SWdYdnByV1ducjRKM0tIYkNLcU1SbGJfbS1LbTF5X0tTWmc?oc=5
+
+## 21. 경기도, 국가철도망 ‘100조원 판’ 요구…경기남부광역철도 등 40개 반영 총력
+- 분류/지역: 교통·SOC / 경기
+- 출처: 폴리타임즈
+- 발행: 2026-10-05 16:07 KST
+- 출처 사이트: https://www.polytimes.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE8zNlp5b2g1VWNNM1JPd1NWeG5ISG93ZkcyQms1UW5XMkt6U1B2cXNhaWxmUzJjZm9JUDBNdHJzdFhVeHJsUVMxQ25HUmVnMFU3bG8xTlZTcUJVSGV4VWpyUjVrV2hGRFRlVnk4?oc=5
+
+## 22. 경기도, 40개 철도사업 국가철도망 반영 요청…신규 노선 대거 포함
+- 분류/지역: 교통·SOC / 경기
+- 출처: 하나뉴스
+- 발행: 2026-10-05 17:05 KST
+- 출처 사이트: https://www.hananews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5QdmZQNy1LTHYtZjd2d1l0dFZ5OGp4UG41eTd3SjFxUGZmNF9EazBGYjhkWjhGYUVWd0Z2dUVnWmFKTnFnZkFDeXRWbzczLVM4aU1zQ1dqa3F4ai1mYXlCSEdBNGZhWTlmbktQZmNB?oc=5
+
+## 23. 3기신도시 '선교통·후입주' 약속 불발?…"9호선 시공사 선정도 못해"
+- 분류/지역: 교통·SOC / 전국
+- 출처: edaily.co.kr
+- 발행: 2026-10-06 07:08 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxObHFaZUJSN2RITVhFWmppWXdlcmxNelJfdjV4dEtmRUtkRFFLZXUwd2hLR2toV0JrMEVkWmM2Q1dNcy1HYXVDYy14azZQcGFOZlptdXZIRE9VT3ZTQm54bnVmU1ozSXd0cmdzX0dsSVZVS09uMC1Ic05HMHhPWlozVQ?oc=5
+
+## 24. 인천교통공사, 인천도시철도 역세권 16개교 1368명 대상 캐릭터 교통카드 지원
+- 분류/지역: 교통·SOC / 인천
+- 출처: 컨슈머타임스
+- 발행: 2026-10-05 14:19 KST
+- 출처 사이트: https://www.cstimes.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE94a3NQLXd5aUhGNFFBWmkzRXNzSDlqTXJsVXJpdVVkOFhkMHZjY1NTT0lMNW44NGJvY3N3N0RESFdJd1RmZHhSbkRmVkttclItUzBLU1NXM0l2ME5BRjMwdGRXdkdRTUNnZFE?oc=5
+
+## 25. 광주교통공사, 도시철도 무임수송, 지속가능한 교통복지 위한 국가 지원체계 마련해야
+- 분류/지역: 교통·SOC / 광주
+- 출처: 문화매일신문
+- 발행: 2026-10-05 19:15 KST
+- 출처 사이트: https://m.dailyculture.kr
+- 링크: https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3VlZpUFJ3SHRYbUljQk9raVoxQlFRRTB1Rm5LYWh4VTItejZ5T0FOTjVVbUlvLXY1SmNJWlVSWFNrWmtMU0NHcl9LTklNR2xjNUh2Yzdpdw?oc=5
+
+## 26. 정비사업은 앞당기고 이주는 분산…국토부·서울시 협의 확대
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: edaily.co.kr
+- 발행: 2026-10-05 14:01 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxOVG81S1g5d3VLZlJielE0TTAzVjRPcGZLaVgxMXg1NWJsVy12c2ttX0J5VEdFYjBia1NRZmhFa0l2TnFmVG8zUkRZOC0zbXdBci1jZzVMNUdEbXdMUW5hTWZaenIwa2QyU1dHU3JETnlfTmItZGZyb0NNaFlUYnVCeA?oc=5
+
+## 27. "서울 주택공급, 용산공원보다 재건축·재개발이 해법"
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 한국경제
+- 발행: 2026-10-05 18:33 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE51TjNOS2VZQUNuVUhyWDZESkFab3pKMXNMVkZwMlJkQk5XNWFXRTJ3NHB0OWV4NTJjeXlUMFRGU011RnM5UXcydzJUWE9UOFpfZEZyOWFLdTA1QQ?oc=5
+
+## 28. 양천구, 재건축·재개발 궁금증 푼다…도시정비사업 포럼 개최
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 시사포커스
+- 발행: 2026-10-06 08:19 KST
+- 출처 사이트: https://www.sisafocus.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE1CZE41SEVoRTFNODNFaWhnQkI5cHloOEVEMVR4aWY2YXhPWHpWNVBqU09FRUdsOXV4dzVIQkhNcmJ4amNUdVlzNXNTbkRyVUxFOWdEZDVNdERNU2ZDQ2JLY1JlMldNYnZGTHR6dzBRYw?oc=5
+
+## 29. 영등포구, 재개발·재건축 속도 높인다…108명 ‘정비사업 신속추진지원단’ 출범
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 여성종합뉴스
+- 발행: 2026-10-06 08:41 KST
+- 출처 사이트: https://womannews.net
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE51ZHRCa2xzLWkwYkVRMGduNTZobHRDWktEeEVoZnBQNW1TbXJUZmc4SmNKNGQtenhVTENvZG5GcE9XQ1RHai1rRmRWcTVfM3BlOFp0Qkt1SHQteGRkeWRtQ0lhQ0tkcDZvQVhtcC1Qcw?oc=5
+
+## 30. 경기도 도시개발 줄보류… 정부 주택공급 기조와 엇박자
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 경인일보
+- 발행: 2026-10-05 19:21 KST
+- 출처 사이트: https://www.kyeongin.com
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlTkVZQnJJNWg2VGRObUN0S2Z2WDltU3drUURRZmpfS0Y5WGNGS18wM3RwanVLVnRvTjNFMUZIN1k4RW5RX3lBaFZqRTVaOC1zanc?oc=5
+
