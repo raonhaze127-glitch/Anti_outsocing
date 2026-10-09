@@ -1,0 +1,215 @@
+﻿# 2026-10-09 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. “문화 체험도 즐기고, 공공주택 정보도 얻고” 한국토지주택공사(LH), 가을맞이 주택전시관 활용 특별 행사 개최
+- 분류/지역: 주택공급 / 전국
+- 출처: 내외뉴스통신
+- 발행: 2026-10-08 17:16 KST
+- 출처 사이트: https://www.nbnnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE9IamhZaVVSNGJPRTVraVpZOWdpQ1MzbEwwMU1RWVNXV0FuRDZsVmt6Ym9TT0pLSXlTQUdEcHFoUGlMMy02enF5SnNjX2hONE5aZkhxdUpLQzNPcnlOSDlzaXRCXzFCcmx0NHFGZ3B30gFwQVVfeXFMUDJLblYwcjEtWHJsclpGV1RYMmhIdDRoSUJsejZyTzVEWEFsWUxuOGtrNjRIT21McUowanZYcExVQjhwVmpKaEhxQTdUMGdydkJYYnI1V05wN2pEOERXMFFsRGdmZHlqREoxeHI4RUR2Sg?oc=5
+
+## 2. LH, 수도권 미분양 매입확약 추가 시행...민간 주택 공급 촉진 기대
+- 분류/지역: 청약·분양 / 전국
+- 출처: BBS불교방송
+- 발행: 2026-10-09 10:59 KST
+- 출처 사이트: https://news.bbsi.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE5jeC1PZm0zNnF5ZnBDMnM4eFZzQlhrSHhFdnR6dWYyZUF3Q3dzVDJ3TFFyal9odHVXQm90dm1TemE1ODFEekJlTWF6dG9aSW9YZGdSUEVuUTFEc1RsM1NMWE8tcHZHZ181Tmgw?oc=5
+
+## 3. 한기영 서울시의원, “서울시 주택 공급 속도 내야… 교육 때문에 떠나는 마포 바꿀 것”
+- 분류/지역: 주택공급 / 서울
+- 출처: 국민일보
+- 발행: 2026-10-08 15:10 KST
+- 출처 사이트: https://www.kmib.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE0xQVdZV25vdXBZSEVPdkJLMl8zRTdYdUp0SWpFd0dFclBwNG1uYThSR1d0bGRVWExYeWY1NWI0ZExBX3NuOXFOQ3FraS1sa2pVY1pEaGFSRXRzajBZVVJCWTJJNlNXNzgxalBoN9IBbEFVX3lxTE0xQVdZV25vdXBZSEVPdkJLMl8zRTdYdUp0SWpFd0dFclBwNG1uYThSR1d0bGRVWExYeWY1NWI0ZExBX3NuOXFOQ3FraS1sa2pVY1pEaGFSRXRzajBZVVJCWTJJNlNXNzgxalBoNw?oc=5
+
+## 4. LH, 미분양 매입확약 연말까지 접수…분양가 92%까지 적용
+- 분류/지역: 청약·분양 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-10-09 09:00 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DN3Y4a3lYeXRab0NEYmRORHpDR0VTNGh6SS0yOWMwWU0wRGtMMTJvVFo2QWhuaFFoTnU5VVpRZ1pOR3dvVXhObm0xWDdoLThzVjNob1pEaUVONk3SAWBBVV95cUxOaExUeVgyLXVPTktkc2hIeEt6NkhnaFhUbjVjSEJEM1ZPNWFZWDl4UFNtNkIwV1VJZ1NLMVYxRFZnQ0xTSE5mS1R6VE5RMnRrM2hHbWFhMnh4OV91U1dvTlM?oc=5
+
+## 5. "LH 이성훈호", 새 상임이사 2명 인물 살펴보니..."오직 주택공급 확대 최선"
+- 분류/지역: 주택공급 / 전국
+- 출처: 건설이코노미뉴스
+- 발행: 2026-10-08 20:55 KST
+- 출처 사이트: https://www.cenews.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNQmJhbEQxMzJWNHR3SDNlWVZyLUR4NTJxaWQ5bEpEdThKVHFqaXRvREFjVEhLWHB0RGtaTzZ6cDhfMlh0UTl3eGpmdEd2UDl3eWtJZFJaeDVEWDZzUXBsWkNKVHB5QQ?oc=5
+
+## 6. LH, 경영진 재편 시동…대통령 콕 짚은 '임대 대량 공급' 실행력 검증대에 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 발행: 2026-10-08 15:21 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFAxR2VnQUlKVS1rVmtzcmZmU0dnallhYlpFclJ4VE5nby1JTjVBQXNyYnhYQm1ZZzJzQ2JpYjQ5RXkwd1RWNG1mbjhUTUVtUW8zNXVkM21tVnpyU0o0S0dYdzdBWWZTdmRVTGY1VWNrNNIBb0FVX3lxTFAxR2VnQUlKVS1rVmtzcmZmU0dnallhYlpFclJ4VE5nby1JTjVBQXNyYnhYQm1ZZzJzQ2JpYjQ5RXkwd1RWNG1mbjhUTUVtUW8zNXVkM21tVnpyU0o0S0dYdzdBWWZTdmRVTGY1VWNrNA?oc=5
+
+## 7. GTX·철도망 따라 분양 물량 잇따라…오산·화성·평택·인천 공급
+- 분류/지역: 청약·분양 / 인천
+- 출처: 이투데이
+- 발행: 2026-10-08 13:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LSGdlM1dGU2d0cE5EeXFfX01kdVB1UWltaFJwUW1sSkxLenFzUGdJNmllSndBdDdFb2hqZkUwYmRiTUlfa3M0Z3o5cWctRFA2YWYwTQ?oc=5
+
+## 8. [문화와 주거를 잇는 열린공간]LH 주택전시관, 가을 문화공간으로 변신…‘우리동네 문화아지트’ 행사
+- 분류/지역: 주택공급 / 전국
+- 출처: 전국뉴스
+- 발행: 2026-10-08 18:08 KST
+- 출처 사이트: https://www.jeonguknews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5jeTcwa3dBTVpueVpaREhxYXN3UjBubXJ3MGhiSkttQmxCajY1cHIzbFIyS0U0dGdFNDI1a2pxLUVBSkhkNGVZUWg1QjROREtERzh4Y201YVhPTXBxNW1obFBXckxSS1dfMk10RG9YUk0?oc=5
+
+## 9. 별내 LH 주택전시관서 ‘로컬 피크닉’
+- 분류/지역: 주택공급 / 전국
+- 출처: 남양주뉴스
+- 발행: 2026-10-08 13:53 KST
+- 출처 사이트: http://nyjnews.net
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE5kWVRBelQ5cm0tQlplQl9DeVdrQzZkaGtwS1VmdDNYc3MwNEJPWVdXZktDdW9sdjNGOW80SVdVWTRLeFAxRmlMYTk3MFRpXzJ4cXpCQUloMlYwOXhLb3p5S050SGltZml5cUp6YkF3?oc=5
+
+## 10. LH, 수도권·세종 전시관서 가을 문화행사 '풍성'
+- 분류/지역: 주택공급 / 세종
+- 출처: 국제뉴스
+- 발행: 2026-10-08 23:12 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE45MTBwVWcwR2JESnpQQzlkd01HWGs1QjQyZWtMYnJIMmpfSEo3Rmc1VDhXQXo4UngxcEk5WUJvOWtzMFV4MlRFRnV5OTlKcHcyeTAzMklKV2g2eUIyNjNtMjRYcUhRT0VOYTc2dnhR?oc=5
+
+## 11. 10월 수도권 공급 집중…1110가구 ‘계양신도시 카이브 유보라’ 분양 나서
+- 분류/지역: 청약·분양 / 전국
+- 출처: 스트레이트뉴스
+- 발행: 2026-10-08 11:49 KST
+- 출처 사이트: https://www.straightnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMid0FVX3lxTE5JT3FIZTJRQVRDbzFzVFhzLXNqblR6RDNjWTlmNklQbVRmZzVIR1l5U2JSc1o4QUkycHlIZE9yZzBNaEJMRXVLU3hxT0xCa2h6dExVZmt6Z3YyaEI2WXY5RUdhbTZLODVpcjFLMjNZeF9QY2JiQlEw0gF3QVVfeXFMTklPcUhlMlFBVENvMXNUWHMtc2puVHpEM2NZOWY2SVBtVGZnNUhHWXlTYlJzWjhBSTJweUhkT3JnME1oQkxFdUtTeHFPTEJraHp0TFVma3pndjJoQjZZdjlFR2FtNks4NWlyMUsyM1l4X1BjYmJCUTA?oc=5
+
+## 12. 세종 리더스포레 1세대 재공급…분양가 3억4320만원
+- 분류/지역: 청약·분양 / 세종
+- 출처: https://www.didimkorea.net/
+- 발행: 2026-10-08 13:29 KST
+- 출처 사이트: https://www.didimkorea.net
+- 링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfYThiNXRTV0Qtd2JGajRZM0VxbzZJNlVHT1FmTEl1XzlGaGhCR3lGS21nOXgwMThUa3JkQURIODhnX2NDdWtuS09ScDg2TFU?oc=5
+
+## 13. [주택 공급의 함정]③공급 늘려도 못 사면 무용지물…‘몇 만호’보다 중요한 ‘분양가’
+- 분류/지역: 청약·분양 / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-10-08 12:00 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE9oNEswQWp0ZzlRODUtNmE2XzVYc1hTSEU5SWl6VlBpLXZBY3ZuZzloLVVsQk40Q2lXc3lKR2RibUs5VFo5MkdQUURKNll5YVJ1eVh1bFR4ZGZOT19NSVdjaGktNEtOQU1fcUpnc0NZcUJ5MWvSAXdBVV95cUxOQUtNQTk1Yy02LV9OX0RPa2RiMnZuTmF6RVA5aHhLSGJ1ekhfcENvYnFOejRuSmtNWHRMalNELVBpSGUxNU9nd1JFWGpZRDYwT2taZEh3bHJhWmVmWE00ck90NjFUWUZLYWlVU20xZFV2dlhfUVUxMA?oc=5
+
+## 14. 가을 분양시장 본격화, 11월까지 전국서 4만8829가구 공급 봇물
+- 분류/지역: 청약·분양 / 전국
+- 출처: 데일리안
+- 발행: 2026-10-08 14:54 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiggJBVV95cUxOU3dsbXZ4cUlIekt4emJHSnRsMjNVcFJLcHMzdFVmSlJaYzVzQkRHZmhfYVRRUHlOYl9HUXZFMmQ5eGRRei1xaDZtblhyeGJJMmRoN3FhZmJQUkpBTnlFckFmYk5VUnNzNkxUM3VPc1BRLWpIZGVleHNWZ3VVZ0xxckZxYm5DMmFrWmtzUTBSam1tdXhMdUUtWDM0TFVzSXNtbE9FX211TlJfajJFMnhzcG9qRTFkNlA5OVdfSDdnbkFMN1BuNkxOS0ZTNWk5RkFNaFl3bFhKZ2xpRmxJakVQRVk5eVBFZVlVN1pFMDUtVWxiN2wtN3ZxRy1lT2haTEFQRFE?oc=5
+
+## 15. 부산도시공사, 에코델타시티 아파트 2세대 재공급…4억 원대, 부산 무주택자만 청약
+- 분류/지역: 청약·분양 / 부산
+- 출처: 뉴스타운
+- 발행: 2026-10-08 19:11 KST
+- 출처 사이트: https://www.newstown.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBpekNFWlQwNnpNZ3F0dWg0ajVqQVNXUUVaR1BkaTlkakRwLVB4Yy0zMVB1X3ZsRlFxMGd2eS14X2IyemF4QVBrbTIxVUdFbUJja1ZRN29odmt0SF85NnliX0VwbEhWWl9kb0d0cVZR?oc=5
+
+## 16. 미래에셋증권, 10월 개인국채 청약…10년물 공급 늘린다
+- 분류/지역: 청약·분양 / 전국
+- 출처: 파이낸셜뉴스
+- 발행: 2026-10-08 12:10 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EZVVSaWxDQU90cTZMV1ozNVhCbVhHeHBJMHc3YWtmejRvQmFhY3RlWTUzSG9aUFdNazJzSDBCTzNiWEdjUzB6bDVqTTNfcmV1T0NQZHhPQW95QQ?oc=5
+
+## 17. GS건설 합작사, 첫 발전용 그린암모니아 공급계약 [건설·분양오늘]
+- 분류/지역: 청약·분양 / 전국
+- 출처: 시사오늘
+- 발행: 2026-10-08 14:22 KST
+- 출처 사이트: https://www.sisaon.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBacEY1d2F4OWtqTE05T3ZEakJzY1hYNWxZWjBhc0g0R0R3QkNzMjhobnd1X3lKak5fdXpmM2E4dnhoRW1manFTNkgyTnN1THZRVkc4NjRJVGNQX3dudUphdEVLM0VSbXBDMUtV?oc=5
+
+## 18. [분양 스케치] 두산위브더제니스 부천, 무순위 청약 미달 왜?
+- 분류/지역: 청약·분양 / 전국
+- 출처: Daum
+- 발행: 2026-10-08 16:49 KST
+- 출처 사이트: https://v.daum.net
+- 링크: https://news.google.com/rss/articles/CBMiS0FVX3lxTE56RGx1dVNvWWl6QlRpQjlLUWI4TTlDcnRZaEJpd0VhUklTZlNPQS1mUHJlbTBwQ2J1eUYxWVNDY0NqcjRoZDBsUHQ3UQ?oc=5
+
+## 19. 평택시, LH에 고덕신도시 교통·생활 인프라 확충 요청
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아이뉴스24
+- 발행: 2026-10-08 15:28 KST
+- 출처 사이트: https://www.inews24.com
+- 링크: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5WQkh0UnBJNkFuYUZGc0hBX2N0d0NESU12eTRGaVRsOVB2MDdxVWltMGV4OG9uWkZkZjVVa2ZxT2FmdzZNUUZtOHJqT3k?oc=5
+
+## 20. 서울시 모든 도로, 토허제 묶였다… 소규모 지분쪼개기 차단 - 조선비즈
+- 분류/지역: 교통·SOC / 서울
+- 출처: Chosunbiz
+- 발행: 2026-10-08 12:55 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkdpcEcxcXZwNmx1dS01Y3pGYWY4cm5ldnM1WUR6ekx3R2pNV0lWd1d4Um5TZkFUZjB0bmkyUHFPLXRTZnlaajdWZDZlM0JtaXRFTEdReHFCemZFTUdrVnNsOVBOc1lJVFZzdkJaLW9RMWRMbzNrZnVSWWNFeUtnZm83eG1EdGNPVGpNcFk5aVRRQUhta2IxVdIBrAFBVV95cUxNYWRxUWtJUjg3VHhNUE1xR2JrcWVLNEJUMWE0MERvRGs1ZnpmYUJrelhibTZ3aVk1U05kbThQZ21hNGpFOW9VYVZLeUhrQllFUnAtVUtpeUdfc05SR0NMcXdjV1UzaTRPMlhZbHc0MUx5ZmdvcEhRQnl3QjAxMUw1dTIzRkEwY0FBM0NOel9PRmFVTzFrbGZsMmMtLVUyQVdMUGhvOHFFUVNPQnFM?oc=5
+
+## 21. 지하철 9호선 4단계 공사 지반보강 공법 변경 논란…서울시 행정 검증 절차 수면 위로
+- 분류/지역: 교통·SOC / 서울
+- 출처: 경인종합일보
+- 발행: 2026-10-08 18:17 KST
+- 출처 사이트: http://www.jonghapnews.com
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE1ZSzYxZGFxUGRhUEJ6ck1uV2hEWmJna3pHT3RrZWhlVXEzeTFnakdPTXFDMnR6UFhJZDV3dUw1WkdsNFp6MFkwUktTYjNBbmRWWjNwVTBhUVlCMld1aGVxeXFRTWpjTzd1bzVCRHJvNUt3UdIBckFVX3lxTE1ZSzYxZGFxUGRhUEJ6ck1uV2hEWmJna3pHT3RrZWhlVXEzeTFnakdPTXFDMnR6UFhJZDV3dUw1WkdsNFp6MFkwUktTYjNBbmRWWjNwVTBhUVlCMld1aGVxeXFRTWpjTzd1bzVCRHJvNUt3UQ?oc=5
+
+## 22. 부승찬 의원 “지하철 9호선 연장구간, 지반보강 공법 변경 및 서울시 승인 과정 규명 필요”
+- 분류/지역: 교통·SOC / 서울
+- 출처: KNS뉴스통신
+- 발행: 2026-10-08 13:33 KST
+- 출처 사이트: https://www.kns.tv
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE95Y2xMdEZRckRvTlB5NldaREVTa3gwU0YxdF9UX1dLbHMtR3R6ajRZbVNqV2x5WGJnbWNrYXFyTElQQnczTkhWdndBaXhYOWw1bkZsZTBRMnl6R05odDkyUXA1R3A?oc=5
+
+## 23. 서울시, 전역 도로 토지거래허가구역 지정…투기성 지분거래 차단
+- 분류/지역: 교통·SOC / 서울
+- 출처: 포커스경제
+- 발행: 2026-10-08 14:04 KST
+- 출처 사이트: https://www.gungsireong.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE04V0NwTnVleEozVWNRNDZXSjM0Z0w2azdYVzZYdVdnb3VQT2cwVElFNEZsV0FmQVhSQlFMVEQ3MHBEM0lGd0wxWFgzWmJyc1pBQVloZVI5T1ZzdEZqWC1zaTRLN2x5NVl5SWpEc05n0gFwQVVfeXFMUGt6R0x1czBGQkxCQkdJMEpTa0Y0R2JqakUycFo0Wm1hamswSnhweTBOR1pMZm5RVnJzeUhkT3hkQW8zTEltNjJkbUo3dlpja21zbnhlcmplbnUzYVRUTlJHMVdJaUhCaE9VMDltQmdtTg?oc=5
+
+## 24. GTX-D 하남연장, 경기도 국가계획 반영 요청
+- 분류/지역: 교통·SOC / 경기
+- 출처: 하남 Times
+- 발행: 2026-10-09 09:04 KST
+- 출처 사이트: http://m.hanamtimes.com
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YV0xySi1LWkZDTjZhc1JsbldlSUU4c1BjU3RlOTJPSHJFLWZJV1pFN1lvcXg4eWFRSXBmYktORDNDUmp6Slk2ZV8ta2NFYkM0dWpuRGVFYktPQkk2d3ZFeXZyaWxTcDFt?oc=5
+
+## 25. 이정연 하남시의원 "9호선 조기 착공해야"…경기도청 앞 1인 시위
+- 분류/지역: 교통·SOC / 경기
+- 출처: 뉴스1
+- 발행: 2026-10-08 13:15 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QZU42R09aRnFjSTRJOFBHMzB1azRVNVZ6bU5aejhBNFRlMkVpa3dkMWV3VkthQ256TnJqRnFORjRnaTdlYmNJWHZfLVVLMXVicXdGcGhn?oc=5
+
+## 26. 장기수 천안시장, GTX-C 천안·아산 연장 ‘국가철도망’ 반영 촉구
+- 분류/지역: 교통·SOC / 전국
+- 출처: 뉴스아이이에스
+- 발행: 2026-10-09 06:17 KST
+- 출처 사이트: http://www.newsiesports.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1yTml1dnZMNk42SVk3SUY4OHdIbjc2a2QtTTdqaUxMbmtzaGRaaWNBWER0OXIycHk4S1ZXTU4zQnNnRURGQ3J1OU9MYjMtUnB3ZUpFaHhRQnVYZlJETXNwVC1SNjFDUEpCb1AtczZB0gFyQVVfeXFMTUN3RnBRbV9KM0xyalF3WEFIUHJnWHlfMC03cG5Kcll2VDFPQzE5QjlTQ2poNHRWTDUzZkV4bDZGMFBQM0liMXFaOGhaY3pCbllsZDNNdTBZQTJrVVl2WVBleWdLRFV5V2x1OHpZMU9sVGdn?oc=5
+
+## 27. 평택시, LH에 고덕신도시 기반시설 확충 요청
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 뉴시스
+- 발행: 2026-10-08 13:19 KST
+- 출처 사이트: https://www.newsis.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Wd3NDMndjWDBjVDlqMldTUVJkT2J5Y21CaDktazAwc3MyeEpxblhuN05yVC1tcmV5MC1xR09jUGF6M1djTXlSRTRSd2hLRHB1WDRRU3FIcS1mdkN1bU9MLQ?oc=5
+
+## 28. 고덕신도시 커지는데 녹지는 줄어…평택시, LH에 기반시설 보강 촉구
+- 분류/지역: 신도시·택지 / 전국
+- 출처: https://www.ppss.kr/
+- 발행: 2026-10-08 16:00 KST
+- 출처 사이트: https://www.ppss.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oODdQRmhxTlFMOVZxQllLTVdJT0Z1ZHFKRmNDMzE3UjkwdEtINlZKcmlfNWNkampTZFljTzRUSW5KY1hwRlM2d203UFVra3I4Qm9DelF2TWM0d2pmTnhYQk0yT2w?oc=5
+
+## 29. 임창휘 경기도의원, “용인 반도체 상생협의체 1차 회의 아쉬움… 2차 회의엔 국토부 신도시 및 기후부 규제 핵심 부서 반드시 참여해야”:경인투데이뉴스
+- 분류/지역: 신도시·택지 / 경기
+- 출처: 경인투데이뉴스
+- 발행: 2026-10-09 02:03 KST
+- 출처 사이트: http://www.ktin.net
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwXzR5UkVZRGxvX2xSdG5aekRXb1ZsckYyZ1BYU055YXJHeGJhdnNreVNsSDhUeElTSi1yNmZBOTNyX3pBRzJFeEp6UkE2cmdtYmRLSXBHTF9xOHV1bzFB0gFfQVVfeXFMUDBfNHlSRVlEbG9fbFJ0blp6RFdvVmxyRjJnUFhTTnlhckd4YmF2c2t5U2xIOFR4SVNKLXI2ZkE5M3JfekFHMkV4SnpSQTZyZ21iZEtJcEdMX3E4dXVvMUE?oc=5
+
+## 30. 광진구, 26일 구민 대상 재개발·재건축 세금 특강 개최
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 국제뉴스
+- 발행: 2026-10-08 16:55 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBlTnBKa3dnZEo0MTdsc09lLVdRT1I1Q1BBdnlzRjdoYU10NnVZWDNwbVRjaGlsRTVoZG5lcHBaSl93eUtvM1RsV09XSWVvZVRBdU0zdTk0SUFlMFN3bW4wc1N2cmNuR0dKbHk5QTd3?oc=5
+
