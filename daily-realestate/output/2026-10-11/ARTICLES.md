@@ -1,0 +1,215 @@
+﻿# 2026-10-11 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. LH, 신임 상임이사 2명 임명… 주거복지·공공주택 공급 강화
+- 분류/지역: 주택공급 / 전국
+- 출처: 천지일보
+- 발행: 2026-10-11 07:19 KST
+- 출처 사이트: https://www.newscj.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFA4TU91NjV2OHRlTmlPamJZQXBvMEE1Y25ZbTZYbGZsUlJPNVdZQURnRE5aaHhrSkVFbXVFMUpyak1hM3B6MEhSeXYtWjlvSUsydG8yZDdoYkNYaWVheTZwbUEwQ0o4SUdWTmc?oc=5
+
+## 2. 운정신도시 2년 만의 신규 분양…‘GTX 운정중앙역 시티프라디움’ 10월 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뷰어스
+- 발행: 2026-10-11 09:00 KST
+- 출처 사이트: https://theviewers.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE01S1Zhck1aX0N3OVRVVXVxZmhEcVNsTFRSMm93ZDhVV1drMFBDVHZQMGZUSHVQOTlZNGVRaUxvN0xDRGdoMnc3a0M2dEwxZ1NHb2dGU2hHeTk?oc=5
+
+## 3. "같은 경기도인데 청약은 극과 극"···성남·과천·동탄 '불패', 외곽은 줄미달
+- 분류/지역: 청약·분양 / 경기
+- 출처: 스마트비즈
+- 발행: 2026-10-11 00:05 KST
+- 출처 사이트: https://www.smartbizn.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5UZU1Sa3Jrdm93QkhyWnlOWjdXeF9MQm1sOU8xVE5RV2dFelVJSnFWMlVoRExWaTFiS3BRektlaDNVZ3ZCR1ROaUVpVGVmbW5SYi1tUGJGdGtuWlk3Wm1UVXh0dnRhZlpFZk1EbA?oc=5
+
+## 4. 서울은 공급 부족, 외곽은 미분양…수도권 주택시장 '두 얼굴'
+- 분류/지역: 청약·분양 / 서울
+- 출처: 한스경제
+- 발행: 2026-10-11 09:00 KST
+- 출처 사이트: http://www.hansbiz.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1JTWRlWG9Udi1XdmlYMnp3VnZkLWhVbEdRTW93RzVnSWNJTmlIcFpaMFM4VlJ5Q2xOdWNma0VKeXlWWjVHZDdGaE11YXd0NFUwaWlqeHdYWmg2eFh3WU43ejZLbVQwOExiTDk40gFvQVVfeXFMUDhmNXVBTUVHYmFNQ0xpTzJPeEMzUnJEam94amdmTTl4X1dpb3F1Tm9hWEJ3Y3NqeGRpTGF0ZXBEc2pubEc3RFZDYnJJa05Zd0pZM0IzVkE2M3dSZE1TeWhTaG1LR2I0YzFUN0FBNFR3?oc=5
+
+## 5. "오늘 분양가가 가장 싸다"…건축비 뛰자 분상제 아파트 청약 경쟁률 1.8배
+- 분류/지역: 청약·분양 / 전국
+- 출처: www.ebn.co.kr
+- 발행: 2026-10-10 14:30 KST
+- 출처 사이트: https://www.ebn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZUGpGQTVlT3QzamdMY0xQcVZhRzRhSDJhUThHc1RKQUtFOU4zaGJ6b1QtYzREaGJPSDVMNHhuOUZ2dHZEQmlzWFdpTzBTVG5Hek1MYi1wUERldk04d1YyNzBTUlp1Qm00?oc=5
+
+## 6. "10년 부은 통장도 깬다”…치솟는 분양가에 '청약 무용론' 확산[청약, 선별의 시대③]
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴시스
+- 발행: 2026-10-11 06:05 KST
+- 출처 사이트: https://www.newsis.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zVXBmcXptZXVWYXd4aHNEQ0lHUWY4RHZpZXliM0NjWDNpUUZqQjZDaWM5b0l2ZEdsdGd5endSLS04Y3ZzT2lLX1FhSzV2WndOcVJDbUp6X3RIeDZoWFgteNIBeEFVX3lxTE5BS3lNTTRvQ3JIWjZMYXVxS2FKaHBOdTNOUmRhbVNsMTZLWXBBMVJCWmdGaXZFZTU1dzl0UUZaaUd0MGs0NWZReUNKM2V0N3M3QVRtMks3U0Q4MzNKc0FsRmlodkVOd2JWY1BFUWd2QVN3SFo2SEpheg?oc=5
+
+## 7. 인천 개항장, 6년간 체류형 역사·문화 거점으로 탈바꿈
+- 분류/지역: 주택공급 / 경기
+- 출처: 경기도민일보 미디어
+- 발행: 2026-10-11 08:54 KST
+- 출처 사이트: https://www.kgdm.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFB4NTNXRzhrOVVSVXBQUVBqdGZQTmZUWHIyYWpERW41ZlNUQVByZTFBNFBra2tWWlJPd0ZxZkkwTGg5X3BJRXZmVEVYVUJzZDVRYmRiaTR3cTFCUTJTVzRwMEMzRVR2RE5qOUE?oc=5
+
+## 8. 민선8기 4년간 17건이던 경기도청원, 민선9기 3개월 만에 13건 충족
+- 분류/지역: 주택공급 / 경기
+- 출처: 기호일보
+- 발행: 2026-10-10 15:11 KST
+- 출처 사이트: https://www.kihoilbo.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9aS2JDdmRCTlpVNzRsME1BT196NWF1NjVjcmxkbll5UHlhYWR0T2RGN0VJazZiWkp2SVdVanFSaDB4RXNidUdHSlhrQl9PbDYzdTJaMXU4c3R1dXZLY2kzYm5NNWZqWEF1XzktYlI3Yw?oc=5
+
+## 9. 추미애 경기도지사 내년 첫 입주 앞둔 고양 창릉지구 점검
+- 분류/지역: 주택공급 / 경기
+- 출처: 반월신문
+- 발행: 2026-10-10 23:28 KST
+- 출처 사이트: https://www.banwol.net
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16WFpvM0ZJTE5iRUtucE42SHZyT2JtbDJoRWl0TG5mTS02OHU4R1FjS2Z1WEVrSXQ1M01sNkhOamVXWnNsVFBXNWZ6UWUxRVJKSWVUck95b1F5V0luYVZJNlozSUxIYjg?oc=5
+
+## 10. "PF 막히면 공급도 막힌다"…국토장관, HUG에 '신속 보증' 특명
+- 분류/지역: 주택공급 / 전국
+- 출처: CBC뉴스
+- 발행: 2026-10-10 23:24 KST
+- 출처 사이트: https://www.cbci.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DWUNmM0xuSlBib2FxVkFSMUZ6N3FIbUZqUm1kVDFMWFdlUjNrU3h5cG1BOUpyRzdac1VOR01xQmJ6X0RyMDNNcTdSUnF2Zi02Z1p4Q2wwZnFmRlM5cUdYMmFJd1JsVElZ?oc=5
+
+## 11. 강서·용산·중랑, 노후 주거지 탈바꿈한다…모아주택 1735세대 공급
+- 분류/지역: 주택공급 / 전국
+- 출처: AP신문
+- 발행: 2026-10-10 20:15 KST
+- 출처 사이트: https://www.apnews.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBODMtRHRWMHVRdG5QUmNOSTFmSlRlREExV1E1TzZRYUdLRm0zbmx2dWVuTThsWndXVVk4dTE0MmdVYl9HOXNGajBQX1hqOU1jdTd3d0FkbFQ4ZTJvejRNVndkRTVBYV9m0gFsQVVfeXFMT0Y1MlRiSXNJVXNhQ1RSRlZkcTRZRWIzMTJwdWhXNmxyeWNVNFVROFlLZGJ0cXoyY2N5MGpqRlFjMDFDc1RDWm1LX1FqRFg0dEUyeTZrcF9qRlhSR0tPVTdmSjhNbXluTGEtZGFh?oc=5
+
+## 12. [기획] '선교통 후입주' 가능할까…3기 신도시가 남긴 숙제
+- 분류/지역: 교통·SOC / 전국
+- 출처: 매일일보
+- 발행: 2026-10-11 09:00 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oOHNCNDVqTXNTZDA0aHdUSndtZV93UGNiejFtMXN4dGJ2Ym1lRWlsZmdHdzBRV2tYY1RMeU5ZWXE4SVRzRWJKbTAtbU5PRmFyMTlQMVRuTm9UaDdxZnFReDhjZm4?oc=5
+
+## 13. 충남도, 내포신도시 자율주행 버스 1월까지 무료 운행
+- 분류/지역: 교통·SOC / 충남
+- 출처: 교통뉴스
+- 발행: 2026-10-11 04:30 KST
+- 출처 사이트: https://www.cartvnews.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBibDV0Qm5talJJbFBFX3dKbzI5UmtkcXdVakl5d3Z2eVppTGVEWkRGVjdIY0NmSEVvbXJsdm1WTlNUem5EV2I3MEZEX1V4bHgxWGNfWlIweFBSZ0FxVDNrbkZMaC15d082TGhWYQ?oc=5
+
+## 14. [기획] 아파트 대거 공급 불구 교통은 '뒷전'…준공 잇따라 연기
+- 분류/지역: 교통·SOC / 전국
+- 출처: 매일일보
+- 발행: 2026-10-11 09:00 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE16V1pDTndteGZDY25vZzB4dENlaGR3RUdCSlhqX2pSb2NoTFprd3hJN1dGRFcwVThDNUhuOUtmaE1GQW9YcVRfbjd6aU14TEZVcDBpWHBqT0p2Zk1heTF0QmVFdFg?oc=5
+
+## 15. [국감 이슈] 오세훈의 탄천 역제안, 주택공급은 부지하세월
+- 분류/지역: 교통·SOC / 전국
+- 출처: 국토교통신문
+- 발행: 2026-10-10 18:44 KST
+- 출처 사이트: https://www.itbs1.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qamp5WmxxVWR2YjZsd3N2aUtwc05zYzFlTWc4X1JMcUhtLWJkUGVxRF9DM1RBQ0hFcVNYelc5YkUtQnZEN2ZqZ0NuWXVnQUZTVldlVUQ2bkVLTWxQSmJWa2Z3Wkxqekk?oc=5
+
+## 16. 전은수 "대통령이 약속한 GTX-C 아산·천안 연장, 국가가 책임져야"
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아산뉴스
+- 발행: 2026-10-10 14:57 KST
+- 출처 사이트: http://m.asannews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WazRYLWphWHVkTzRhTzNNRkRsZXFfSGcyY3pfakgzcGo4VGlrRmN3SEdGNzdTUnA2b3kwdUJFWnRHM3g5WHNCaWNVaXdwMGJoMTVXTDRxbWFlazZNSWdVQXJB?oc=5
+
+## 17. 안산시의회, 10일 최찬규 의원 신안산선 자이역 신설·대부도 연장 국가철도망 계획 반영 촉구 건의안 ‘채택’
+- 분류/지역: 교통·SOC / 전국
+- 출처: 반월신문
+- 발행: 2026-10-10 16:10 KST
+- 출처 사이트: https://www.banwol.net
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96am1WdkN3Zlh0bmxGbU1XOGIwQW85V3NaU1pjZ1kzc3BYT04yQ1Y1emczY3BxY2J2YzJ5M1dxdzF0TVh0b3M0SkYtZVpha1prUE1LUGhqV0QtUmZIT0pMYWNfQU51N28?oc=5
+
+## 18. 장기수 천안시장, 홍익표 정무수석 면담 'GTX-C 천안 연장 국비 반영' 건의
+- 분류/지역: 교통·SOC / 전국
+- 출처: 충청일보
+- 발행: 2026-10-11 08:10 KST
+- 출처 사이트: http://www.ccdailynews.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBnQ2ZCQVA1S2hXcVB6Vm5EY1lUSUhJX25TMjVSd282eHBkOVBLUzhtSnNqMGY4MDJDYl9BbmJJRHc4V25EZFpLVXpCbTJXS2lCQi1Xeno3ZTQyZUhESzR6WUxnRXNjdWJndHoxMHZCcw?oc=5
+
+## 19. GTX-C노선 착공 수혜! 비규제 병점역 생활권 ‘오산헤리티지자이’ 아파트 선착순 동·호 지정 계약 진행 중
+- 분류/지역: 교통·SOC / 전국
+- 출처: 대한청년일보
+- 발행: 2026-10-10 10:40 KST
+- 출처 사이트: https://www.koreayouthdaily.com
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MVlB6Y0lvY0l6d2VNeExoU3JtS1lwRFJxMHM2MDFsWHJ4Rk1tRnZ3bU1Rc3hySlltdlhLUldTRHlHMGQ2aTFMcGlGN09NTzI2VGVSdUlR?oc=5
+
+## 20. 모아타운 공사비 거품 뺀다… 서울시·SH, 소규모 정비 검증 도입 - 조선비즈
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: Chosunbiz
+- 발행: 2026-10-11 09:40 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPWS1BZGF3VE5KZWx4cWxmNjNQMlRYM0wzSWYxUXRSOU9zdkRGOWY2cE1zQTVoNWVoYnlXdGl2LVhsTmlzZE4zWU5BRURKRTVxQ2JqVHJsTTNDUjdlQ21sNWd2V0w5STYtRU1jY0l0WWprekgyM2ZXUWF2alJ6ek1GOW1FN3FkbmktTU9rczlYQnp1NERYTEE1cdIBrAFBVV95cUxONkJReFozUXZyaDJQWXdLZFpXN1YxdFlkWUlGMVB4SHNDMGpISzNyVmlVZFE0aWxVVkt5MWl0US02cWN6eVkwM2xMdjJfYXg1TGZSVXhqSWI4bGxlc0hGRkhKeDhsYzJzZ0ZsRVpPcG1EV0Nqd3N0OEtGOVdmb2FKbnNiU0VBVC1FWVJzQ3h5c01LcWg3bVZJX1Jwa1NZeWZIcmlaX2JKcHNUZkNH?oc=5
+
+## 21. 서울시, 모아주택·모아타운 4곳서 1735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 핀포인트뉴스
+- 발행: 2026-10-10 11:11 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFBNRzVpV3RNQTNKdzFtd0VkUzhZTzdNZlRRTHNaak0wdmlIcExvWUZtWEpvQUpiaUFvMmk1Ti1ZZ3dCS2Nlc2ZHTk5LS0pJSkJrOVkzcFpoNzEtbEdCd0k4UWdEZWlzNGJ4RTNsNTJHS1dWMHfSAXdBVV95cUxNVlZORDBONU1QcGV6Yi1jNWI3bmlqOExqbFdLMUhvVTVFMkFuMERzbm5GTlRELVZvajRhM2ZWRXRBcWFlcXJ4VHpYMWF1OUZYUURIYmpTdnhQb0c0cGJGdi1lRDR5T1JjX2R1a2h2R3pFNTVJeWphNA?oc=5
+
+## 22. 서울시, 강서·용산·중랑 모아주택·모아타운으로 1,735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 글로벌뉴스통신GNA
+- 발행: 2026-10-10 11:26 KST
+- 출처 사이트: https://www.globalnewsagency.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE1oUW5hdzcxbWdvY05tWDJXSTFpejI5UEotLWc1c3hMc2pzcWJJc1RoMEdfNmFDZnl6UWZIdmxOb1BjcGZ5QkRLMnhMWm5FazdKMDVEQTIyY0kzSHg1ZUFrNU5aOGxWR1gwa2JJbzJUWDhMZmlH?oc=5
+
+## 23. 서울시, 강서·용산·중랑 모아주택·모아타운 심의 통과로 1,735세대 공급 본격화 > 뉴스
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 더코리아
+- 발행: 2026-10-10 11:48 KST
+- 출처 사이트: http://www.thekorea.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFB2MFRtRC1aS2JpeHJEMzNpbE94WFYwTW01ZDd4UTgwaUFSWVNRRUpOb09UYmprdE90U1FqcGFOSkRyakV3NWJ1Q29GenJpdi10N2JocENWa25fSjkyaGQ3Y0VLOUVuS1Q0cHVpUW81dmI?oc=5
+
+## 24. 유상범 의원, 국토부·LH 자료 분석…정비사업 비리부터 공공임대 공실까지 지적
+- 분류/지역: 재개발·재건축 / 강원
+- 출처: 강원신문
+- 발행: 2026-10-11 07:08 KST
+- 출처 사이트: https://www.gwnews.org
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BYS1NcWJub0FodDF0UGxobTFISnR2dFpJSWFPZ3BnRlZPS3pEQXZ6ZmJoSDRjTEVubjRPZTctLS10VmNNWENkZklkekE5cF9MQjIwbk8zdXlCNGY3V09tRG5TQ0xBNlFO?oc=5
+
+## 25. “노후 주택가에 1735세대 들어선다”…서울시, 강서·용산·중랑 모아타운 본격화
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 디지털데일리
+- 발행: 2026-10-10 11:40 KST
+- 출처 사이트: https://www.ddaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WUS1tV2pQbEpFOFdWXzl1WmdCUGs5cXNlSngyRi02WW96VWtNQ3lUM3BPYWxWYTN4Rm1RdDh0VU54SmR0NjlYR2FkU3FZZDlaWmRMLW9UUzNiTmppUHZqYXJDRl8?oc=5
+
+## 26. 모아타운 공사비 갈등 줄인다…SH가 소규모정비사업 공사비 검증
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-10-11 05:55 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oMU1DNURMUHNUR3hHZnBrSTVvSWhZbHdxbnBFOG9sekF5WC1USEZYelFRTWtSa3BtM201NlNlSUpIMVNfTnlIbG9UbTBYeFVmaDBCbmhQckZkeWh3RmtLLdIBYEFVX3lxTE1oMU1DNURMUHNUR3hHZnBrSTVvSWhZbHdxbnBFOG9sekF5WC1USEZYelFRTWtSa3BtM201NlNlSUpIMVNfTnlIbG9UbTBYeFVmaDBCbmhQckZkeWh3RmtLLQ?oc=5
+
+## 27. 서울 화곡·서계·망우·면목 모아주택·모아타운 확정…1,735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 한국철도일보
+- 발행: 2026-10-10 11:26 KST
+- 출처 사이트: https://www.korearailroad.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFBNSDk0NURfODRFN2I0TmlUR3FOMWF1WU42Z2ZKX3hpRzZTcEY3UnRoazVwbGhpUDNwVUVOSS1mNEtVOGV4dDVxMlg0Rk84WVI1bXlwVWQ2SDZ3eUsxaWl3SU5uMDA1QlJQSnBNREk0TFc?oc=5
+
+## 28. 서울 노후주택 4곳 개발 확정…모아타운 1,735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 소비자를 위한 신문
+- 발행: 2026-10-10 18:44 KST
+- 출처 사이트: http://www.consumertimes.kr
+- 링크: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RN3N1RXBjNVFod0tDTVBIZDZ4RmkwX1pWVGJudW53X3Z6dkNsV0VRMlFUdHM4Sk5jcVlvdlNkWHd1YWdrWXhYTQ?oc=5
+
+## 29. 서울 강서·용산·중랑 모아주택·모아타운 4곳 심의 통과…1735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 디벨로퍼뉴스
+- 발행: 2026-10-10 17:05 KST
+- 출처 사이트: https://www.dpnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzcDZDT2NFOThabHZwZkRyTHBIV3dkY25LOVlmZmVJSUdJRFFPd0FwWkNzMjZrY3RvdGpHRlVBRmNEWmRLcHZXUXdrNnpzc3g5NDhGXy1uUUtzbDItTVY4YWNNUnp0MWtl?oc=5
+
+## 30. 부산 해운대2구역 5800세대 재건축 추진…주민 77% 신탁방식 선택
+- 분류/지역: 재개발·재건축 / 부산
+- 출처: 더글로벌기빙뉴스
+- 발행: 2026-10-10 16:36 KST
+- 출처 사이트: https://theggnews.com
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HYVR4RGs2YUo1MlpBUF9WZGU1MzlnNmI0d0E0eG1fdkRnb0dVXzJ0ei1QQUw5UFp3WEdGNVFVdGN3OGEydTA5b21obXV6UmRScUhSTg?oc=5
+
