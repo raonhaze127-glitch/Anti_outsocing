@@ -1,0 +1,215 @@
+﻿# 2026-10-12 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 한국토지주택공사(LH), 수도권 매입임대주택 대규모 신속 공급으로 주거안정 총력
+- 분류/지역: 주택공급 / 전국
+- 출처: 일간대한뉴스
+- 발행: 2026-10-11 21:36 KST
+- 출처 사이트: http://www.dhns.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xZE5RY2xZY3hlTVlQdXYzZU81bkxWSFFWMWY4akdsS1FBckdlYUNCR280d1dTWTNka25yWDVtWDBZbjhna2JWUkJQbEZJYUpqcmpYdldTLUxBUmpvcGRiVVQ3aTRacU0?oc=5
+
+## 2. LH, 분양가상한 공공분양주택에 최대 9.5% 가산비 신설 검토
+- 분류/지역: 청약·분양 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-10-11 11:55 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE85b3FCWUJ4TFlfTXBnNTNrM0t4a0UyZXRMWDFkam9Wa05YZzgtNFRIZ1oxV2dOZFV2NTN2WE1HNnVVc1ZubjhnWlZuZkJfUTlNYUs1ckhyNVpWSGfSAWBBVV95cUxQbEFvUUxiekxreDY5cnE4VldhMlhVamY0dVRVMGUxSnR2MDdXVHF4TWQ4Sm5RUDB0aFItcVR3eUdQdGxPa08tdEFRZldUYUtSQ1ZRdXBEaEJpc3JxZnFVZ0E?oc=5
+
+## 3. LH 분사·파업 변수… 이성훈 사장, 주택 공급 시험대 - 머니투데이
+- 분류/지역: 주택공급 / 전국
+- 출처: 머니투데이
+- 발행: 2026-10-12 04:46 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE50RXc1alh6TVdiQ0VFTVJzckZMNjdpUnQyQ2hGdEUzVjlkSTJiTW9jSTJhODQxbk9UbEh3eXcwYTlHRDBMX0Q3T0VzTUtObzdtZXh0Vjhta0EtdkpoQ2lISjNmOUtyby1BYkZZSHZVc9IBb0FVX3lxTE50RXc1alh6TVdiQ0VFTVJzckZMNjdpUnQyQ2hGdEUzVjlkSTJiTW9jSTJhODQxbk9UbEh3eXcwYTlHRDBMX0Q3T0VzTUtObzdtZXh0Vjhta0EtdkpoQ2lISjNmOUtyby1BYkZZSHZVcw?oc=5
+
+## 4. [단독] 주택 공급 앞당기기 위한 ‘선착공 후검증’… LH, ‘서류상 착공’으로 숫자 채우기했다
+- 분류/지역: 주택공급 / 전국
+- 출처: 조선일보
+- 발행: 2026-10-12 05:00 KST
+- 출처 사이트: https://www.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNam11c3VpMVIxX2lydzk5M2VEbU1iM09aN1ZRakNINm95ZDF3aGd5WUxuWWg2TWF4V3Iwa0YxNm1PZFR0MlJOQjB6YWF0eDBjWTJSUzhqVEtrSzFaV2NraWpVWUU3MVRWNlVnVEFySDVUN0tzLWxXMjhjc3pIbFVUaTc1d2xFVUdS?oc=5
+
+## 5. LH, 주택공급 확대 앞두고 보수 경쟁력 약화와 인력 유출 부담 커져
+- 분류/지역: 주택공급 / 전국
+- 출처: Traders Union
+- 발행: 2026-10-11 22:15 KST
+- 출처 사이트: https://tradersunion.com
+- 링크: https://news.google.com/rss/articles/CBMilwFBVV95cUxOdlg2MG1aandJU3RNVF9hNHV0ZVZWVElRZU5TMmp2Q010ZHFab0xxNlQtMzdUSzhEaE9jY3dheENSWTd1ZGFzZU9wQ1NadmhrdFV1OWxuUG9KRU1HOEticmxfTW1VeHVPTDFIdWE0Y0ZqaWxHeC03a1BDODFsX1lnNDlTVWtCYnZWYVBEUko1V3BiUnRyeUNr?oc=5
+
+## 6. LH, 울산태화강변지구 근린생활시설용지 5필지 공급
+- 분류/지역: 주택공급 / 울산
+- 출처: 울산매일 - 울산최초, 최고의 조간신문
+- 발행: 2026-10-11 14:51 KST
+- 출처 사이트: https://www.iusm.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE9PRDRMck5IM0xUQ3JaSnpQUXZONzhZTzNXQkw3cXQ4ejhXbC12bkpCeF9nMU9vX2dJU2RlWjk4MXd1dEY4N3VWcjlzMWdnTzAwZmNGb2xCaGhyOXNzOTM3WVVXeVNwUmlILUHSAW5BVV95cUxNUWZKRjlQelNqWVRWNWVneWlPQmlIV0RUTDhSZHZteGFmVUxReno4RVoxVGdzU3E3MjdWV2RyNXA3NnIyRURLSFd4ZjByVGpUNmYxOFQ4c3Y1WXB4UVNJNzRuZnBCai1oeGd3emhKZw?oc=5
+
+## 7. LH, 공공분양 분양가 산정 기준 손본다…건축비 최대 9.5% 추가 검토
+- 분류/지역: 청약·분양 / 전국
+- 출처: 직썰
+- 발행: 2026-10-11 16:32 KST
+- 출처 사이트: https://www.ziksir.com
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBvVjMxbzQtR0xqazEwMFBDY0J0Um8zTFdXZklxbU83Mm5jLXpOemd3TG1zQnd0OElVNDU2NFhqMldWNGM4UW9lbEI4UUVTRGZXdWxVTGZteDZnM3p0UDVwclZjczlmUlhXMTRretIBbEFVX3lxTFBvVjMxbzQtR0xqazEwMFBDY0J0Um8zTFdXZklxbU83Mm5jLXpOemd3TG1zQnd0OElVNDU2NFhqMldWNGM4UW9lbEI4UUVTRGZXdWxVTGZteDZnM3p0UDVwclZjczlmUlhXMTRreg?oc=5
+
+## 8. LH, 수도권 신축매입 접수 63% 증가... 서울 2만호 이상 공급 추진
+- 분류/지역: 주택공급 / 서울
+- 출처: 뉴스락
+- 발행: 2026-10-12 06:59 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBsRU93MnRqSTVBMFN6Rko1bjRNNXFrNjZCTlhNR2tNVi1fNUh6V3BGSDR4cjVFSEVCQVpwNEhlTVB4aFljOGxKY1c2NzJpb250WUc0dkgxb3hMU2hxaWNqSDBPWjNscm5ZRWt0TA?oc=5
+
+## 9. LH, 서울 매입임대 2만호 공급 추진…수도권 주택공급 확대에 속도
+- 분류/지역: 주택공급 / 서울
+- 출처: 웹이코노미
+- 발행: 2026-10-11 15:21 KST
+- 출처 사이트: https://www.webeconomy.co.kr
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFB1Yy1jRmFjUjBFeEUteno1NTFaZXl1eUFDTU5RZ29yU3p0WF9wTHRFUGdSZWE3Y29Gc2gxZktQdjVaVnQ2bW93MHlsNU5NUjM3bTI0UUZSYno1b05INkV2WFAxYjBrekxhVlc2WGgzclM2Zw?oc=5
+
+## 10. LH, ‘분양가상한제’ 공공분양주택에 가산비 신설 검토… 최대 9.5% - 조선비즈
+- 분류/지역: 청약·분양 / 전국
+- 출처: Chosunbiz
+- 발행: 2026-10-11 14:32 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkVHMXNIdVlOSmlYOXZZZFFsenVMTktQQkFzOWFGbEpCNnZTVjZvdWZvbkxrM01HbjlMSkMtQW4zTUtJTzg5MVdmbEUxMXZBOEd5cEhpeFZBOUxyUllkUUtDdE9jeWpVSl9qRElZYnZBZmxwbXlQZUlqSEx5X1JXNlJYOUJVbGh2bGJ3YjZ1TzBQeW90UDd1TlRMMEM1c2dkclg4RExWbk9OdTAt0gGsAUFVX3lxTFBmRUcxc0h1WU5KaVg5dllkUWx6dUxOS1BCQXM5YUZsSkI2dlNWNm91Zm9uTGszTUduOUxKQy1BbjNNS0lPODkxV2ZsRTExdkE4R3lwSGl4VkE5THJSWWRRS0N0T2N5alVKX2pESVlidkFmbHBteVBlSWpITHlfUlc2Ulg5QlVsaHZsYndiNnVPMFB5b3RQN3VOVEwwQzVzZ2RyWDhETFZuT051MC0?oc=5
+
+## 11. LH "3년간 서울 25개 자치구에 매입임대주택 2만가구 이상 공급"
+- 분류/지역: 주택공급 / 서울
+- 출처: 중앙뉴스
+- 발행: 2026-10-11 17:47 KST
+- 출처 사이트: https://www.ejanews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1YRkI5TTE0UWhVLTJEajBfZHBXTEk2Q3l1eGx6Q3JScHVub3FRNHpfRTdIUDNjYVVsbXBNdW43WXhaNjNPTy0tUC02RlhmRFpBTUttUVJnYTZCZEVJdURVa2dYZXpGbUxoQUYtbQ?oc=5
+
+## 12. LH 공공임대주택 수급 불균형... 세종은 공급 여유·서울은 부족
+- 분류/지역: 주택공급 / 서울
+- 출처: 뉴스락
+- 발행: 2026-10-12 06:59 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1PMy01dExjSFdoZDVuQ1BGTGVUM0VBU0taOFIyQnJ2blVsRWJiODQyOGRweXFSVHNmX2lyaUpzVDNUbEZaRVl3VXlvaEFOd3hhSHF6TFRHZmJtUFVpSTlCTWhTaVFKSEZoNzMwdQ?oc=5
+
+## 13. LH 특화형 매입임대주택 공급 차질 우려…상반기 목표의 21% 선정
+- 분류/지역: 주택공급 / 전국
+- 출처: 신아일보
+- 발행: 2026-10-12 09:43 KST
+- 출처 사이트: https://www.shinailbo.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE81X0R5RUtSOGFHSjdJcFdFLUN2MUg3eFhPNHE3UTZidDJMaDJVc200ZzRqUkE3VzVYUXM2NjdaZnl3c0lRaGVvWGdMUzZqd0QzT1ZoQ0NfYTFTU2NyUnJEME9sNkdjMUI5WHdvdDZfYlY?oc=5
+
+## 14. 공공분양 공사비 현실화 나서나…LH, 분양가 가산비 최대 9.5% 검토
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴시스
+- 발행: 2026-10-11 15:06 KST
+- 출처 사이트: https://www.newsis.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6YUJfenVTcmlmWjhITWw4bUJHU2NXZ0hreDBRSXhLRElPcG1kMHp1a2hMS0U4LWNaQ2hIRnk3WTZ2RnRfNXlZb05BXzdtdkdEdUhiRldZU1RKTzVXejU4RdIBeEFVX3lxTFA2MEtzM0lSSmxxWF9IemJTdndfQzg4a2w5UktyOXJ2a0NFbkpQTm9YS045ZmhRYnZtdGlXYkRVU3liUFNCcGxQSWg2V0kxMWxrUGVDdjQ0bmVmbUVmcGUwZVNNSXJyU1BmVnNhX1ljcWliMVdmQVpMag?oc=5
+
+## 15. 서울시 국감 총력전…주택공급·GTX 철근누락·사법리스크 등 쟁점 수두룩
+- 분류/지역: 교통·SOC / 서울
+- 출처: 대한경제
+- 발행: 2026-10-12 05:00 KST
+- 출처 사이트: https://m.dnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE9LWjlodzd6Q3BjLWtjRXZ1STNUVjZRZ3JnYTVNUE5LUlE0VjFtTjBRUVlCOUhKZnpzUlBIS3RFVFdyY1YxMkIzd0EtUEFUTVI2M29jeDdTeEtTOS1LeVh5U3Z2Q3hrR1dQN0ZZcWNZSDBGU2c?oc=5
+
+## 16. GTX 역세권 운정 3·4블록 2년 만에 분양 재추진…분양가 부담 계약 변수로
+- 분류/지역: 교통·SOC / 전국
+- 출처: 이투데이
+- 발행: 2026-10-12 06:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1GaXJwOHFiZHFSeS1YZ0JSbmtGWHA5N3pjQ1V6WnROcHQ2dDJtYXlKaGU3QmtGbUxzZ1hUUHppbnRWTVlfYm1iZ2wtcHpaa2I5ZDlOMm40dUlGQ2txdFpOVGdTYzFPQzBjYlR2TEtR?oc=5
+
+## 17. 충남 천안·아산·춘천 국회의원·기초자치단체장, GTX-B·C 연장 제5차 국가철도망 계획 반영 촉구
+- 분류/지역: 교통·SOC / 충남
+- 출처: 충청매일
+- 발행: 2026-10-11 13:40 KST
+- 출처 사이트: https://www.ccdn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBXUkpGX0tJblNWQ0U3SmtFbG1RaDhNcEd5NERabUJSX1dOTVl5eHNOZGpWRXYzdmhGNTBDeGtnZ2w5anFHd0dmblE5R3pFWE4xdEtMLWVuZUl4YjhkdXNMWFRCenBZbXRHRVE?oc=5
+
+## 18. 초역세권에 GTX·광역철도까지…수원·동탄·성남 등으로 몰리는 주택 수요
+- 분류/지역: 교통·SOC / 전국
+- 출처: 중부일보
+- 발행: 2026-10-11 17:09 KST
+- 출처 사이트: https://www.joongboo.com
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9CTW9QZG9mRkNadWVCWlY2U3oxNnV0enI2NlNLZ1JvdnplR0pHUEJ1SHpicGlyOV91UWFSSGYtNl9OWUFXN1U1bGE4dHVlc3J5SjZoS3poOEo2X2lZek16V2FaTUJRNWxFdnctcWtycw?oc=5
+
+## 19. GTX-C 천안·아산 연장, 국가철도망 반영 압박 ··· “지방에 비용 떠넘기지 말라”
+- 분류/지역: 교통·SOC / 전국
+- 출처: 금강일보
+- 발행: 2026-10-11 12:34 KST
+- 출처 사이트: https://www.ggilbo.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE9ydkJBeVYyeC1ZS05UQUU3eGtsWWlfNXdMbW0wSl8tc092RDV0LUlyS1VYWlhKbVVyUHBBRldsWTJNV2NLa0dEcmRmUWdpakw5X1ZESGt3SHp5bWo3SW90TXEyNmIxQzY4ZXc?oc=5
+
+## 20. 민자 안되면 재정으로, 예타 막히면 노선 변경…서울 '멈춘 철도' 살린다
+- 분류/지역: 교통·SOC / 서울
+- 출처: 파이낸셜뉴스
+- 발행: 2026-10-11 14:57 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BZmdVVUZENGsxdS1WVm5qWmpHYnM3aHgwaUJuX18tdTVxYU5NRUM0SksyczBCQ3JES2txOFBud2ZoaUkyRUdkazN1R0NvTWExNExfQUpla1dLZw?oc=5
+
+## 21. 재개발·재건축 시민교육…서울시, ‘찾아가는 정비사업 아카데미’ 운영
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 데일리안
+- 발행: 2026-10-11 11:15 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiuAJBVV95cUxNUWpYbktZMFJCZjJraHNsTkF0eW1wM0lNWWtXU3kxZzVFQy1HSHRkWC1jdE5ReGZ5b2VObldObUtLNWtxeDFEdXBjZ2FqbEtRTW9KWHczMUtNeGg1ZFp2TmJtbmZieHlXdzZBZG9XQjV0NHVYZEtweGlIaE5zcGdMdDBMVlF4Z3JJeklsb0ctbVM4dmY2Nzl2bW42Rkk2MTkwY1ZySHg4WjlUWGVlZkE0VkxhTmI0ZkdGbU8waU5jcFFzZEJUb0ZDZlFVd3lTX284UDU3NHQ1SU1pakluUDRNME5PZFcyLWFNaWZSRHpzemw0Zy1WR0g0WjR3a3ZoSTlXVkVzdng0MnZpZzJGUlJhc3BnclBiUGRfbEdJcHhKZkUzOWxEbW51aEw0bHk3V2JzVWtOeldZZlc?oc=5
+
+## 22. "재개발·재건축 궁금증 현장에서 해결" 호응… 서울시, `정비사업 아카데미` 2차 운영
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 수원인터넷뉴스
+- 발행: 2026-10-11 13:42 KST
+- 출처 사이트: https://www.swinews.com
+- 링크: https://news.google.com/rss/articles/CBMiREFVX3lxTE5UU3hia1dmS1EwVGFUc2w0U2wzMzVsUVhzbWt3VER0T09BTlk1WWhPYkdpSlVEU1kxQ192ZFIyb29haF9T?oc=5
+
+## 23. 재개발·재건축이 궁금하다면…서울시, 2차 정비사업 아카데미
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 매일경제 마켓
+- 발행: 2026-10-11 11:15 KST
+- 출처 사이트: https://stock.mk.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE12ZDhkVUJYRGlPS0NUa01GTlV6NTc1NmZ5NTRjSGFJel9zbmZPRnFJOGZuX25vVTEwdVVSaGZFS3kwWU9FMVEwSklwZGtpTmdaRUE?oc=5
+
+## 24. 서울시, 재건축·재개발 주민 교육 15일 시작…정비사업 절차 안내
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 뉴스1
+- 발행: 2026-10-11 11:15 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE81eVphRnVGUXI4dzB4ZTVMNnNieWtkZUVNQnBmRTFLVmNLQ2tEYXlPbjNOSktxZUpSTzRPamt3T3ZIb2tYWkl2WEFFUTJnOElpWVFvXzZfYVJfYkE?oc=5
+
+## 25. 서울시, '정비사업 아카데미' 2차 운영…재개발·재건축 절차부터 조합설립까지
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 디벨로퍼뉴스
+- 발행: 2026-10-11 13:17 KST
+- 출처 사이트: https://www.dpnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OaVhtdHZKcEdyTzI0d1hVMDBEeUtXVlhHQ3dSVXhlZ1V4OE55NjRYbW45bzl0R3BOSlpFUUZoNWxLNFUzTDc5UnhRakN1R2JGN2QwakZvU0ozMFppNVh5c2RXdGhPWG52?oc=5
+
+## 26. 서울시, 모아타운 공사비 갈등 줄인다…SH 검증 지원 근거 마련
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 매일일보
+- 발행: 2026-10-11 11:44 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE12RHBuUVpDVS10QnJLSXN2UWNsN0Y1QmR4bG1uSXNsSEZERG9lWU84Rkc4QVJ2UzF0ckNuY2Y5MkxkdDhaVnY1dFVaZzBGNTMxSHloSUJ3cXhjMTlYWFY3bFl1aXE?oc=5
+
+## 27. [부동산 나들이] IPARK현산, 용산 재개발 조경 특화 MOU·LH, 수도권 미분양 매입확약 시행
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 뉴스웍스
+- 발행: 2026-10-11 12:29 KST
+- 출처 사이트: https://www.newsworks.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBxVUxuandSTUs2YVlBalV5azVDcEpENjFNeklnUlppNE80Y3ZzOTBwMHFpa19hYmhydUV3WDNYUkZneGxFVVBsOUFUeTRLeWZTbFhlZEVHc1JsZjA5RkxZTEtBMnNETGxyczlfcFh3SdIBc0FVX3lxTE00dUJJcmswempkblRKNVlJR185TDNwN1k1UGlwY1dvV0VRdVdwN0t5dThSZ2djaXI1ZWY5RDBzYS0tS2pfdkhIcGRYemlsQW80YndFbTJYOWlPN3hyRGYyeThUUWhSQ1JDaUdEUHZSdFdVWFE?oc=5
+
+## 28. 모아타운, 조합설립… 서울시, ‘2차 정비사업 아카데미’ 15일부터 운영 - 조선비즈
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: Chosunbiz
+- 발행: 2026-10-11 16:38 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxNd285a1hLd2VId1NxOG0xS2xuN1NNY1lQZkZzY2FLYkJQdUdsQ2hvVGtiY2gxRFBTMzMtZjhpZnZKWFU4enJPX1ZSR0draUtwZ1c2Ml85SHA3UFo1WkdtMDhEM3c5UUV1VEVXOER2cVl4N0llMklJVXBRLU50YVV0cllNM2FTdXdHZGd4bnRjNEg0Si1RWm5NRGdmS0xYdWUzVWdfcElhZVlkbEhX0gGsAUFVX3lxTE13bzlrWEt3ZUh3U3E4bTFLbG43U01jWVBmRnNjYUtiQlB1R2xDaG9Ua2JjaDFEUFMzMy1mOGlmdkpYVTh6ck9fVlJHR2tpS3BnVzYyXzlIcDdQWjVaR20wOEQzdzlRRXVURVc4RHZxWXg3SWUySUlVcFEtTnRhVXRyWU0zYVN1d0dkZ3hudGM0SDRKLVFabk1EZ2ZLTFh1ZTNVZ19wSWFlWWRsSFc?oc=5
+
+## 29. 서울시, 강서·용산·중랑 모아주택·모아타운으로 1,735세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 국민기자뉴스
+- 발행: 2026-10-11 19:00 KST
+- 출처 사이트: http://www.kmkj.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xMHRnekYtZXRWWF9zNTZLaFI4Q3NEY2FrUFJnN2JOSzFLVWs2RzRXdXFucHlwYnkwRHQyRjl3SmdENmRaeDlTdzVqNTNJbGtoZWtzVTI0X0NCX3FEaGdEaEs1MNIBZ0FVX3lxTE1RQ1J4dFZsOTQwSzF1ajFtTW9FRnFMdlBqQkRXVGJhZV9Xc3lLYlhKdjgydFk5SUY5X2VFQ0IzUWFyXzhEckhqVDRRbHJkX3I0RXZ1bWVOZEppTS1UUWkzZHNkZUpzVE0?oc=5
+
+## 30. 서울시, 강서·용산·중랑 모아주택·모아타운으로 1,725세대 공급
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 서울로컬뉴스
+- 발행: 2026-10-11 18:31 KST
+- 출처 사이트: https://www.slnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Vd09FTzJzM0h6a05vdE5VaEdlTndiU2Q4bFZhMW1FNVJxaDhOaDAtTWx3QnV2Ym43WEZTVFJlZFdKeS13YmNkZ0V1dlJXdVFqWHdDTzJ5R2k?oc=5
+
