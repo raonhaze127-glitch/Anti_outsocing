@@ -1,0 +1,215 @@
+﻿# 2026-10-21 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. LH경남본부, 산업단지·공공주택 토지 공급
+- 분류/지역: 주택공급 / 경남
+- 출처: 경남도민일보
+- 발행: 2026-10-20 16:13 KST
+- 출처 사이트: https://www.idomin.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBHbHpsTm1IS2hGN0lCMTdzZURHWVFVaXNDajFMSDJMQTlLNjZaU21BR3VrZVFwWE9ucWNXSjFJenRjMnl4eGc0ejJzTDNrS2dGUlMxTjFmRllnXzZwRDA4M2prZDkwQW9tV3c?oc=5
+
+## 2. 서울시, 모아주택 조합설립 지원…구역당 최대 1억원 보조
+- 분류/지역: 주택공급 / 서울
+- 출처: https://spt.co.kr/
+- 발행: 2026-10-20 11:15 KST
+- 출처 사이트: https://supple.kr
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE90Z3BTMUdpUFc1aHBSNDVqN09xRVhIdk1zRVk5RkhLWGQyb2tyZnNzbXJRWlhLaWtWaE5CTzJ6UnhKV2VYZENnU1FfTHdWdTZubFkxQ19iUEJDaGc3?oc=5
+
+## 3. 서울시, 모아주택 조합설립 지원… 구역당 최대 1억 - 조선비즈
+- 분류/지역: 주택공급 / 서울
+- 출처: Chosunbiz
+- 발행: 2026-10-20 14:03 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxPQksyY1Z5eHRnSFRGVm1FUXp4Uk9QWXZmaGc5dThZdEx6LTNteGJZd1lyTVFkU3JaN3FXUzhad2pjcUtEeER2Um02MlNGaE5wVWhweFk3cklOemNKeV9JRlktdmh4SDBrVnN2QUMyR0pzWUNGejRadDZHQnhieXRmTFN2NkZ5bXdxUml6YTZwWjBfR21rUGMxNzNBdS1lMy1YUHB2RFJZSHpma1Yx0gGsAUFVX3lxTE9CSzJjVnl4dGdIVEZWbUVRenhST1BZdmZoZzl1OFl0THotM214Yll3WXJNUWRTclo3cVdTOFp3amNxS0R4RHZSbTYyU0ZoTnBVaHB4WTdySU56Y0p5X0lGWS12aHhIMGtWc3ZBQzJHSnNZQ0Z6NFp0NkdCeGJ5dGZMU3Y2Rnltd3FSaXphNnBaMF9HbWtQYzE3M0F1LWUzLVhQcHZEUllIemZrVjE?oc=5
+
+## 4. 서울시, '모아주택' 조합설립에 최대 1억원 지원
+- 분류/지역: 주택공급 / 서울
+- 출처: 디벨로퍼뉴스
+- 발행: 2026-10-20 15:03 KST
+- 출처 사이트: https://www.dpnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vcnhZQTFkOWFHSnNyUHo0b1JJS1o2VjFUM0V3YWJVSzlaZENkQ0wxRmo4Q0FVVkR1Sm8tb2c4M2xIOUlTNW52NVhBTXVvVlJSOUdZRGozeU1rNjFtWkZLdE1ibUt1VjlE?oc=5
+
+## 5. 서울시, 모아주택 조합설립도 공공지원…구역당 최대 1억원 지원
+- 분류/지역: 주택공급 / 서울
+- 출처: 매일경제 마켓
+- 발행: 2026-10-20 11:15 KST
+- 출처 사이트: https://stock.mk.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzUFN3V0hhcEN2Q0k0Y3poWG5mbEM5UW5oVWJMU3BQakl0Z2lmYWxhMHhkR3lkcmtFRXpmTTVnUHFoVlQtRHBHSzN0eWlad25sR0E?oc=5
+
+## 6. 서울시, 조합설립 공공지원 모아주택까지 확대…구역별 최대 1억원 보조
+- 분류/지역: 주택공급 / 서울
+- 출처: 데일리하우징
+- 발행: 2026-10-20 14:36 KST
+- 출처 사이트: https://www.dailyhousing.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFAyV0NIb2tyODRsaDhRWkJjQUR5LTVpWHl1TFN1ZlIydXdYV1pVc2sxR3JFR2JVUVpteUZyX3dTdVZMY1BNSkhOenpuTUoxb1BaR3Y3VjltajBZWFQ4NUtua0VkUVVmOE42YlR3?oc=5
+
+## 7. 서울시, 조합설립 공공지원 모아주택까지 확대… 올해 첫 시행
+- 분류/지역: 주택공급 / 서울
+- 출처: 국민뉴스
+- 발행: 2026-10-21 00:02 KST
+- 출처 사이트: http://m.kookminnews.com
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5EMVlLY1pMQmtYNWN6ckxvcm9rQ2xIMEZqTzhiRzl0TU1kTl9fVzlsM2dJTTJYTHFFaGlQZTEybzlVTlp4RV9vZHRWZ29hdzFNVGpNbm92QlVLbEFvelpaM0loZ2tqTGExWnNjalRhd08?oc=5
+
+## 8. 李대통령, 원형지 분양 검토 지시…3기 신도시 공급 속도전
+- 분류/지역: 청약·분양 / 전국
+- 출처: 아주경제
+- 발행: 2026-10-20 17:13 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rRGFEVW8zT2Z2WTk5Tnh3S1FSS0dZcWd4ZUVJSUU4T2ZYTzBkMmFnZVhKbENNMWM2clpFQnlkbWFaS0tDdEZnZ1Nad0lpLXlhZG9DdnNJdkvSAVhBVV95cUxPa0RhRFVvM09mdlk5OU54d0tRUktHWXFneGVFSUlFOE9mWE8wZDJhZ2VYSmxDTTFjNnJaRUJ5ZG1hWktLQ3RGZ2dTWndJaS15YWRvQ3ZzSXZL?oc=5
+
+## 9. 李대통령, 3기 신도시서 '주택공급 속도전' 주문…원형지 분양 검토 지시
+- 분류/지역: 청약·분양 / 전국
+- 출처: 연합인포맥스
+- 발행: 2026-10-20 17:43 KST
+- 출처 사이트: https://news.einfomax.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5GRVRIUm1fYUpMVGY4dEJvQ0VJaWw1cWZLNERJbmNaNHFZNW8wMHJKOGJKSnl0djFscDQtUmJ5emQ0WFhacmNmSTNoZXBYYnJvc2NMbXZWVXdlN01sbG80VzV6eUdMQ2dWcUNCSmlLSFU?oc=5
+
+## 10. 경기도 공공분양도 1년여 만에 수천만원 뛰었다…"내 집 마련 부담 커져"
+- 분류/지역: 청약·분양 / 경기
+- 출처: 경기일보
+- 발행: 2026-10-20 16:54 KST
+- 출처 사이트: https://www.kyeonggi.com
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jODJ6U3U4d3VnbzBlRjNOV1M2Y2dfMFVZYWhOcUE5QXpoTGJTUVZGdTZYUVFHWWtqTWNmZnZvTFl6anFRTFpmTGhSZUNISFhnTEZudXk3VGpGSGM?oc=5
+
+## 11. 국토교통부, 서울 동자동 쪽방촌 공공주택지구 지정 도심 속 2,150호 규모의 주택공급 추진
+- 분류/지역: 교통·SOC / 서울
+- 출처: 세종충청뉴스
+- 발행: 2026-10-20 11:12 KST
+- 출처 사이트: https://www.sj-ccnews.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE9LWHA0Ry1vZEVva1c4UmNhVUhIQURtTWxVTzhfUGNhQkRtdGhtWmlkU0ZHRld1VDl1WVBKejAzTS1Ub0d0Q0pPbjN4WWgtbW9wR2VSRGlza1d4NEc4WVZsN051dEk3S2VldFh30gFvQVVfeXFMTzdRTDg0V1VDSUtCbkRQeXRfa2ZJdmRxT1h1c2I1OFFpOV9MdGJGZXVxZVlRdFotZ2JKS1AwNjJxQVdFTGNxczR5WFZna0t2aDYzLU9iS0ZXQWNDRHpNNWluWDlzR01ObzB1N2xCaU1B?oc=5
+
+## 12. 보고하는 홍지선 국토교통부 장관
+- 분류/지역: 교통·SOC / 전국
+- 출처: 뉴스1
+- 발행: 2026-10-20 16:39 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiS0FVX3lxTE80b255ZllIcl94Q1ZoNS1hTjVvQll4TTd0cGZycXRtcXRWelRsdDBIdzZNeG0yX2psNWJUeXlwZmdXVmtUNnRRWGpSaw?oc=5
+
+## 13. GTX-B노선 연장 추진되는 춘천, 소양강 조망 품은 아파트 ‘더 리치먼드 리버센트 소양’ 줍줍 특별분양 중
+- 분류/지역: 교통·SOC / 전국
+- 출처: 뉴스N연합
+- 발행: 2026-10-20 20:10 KST
+- 출처 사이트: https://newsyonhap.com
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTE5qSWZ6d0E0SlJHS3hzRkI2dTQ2RUVWNFQ0d3Y4NkYyUHVfbUFqdFJQdHZ2ZVlJSmMzQmE2MEpFVTI2VHFRRElzcmtR?oc=5
+
+## 14. "쓸데없이 6개월 낭비"…GTX 삼성역 개통 지연 책임 공방 [2026국감]
+- 분류/지역: 교통·SOC / 전국
+- 출처: 철도경제신문
+- 발행: 2026-10-20 15:28 KST
+- 출처 사이트: https://www.redaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE52ZUR4UGRHOVNucVpvZW1tajFlSVBLYXpEbXFyQ0lmV3JfeGllUTNqYVlLOWJhLUpsVHlqeGxOMW4xeW1Tb0ZFdUdyLVpfUjI4MGRjYmpFdmFkcndCZE9fQk9FWmhNV0JiVDFz?oc=5
+
+## 15. 여주~원주 복선전철 예산 1,030억 ‘싹둑’… GTX-D 원주 연장도 ‘안개속’
+- 분류/지역: 교통·SOC / 전국
+- 출처: 치악뉴스
+- 발행: 2026-10-20 09:53 KST
+- 출처 사이트: https://www.chiaknews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE55andUV2pNQl9Xa2JpVG45RFJzZmM0aVVmTWFnRUQzMF9Pb1pfYWlEZ1lkWUU4NDhoM0NlbzhuRzFBa2RuUmpxaERCM21FVno0eGVLLVJzU3hDVXNONjVsSnlQclctTVhLdDJxXzVR?oc=5
+
+## 16. 인천 청학사거리에 GTX-B 정거장 신설
+- 분류/지역: 교통·SOC / 인천
+- 출처: 동아일보
+- 발행: 2026-10-21 04:30 KST
+- 출처 사이트: https://www.donga.com
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vbzF1dkU2LTd0SjF1OUt6bFBndzRXSVFHT0NrcXBoR1dEa2ZHVWtHOWd6bnRPZ0ZiakpQbnJlcGNsUjR5YjZYSTlYMFQ4TlVIaG9TMjVrY1F1TXNEMHhQb1duSE13QdIBZkFVX3lxTE1vbzF1dkU2LTd0SjF1OUt6bFBndzRXSVFHT0NrcXBoR1dEa2ZHVWtHOWd6bnRPZ0ZiakpQbnJlcGNsUjR5YjZYSTlYMFQ4TlVIaG9TMjVrY1F1TXNEMHhQb1duSE13QQ?oc=5
+
+## 17. 의왕시의회, 위례과천선 의왕 연장 제5차 국가철도망 구축계획 건의안 채택
+- 분류/지역: 교통·SOC / 전국
+- 출처: 환경일보
+- 발행: 2026-10-20 17:39 KST
+- 출처 사이트: https://www.hkbs.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XZ0tvTjhiRWowSEIyNGhYbFVXUnhPbkRjUlRIdnExSkNzLUxvMmoxRktLVzFYVXJRbkpDaFNRUVB2YUhma2Vxblo4RXlORThGUzdkaHJGMG9FTDZpdU9kUGJjcVdKRWRG?oc=5
+
+## 18. 서울시, 재개발 공사비 갈등 해결 위한 '공사비120센터' 개소
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 공감신문
+- 발행: 2026-10-21 08:41 KST
+- 출처 사이트: https://www.gokorea.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VNHlfVmtPTldDYUQ2X0lFSEhyTWxUeTF1bWd6R3NQelp0UHBpZm1rYnhtTkRLamo1ZlprdGxUaXBrUUJBRGhaRUotYTV3YTVDQXZrRUFPWGdYWlE0WWlTQ0RVSmx1VVdX?oc=5
+
+## 19. 극동건설, LH 참여형 정비사업 수주…'더 케이하우스' 차별화
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 1코노미뉴스
+- 발행: 2026-10-20 17:31 KST
+- 출처 사이트: https://www.1conomynews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5QQ2FCQ2xBc3U5WGpOY2g1S3N6Z2ZVM2lLcmY5UGN6WUEyU1premkxbWdSbmMzQnh0cFdkeFR1aDBqTnUzZUYtbi11NlVvTDI3WmV2czJITEdiMDZDUnhLQ3Jja1FpVFBrRzBlZDhkUTY?oc=5
+
+## 20. 극동건설, 금천구 231가구 품었다…LH참여형 정비사업 수주
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 뉴스퀘스트
+- 발행: 2026-10-20 10:22 KST
+- 출처 사이트: https://www.newsquest.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBYeGVxNjZSMGdBdnhVWEFzdDFsdjkxV0xORnlCUFVMZXVXbE5pZEFySE1IQWZXMmUwMUZoMTdKRGttMlU2czdYVmdvM2RQZ1VWZWdsUnFNQkl0bG9MQ1Nmd1NBVnd0N3d6VGRHQ2Zwaw?oc=5
+
+## 21. 서울시, 정비사업 지원센터, 공사비 갈등, 상담부터 중재·사후관리
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: www.gukjenews.com
+- 발행: 2026-10-21 09:08 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTFBNYllLTWM4YWlLYnNBSHJ3UEFMZG1QbEpDSWZuSU1OY2tkM3FOMzRac3pCdU9Lc240S0Rkb1BZVHlMWHNtRjJTZVg3MmRHTHFaWTJQbjVJVkhXMUFwWDZPbFlHZWdyWWhWLUNkdmNB?oc=5
+
+## 22. 공사비 갈등에 멈추는 재건축 막는다…서울시, 통합상담센터 운영
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 뉴스1
+- 발행: 2026-10-21 06:00 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4aHRoMm5ibDRTbkI0RFFYZXJsa0Jfa09kRjA3NHV0bE5sODRKTXpkY3NVTGtkTjNKYzNCY0pZMzRqRzM2eVdPM0tHcnhhQ1hldW9pN0loeHQzUU0?oc=5
+
+## 23. 극동건설, LH 참여형 정비사업에 무게…서울 시흥동 231가구 수주
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: AP신문
+- 발행: 2026-10-20 12:21 KST
+- 출처 사이트: https://www.apnews.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE1SVTRPVmJ4eXV1Z24tZnYyT29IZkdiYnJESUZ0Y1JvZTdSZWJXOUlkdmE0R2w2a3hTRkg3S2pFSE55QTFYMU5YQTA1aVFXTFFaRXRWNTU5eF9LTF9tak9VYURLTUZoeVhzTXViLdIBbEFVX3lxTE1SVTRPVmJ4eXV1Z24tZnYyT29IZkdiYnJESUZ0Y1JvZTdSZWJXOUlkdmE0R2w2a3hTRkg3S2pFSE55QTFYMU5YQTA1aVFXTFFaRXRWNTU5eF9LTF9tak9VYURLTUZoeVhzTXViLQ?oc=5
+
+## 24. 극동건설, 시흥동 LH참여형 정비사업 231가구 공사 수주
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 동행미디어 시대
+- 발행: 2026-10-20 17:40 KST
+- 출처 사이트: https://www.sidae.com
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MdnZ5ekhBbmwxVzZLMDhXNmFaV0xFa19XOGlNUzM2YmxkRFVZUVB1S0hfdWM2UTBYeEUyTDNsaFpxMGtJczJuZFRISDRwVDloVjhoZmxVa0N4RDNJZEE?oc=5
+
+## 25. 극동건설, 시흥동 가로주택정비사업 수주…LH 참여로 안정성 확보
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 뉴스1
+- 발행: 2026-10-20 10:12 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pSTdYUzdZLWJ6UGpaLXJzUm43cEZsLXROYnFWRzVvVzZEMkNZbktjWF8zcGg5TkZJZGdSR0wxM3lnZVpqbHlIVEs2UjRfVkRxX0pZQ3JwQk1TWnM?oc=5
+
+## 26. 李대통령 “3기 신도시 공급 성패는 속도”…2030년까지 공공주택 90% 착공 주문
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 뉴스프리존
+- 발행: 2026-10-20 20:53 KST
+- 출처 사이트: https://www.newsfreezone.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFBUam5YeHE1X0dBLXA3VlVYZndZQkhzTGQyYjRpcjkxdFJ0eEpwU0xLUF9BbldRRzVKdDBURzZmZDF3YzIydFBvNnRydmp3aEltWFhGODY4U1ZzX0Z2OXg0UVNaVFRxTUJ3WFRuMk16Z05TYlnSAXdBVV95cUxPTmV1dl9Xam9RdWNGbjVhY0gycXBreGk4OEZtOVh0NHNsaG5jUUQzYXEyUDR6TnNMcFpRNFNTVXJ4eWhKVnNTQlFRRHZzMlFEMG14aldIWTl2emN1MVUwSmJwZ20wb0cxWGM2cnRuOXN1ejN3RU9zVQ?oc=5
+
+## 27. 李 “주택공급 전격전…2030년 3기 신도시 공공주택 90% 착공”
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 아시아투데이
+- 발행: 2026-10-20 17:33 KST
+- 출처 사이트: https://www.asiatoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE4zc2M0V201ZzQxT1AteUpfejFwZWJPSm9TVDNzNE9oZkQzdUZ2M1VrSHJqT0NKVnRISXc3VV9USE9GY0RfaXh0R3JNa3ZvTndiNkNEZE9MaHUxbXpSM3R5eHVGaEEtQlRNR2tob2Rn?oc=5
+
+## 28. 李대통령 “주택 공급, 무엇보다 속도…2030년까지 3기 신도시 공공주택 90% 착공”
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 전자신문
+- 발행: 2026-10-20 18:02 KST
+- 출처 사이트: https://www.etnews.com
+- 링크: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HRkh3NkhtbkRxanV1SnJMb1ltQTJxcWc1bDVfb3Z4azc5eGt2VW9raXRoZGRsT3Z3aUlEdzFkdGN6QTZvWjIzb2l4Qkp5dw?oc=5
+
+## 29. 서울역 앞 동자동 쪽방촌 공공주택지구 지정…2150호 공급
+- 분류/지역: 신도시·택지 / 서울
+- 출처: 정책브리핑
+- 발행: 2026-10-20 17:14 KST
+- 출처 사이트: https://www.korea.kr
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxNM3lsRHlKM1JZbE5NcGNNVlZFZkNBYmVma2VtbHY0V2JpNU1PcXdLLUw3Uk5vbHpVNjFLRDZKaVRQZ2FpVmtVQ2VqV2c4WVkzZ3FpNW4xalRKUURNN181TTU0dWVqM3NsYmk1TlpXRE5UU1BxbWpNVndHSUIzczViUUZubVFuT1hfcnpBOA?oc=5
+
+## 30. 서울 동자동 쪽방촌 공공주택지구 지정, 도심 속 2,150호 규모의 주택공급 추진
+- 분류/지역: 신도시·택지 / 서울
+- 출처: 부동산신문
+- 발행: 2026-10-20 17:13 KST
+- 출처 사이트: http://www.renews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuaDE5SU0zcDBXMmctREl1X3JBamZVWDlnXzNvbU5CbzQ3ZDBsbGVEeWVPRHl1ZmRzazRJUmx3SUpDazRmU0dlUGtLMTdBSHpWRmNxTWhRR09oM3VWb3dfMW9qUjdtLWd1?oc=5
+
