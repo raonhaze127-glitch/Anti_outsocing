@@ -1,0 +1,215 @@
+﻿# 2026-10-23 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 한국토지주택공사(LH), 모듈러주택 활성화로 주택공급 속도 높인다
+- 분류/지역: 주택공급 / 전국
+- 출처: 환경신문
+- 발행: 2026-10-22 11:21 KST
+- 출처 사이트: https://fksm.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kMVlkNmpfbFJaaHZONnQzd0JNbWZVbXhfUWRyN0ZNbGtNTXhyOFRXVVZyVE9oQ0xOeG9RZzZFNnZ0T2ZnSkJLU1pNSlM0eXUtRTZPb0xOUjAxLTVjM3c?oc=5
+
+## 2. LH, 건설업계와 주택공급 속도 높인다…연내 공공주택 5만 호 착공 목표
+- 분류/지역: 주택공급 / 전국
+- 출처: BBS불교방송
+- 발행: 2026-10-22 14:35 KST
+- 출처 사이트: https://news.bbsi.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE5BLW1sc0F2Vkc2WFFSWUR1bmswdWZKZE1SNUVacFJrdU9PM0pqQ3JkQTJfMVVnOFFEdlJreHZqS1VHOVlTcDhWWTlrQVY3NXEzMnVwcnVEWmdoZk1uRUgyN2FUSkpEeDU0OFZB?oc=5
+
+## 3. LH, 건설사와 손잡고 공급 속도 높인다…공공주택 4744호 묶어 발주
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스토마토
+- 발행: 2026-10-22 14:00 KST
+- 출처 사이트: https://www.newstomato.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE11YXpDbG5vNVhtOFNkTmVQdDRLR2tRMGo5RG41eWt1emF5M0d4S2JLRDVWMUZtOTJzalJwRHRkTjFaSG1DMUI0WmcyeWFaM05TVzBteFhPUzYtdDhaSjRfUg?oc=5
+
+## 4. LH, 건설업계와 주택공급 확대 협력…연내 공공주택 5만호 착공 추진
+- 분류/지역: 주택공급 / 전국
+- 출처: 시사캐스트
+- 발행: 2026-10-22 17:32 KST
+- 출처 사이트: http://www.sisacast.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZRmQ2dlpYQjVzY3ZCT09vNUZ2U0FlXzZ1d1h2ZVJTOEFTaFpSQ2NNUnpEMjVPQ08zU3AxSWNhYjZNVENZMVNQWmgwcFJkZFdVbWxSRm56TG9lSVp3enhRTnFKLTNOQUJM?oc=5
+
+## 5. LH-대건협, 공급 확대 간담회…건설형 공공주택 5만호 착공 목표
+- 분류/지역: 주택공급 / 전국
+- 출처: 아주경제
+- 발행: 2026-10-22 15:40 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsX3o3dkJTOFEtN3gxU3UzVmtPQzF1Y284MG01OWhQR2NvOW53UmZkenBVXzdJMng2VFZyWFNJOHF2TDRmc2tCUUZjc2kxODAwR04ta2ZNTGs5UdIBWEFVX3lxTFB6Ri11eTFOa1BFV0YxajhRbzNIUS1DTFdlODd0LUVfWlhvaWxiR3JRNWdlOWNSUl8xeU5sMHU2b3c3S01WcHJ6OHgxX09tbl9iN19JY3hVTWU?oc=5
+
+## 6. LH, 주택공급 확대 5000만 유로 채권 발행
+- 분류/지역: 주택공급 / 경남
+- 출처: 경남도민일보
+- 발행: 2026-10-22 15:05 KST
+- 출처 사이트: https://www.idomin.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE8xY2kwNHI5cDBNc3VFWFJDWFh0VXFzNldXQUpYRzNmQzRVQ1N2MGNod2xWalZTbU54OXF4UTFIOGNNNWhINVR1QjktZDlEVUQxQm5CRzlTMFVZUloxM2RjcWJxa0JRUjl4QXc?oc=5
+
+## 7. 하나증권 “주택 공급 해법은 공공 주도”…LH 역할 커진다
+- 분류/지역: 주택공급 / 전국
+- 출처: 핀포인트뉴스
+- 발행: 2026-10-22 15:34 KST
+- 출처 사이트: https://www.pinpointnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE5RazZlSE1iTFlpbkxfdTZ1X29Bc0tvdGxsX01VY3NxOERhZmhucUg4SFVJMFgyYXBld21tLUxzOGxNTUpjeWg5VFRfZnlRUWpvUjNtUVowalVtV3N0RW5KV2NPaE1FYmU0bXdvRjY0S0MzRVXSAXdBVV95cUxNcUNHajNiVzhsVkZoNEh0R2ZmMnF0UmJnbjdVWHpicVJwaWYzVTEyaU9oSDZzbGR1eTd6WjVvOU9uQkt2Y1VIRG1mcU1RQWV1VldWNndVV2ZjcEdPRXVvbU56Y05ieFU2VmhNRFBDcHpBaHM2WTlLRQ?oc=5
+
+## 8. 한승구 대한건설협회장, 22일 LH와 '주택공급 간담회' 개최
+- 분류/지역: 주택공급 / 전국
+- 출처: BBS불교방송
+- 발행: 2026-10-22 15:24 KST
+- 출처 사이트: https://news.bbsi.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1qRGpKbmtEOEJtLXZPZUlzdXl4WkloV0Yzc0FHWHhzekRlQ1hRUzl2TlRCcV9RM09fNTE1N05MM1hnV0pvdmxmSXJSV1V5eW1Pdnd5SjJiUUVsX2g2cVp2QU5SZ3dFZnVtblY4?oc=5
+
+## 9. LH, 대한건설협회와 주택공급 맞손... 4744호 연내 착공 추진
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스락
+- 발행: 2026-10-22 15:06 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBoZk02dzdzV3VMc2FFdGY2NUN3S0JZRFNETXY1WnJXM2U2T1Y3cWp3aTYwS2tLZXZNeFhEakt1M2dLWjZoSzMwd0ZZR1BDNG5kR1YxazBNUC1Xb3RpOFJIT05WMHhWV0ItTDB3eg?oc=5
+
+## 10. 수원시·LH, 장애인 자립주택 공급 협력…2027년 12호 시작
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스1
+- 발행: 2026-10-22 16:44 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE91bjQ0bjc5WTlxaTlpMEhEdWoycS03aFA5ZUNpRXctREU4NWhyVl84OEhMVWZTMWNOc3VoN21fSnJFeGQ1aXFhMHNwbl9YZkgwd3Z1NVBn?oc=5
+
+## 11. 수원시, LH와 손잡고 장애인 자립주택 공급 체계 마련
+- 분류/지역: 주택공급 / 전국
+- 출처: 경인방송 뉴스
+- 발행: 2026-10-22 16:53 KST
+- 출처 사이트: https://news.ifm.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JOWVoMWNEWXR3ZkJ0RnNNbTJOOFVZa2M5VGJ2ZDJ2R3cyV0Z0em1NeWpfWUQyRzkwUHFxZWRYVE5qR29wQnZNeGJXQ3FGOFVIaFlRRlZGM2t5bTh6M2gweklnNk_SAWhBVV95cUxQbGIzQWJWbEtwLTd6ano2MXhzVkcwYXpSWlMwTmRWLVc5SzItOV9oWDVyNktBUkU5RFFhdjJkR2ZpMHNuSEMyX2kzdU12UlV3QUo3VjV0bEhGLTNBUXJudlowd2lPMm9PaA?oc=5
+
+## 12. [경기] 수원시·LH, 장애인 자립주택 공급 업무협약
+- 분류/지역: 주택공급 / 경기
+- 출처: YTN
+- 발행: 2026-10-22 16:00 KST
+- 출처 사이트: https://www.ytn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OWVB1UkNwZ2JPQm1CT28wbUpMeHVZT1pMQXR2dGxSdzFsNFQtbHgxZnl3Nl9JakpHYWktWjBZS01MVmtsTm96MVJOTkpaMWc3MC15X1FwZlhYRkQ5Tnc?oc=5
+
+## 13. LH, 대한건설협회와 주택공급 간담회...공공·민간 협력 강화
+- 분류/지역: 주택공급 / 전국
+- 출처: 기계설비신문
+- 발행: 2026-10-22 18:14 KST
+- 출처 사이트: https://www.kmecnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE12dmtBNlViQ1JBMDhRUzRqNklXMVFPRXJkSFVpZTF6cl93X2ZUTEVoV3FpZVN3akxkU3lVMlYydHJvT0V2Z2NBNkRZSF9hMXZOWHhjOHNIMEZRMGUxREVZeTVGTEktaXhiU3dBLQ?oc=5
+
+## 14. LH, 대한건설협회와 주택공급 간담회…공공·민간 협력 논의
+- 분류/지역: 주택공급 / 전국
+- 출처: 국제뉴스
+- 발행: 2026-10-22 23:05 KST
+- 출처 사이트: https://www.gukjenews.com
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE9sMnliSFdFREFlZVEyWEJmMTNsX2o5aVpjREI3TFhRN291Vm16dFRRaTZwcXMyazRaUkl6TTRvV0Q5aVdZeW1xS0ZjckVnbzhkck9nWDNVTHRoVHBob3VwTmM3dWY3RDh1N2VxWTRn?oc=5
+
+## 15. LH-건설업계, 주택 공급 신속 확대 협력… 연말까지 공공 5만호 착공 추진 - 조선비즈
+- 분류/지역: 주택공급 / 전국
+- 출처: Chosunbiz
+- 발행: 2026-10-22 14:04 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNVkxXMDNqeGh4cWd0cmdwbEhFNUhWeTBNb1g4S2hwZExqckVZUFFqdTFlSVd2VkE4TFh1dnEzenZnYlJlQXR5REoyUVRvVWY5cHk5UmQxNTVJcUVlY2xiY0R4Qk5NVURBcVE5QXVyR3RQTzVlemNGTDdhcTV6Y0RXcmJRM3JCTEhqWlNCcmhMek1zWjl5dXBCVdIBrAFBVV95cUxOSkhTcUZBWDZ0V2ozMXlxenZGVDJGOWwyazV2UUFDOHZQOEtEWlh6dkloOEJmVl93U1Rqbm9IbkI4MXZmWXBnY0dpQXBId0t3NkpvbWJ2S1dCYW1PYzlvbUNyQUpsOFc1b2o1aWRYX0lSVm5SSktDQ1RCUVJ0ZGlxMWtZa3dQblkyMHZtakI1MkZTcENZTko0eDg1NXdtZ01TTHBMaTNtemRIQTVp?oc=5
+
+## 16. 한승구 건협 회장-이성훈 LH 사장, 주택 공급 확대 방안 논의
+- 분류/지역: 주택공급 / 전국
+- 출처: 아시아경제
+- 발행: 2026-10-22 15:23 KST
+- 출처 사이트: https://www.asiae.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJUDQ0WmVTa0tmUV8xcWF2Yjl1RW5leE9uOWkzUVR5RlNvNmRGS2tHZkp4N2g0VVZTOVZ0Q3VDT1RUQXkwYzZKMmVTVmRsbzdBRUhHQmNIaS00cXgwTEY1Mg?oc=5
+
+## 17. LH-대한건설협회 주택공급 간담회 개최
+- 분류/지역: 주택공급 / 전국
+- 출처: 일간대한뉴스
+- 발행: 2026-10-22 19:34 KST
+- 출처 사이트: http://www.dhns.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HOWNnSnpOWkNmcmJHWnhhT0pQS2I1VnZVYjFDdXd4eXV5dGlSZXRrYVB5OU53RmczdnJ1VWxDbUp5SUdpUVNwcHA2UTJ4MWJBNXJyUm16alM3QmlfV09mSnJkcEZiTmM?oc=5
+
+## 18. LH, 건설업계와 주택공급 속도 높인다…연내 5만 가구 착공 목표
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스1
+- 발행: 2026-10-22 14:32 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PYW1rVjhmMjVOcjZwZFRVUGxDcGcyZ2x0UWlOeURpaVk5NGZmYUlwZUItUFB2alFZa29vc3VNa3NMNUM4a19HXzJmTUhyNkx1VkN3RFlRWjZjWW8?oc=5
+
+## 19. 김이탁 국토1차관 “행복기숙사·LH 공유형 청년주택 적극 공급”
+- 분류/지역: 주택공급 / 서울
+- 출처: 서울경제
+- 발행: 2026-10-22 10:00 KST
+- 출처 사이트: https://www.sedaily.com
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yY3oyeFRISUh5UXNHQXFmc2U0WXl2QklrRWtVWExfNGZnZDlSb2FYcGw4SUFOeXlMWXNCMmRrVHBxUXhrZlYwQ0xCVEJzd2lOSEHSAVNBVV95cUxQcUxnWU83OXItS3V1VEQ2ZDd4QzByanNjRmJjVHFZa2FGSFFOT3BHRFRUcDFjTXBEaG04STRXMHJtS0tNalVYNzV3MTF4WmV5S3B3NA?oc=5
+
+## 20. LH, 15년 만기 5000만 유로화 채권 발행…주택공급에 활용
+- 분류/지역: 주택공급 / 전국
+- 출처: 데일리안
+- 발행: 2026-10-22 14:12 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcWpTOTlKUzdQYXZDZ25iR1ZsUGFOdGFqMG0ySmlWcWNCV3IwYU5sRWp1YzZLVkM2SkJqWXRIOHo2MU9mbHRXcExOM0dMQ2Z2QnFwUWFNN1B2b182VGFDTlpNa0hSb2ZkNXlsMFU0S1RfcjYtMl9hcHVvOEhBWUsyZm1EUDRCSlV1ajEwanR3SS1ZdmZWTXVVbl9Cby1tanhxNDlCRVphNW5ORXFkekFMRHNRdEY4NFZGbUIzLVpncHNPZnM?oc=5
+
+## 21. LH, 모듈러주택 활성화로 주택공급 속도 높인다
+- 분류/지역: 주택공급 / 전국
+- 출처: 한국건설신문
+- 발행: 2026-10-22 10:34 KST
+- 출처 사이트: http://www.conslove.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE5nSXMyV19rUURJakpkbkFwU09CNHl6WU1lNXpybkpBUHBRX3FvUDBKNlVCSGR5MWZZTlJQRFJMcnFPdm13dnEzeURBUTBJOTl4RTQxQXF3a1Q0Wjdjd25iSWtlU1hLbExfM2t3?oc=5
+
+## 22. GTX 삼성역 개통 지연에 750억 손실…국토부·서울시, 책임 공방 가열
+- 분류/지역: 교통·SOC / 서울
+- 출처: 뉴스핌
+- 발행: 2026-10-23 06:00 KST
+- 출처 사이트: https://www.newspim.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5TVcxV09tbnV5SzJ0TzdXLURYTk9hUjVZV1dKdy1teElWXzZJTGFuYXEwcXZKT0Vsc2NtS2cteFg3RjJSM2JweFVndVVLT202X21LUUlZMDk3enlh?oc=5
+
+## 23. 경기도의회 건설교통연구회, 연장형 철도사업 지자체 운영비 분담체계 개선 모색
+- 분류/지역: 교통·SOC / 서울
+- 출처: 서울Pn
+- 발행: 2026-10-22 15:21 KST
+- 출처 사이트: https://go.seoul.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE0tTEZKX3dwMEQ1RkdGYmhaYzBybzY2SnhBZG9OUkd4YlBLVWJ1UGo3NTFKNTdYeWNXS2tNa0NDX3lhaGhWVDRNbTVHeTJLZ3FTdUZEUVY3ei1EU0J2aVFfYk1JNWc5SHM5WGc?oc=5
+
+## 24. "철도 연장 운영비, 협의 아닌 기준으로"경기도의회 연구 나서
+- 분류/지역: 교통·SOC / 경기
+- 출처: 한국철도일보
+- 발행: 2026-10-22 11:20 KST
+- 출처 사이트: https://www.korearailroad.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTFBiWVpWNGZ2U1AzQ0I3ZDJDZnFWV25qeTFhZG5MWU8wc09fUE8tS0lfTTkzd3RIc3ZSMzEwbTVXQkJTT215SE1QZUFldi1uMnlsd0t1N2dBU3ppNk5MWnlPNHdnVnA3YUExZU1GUmZ5SzU?oc=5
+
+## 25. 도시철도 파업 D-1, 시의회 '부적격' 반발…전재수 '교통공사 먼저'
+- 분류/지역: 교통·SOC / 전국
+- 출처: 프레시안
+- 발행: 2026-10-22 13:46 KST
+- 출처 사이트: https://www.pressian.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFB1ZlFpUkFuQ291eTN4ZXpoaXZuZkctREpWVXdDYlpxRHZYX3ZZcWdBNERWZnBtUXZDRWxqTFlkRUVSdlNveW0wM3FsRW1scTZnNmhuX3hvaWNVVFBoazc1VXZtT0pqMFkzajRF?oc=5
+
+## 26. 부산교통공사, ‘도시철도 파업’ 대비 비상운영 돌입
+- 분류/지역: 교통·SOC / 부산
+- 출처: 헤럴드경제
+- 발행: 2026-10-22 11:34 KST
+- 출처 사이트: https://biz.heraldcorp.com
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCWXhHeTI0TGFNcDhaZUhxMU5WRGJXWFVBVmJwTFBkRTFLdkVRaVJLNDJVUHk4TURBbjhBbk0zMlZOR2ktcThVaWVfZVR6OEJBcWN2QVBB?oc=5
+
+## 27. 서울시, ‘수서택지 4개 단지 재건축’ 현장 합동 신속 통합자문실시
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 부동산신문
+- 발행: 2026-10-22 21:15 KST
+- 출처 사이트: http://www.renews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSeEF6VzhmcVFPekN5MEw0VERTVHpCOU9neFZHYzFpY05KWkpjbVlsM3dfMXMzY1Y1bUZDSmQ5ZTN1UzhWSkVXa0hxQ2Z0TGZDQ1d0eEVOREFZWlFQWmROemVXNm5PbEs4?oc=5
+
+## 28. 수서 재건축 ‘동시다발 속도전’…서울시, 동익·신동아·삼익·한아름 4개 단지 현장 합동 신통자문
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 디벨로퍼뉴스
+- 발행: 2026-10-22 12:27 KST
+- 출처 사이트: https://www.dpnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE04d3h2REkzemwzQm9aZmR0SHZtMlNoOG9Cd1pCSVFFUTU4LTlKTGhtWHZ3SGJLUU0yYVVQdUJoemdOaXQyTHJpbFhUbHNNckVaYmtBY2ZxOHg1Z3ZJblhJLU1oVHlrQ0Rr?oc=5
+
+## 29. 서울시, 수서 재건축 4개 단지 집중 지원…심의 지연 줄인다
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 뉴스1
+- 발행: 2026-10-22 11:15 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SX1poNjhlTnpLd1RycWhjTkdaYmp1TU5hQmp1RFBUUE1nU1U5TmZyVUVLRFNoQnRiTmV3a1dOSy1yY1JPMkFTV083MmVnTzRKd1ZGUzU0Zk5NUzA?oc=5
+
+## 30. 서울시, 수서 4개 단지 재건축 동시 자문…신속통합기획 '속도'
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 연합뉴스
+- 발행: 2026-10-22 11:15 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TNjgwWWVsclBNa19PUTdRQ3dheWVyMFR5anhNYmdWZkQyQ1ZHS0QtelkwQjNzVFlleG9NbG1iYTVyRHNOTGdoMmFNV3UxSW90MnllalBEYjhScFZnVjNlMdIBYEFVX3lxTE9TNjgwWWVsclBNa19PUTdRQ3dheWVyMFR5anhNYmdWZkQyQ1ZHS0QtelkwQjNzVFlleG9NbG1iYTVyRHNOTGdoMmFNV3UxSW90MnllalBEYjhScFZnVjNlMQ?oc=5
+
