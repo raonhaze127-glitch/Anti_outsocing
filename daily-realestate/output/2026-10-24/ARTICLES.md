@@ -1,0 +1,215 @@
+﻿# 2026-10-24 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 한국토지주택공사(LH), 시흥거모지구 S-1블록 공공분양주택 300호 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 세계환경신문
+- 발행: 2026-10-23 14:48 KST
+- 출처 사이트: https://www.e-newsp.com
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BemxwbWRHUGtPb014QnY3NzVNQjJYazFFd0NkTW1vdkFLaVV4Q3NINl9CX1p2ek1YdnUwaDRUNTcxeUVoWnQ5UDFnZmVTTEpwYkJaTTVEaFVzMEk5WERj?oc=5
+
+## 2. LH, 시흥거모 공공주택지구 300호 분양… 11월 17일 일반공급 접수 - 조선비즈
+- 분류/지역: 청약·분양 / 전국
+- 출처: Chosunbiz
+- 발행: 2026-10-23 14:39 KST
+- 출처 사이트: https://biz.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPUFRkaFhRbTRhR3FjX1M0czVKd1pSTUZVQkJaTHNuMkJtdzVHdmRnM3hfLXM2RC1VZnhJTHM2aXktc1NKR1pXUXZ4QVVPMjVjQUYyVmlESDc4OXdVOGhPZFBhamlDUzBDd3kyQ0R3TC1aMjhTMUpuRkZlN25EdFc2RDdfSmhkalk1WHVwS0Q4U3pPemZybnFid9IBrAFBVV95cUxOR2JNOFk2Z25DdktFcEczTHoyeG1RZ0dzeG5KZGZnRVY1LVhHRi1FdkQxWWZDTlNOWFBGQXZzaXZZUzhTUThmTlVRYXkzbVN3UnYxTDhaS2Q1YVgzT2dBUExCQlE3VTRUQUwzbnloVVFMM1dEcEhSeTh0QjJqYXVDLW04d1hkRmRWS0FZUTBVZzJNcnhYa283aEVtRW5wNUtkb1NNc0FPbmRqWmNm?oc=5
+
+## 3. LH, 시흥거모지구 공공분양 300가구 공급…청약 일정은
+- 분류/지역: 청약·분양 / 전국
+- 출처: 이데일리
+- 발행: 2026-10-23 14:44 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkI3dlZ6Y2hIX2FIeEFMOXNuZ1RHMS0tZ2g0SU5fTVBhb01sd1RyaDFfMjR0eXBTWHc5S3NEVnRpYmNHQ19kblp4RllvQmlVNmhIYm4tYnE1cnp3aVRpaERhdWZTTjU5TmFhNVpFcnFMaWw0eFRtS1dzcS1aVzVicQ?oc=5
+
+## 4. LH, 시흥거모지구 공공분양주택 300가구 공급…내달 청약
+- 분류/지역: 청약·분양 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-10-23 14:21 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LVGJKd2ttZjlQT2VLcHllRXdFZWpVOG8xa005am5uLW4zT294UTZOMlVwMTY5T3JBSkhXN0hGTmJod2dzclUwQU9oZXA3WDJEUkVDYzdQSVpHNkxlRGRPMdIBYEFVX3lxTE5LVGJKd2ttZjlQT2VLcHllRXdFZWpVOG8xa005am5uLW4zT294UTZOMlVwMTY5T3JBSkhXN0hGTmJod2dzclUwQU9oZXA3WDJEUkVDYzdQSVpHNkxlRGRPMQ?oc=5
+
+## 5. LH, 시흥거모지구 첫 일반 공공분양⋯300가구 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 이투데이
+- 발행: 2026-10-23 15:22 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE1hNTk2LXI5UGtCMmVJSVpqS29WaFVxT1BscklLTVZOeXR2VE1iV0RlcE5samJEMlZMLWpNYW9mazB4czc5enNFd0xHLWNlSWgtQmllTzFMYnMwN014MlMyRXNvSDk3RUpab3RzMGwyTWFUekVl?oc=5
+
+## 6. LH, 시흥거모 S-1블록 공공분양 300가구 공급… 전용 59㎡ 4억원대 책정
+- 분류/지역: 청약·분양 / 전국
+- 출처: 동아일보
+- 발행: 2026-10-23 16:26 KST
+- 출처 사이트: https://www.donga.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1yQnk2bkJ2cUhkUUpJLWtEQlI0Nk1mZ3IzQnYyNHUzanE4anFnNm1RUWVIcDNPaDQ0dnJHbWNFMXJrOUhwX2VYMEQ4SG0tWDZXTlQwaWtWMmppQ3RBV29GVUhVZ1BuNlJPQTlN0gFmQVVfeXFMTm91SFJlNmZrRTNYU1JrLVk1SG1fMDZvV2pwZlZyTjZJQzhCcDBaN0Y2cWVydGtmZTNpZWZGS1pIaWFOSGZOaUJPZlZkWkx3cExPa2UxYVlQOU5NQ1FpZmNKODZaTGRB?oc=5
+
+## 7. LH, 시흥거모지구 S-1블록 공공분양주택 300호 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴스락
+- 발행: 2026-10-23 17:30 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBEc3o2SWtsOVZqVUNFZy1MaF92VUZZNUhNSXdGTXpHVWpOakczaThsRnlxcEpoZUJrLVQxelU3bVhwS3Zra2R5Zm45bVFHRndLRDE3blBzVGRBcTk5VWN1NXM3QW5BVkRJZ1V2cw?oc=5
+
+## 8. LH, 시흥거모지구 공공분양 300가구 공급…59㎡ 4억1000만원
+- 분류/지역: 청약·분양 / 전국
+- 출처: 아이뉴스24
+- 발행: 2026-10-23 16:38 KST
+- 출처 사이트: https://www.inews24.com
+- 링크: https://news.google.com/rss/articles/CBMiTEFVX3lxTE0weVFCbTNwcGlVVVhTb2tQbzgtbkVnLUx5cGVKSmpMS1lCSVBRZThKaFRsMDF3Vk1ia3lsaDY3ejJ6YTFpUVJPRThaOHc?oc=5
+
+## 9. LH 시흥거모 S-1블록 공공분양 300호 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴스클레임
+- 발행: 2026-10-23 16:28 KST
+- 출처 사이트: https://www.newsclaim.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE0tTzQ2aDFoUmNwdWZrZGdUWG9pcWFIYWpIcmVjaDQ4MGVVVXRtQW9ORHhSOTBQQXlXMzVDbThGY2EzdzRFWmc3RUFiczdiTUsydWxtTEloYWtpUG5nRElnQ2dhbktDeHREUVp2anl0T0fSAXRBVV95cUxNdXhkRDk1aWctYVlNY1pjYkllRXhxQTM3X1d6YkNJalpnbUlCX1ZIcjFsaGFuU19KQ0pPZXNmeEk3X3AzLWJpdnhjT21xUGp2Z0JaeWJhQ202YkFwM0ozSF9Cd0F0NU9EcHZtR0kzeHBGYjNPVg?oc=5
+
+## 10. LH, 시흥거모지구 공공분양주택 300호 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: BBS불교방송
+- 발행: 2026-10-23 14:11 KST
+- 출처 사이트: https://news.bbsi.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE9OeGEzRTlrVGppX3JRZklfX3h1VjJpZElkQUU1QWxiNEN1U3I0ZlF2UzkzZU1MaE10djdNVDk3SG9vX0gyOWx1MUdIRC1fZnctMTBSZ1RRT3NId3lXdWRKYXJzYWgwY2J4SkU0?oc=5
+
+## 11. LH, 시흥거모지구 공공분양 300가구 공급… 전용 59㎡ 4억원대 - 머니투데이
+- 분류/지역: 청약·분양 / 전국
+- 출처: 머니투데이
+- 발행: 2026-10-23 15:06 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBDenBveXVRcGVzVW9VY0ctWXpQQ1B1dWVudmVybkxLUjExSG5QUFo5NTlUaDBlMzVhMWl3ZmptSkxWZXA5eEk3TWVQQXVWSzNDSi10ZkdsdmxDMHhEUnhzMUF6NmNLbWVpQnfSAW9BVV95cUxQRzJmS2VVRFhIQ2VqSGd2cDFJMHVVZnQtc1JKMHF4MkVBcWI4OTlJQVRnUUZOeExmSXlDZjdaM1pKUXhzX3pjbWh6aGtTREZHVEZxNXFXXy02T3JXczJEMFp2SEs2WmRDQ013ZENDVGs?oc=5
+
+## 12. LH, 시흥거모 S-1블록 공공분양 300가구 공급…전용 59㎡ 4.1억원
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴스1
+- 발행: 2026-10-23 14:50 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xR3dXREpRbE03blVBZmJfbmdaQzRVdm1ZQ0xOek81dFJSbVZUa0ZzWF92ekh0U2s0OE1kWDNlNmlPdEhicjdzY19sajlPRGJxN3ptRDcydzBZdlE?oc=5
+
+## 13. 서울시, 면목·사당 모아주택 2121세대 공급…사업성 개선해 2027년 착공 추진
+- 분류/지역: 주택공급 / 서울
+- 출처: 디벨로퍼뉴스
+- 발행: 2026-10-23 16:58 KST
+- 출처 사이트: https://www.dpnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFAySlg5TE9MZl9LcHF5VnotSkc5OU5ZUFNYZk9MTWo2M2xpd19tdUdTeUxxZ0tNWkpzcnU1NjJkd0Z2dGtkV2lNdzJzQ2wwS0x6d1ZGeFhXZjJnR0VrWUF6ZFVnaVpPRVU4?oc=5
+
+## 14. '생환' 오세훈, 한강버스·주택공급 '서울시정' 속도낸다 - 머니투데이
+- 분류/지역: 주택공급 / 서울
+- 출처: 머니투데이
+- 발행: 2026-10-23 15:45 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBiSmNZem8xNThfb1ppVGFEejFJXzYtVmM0ZmVTbFNYdXhOMWZKVU9hQ2FoSTJnS0NWVjJIY05JNmUxWlZWbFlnLVJkcHBuajVwUTE2OWs2WWU2aER3X1dqYUlSR0VNSi1TWGfSAW9BVV95cUxOaks1dlJwUnhMWjU2Q3pqZDlPdENZd1NNSFd3UHNIcjllREZhdzB1S283SUViUDkxVUJKcUJMaGhkMU93WGJwRTI1N2dzUGlYeFFfaFJuQ1Fma0tpcnVrR0lGd2NtQ2lxNXI5aEx2VEk?oc=5
+
+## 15. 홍지선 국토장관 “연말 집값 안정 기대…서울시와 공급 협의”
+- 분류/지역: 주택공급 / 서울
+- 출처: 이데일리
+- 발행: 2026-10-23 16:45 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxNVDY1ZkpOcDJWR003SHU2Tkthcm1RaFpNaDFFNFpoSmR5bVcyWXR4U2tkZFBHVFR3al9sd2JJcnZadnNVRVJfUFJHTkVnSkxLWTZ3WnRPUmJKX29md1pBQ3hOYzFvQU1BNVhOTjRWWlhqSW44bldiYVVMRzQtMENJZg?oc=5
+
+## 16. 서울시 면목·사당 모아주택 2천121세대 공급…2027년 착공 추진
+- 분류/지역: 주택공급 / 서울
+- 출처: 연합뉴스
+- 발행: 2026-10-23 11:15 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jZHI5UTFhc2RMdkcxcThwWHlsQ3hiTURULXd0c280TVo0SzdPdTI2d2JlZEN5SnF1NnowalhXbC14aGVJMElkTHIwNnlfdERXZFMtZEl5MnZjQ0M1ZkJ3RNIBYEFVX3lxTE1jZHI5UTFhc2RMdkcxcThwWHlsQ3hiTURULXd0c280TVo0SzdPdTI2d2JlZEN5SnF1NnowalhXbC14aGVJMElkTHIwNnlfdERXZFMtZEl5MnZjQ0M1ZkJ3RA?oc=5
+
+## 17. 수원특례시·LH, 장애인 자립주택 공급 협력
+- 분류/지역: 주택공급 / 서울
+- 출처: 서울매일신문
+- 발행: 2026-10-23 10:40 KST
+- 출처 사이트: http://www.smaeil.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBiTFlzSjdzS1N0SzdrODA1WVNmNG5jLWIwQk5Ia2gwbWRaTEQtc0hCbXpwUm9hSllsM0gzM0RHY2R5U2V4ZHhWSGtXV2pSR2x6NE8xVG5NWFZGSGVubHRaeUltcENYYS0wRFZV0gFrQVVfeXFMUGJMWXNKN3NLU3RLN2s4MDVZU2Y0bmMtYjBCTkhraDBtZFpMRC1zSEJtenBSb2FKWWwzSDMzREdjZHlTZXhkeFZIa1dXalJHbHo0TzFUbk1YVkZIZW5sdFp5SW1wQ1hhLTBEVlU?oc=5
+
+## 18. 황운하, LH 공공분양 가격 산정 문제 지적…기존 아파트 매매시세 기준 적용 촉구
+- 분류/지역: 청약·분양 / 전국
+- 출처: 더시그널뉴스
+- 발행: 2026-10-23 13:45 KST
+- 출처 사이트: http://www.signalnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yaS1RZzNteE1Ldnl5VUZ1RW5SLWxDTVBmcWRSdnM0cTRDX2YzYmVJd1NFcGt6eGlNVGE5Mml1TjhSUjFBSmthSUR2WQ?oc=5
+
+## 19. [2026 국정감사] 홍지선 장관 서울시와 주택공급 일괄 타결 아냐…합의 가능한 사업부터 추진
+- 분류/지역: 주택공급 / 서울
+- 출처: 아주경제
+- 발행: 2026-10-23 11:39 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wMmVZUVE4S1ZmeVdPRmg0WjFHOWVmNGVma251YzYxaEw0dDdDd1R1OTVaMkxZNldidUhnQnpEYjh1RGlTSDdkYTBVTVhkZkF6eHJLTzVJdnLSAVhBVV95cUxNMDJlWVFROEtWZnlXT0ZoNFoxRzllZjRlZmtudWM2MWhMNHQ3Q3dUdTk1WjJMWTZXYnVIZ0J6RGI4dURpU0g3ZGEwVU1YZGZBenhyS081SXZy?oc=5
+
+## 20. [2026 국감] 홍지선, 서울시 주택공급 협의에 "합의 가능한 사업부터"
+- 분류/지역: 주택공급 / 서울
+- 출처: 더팩트
+- 발행: 2026-10-23 12:19 KST
+- 출처 사이트: https://news.tf.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wdDVTZEdBRlBhRXA2aVFyR1Q3S211dWI0T3JkVDI5RWJILWhGa1VyTWVpN1pfdE9GNmZaUEcwMnRLMDJ2V2ZLTkRuM3diQmMxMURPM2pHNnExQdIBVEFVX3lxTE9Wa1BnM0NwckJDZ2s1VGJWNmZPWFAyZkJmMWh0bFN0dUhtODgyM3JvOUJfa01JYTlwMlpDTXdOX0VmaE1KbUt3ZXFHQTN4SWZzakU4Rg?oc=5
+
+## 21. [아유경제_부동산] LH, 대한건설협회와 주택 공급 간담회… 주택 공급 신속 확대 방안 논의
+- 분류/지역: 주택공급 / 전국
+- 출처: 아유경제
+- 발행: 2026-10-23 13:32 KST
+- 출처 사이트: http://www.areyou.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBseVM3RzhSUzl0d20wYll2MkEzelB5MEFZYzNsUnVpTDFGa01VRFJWNGVTMWNHODFVWmRvLTJ1dXB0Z0xuT1JneV9mOVppSjhnc3dJRklDeDRfVkFYTGN0T1JFa1RVV0ha?oc=5
+
+## 22. 이성훈 LH 사장 주택 공급 부족이 집값 상승 원인 주장 : 경제
+- 분류/지역: 주택공급 / 전국
+- 출처: 재경일보
+- 발행: 2026-10-23 22:14 KST
+- 출처 사이트: https://news.jkn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiS0FVX3lxTE45SHF5NXpBSjgzemtZenlPcDJ1ejVUQTdZV2ZRVkJraWtySjdWVVI2NVNiWFVQZGRDeVpZbDZlck1OUFRqVDBTaFNVaw?oc=5
+
+## 23. LH 사장 “3년 내 주택 공급 본격화하면 집값 폭락할 것”
+- 분류/지역: 주택공급 / 전국
+- 출처: 글로벌이코노믹
+- 발행: 2026-10-23 21:33 KST
+- 출처 사이트: https://www.g-enews.com
+- 링크: https://news.google.com/rss/articles/CBMiigFBVV95cUxNbnIxVG5GeE1OdjBjbmZzRllTWVFraGpQUlc5NVpxNkxNLVFwc2MxLWdUT0xCWTNTbG9uUzQwSzdqTTZfUlVCU1gzZzBwN0lnTm92YUdGenNkWllwOE1TcHVlTThzVjc3QThLZzVuXzJjd1dCZXU2RFA0SlNXeWF2YVhkeTlfTWJYb2c?oc=5
+
+## 24. 주택공급에 공공·민간 힘 모은다...LH·대한건설협회 "속도·품질 함께"
+- 분류/지역: 주택공급 / 전국
+- 출처: 소비자경제
+- 발행: 2026-10-23 13:13 KST
+- 출처 사이트: https://www.dailycnc.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE03WGx5bmhjTTIwMkhWR0hiWWFLTVRtcVFTVnhrcnkxNXJmaHlGMWVZVFlnQnZtXzYzVXZTRkpsbW5QQ0tZSktRcjlNOU9uaGdhdUJDVU15dWh1aDh4STlRaW4wcnl3R2tlWVdF?oc=5
+
+## 25. [2026 국감] 홍지선 "서울시와 주택공급 일괄 타결 어려워…가능한 사업부터"
+- 분류/지역: 주택공급 / 서울
+- 출처: 뉴스핌
+- 발행: 2026-10-23 11:45 KST
+- 출처 사이트: https://www.newspim.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE91MzdWWG00MTBUZ3pua19ka3VvdzNMWHhqU2Q2bHhMQkVTZGNsT0sxWUkwMVMyQVZaX1pyeXI0UHFvOGdXdmJNb3JmNmo3RU9ScXFaWkVUWVBMMEJ1?oc=5
+
+## 26. [4호선 7호선 노원역 더블역세권 신축아파트] 청약통장 없어도 내 집 마련, 효성 '해링턴플레이스 노원 센트럴' 선착순 공급 잔여세대 잔금유예 특별혜택
+- 분류/지역: 교통·SOC / 전국
+- 출처: 얼리어답터뉴스
+- 발행: 2026-10-23 10:52 KST
+- 출처 사이트: https://www.eanews.kr
+- 링크: https://news.google.com/rss/articles/CBMiSkFVX3lxTFBzUTJKSGVLeHI3ZmNBOVZWNXJRdFJkdnNJamVzMVdBdGMxa2xFZ0t4ZEZxVjAtZTBhUEdFNGlSaDZCOGhIcEVlQWxn?oc=5
+
+## 27. 비규제지역 장점에 GTX-C 착공 호재…‘금정역 개성로니엘’ 27일 청약
+- 분류/지역: 교통·SOC / 전국
+- 출처: 국토일보
+- 발행: 2026-10-23 15:57 KST
+- 출처 사이트: http://www.ikld.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkc1FYaWNLVkRpNmt6aFBxOXJfVUVaajBEaFNTWVhoRUV3dlUyUWJUNVRFclp6MlhNQkpGSXZoOXhGSWlLYUdNc0FXcUtOWGJpdlFTbk1adkV5RnZyZVpzZ29Yaw?oc=5
+
+## 28. 신분당선 이어 GTX-C도 착공... 교통망 확충에 ‘힐스테이트 수원파크포레’ 주목
+- 분류/지역: 교통·SOC / 전국
+- 출처: 글로벌경제신문
+- 발행: 2026-10-23 10:38 KST
+- 출처 사이트: https://www.getnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9jeFVYYW95QVR3czdpUlVsWk44MmRYWEFUcHFmajFYVnp6SUtlTUlFLWpEREhNYkRTTzhiUkFsV19FMkJUbEpnZDRoRVJoR29WS2xtNVJmZmFTWlBKTlhKdjNzM2tKM3ktZnBYMNIBcEFVX3lxTE9HVi1vaHhPRHpqb1k1cDE5a2s5QUc4T21ySW5RRERuV1VmenZ1UWYwTjVrbW9nZWJOQVp4VkVRMl90dzA2UWdSeVhOZFpjSGp5MG5FQ291QTFWcmhpZFl1QWplTHVmbjMybkFsTjN0WUI?oc=5
+
+## 29. 인천~마석 GTX-B 노선에 청학사거리역 생긴다
+- 분류/지역: 교통·SOC / 인천
+- 출처: 시니어오늘
+- 발행: 2026-10-24 00:00 KST
+- 출처 사이트: http://www.seniortoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5lWmxzTVI2N1FGNWhEVHlRenF6TXYzazhGWm5VOFpjZ3RCaEFFZTgxYVBsV3NJQ1l5LVY1NjQ0cEtvYm4wMDh0R1BLN0dUZmplaC1kVWNJYlcxSTNNcE9SZ0MtMW9uSlhhVGlUd09GVQ?oc=5
+
+## 30. [2026 국감] 홍지선 국토장관 "GTX-A 삼성역 조기 개통보다 시민 안전 중요"
+- 분류/지역: 교통·SOC / 전국
+- 출처: 뉴스핌
+- 발행: 2026-10-23 15:13 KST
+- 출처 사이트: https://www.newspim.com
+- 링크: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nUEMtZlN3MnI2RjNHaHpJMkxZWng3b1FOVlJrZWpFN1Z3VGNqd01oNmF3YWZkQWJ1RlFaOW9SVDJUS0FWRlpUU0xoMm54cXVMUXBuaHdObFR3TkxK?oc=5
+
