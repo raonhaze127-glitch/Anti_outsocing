@@ -1,0 +1,22 @@
+﻿{
+    "checkedAt":  "2026-10-25T00:29:10.6113207+00:00",
+    "date":  "2026-10-25",
+    "state":  "valid_with_warnings",
+    "candidates":  30,
+    "minCandidates":  30,
+    "blockedSourceHits":  [
+
+                          ],
+    "excludedKeywordHits":  [
+                                {
+                                    "number":  9,
+                                    "title":  "‘집값 폭락’ 예고한 LH 사장… “前 정권 폭등 시한폭탄 설치, 공급 늘면 하락할 것”",
+                                    "source":  "이코노미스트",
+                                    "keyword":  "폭등"
+                                }
+                            ],
+    "missingSourceUrl":  [
+
+                         ],
+    "strict":  false
+}
