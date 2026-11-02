@@ -1,0 +1,215 @@
+﻿# 2026-11-02 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. LH, 3기 신도시 서울 주택 수요 흡수 기대…청약자 38~39% 서울 거주
+- 분류/지역: 청약·분양 / 서울
+- 출처: 베타뉴스
+- 발행: 2026-11-01 16:23 KST
+- 출처 사이트: https://www.betanews.net
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tVkREc2J6V2ZoY19lWVdrdU44RUNpRmVrN2h2UVMxVXFia0pnSEp1T0hOc3FNZEw0MktKTURYYVE1dXFRZXZTUFR2aDVUZi1CQ3FSVUV2UDZtNE9GZ1FYNDZQOUs?oc=5
+
+## 2. LH "3기 신도시 청약자 40% 서울 거주…주택 수요 흡수 입증"
+- 분류/지역: 청약·분양 / 서울
+- 출처: 뉴스투데이
+- 발행: 2026-11-01 14:11 KST
+- 출처 사이트: https://m.news2day.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiekFVX3lxTE8zNUtvb09GUEFmeWxxdklDaE1fcGpueXlESHY5Rm50NjJqOFJ5RUpoeURkS041UFJEMWpMbEpMZDFWYzRpN3RJd0xPTVFwN1htRFRqNmxnM2xtdU01MjRmZVQzOUg0NTNVN0gxdE5GZ1pSS3BIdl9LME53?oc=5
+
+## 3. 경기도, ‘전국 최초’ 광교 지분적립형 분양주택 240호 공급…11월 9일부터 청약
+- 분류/지역: 청약·분양 / 경기
+- 출처: 국민뉴스
+- 발행: 2026-11-02 00:02 KST
+- 출처 사이트: http://www.kookminnews.com
+- 링크: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGTUh6VDh0MUlKUmVDSGg4aC1kV3lvdnJoVEtIaWJZZC1ob1FQOUF2UENSa1YyVzlkMnIwUkJIb2cyemF1RjBHbQ?oc=5
+
+## 4. LH, 과천지식정보타운 행복주택 1424세대 공급
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴시스
+- 발행: 2026-11-02 10:02 KST
+- 출처 사이트: https://www.newsis.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UVDAxaUZocHdNakpMeEJkRE9KMmVIckVQaUZYYzhiQ3hxcm5OUzJHaWVDQUZ0dTk1cUdjaEpRQnZFTU1nTDVqeDV2ellaQ0J2ZEM3YXNXNmhxRU04Z2o0YdIBeEFVX3lxTE9YcGdDMF9aaTRDNmJpVmticl9tekpnaHBZUzVrS1MzMWhXWFE0bklndG5Zc2o2a0ZIeTJaSHEybVpmaHJobHNyX09Gc0tnYmw1VVRhWkVnSHg1YzlLYU1ZSS0tQXZnVms1SmhjVDFwV2xlazdoUVpzNQ?oc=5
+
+## 5. LH·HUG, 민간참여 공공주택 첫 금융지원…연 4.7% 대출
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-11-02 09:44 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qcDN4WlpiTlNoeDVkYUNvd2FvWFIydFhtbTZpaW13T2Z6Nm1PQUUyM1RGUm9DMjlxY0c5VjRsQXNQQ3hhTmIyYkRELW9LX3dYejBKSjdCWmhzTkHSAWBBVV95cUxQQXFOTEJ3MGd4c3ljZkJKYXg3by1IVk14blNDR2x6TW9EWld4S0paZ0xTbEl5Z3ZOWnlRYlJMeUtFSmxaWWo3Tl9LdWI3VXdLUkhaNEUtMWpKdnJuc3BQSzA?oc=5
+
+## 6. LH·HUG, 민간참여 공공주택 첫 금융보증... 평택고덕 1528억원 승인
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스락
+- 발행: 2026-11-02 09:28 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9pelp0SFFfaFpsT1F1bUpkU1pQc05yUlZLdXVfOEJScXlueDR2TGZWcE15N2FJREdRWjZQVy1wUk1VVDF0V29uNV84VC1vMnk4empJbEZzUjM1RFliWi10Rk5Fd3ZWWmVkZTktag?oc=5
+
+## 7. 계양신도시 첫 민간 공급…이번주 전국 4928가구 청약
+- 분류/지역: 청약·분양 / 전국
+- 출처: 매일경제
+- 발행: 2026-11-01 16:52 KST
+- 출처 사이트: https://m.mk.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1IUUlTQThzVVdZY3VWcXFybUh1OHA5TGdZTXR3Z0dSdkl3cC1ISWJSRFNYMjlVV0RIdVlTTXhaZFRhaDBaRFE?oc=5
+
+## 8. 반도건설 '계양신도시 카이브 유보라' 청약 돌입... 1110세대 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 뉴스락
+- 발행: 2026-11-02 09:26 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFBMVVFKYmlGWkZVcnpOZjNTZm14R1lDWHBwSmM2ZHFRQUR5Z2RJSjUxS3NrTlhZODJYT0U2N0tpTG1XSWt4bUtzajQ0aktFbVlscktWM0pMeEoteElBdDhkcmlzbnk3TnBnZWVMVw?oc=5
+
+## 9. [오늘의 청약 일정] '청라 아크원 푸르지오' 특별공급 등
+- 분류/지역: 청약·분양 / 전국
+- 출처: 이투데이
+- 발행: 2026-11-02 06:00 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4TDVKRng1T1pOYUp2U3hfYzg4Q2NsYXNIc05ZVnFtTmVNdVJzeWdibjhISEIyVmVpVzFhWUZ2SC0tUWlNcFdGY0liZW1DX1NsUzcwcg?oc=5
+
+## 10. 이달 전국서 4만4천여가구 쏟아진다…'디에이치반포124' 등 일반분양에 청약 열기
+- 분류/지역: 청약·분양 / 전국
+- 출처: https://www.ppss.kr/
+- 발행: 2026-11-02 09:30 KST
+- 출처 사이트: https://www.ppss.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RTm8taDBKcTY3WEVJa2FTM0F2VkR0ZjFrc1V1YkVJc2ZSb2RDN1lZaU9idDZhT0RoNVN3Yk1OeWk0WnFuRTRUdk9uMzRlQVo1Z01KY1dtdnBrQlhHVU5hcDRvNWI?oc=5
+
+## 11. 11월 전국 아파트 4만4358가구 분양 예정…서울 6605가구 공급
+- 분류/지역: 청약·분양 / 서울
+- 출처: 이투데이
+- 발행: 2026-11-02 09:13 KST
+- 출처 사이트: https://www.etoday.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiVEFVX3lxTE52U3pTRE9BbkNYcGJvZVhhNTIxa0JYWVVuRTRldTVMcUphQWVyOEw0Tzk0ZXJ6Mld1Wk1KTXdTdGp2YlhHUXFTY1NybGdvUVBrbHgyeA?oc=5
+
+## 12. 반도건설, ‘계양신도시 카이브 유보라’ 11월 3일 1순위 청약 시작
+- 분류/지역: 청약·분양 / 전국
+- 출처: 퍼블릭뉴스통신
+- 발행: 2026-11-02 09:17 KST
+- 출처 사이트: https://www.ttlnews.com
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTFBVODhKVjR6UFhlNmxOcWI2dnl1TTU2RkFDYnh2dU56WUcxMFVGZFN5UnRydFh1NllJaEpfeFN4YnpsSGtWNHJTeXBFWmRLWlhUNXd5c2NRek4tZEltOUVzTnBweVpPeVJrcnhj?oc=5
+
+## 13. '전용 84㎡ 7억원대' 계양신도시 카이브 유보라, 3일 1순위 청약
+- 분류/지역: 청약·분양 / 전국
+- 출처: www.ebn.co.kr
+- 발행: 2026-11-02 08:37 KST
+- 출처 사이트: https://www.ebn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mT1pQVHJlV1FpdDllY2xqczh6SWZPa3N5d3J2UVA5YlNOOVc4WDBSQ3V3R1R6ajNHMV8wMlFMaDhFR1d5VHN1RlFKbnB4SnNpYmJkdWVJVjVQZF9pd3IzNVUwemJULWNS?oc=5
+
+## 14. 반포·문래·고덕 연이어 분양…11월 아파트 청약 시장 '기지개'
+- 분류/지역: 청약·분양 / 전국
+- 출처: 청년일보
+- 발행: 2026-11-02 08:55 KST
+- 출처 사이트: https://www.youthdaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ObmYtbEtjaklkZFNvb2R0QmRYeE1XRTRWZHd2SXV2UTZBQXdta0ZOMkxfS2gyazdXeE9hOWNZdXN4Wl9aZm45eC1SMUNxY2cwaUVIcXNTZ0ltVVhpaW9lSGFwU3dRM1k?oc=5
+
+## 15. 1110가구 대단지… 계양신도시 첫 민간 분양
+- 분류/지역: 청약·분양 / 전국
+- 출처: 조선일보
+- 발행: 2026-11-02 00:35 KST
+- 출처 사이트: https://www.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNGY4RUgxUWVQSnd4SDViZnFtdFltcXNxMnJpS1B0c0JkcTBzMUpQZEVxWE9SaHBaeDRHcEprSk5JT1RaOUx1ZXN0SDZhOG5NZHhyaTdUTlJEZmVWendYUVUtZWFTZ2ZxZS11LXh6bW53ZThfOUljM2lvNXRWYnR3bGg5Tk1ZME5i?oc=5
+
+## 16. 3기 신도시, 서울 주택 수요 흡수 입증… 청약자 10명 중 4명 서울 거주
+- 분류/지역: 청약·분양 / 서울
+- 출처: 경기일보
+- 발행: 2026-11-01 13:34 KST
+- 출처 사이트: https://www.kyeonggi.com
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeTR6U1RITVdGZkR3ano0RU1rZ3V2VzNoUW1wYXY5blg5R0x6VS12T3h2ejF0aWN6NndkZXRIeHRta3k5bnFGOVdyS1RVOTRHaVBUOFl4R0FIcFU?oc=5
+
+## 17. 울산 뉴온시티 산업용지 1차 분양 완료…KTX울산역 일대 주거시설 공급 이어져
+- 분류/지역: 청약·분양 / 울산
+- 출처: 헤럴드경제
+- 발행: 2026-11-02 10:12 KST
+- 출처 사이트: https://biz.heraldcorp.com
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTYUMwaTQ5YVhrWndiWWw1MHRrQkNnbUM5cWphcV94bEg2RE9CQkdDNWprR1NGUThKb3AxZm56RzRFcUZJU05ZZGQ2cXVMU1JqMWFfOGFB?oc=5
+
+## 18. DL이앤씨, 부산 'e편한세상 센텀 리버루체' 이달 분양…259가구 공급
+- 분류/지역: 청약·분양 / 부산
+- 출처: 아시아경제
+- 발행: 2026-11-02 09:56 KST
+- 출처 사이트: https://www.asiae.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KTG5qTGdjV3hEa2NUNDA1TklwY1UwNXRWZno1Tk1mYlpYUFVLMDJwTDE0anZiNXRIZW9KejVIdFNOX29NNXdKRVd0S1JqYlhnbjZKekZOZmRoVkZWZWtCUg?oc=5
+
+## 19. 디에이치반포124 1801가구 일반분양…11월 청약시장 주목 : 부동산
+- 분류/지역: 청약·분양 / 전국
+- 출처: 재경일보
+- 발행: 2026-11-02 10:27 KST
+- 출처 사이트: https://news.jkn.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JQ1QtSV9yV0JEQURvdmpZMkFBZDVMbi1YQ3ZfSjdlQmFDQ2w5aTFoZV9QcDRESlVSaEQ3bmhkaHk1U0w5eE1Bd1Jxcw?oc=5
+
+## 20. 임규호·서울의회, 7호선 면목역세권 재개발 순항 최고 40층, 약 2200세대 대규모 주택공급에 속도
+- 분류/지역: 교통·SOC / 서울
+- 출처: 오토투데이
+- 발행: 2026-11-02 10:09 KST
+- 출처 사이트: https://www.auto-today.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFA2UDQ5MUNSNHV3bU5qOGhlamFWa1BqaXZGZnVCTldDRU05VHVnUWNqNi1Bdkd1NXV6MWNENHRzOFJ5eERCdk9wVXpsRWJkSWVUOGcyZnhLcm11dDlPN1JsUG54eHA5T0NXZ1M5TFR6RQ?oc=5
+
+## 21. [교통정책] 성남 철도교통 확충, 지역별 희비…역 신설보다 교통 접근성 걸림돌
+- 분류/지역: 교통·SOC / 전국
+- 출처: 중도일보
+- 발행: 2026-11-01 13:14 KST
+- 출처 사이트: https://www.joongdo.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE9GVlVHQjgyZC0xY1N4YXEtWGduRVYzRmt2aHdjU1p2X1VxcXp5UW1qYnpodXVzc0hBSGJLelh2eWl1ZzFnUkhMbnRjcGd5blp6dU5nTDBCeTlOTklPUVFKSzAwMkRjMnFnRFFVQw?oc=5
+
+## 22. 성남시, 시의회 '청년기본소득 조례안' 재의결 부결·철도역 신설 용역 마무리
+- 분류/지역: 교통·SOC / 전국
+- 출처: 컨슈머타임스
+- 발행: 2026-11-01 17:13 KST
+- 출처 사이트: https://www.cstimes.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBsMXJSMm41Um9GWlNrV2k3UEpNR3N0ZEJOeEdManVyczRiellkZGhtdlR4MDc3Zk9WX2c5OVBjcmQ0dEN6bVZobWRaR2dIVU5CTFpWODdHOENURGY3LWZFSEdpOWdjd3hsWkE?oc=5
+
+## 23. [르포] 계양 첫 민영 ‘카이브 유보라’…시범단지 기대에 철도 연장 훈풍
+- 분류/지역: 교통·SOC / 전국
+- 출처: 스트레이트뉴스
+- 발행: 2026-11-02 02:35 KST
+- 출처 사이트: https://www.straightnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMid0FVX3lxTE55XzFJVUIyQjdpaWZlc3A1NkZQYWxFQTFIVEM1RUV0Vk1ldGhfM0VOWGZzMWdzS0o4cTlVd25tQ3d5d0s4TVlGQk9tcnRkbE9EaldXeGlVTm9EdkdKODB4ckppMmY3WER1bFR2RUdoa25CTkJIS3ZR0gF3QVVfeXFMTnlfMUlVQjJCN2lpZmVzcDU2RlBhbEVBMUhUQzVFRXRWTWV0aF8zRU5YZnMxZ3NLSjhxOVV3bm1Dd3l3SzhNWUZCT21ydGRsT0RqV1d4aVVOb0R2R0o4MHhySmkyZjdYRHVsVHZFR2hrbkJOQkhLdlE?oc=5
+
+## 24. 성남시, 철도역 신설 타당성 검토 마무리…최종보고회 개최
+- 분류/지역: 교통·SOC / 전국
+- 출처: 국민기자뉴스
+- 발행: 2026-11-01 19:04 KST
+- 출처 사이트: http://www.kmkj.kr
+- 링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ScHUzRmVXakxSdmpNSlRqSE1BTVAxRWk0aGVITHM2c2dfdnFFaTNrbTBMQ0o2R2lXYlVJS19tQ1llZlhRckVNWjQ1bVhUMlphTUh0OFlIcjZSSWtUc3JXeC02aGtNTWfSAWdBVV95cUxNUnB1M0ZlV2pMUnZqTUpUakhNQU1QMUVpNGhlSExzNnNnX3ZxRWkza20wTENKNkdpV2JVSUtfbUNZZWZYUXJFTVo0NW1YVDJaYU1IdDhZSHI2UklrVHNyV3gtNmhrTU1n?oc=5
+
+## 25. LH "3기 신도시, 서울 인구 분산·흡수에 효과"
+- 분류/지역: 신도시·택지 / 서울
+- 출처: OBS경인TV
+- 발행: 2026-11-01 15:44 KST
+- 출처 사이트: https://www.obsnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE83bEtOVkprVWRsenFqQUpaUWROVmVLbTloNU9vX29OZVNERTBTQXFHZUtFRzNjN1RiVjJ1cDVHQlRobDk2ZzRORC1EMWJyUDF0c3I0RkJtNmlGTmJCbWs1ZUFpT1gxS1I0ckhSTUtB?oc=5
+
+## 26. 서울시 "정비사업 용적률 상향, 이미 건의한 사안… 정부가 신속히 법 개정 나서야"
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 국민기자뉴스
+- 발행: 2026-11-01 22:00 KST
+- 출처 사이트: http://www.kmkj.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2ODVSdWYtbmVfdkxvNk55NDhGcGNYZWxac3haSEk3U3RqOHlTYS1VZmI0dld1ZGNLMnRfT3gtbU4tMG1pVmdGZkdYbFkwUkxJUzJrQXdSVFlZemxqX0hlSEVfdw?oc=5
+
+## 27. SM그룹 동아건설산업, 현저동 모아타운 우협 선정...서울 재개발·재건축 사업 본격화
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 팝콘뉴스
+- 발행: 2026-11-02 10:05 KST
+- 출처 사이트: https://www.popcornnews.net
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5HMW5FUG1ycXpSTi0yenl0akhXbkdDTkdhT2pfVzN6Uko3cmNCWGEzVlNtdkwzSVZ5bzB2NXpYTW5VdDJabzRlRmZ4alRtMlYzaXloTlkwRUkyeGYtcWJNRHV2d0hVXzA0dTYzNjg4Z9IBckFVX3lxTE9Lc251UnpQdk5yU2FQcjR6dWlrQWt4TUw5UjBtYWo2YTZfbHQ1TTJDZUM4Y0hRc3Z1Uzh4V3YzY1kzVUQyX0ZNb2k2TzBQM2o5dFVhNmd0ZWdUeENKcU9QVDhIQmI4SWZGQldONEtoeXctQQ?oc=5
+
+## 28. DL이앤씨, 내포신도시 'e편한세상 내포 에듀플라츠' 공급
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 아시아타임즈
+- 발행: 2026-11-02 10:30 KST
+- 출처 사이트: https://www.asiatime.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tci14WEU0cUVrRWRWcGItUDRjQ3Jnel9KaXNQUThhZ3Z5RlRUZl9wMzJ2UXpHYjdCYVZXbjdXelZ1enA3RXpxZXFpS0ZzVXNwTXNiUFZPbF9ZQ0lBUkE?oc=5
+
+## 29. 서울 주거지도 다시 그린다…재개발·재건축 1200곳 '들썩'
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 한국경제
+- 발행: 2026-11-02 08:45 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fVWZDTWhiRkxUWWdtckxaTWF2X1hBSHN6N0N6WHZPcGRVU0FhbFJVY3lrNzFFN19IVHJMNmllc09LdjFid3BnMHhGQjVDRjRZOU45NU1rSVRVdw?oc=5
+
+## 30. 연말, 서울 정비사업 분양단지 관심집중
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 국토일보
+- 발행: 2026-11-02 08:35 KST
+- 출처 사이트: http://www.ikld.kr
+- 링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9nWDdkcTZUTGdqRHBaNnlsay1qTV9mTmxqV2NPREExN0RaM1NyOGpNMkVtUGxKVnNlbFh3V3V3S2dQRFV5NjhuZGdBLXlCUEtldG5sVUlpT2psQTh2U1lEWUg3OA?oc=5
+
