@@ -1,0 +1,215 @@
+﻿# 2026-11-17 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 조직 분리 앞둔 LH, 186조 빚 누가 떠안나
+- 분류/지역: 주택공급 / 전국
+- 출처: 파이낸셜뉴스
+- 발행: 2026-11-16 18:50 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XMFp1eXY4dWQxRFZ6WXpOLTJZekhFTFNMaUwydTVyWUo5WEpRSm1PMXdCQ090NndNNm81ZVdSNGJJTGpHYkZ6emhKZTZnOTFYTXNHX3hzaUsyUQ?oc=5
+
+## 2. 연말 3기 신도시 2000가구 분양…남양주 왕숙·부천 대장 등 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 지피코리아
+- 발행: 2026-11-17 09:51 KST
+- 출처 사이트: https://www.gpkorea.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE0zTThpMVlDd3o0b2RhdzFpNU1XX3p1aVBkX1F5MkxvUW9WalpiTk90RC1ES1pSemkzYnNxMWRqcDNob3RsdmdVeVBxcXVBTVhPM01hcGdoNTRTejl5V0o4bFhla3V2SmhGWEHSAW5BVV95cUxOeGZhNEVvNEd2YXBkTGlvOTVKRDRQMjdXX1Vrc2pNYjdqblFxanhHNFgtYnE4NjAySFVCNThSeWptSFp6Y21oelUwTEFGRzJZaTVqNGppY1RFck5Wa05NSmJteURXVEdZQWdnOU1Ydw?oc=5
+
+## 3. 3기 신도시 분양 속도...최대 공급 지역은
+- 분류/지역: 청약·분양 / 전국
+- 출처: 파이낸셜뉴스
+- 발행: 2026-11-17 10:56 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLVHc5YXlzQm5NQnF4UUFpUVh1QlFKNkR1OTd3YXpieWMxSjQ4NHpqTVNqNTdFZVNGN1RXdGNVeVVfRXJ1Q1JjQllSSVdyMFBPMFgtenZlOUE0UQ?oc=5
+
+## 4. '디에이치 신반포에스테라', 잔여 5가구 청약홈 임의공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 한국경제
+- 발행: 2026-11-16 16:49 KST
+- 출처 사이트: https://www.hankyung.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1VHZPcUxXa2M5RWdXWkhtM3Q2Ui1zVVByRHdxdHJNYUxUYkF0TVdIOTlFeXFYOE5ibzI0MTdPalJVTFNPcWF0UHFLSG1sNThxXzRfUUkxZUF3QQ?oc=5
+
+## 5. 검단·오류 산업용지 85% 분양 완료, 잔여분 공급 막바지…인천내 부지 확보 기회
+- 분류/지역: 청약·분양 / 인천
+- 출처: 기호일보
+- 발행: 2026-11-17 05:10 KST
+- 출처 사이트: https://www.kihoilbo.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBtMDJwN2pxTDRPY3VfcU5IMXZMaTBKSHZjN2ZmUktTTV92SV8xMHdYdkJRQS0ybk94eGc4T0RGdmpmdGdPNVdEbGFiOHV0SGhNb2FTSkFtblRMRWlabl8yMl9KSEQ0aGhkSHlwTGRHYw?oc=5
+
+## 6. [경북행감 정치人] 김진욱 경북도의원, 경북개발공사 부채 관리·신도시 분양 부진 집중 질타
+- 분류/지역: 청약·분양 / 경북
+- 출처: 코리아투데이뉴스
+- 발행: 2026-11-17 00:04 KST
+- 출처 사이트: https://www.ktnnews.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xQVBxdDNSM1F0UHQ2MzBGOFZlNGl3alNiTWVWXzlJU2Nxbm55T1NBLTZacWdLNG5VU0JmaVdIcnN2VjZuaElN?oc=5
+
+## 7. 연말 영·호남 분양시장 큰 장 열린다…1만9000가구 공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 아시아타임즈
+- 발행: 2026-11-17 08:46 KST
+- 출처 사이트: https://www.asiatime.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvdVBsN0VfcG5fUEZBTEV6US1uRzI0QlE2aHduWWtrUW9BTXNZdjJabFdvN2tBSlVtVDJyNHg4ZmdHTFlTTUp3dy1jTFBMaUdCWlNZb1lCdzZJUzF6ZGc?oc=5
+
+## 8. '디에이치 신반포에스테라', 잔여 5세대 청약홈 임의공급
+- 분류/지역: 청약·분양 / 전국
+- 출처: 지피코리아
+- 발행: 2026-11-17 10:41 KST
+- 출처 사이트: https://www.gpkorea.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTE1ud2ZkSlY5WDVBaDBjOW81OGljTmY0cjFGRms0c0p6a2dpWUVPMUVPMG93YzJIOVRISmNlRWg1dm9GcGhCa1FvYnd3MXFSSlRwbV84ZnpvZDg2RUhKQk5MR3hFSDVtRzVrRUHSAW5BVV95cUxPbVktZUdnWTBQeHgtdHJZT21SNS1QR1J0QjZfY050Smdnci1MQ2c1NllySXNtMVB0UzdhYXBjZ3M3QXlpeXV4eWNBeFFVVG4waHBINzQySl9XeVM4WlRKbjNKZEJobnJ0NEE1bFRSUQ?oc=5
+
+## 9. [고분양가시대 청약셈법①] 두자릿수 청약 흥행에도 무순위 왜 나올까
+- 분류/지역: 청약·분양 / 전국
+- 출처: 한스경제
+- 발행: 2026-11-16 14:12 KST
+- 출처 사이트: http://www.hansbiz.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE5neWFHc0xRMjR1d1JkeG9aeHFHYk9wMEE0Slh4d3B5MGdad0otT0pIbEpMWWFwbG5aN01Mb2tyR1E5ZW9ReTFTdXRtN3AyTTdsWmZ1a0tzTnVkWTBGT3V6VUJnVDJkWDc2UjFia29nMNIBb0FVX3lxTE5neWFHc0xRMjR1d1JkeG9aeHFHYk9wMEE0Slh4d3B5MGdad0otT0pIbEpMWWFwbG5aN01Mb2tyR1E5ZW9ReTFTdXRtN3AyTTdsWmZ1a0tzTnVkWTBGT3V6VUJnVDJkWDc2UjFia29nMA?oc=5
+
+## 10. 위례 중대형 아파트 공급 줄자 신고가..신규 주거시설 분양
+- 분류/지역: 청약·분양 / 전국
+- 출처: 한국정경신문
+- 발행: 2026-11-17 11:04 KST
+- 출처 사이트: https://kpenews.com
+- 링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IVkRUcV9WWUpyS28tUEcweVhjSHZJVUFxYWJTQy1XZDRVbk0zeWtuTDY0UkRTV0JVaXFsc3lDQVk5emQ0UzBsUzBIRTJTR3RXYUE?oc=5
+
+## 11. 인천 계양산단 산업시설용지 마지막 분양…지원시설용지 4필지도 첫 공급
+- 분류/지역: 청약·분양 / 인천
+- 출처: 데일리안
+- 발행: 2026-11-16 16:58 KST
+- 출처 사이트: https://www.dailian.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiowJBVV95cUxPbzZ5TGw2aFZCRDQyTTFGT0V2WUJTUW9WSHZGMjlSNlJFUVM5X0pBcXJCZDJxNnVyc0loaVZ3QktUdTBnQk5JMjl1VFNkd2tmcXRFMUZteTBkaWNUd1ZCN3FJY1BER1FqSDZPdTdheVpTam1WSnF4NXJjVmtpZjBFd2pldnF5eU1xZW9KUFVVYVNOejNNNVE0X1lrUk1GbEMzWVEyZTlYWjhWZXBGZXNibmVBcFR2TVc5TGV0ZWRySUk4ZVFhMjR0anFnY3VhSXBPZkNJQjB1LWxlNHhPVUJVZXVRMjQ2VmJNTmVaa0tKclg0dmJISG1aM0NfaVY2UmlkdDRRb1hQQjhoTHo4Tm1TZUhZS0J3aE9LempLOWRSSWtfTWs?oc=5
+
+## 12. 분양 늘었는데 1순위 신청자는 ‘반토막’…서울 청약시장 무슨 일
+- 분류/지역: 청약·분양 / 서울
+- 출처: 매일경제
+- 발행: 2026-11-16 14:46 KST
+- 출처 사이트: https://m.mk.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiRkFVX3lxTE9QTzk4U0YzUmNmcld1d0xRbW1RTUtPeEVodjZOZjVaaUt2bTBQWXZMblpMZDU0am1pZWppcmd5b2ZIaktmUGc?oc=5
+
+## 13. 경기도, ‘전세사기피해자 최소보장제’ 신청 독려…임차보증금의 3분의 1 회복 보장
+- 분류/지역: 주택공급 / 경기
+- 출처: 경기도뉴스포털
+- 발행: 2026-11-17 09:25 KST
+- 출처 사이트: https://gnews.gg.go.kr
+- 링크: https://news.google.com/rss/articles/CBMijAFBVV95cUxOOEN4WmVUTjdVcFFOaC1TWk1kZk9YZ1c5YTYyVmllUFprZ0czZkNjSTVvb0xLR3ZvUzFFMnJFa1lGWUZHNHZTTV92Q0pra0l5NVl6VnpIMi1fODcyZXNNREhVR0tINW9sWklVQk5hYTVmbGFjM21MX1dYTDJEY0x3NTQwN0luRDYtSTYzbg?oc=5
+
+## 14. 박수현 충청광역연합장, 국토교통부 장관 만나 충청권 핵심 교통현안 건의
+- 분류/지역: 교통·SOC / 전국
+- 출처: 코리아플러스
+- 발행: 2026-11-17 11:34 KST
+- 출처 사이트: https://www.kplus.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE11YXF0Z0w3T1VkNkFJMXVVSHljMVJ5Y2dUVGlFSUNxWGgzckNHS2tvX05DSGVfcWVaZzduZVlwN2dHVllDMkxKRXdlejdUbWUtTGJLNVMwa1hUSWdrUG15eU1PSDBnUQ?oc=5
+
+## 15. 유기훈 서울시의원, “우이신설선 CBTC 신호체계 전환, 민간 운영사 아닌 서울시가 책임져야”
+- 분류/지역: 교통·SOC / 서울
+- 출처: 세계타임즈
+- 발행: 2026-11-17 08:03 KST
+- 출처 사이트: https://thesegye.com
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tbVFWY1huUDQtSGpJU0hSOXdMcml6XzVmQ3ZNVUJHYkRFeFZEUGZUUUhYR1g0N1ViMjN6dDJuU0MxSC1tSkR1LUFIeVpQV0FKT3ZN0gFTQVVfeXFMTW1tUVZjWG5QNC1IaklTSFI5d0xyaXpfNWZDdk1VQkdiREV4VkRQZlRRSFhHWDQ3VWIyM3p0Mm5TQzFILW1KRHUtQUh5WlBXQUpPdk0?oc=5
+
+## 16. 경기도의회 유재수 의원, “안산 장상 3기 신도시 입주 전 선제적 도로망 확충 서둘러야”
+- 분류/지역: 교통·SOC / 경기
+- 출처: 서프라이즈뉴스
+- 발행: 2026-11-17 09:17 KST
+- 출처 사이트: http://www.surprisenews.kr
+- 링크: https://news.google.com/rss/articles/CBMibkFVX3lxTE1fa0lPMTVFeDZGRDg4VG9OMTZJYXVVd05yWEZXTHg5bU5weUkxalkxQ1pveFc0d1Z0U0thYmRuaWF1M2xZYnFTemVwck82NVVKOWFuRXRDTTFhR1NXTlVxZVE1eUpMMzQ2VU9vVWhR?oc=5
+
+## 17. [기획] 교통대책 없는 수도권 공급 발표…‘선교통 후입주’ 약속은 어디로
+- 분류/지역: 교통·SOC / 전국
+- 출처: 매일일보
+- 발행: 2026-11-16 15:06 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SV296VzVybS0yc3dJNFhDSE8tenZSS2NHVm0zRlN3NmZrSVN3MlR0MG9VMVNxWWZSWXQySG03WWdkZ0NzaVZZSEZTeU9hWS1YMW1uc05pR05WbkNZTGppMklud1o?oc=5
+
+## 18. 포천시, GTX-G 노선 제5차 국가철도망 구축계획 반영 촉구
+- 분류/지역: 교통·SOC / 경기
+- 출처: 일간경기
+- 발행: 2026-11-16 14:52 KST
+- 출처 사이트: https://www.1gan.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDcENKMm9EMkJqZU1qeGxHSHpERnFRN2RwWHl3YnpDNGJVbG4zV3JBUHJ2SDU3anlfRW1sX1AwOFlYM1RRbXJObmF5T0J5amZKb1lnUW5vaGg0bk9PRUhYY2hfZi10RWdq?oc=5
+
+## 19. GTX 포천유치위·포천시, GTX-G 노선 '제5차 국가철도망 구축계획' 반영 촉구 - 보도자료 | 기사
+- 분류/지역: 교통·SOC / 전국
+- 출처: 더팩트
+- 발행: 2026-11-16 17:38 KST
+- 출처 사이트: https://news.tf.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE03ZWV6VkVpY3BFb3R5M2ptSy1hd2c2VEY3ZlpTalFoaW9ubi1zQ1Q3bUtvWFJwY0NGTjVZU2xZcy1yLU1aY1NUOTVHeUppU1owalBJS3g1eXgyUmgweHRj?oc=5
+
+## 20. 포천시, 지티엑스-지(GTX-G) 노선 제5차 국가철도망 구축계획 반영 촉구… 시민 염원 한목소리
+- 분류/지역: 교통·SOC / 전국
+- 출처: 포천신문
+- 발행: 2026-11-16 15:16 KST
+- 출처 사이트: http://www.ipcs21.com
+- 링크: https://news.google.com/rss/articles/CBMieEFVX3lxTE5nSjgtajNuSnl6WFg0ekljQl9NYy15MDF0cHoxdnZ6cmZGNVNrQ3FZTTlQTG8tYXVJcjNUYU0teHBZLWhua2RXbUNRQ3hIeGFUZTVFT3Bwak9FcFhpWkZvSW1BdDJYMmx1Unk4WmlaMnZ2N21HYlB0Sw?oc=5
+
+## 21. 포천시, GTX-G노선 제5차 국가철도망 구축계획 반영 촉구
+- 분류/지역: 교통·SOC / 전국
+- 출처: 연합뉴스
+- 발행: 2026-11-16 14:56 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGN05pRVFKVVRCVjZNdmswR1I1TG9RMkpBd1FzR0d0LTZZM3dob2twUzBLcUJDNDhfNjJpVzIweTZlZkM4MTQxN2VwRUNuYm45SVV0S1BtNnh4YVhjQjktcNIBYEFVX3lxTFBGN05pRVFKVVRCVjZNdmswR1I1TG9RMkpBd1FzR0d0LTZZM3dob2twUzBLcUJDNDhfNjJpVzIweTZlZkM4MTQxN2VwRUNuYm45SVV0S1BtNnh4YVhjQjktcA?oc=5
+
+## 22. LH, 레미콘 스마트 관리시스템 도입…3기 신도시 품질관리 강화
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 뉴스락
+- 발행: 2026-11-17 12:58 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTFB0dXFVanFXY0hQb3lsUmc3ZHlFWEFxN0NDTVJCTkZVcWtSM1R4Ymx5em1DZS1HWlpZbDNoZUUxTEx4WEF2d2xyaHk0dzVMR3U2Tjd2N0lZY093aVZMRVJTRlNUdy1YTlE5N3Nzbg?oc=5
+
+## 23. LH, 3기 신도시에 레미콘 품질 관리시스템 도입… 임대주택 품질 높인다 - 머니투데이
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 머니투데이
+- 발행: 2026-11-17 10:36 KST
+- 출처 사이트: https://www.mt.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBneE5rSEFkSGlnUTVDV1BrUG80YVl2Z0N1QVNJOWZQMHU2MEZzcFJ4UlNEclFxUFMtY2gtNUJfVURDSVFHeDR4aURiNGpOeHRZNkdtVV90bmRUZTQ3U2lRT29oTXJpUE5mUGpkSHdUY9IBb0FVX3lxTFBneE5rSEFkSGlnUTVDV1BrUG80YVl2Z0N1QVNJOWZQMHU2MEZzcFJ4UlNEclFxUFMtY2gtNUJfVURDSVFHeDR4aURiNGpOeHRZNkdtVV90bmRUZTQ3U2lRT29oTXJpUE5mUGpkSHdUYw?oc=5
+
+## 24. LH, 레미콘 전 과정 품질관리시스템 구축…3기 신도시 전면 적용
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-11-17 09:03 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKWFU5RUt0bVdNcDA4NzZKck1BbTB1SlRjVHRNQW84VFdocTZBYkdHUjk1ZEYzQ1pGVktfZzVKQzBQR19ncWxib2xxUExoalZGQW1odDNuTVVHQzjSAWBBVV95cUxQMHh3ekltRURWcUZfLW1leTQzMGV1MjhqSG80bWVYMU14ZkdRdC1kcjFTaldIdVBvTThIY3VJQ2JyZGNOdWRBbkZnMHZISTZiblpzd0l0eWIzZF9UTEg3RUw?oc=5
+
+## 25. 임유진 경기도의원 "고양 원당 재개발 중단…GH 책임 따져야"
+- 분류/지역: 재개발·재건축 / 경기
+- 출처: 뉴스1
+- 발행: 2026-11-16 16:04 KST
+- 출처 사이트: https://www.news1.kr
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PWHNUbzVYS19HOFZmTHgxcHJyLU5xZjlLbE1GdG9YdzlkenAwTU5MbFJNM2FkbW85ZkZBRGdWcmNmY1VXT0dGMEJBclAxZGlPc3ZrR1ZR?oc=5
+
+## 26. 창신10구역 재개발 갈등 해법 나올까 #딜라이브뉴스 #shorts
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 딜라이브뉴스
+- 발행: 2026-11-16 14:12 KST
+- 출처 사이트: https://news.dlive.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTE83a291VUlXSTR3ckhBRWp5SnZvUWItcTRFbURURUtmUDhPakRwaFlqZ2piUHVpdE5uWXlFZnYyZmF5SkczMlNhVUk4NV9WcDQ3QXlhUkstTDNHMHNweUVmekdlZU1YZw?oc=5
+
+## 27. 창신 10구역 재개발 결국 재징구 수용 #딜라이브뉴스 #shorts
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 딜라이브뉴스
+- 발행: 2026-11-17 11:42 KST
+- 출처 사이트: https://news.dlive.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWMWY0OVdreXRSS3hIaFNESmJoWERTTzQ1MUxKelVDMHRkNkJ4YWtvWU9jaC1hdWM0QklBcXB0anZkTFhGWlJzUW5Uc25ubGlsUXN2ZUlocmVyMnlIQUpqOW1IcDdkQQ?oc=5
+
+## 28. 일산 첫 재건축 '특별정비구역' 가시화 #딜라이브뉴스 #shorts
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 딜라이브뉴스
+- 발행: 2026-11-17 09:21 KST
+- 출처 사이트: https://news.dlive.kr
+- 링크: https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0VzVUanJKOU1janR5NENjejZGbFhxSmJuTGp1ME1RZjNaV0pVWGRHM0tkbkEwZjRra2Q1XzZ3Tm1CU2lqdlhGaHdTRmxTQ1lFSVpmQmt4MHlVREpzbllzam5NX2pMQQ?oc=5
+
+## 29. 대통령은 공급 속도전 외쳤는데…3기신도시 남양주, 최대 26개월 밀린다
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 땅집고
+- 발행: 2026-11-17 06:00 KST
+- 출처 사이트: https://realty.chosun.com
+- 링크: https://news.google.com/rss/articles/CBMic0FVX3lxTE9uREZMR3oyMk5Oa3JkUjhiN2NzM19PcktmYVlqRkZ2WjRjRzNIbGxESG93SGRXaGdmWGN5a2ZqaURzUVZ4c0RYbmgybXk1RnZpR09jNkVJcXRjZVlONTBURWtsN3F1ZDEyOC1GdXdXa3lyZGfSAXNBVV95cUxPbkRGTEd6MjJOTmtyZFI4YjdjczNfT3JLZmFZakZGdlo0Y0czSGxsREhvd0hkV2hnZlhjeWtmamlEc1FWeHNEWG5oMm15NUZ2aUdPYzZFSXF0Y2VZTjUwVEVrbDdxdWQxMjgtRnV3V2t5cmRn?oc=5
+
+## 30. 풍납극동아파트 재건축, 598가구 공급 확대… 사업 본격 추진
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 하우징타임즈
+- 발행: 2026-11-17 10:40 KST
+- 출처 사이트: https://www.housingtimes.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5jUXQyZVAyMEJQVXdVWEItYTdKbmNLdjBRYmxMMy1VMGxVaFdOUkcxbnU4U05oRXNMNjRNTWdDSlJmX3lFVV9aUWJMVkdnOFhxS2s1RWhUOFgwd0R0QmQzU3hTdUpWMV9Edndvam54azk?oc=5
+
