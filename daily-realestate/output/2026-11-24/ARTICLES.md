@@ -1,0 +1,215 @@
+﻿# 2026-11-24 부동산 공급 기사 후보
+
+> 수집 범위: 최근 24시간 / 최대 30건
+> 카드뉴스로 만들 기사 번호를 확인한 뒤 `selection.txt`에 쉼표로 구분해 입력하세요. 예: `1,3,7`
+
+## 1. 박이강 서울시의원, 공공주택 공급 확대 논의... 오세훈 시장 “국토부와 도심복합사업 TF 가동”
+- 분류/지역: 주택공급 / 서울
+- 출처: 포인트데일리
+- 발행: 2026-11-23 17:18 KST
+- 출처 사이트: https://www.pointdaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1vQzhQbzZKVF9vRlQtRWUwcUpXNm1rWmFxbWROaUVOQy1wRVd0bE5zTERZSjVKTDhfdFBHTmtzRmxvbGUzUGVsSmhvdl9EbjNMQlZzV0tSQmlRc0dFdWlIZzQ3V3FNeWpoejhrQ1ZoTFLSAXRBVV95cUxNTldhNHBKUGFYUFcyZ0lqTHEzcVVjT3VoWVZ4WDlGRFZhYWlZLTBkakZjSFl4cXZOWS1oRzhxOXdtR09DZmthbzR3STFobERMYmlTeTlCUFJnS0FLRHB3d1VKRDNJWDV5Q0dsbXo3Y2JjbDBzNw?oc=5
+
+## 2. LH, 공공주택 4천232가구 공모 연기…주택 공급 차질 우려
+- 분류/지역: 주택공급 / 전국
+- 출처: 매일일보
+- 발행: 2026-11-23 19:43 KST
+- 출처 사이트: https://www.m-i.kr
+- 링크: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1KZEpUMmFPMHVLMEZKamZSMHB6bnpNXzg3dVlOREhRV0x3djkyRGJHaXJreVhXWm5NcmdRS205M1NFN0RNeUNnTUFHSGdaSzNTODNEbjFHNTRmTXNFNWtIUHhscWs?oc=5
+
+## 3. 집값 하락에 공급 가뭄 우려, LH 1.9만호 매입확약 총력
+- 분류/지역: 주택공급 / 전국
+- 출처: 리드경제
+- 발행: 2026-11-24 11:47 KST
+- 출처 사이트: https://www.leadeconomy.co.kr
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5oVDVQMVdEaWxHR2NKM0NQVWpzMVpHdU13UFRtd0h3WTRPTXlZWG15Q2lzYXQxWnRJRV9LcTdzMV9wV2ViRUpuT2JKSmZMRmFPR2ZEV1hONTBELVlsTjFuckloQlhWeS1Ybk1YT1JheEw?oc=5
+
+## 4. 李 “사줄 테니 지어라, 분양 걱정 말고”…LH 매입확약으로 착공 속도전
+- 분류/지역: 청약·분양 / 전국
+- 출처: 이데일리
+- 발행: 2026-11-24 11:08 KST
+- 출처 사이트: https://www.edaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxPdFZRTmtMakFVWmNjUVpyYWJneVlSQWxGMmRHX2lkVnRMMEN3Yzc2YUhDQlczVTRERF81SjRxYjdVNWJKcGVfekVfcW4tdGlqYjQ2WElzbDhUaTEtZ1hpdG93MWNXQ19BRGxuWFptaFNPdU5ZM0RuWGloeEFta3hZMg?oc=5
+
+## 5. 오세훈 서울시장, 국토부와 도심복합사업 실무 TF 가동… 박이강 시의원 공공주택 확대 요구에 응답
+- 분류/지역: 주택공급 / 서울
+- 출처: 뉴스인
+- 발행: 2026-11-23 16:52 KST
+- 출처 사이트: https://www.newsin.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1RYnlqN1FXamMzM0liX21DSENaR1JYTXIwTGNCTEVQd2EwRThScEdObElSRmJaaFRuNVhpUnQtOFNYQjRVSm5Ea2tCcG56WkE3SC1RZG1pRlJldmE2NEZMV3lCRVQzVVR0Tkw0?oc=5
+
+## 6. LH, 공공주택 4천232가구 공모 연기…연내 선정 차질 우려
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-11-23 18:59 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDMXp4dUs4ajlLYUg2VmtEWFk2X081Q1JsLVB5R3BBZHRvMWpGTlZ2a1ZwN2g2WnhFQm96RnZtdmxyUnJOSkFNREVRUmpfTHRtR2FsNzZNLXVvNXlkblBQQ9IBYEFVX3lxTFBDMXp4dUs4ajlLYUg2VmtEWFk2X081Q1JsLVB5R3BBZHRvMWpGTlZ2a1ZwN2g2WnhFQm96RnZtdmxyUnJOSkFNREVRUmpfTHRtR2FsNzZNLXVvNXlkblBQQw?oc=5
+
+## 7. 경기도, GH 공사채 6조1100억 발행 승인...공공주택 공급 재원 확보
+- 분류/지역: 주택공급 / 경기
+- 출처: 아주경제
+- 발행: 2026-11-24 10:36 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5Nzd1bVhEa1RCeGN4MmxyMzhndU1yOHBEUjAwQjJCRGs2MWE2VlVtOHRrQ3FLVzB1aTBFUTA5dWtkcXhzX1RraXRWV29aSUhhSWJ4SWlWVG9ud9IBWEFVX3lxTE5qTm1aek5MYTBEdXNRVEJwMFJkWWlDMWdFOWpWd3kyaHlsZ3p3UjRWUHY2bUkydUttb0Vkcm1ZZ1A4MUV2YW5ST0JRaC10LWxNSV96Zkkxc1o?oc=5
+
+## 8. 오세훈 서울시장·국토부, 도심복합사업 정상화 실무 TF 가동… 박이강 시의원 시정질문서 확인
+- 분류/지역: 주택공급 / 서울
+- 출처: 디스커버리뉴스(DISCOVERYNEWS)
+- 발행: 2026-11-23 16:03 KST
+- 출처 사이트: https://www.discoverynews.kr
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTE5VV2tkdEtraFE1U3lYNUU0cWtNRU1WVG84TkV0ODY0NUJReUdEUWhvRVItOG4xZXI4TkZtbzJQR2dDd0p4eXBiQTlZQWptVXY3OU5MZ2ZrNU9oZHJXZE1hT2llN0NaUWIwUEhTVExFenh1UQ?oc=5
+
+## 9. LH, 한국증권금융 꿈나눔재단과 자립준비청년 등 주거지원
+- 분류/지역: 주택공급 / 전국
+- 출처: 연합뉴스
+- 발행: 2026-11-24 08:53 KST
+- 출처 사이트: https://www.yna.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1SUZ6RVctRzBtR1huYlJ5QThBamZmczdGclJ4YUtxazZobFlDM2RFamw5QXNIaGxvMk1CYkZYUjU2R2J2VDJ0UGs3QmhvMENUTTN1c1dxaFZfUHpFY1pxR9IBYEFVX3lxTFA1SUZ6RVctRzBtR1huYlJ5QThBamZmczdGclJ4YUtxazZobFlDM2RFamw5QXNIaGxvMk1CYkZYUjU2R2J2VDJ0UGs3QmhvMENUTTN1c1dxaFZfUHpFY1pxRw?oc=5
+
+## 10. 채유미 서울시의원 “4중 역세권 DMC 부지, 헐값 매각 안 돼”
+- 분류/지역: 주택공급 / 서울
+- 출처: 주간한국
+- 발행: 2026-11-24 11:08 KST
+- 출처 사이트: https://weekly.hankooki.com
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE12c3dRcGpqWWlCd201ZDhaMzlMdlM0bmhLd2VtUFpuZ05JSEZTdnJIR3BEOTFaNG9ZWThYeTk4enBYZUlsRE1TZXdMMjJtZzJSWkdTcExiRTQ0RVBwRU41QzhETV9oUC1yZmZtdDNZOE_SAXRBVV95cUxPYVVBVjhzWmxPUXNqcmxvNU84QWlFTExwdWdFNU9fekJmY0RlLVU3Wm5kT3p3ZFFBOGtNVUJUUU1SR2JjWkg3cE9xdGJ5WkpDMUd3N2hoTjRja21JRU1HdTdsQ0ExMzctLUFpczlSaW0zTmRyMw?oc=5
+
+## 11. LH, 자립준비청년 200명에 보증금·가전비 200만원 지원
+- 분류/지역: 주택공급 / 전국
+- 출처: 파이낸셜뉴스
+- 발행: 2026-11-24 08:54 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lMGlINHFtWmNtdTNsWjR2T2F3bFh6VnVfYl9fM0pIOERmeWNfaVJXejE0M1JMSXhVNlhsZXRwZEh0azVqZjZhd2d4aEdvclN1cDZ4UzBtbC15UQ?oc=5
+
+## 12. LH, 한국증권금융과 자립준비청년·가정 밖 청소년 지원 확대
+- 분류/지역: 주택공급 / 전국
+- 출처: KPI뉴스
+- 발행: 2026-11-24 10:42 KST
+- 출처 사이트: https://m.kpinews.kr
+- 링크: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iZDlHbkI1amlyNzlkcExxdHNLQVowaWo0eWhOVVRORzQzc0hIc25tVDd0WFVYRXBaTWpkYkpFZXlGdzZVWnRBYnBTMEl5NHZ4dWhv0gFTQVVfeXFMT2JkOUduQjVqaXI3OWRwTHF0c0tBWjBpajR5aE5VVE5HNDNzSEhzbm1UN3RYVVhFcFpNamRiSkVleUZ3NlVadEFicFMwSXk0dnh1aG8?oc=5
+
+## 13. 채유미 서울시의원, “4중 역세권 될 DMC 부지, 공공성 떼어내고 헐값 매각 안 돼”
+- 분류/지역: 주택공급 / 서울
+- 출처: 웹이코노미
+- 발행: 2026-11-23 23:36 KST
+- 출처 사이트: https://www.webeconomy.co.kr
+- 링크: https://news.google.com/rss/articles/CBMickFVX3lxTFBfbXpqVDBzdGR0MzJfZDNYdEpyeUFUWXg2bEZKYl9BalFpS2FXcWRJZ3ZWTnFIMmo5QzVFeVA5TjdiTWNwVXZzMUV3T09RQ0FmZVFfYXI5OXJCTDhrX3EyODdNRVRxTmVIZkpNM2sySGF0UQ?oc=5
+
+## 14. [부동산 나들이] IPARK현산 '청주 가경 아이파크 7·8단지 완판'·삼성물산 '층간소음 기술 공유'·LH '자립준비청년 주거 지원'·DL 'ESG 우수 등급'
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스웍스
+- 발행: 2026-11-24 11:12 KST
+- 출처 사이트: https://www.newsworks.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTFBlSFpxTlV1UWU2TTEzUjF3dFZOWFdlTjE0dkRYODFGeDJ4cUZWemM2YlVNY3hWRHp6cVBHb1FfRm9qOERQSU54bzdlWkxLVzE2YjczN21UZERjMDQ5bnRuYkF0cVM1UnhGSi1LZWlQMNIBc0FVX3lxTE91MGZSOUo5VGdCeDBSa0FiVmJZQ0xIMEJsczJGaDJPc1Q4UjRBMDhKZGw4WHo4dmJjSWthSHZxMVEzR2gyenFPMnBEazFwUHJBeEFfMnIwZ0VwWllETEJCOTNYanhGbkZlVnFWQXdHQ2tfV3c?oc=5
+
+## 15. [함께가자 우리ESG] LH, 자립준비청년 주거정착비 200만원 지원
+- 분류/지역: 주택공급 / 전국
+- 출처: 뉴스락
+- 발행: 2026-11-24 09:20 KST
+- 출처 사이트: http://www.newslock.co.kr
+- 링크: https://news.google.com/rss/articles/CBMibEFVX3lxTE5OYWtNUTV3SjBlMHJMNnRFN2tFWVNlOFd4MlAzN1hXOHVqMHNYcjNCMHJZVndJZVpwZHF6V1pob2VFN05pVW5KTGhiOXVBTWlJOGJLNHZWV2U0V1dPaXJYNzRxeVBkMi01UmFSbQ?oc=5
+
+## 16. 서울시, 지하철 총파업 대비 수송력 총동원 … 시내버스 3519회 증편
+- 분류/지역: 교통·SOC / 서울
+- 출처: 뉴데일리
+- 발행: 2026-11-24 09:51 KST
+- 출처 사이트: https://www.newdaily.co.kr
+- 링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxPUkpLeEp2VVJRQ3FOMXRFYjBBclRqeUxzVDZXYkcxLUI5bGpqWHAxUVZKQzhmcENvSHY4M1BuVFR4OWw1NHpaMUVMcGtFcUVtOXV2LWFCS1dtODZaWEZfWTRydkVVRkhFVFlyalVfME1BcWtDUU1FQzV3cHF5Y0VVatIBgAFBVV95cUxPUkpLeEp2VVJRQ3FOMXRFYjBBclRqeUxzVDZXYkcxLUI5bGpqWHAxUVZKQzhmcENvSHY4M1BuVFR4OWw1NHpaMUVMcGtFcUVtOXV2LWFCS1dtODZaWEZfWTRydkVVRkhFVFlyalVfME1BcWtDUU1FQzV3cHF5Y0VVag?oc=5
+
+## 17. 서울시, 25일(수) 지하철(1~8호선) 파업 대비 비상수송대책 가동
+- 분류/지역: 교통·SOC / 서울
+- 출처: 세계환경신문
+- 발행: 2026-11-24 14:47 KST
+- 출처 사이트: https://www.e-newsp.com
+- 링크: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iV05MTHNZd1hNNUNwQ3R3eXNlcjBaX0FrZWx1X0JCd2pSai1EX1RiOG9EaDUtRHowdXVvalVybXZXTm5FVXN0aS10eWliS2h5Njc5Wkw3LS1rLXFONmJZ?oc=5
+
+## 18. 오산시, 분당선과 “3대 광역철도 현실화 총력” GTX-C 연장 속도전
+- 분류/지역: 교통·SOC / 경기
+- 출처: 경기도민일보 미디어
+- 발행: 2026-11-24 13:14 KST
+- 출처 사이트: https://www.kgdm.co.kr
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFAyaC1VYmlDd2JTeXgyN2E2bE4yS0xPaGlBMlo0Y191d001MEhwRkJCWTdRcFkwa3Y1THVPY2VjS1docjBWR2pkaVBibHJzVFJEcmZGTWFMel8tTTAzQWFCdGV2cGtYSGM5Nnc?oc=5
+
+## 19. 최원용 평택시장, 홍지선 국토부 장관 면담...GTX 연장·공공주택지구 조속 추진 건의
+- 분류/지역: 교통·SOC / 전국
+- 출처: 아주경제
+- 발행: 2026-11-24 14:01 KST
+- 출처 사이트: https://www.ajunews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xMEdzSThtX3ZmWl9kM1RkTThTR0dTcEFNVHZ2ckZQQW5aQm5xV081V2d5bWpycWgxbEJkSUVqQUdndzFTcFktVF9UT2hlbS1nWGkwVHN1ME9FQdIBWEFVX3lxTFBfeFZ0bzhMSVZ3UkJIbDQ2WThtTTdRSXZUS05fVG54U2hYYjdlWVNZUkVMLURzU3RrdWdOclR4V0FhZU9EQ0hYbGV3aEgzbHRtdEtoZlFadVQ?oc=5
+
+## 20. 오산시, 분당선 연장·GTX-C·수원발 KTX 정차 추진…3대 철도현안 집중 대응
+- 분류/지역: 교통·SOC / 전국
+- 출처: 뉴스티앤티
+- 발행: 2026-11-24 14:20 KST
+- 출처 사이트: https://www.newstnt.com
+- 링크: https://news.google.com/rss/articles/CBMiakFVX3lxTFBQUW1COUZLTjBNWkZzYUtZNXpfX1I1cE5TSzVNdW1PYTNSNFFsZkQ3bGhyYnpyZUtjVTVmSGtOWFdoWEFtQ3BlbXV4VDRLRm9OMElHdnZsdWpOVzRTc0lFMWxURHJERy1Xemc?oc=5
+
+## 21. 조용호 시장 “3대 광역철도 조속 현실화에 총력” 분당선 세교2·3 연장·GTX-C 오산 연장 속도전
+- 분류/지역: 교통·SOC / 전국
+- 출처: 경인경제
+- 발행: 2026-11-24 12:26 KST
+- 출처 사이트: http://www.gnewsbiz.com
+- 링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PRkxtMzhHTm01dTFudDBVX016WGZPUUp6M2pVSnJoLVc0cHNNaTd4Und3TnFLTzFZenFiOG1uUXplTkFrUzFpaFktdWcxUkpLR2ZLaXFmVW9ya3NkZjRjTmhROGk4Yjh5?oc=5
+
+## 22. 최원용 평택시장, 홍지선 국토부 장관 만나 "GTX-A·C 평택 연장 광역교통대책에 반영해 달라"
+- 분류/지역: 교통·SOC / 경기
+- 출처: 경기타임스 e
+- 발행: 2026-11-24 11:59 KST
+- 출처 사이트: http://www.ggtimes.co.kr
+- 링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE1hLXlVOWhvM2YwWDBVd2hlYjl6aTVqcWFOMVpDQU9SYTA3TkNuUHdTS0QzMU9JajZ2M3M0aDNwUmlSRUM4d24tdzI4LUhYRVlTWWVxVktDWGZCcllWQ2ZhR1oxaEZtODNaajlR?oc=5
+
+## 23. 재건축 조합설립 4개월로…서울시, 정비사업 속도 높인다
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 동행미디어 시대
+- 발행: 2026-11-24 11:40 KST
+- 출처 사이트: https://www.sidae.com
+- 링크: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pcnVmaWpsOGsweEN2LU11dGJlOGJDWi03R0hsdGxKRUdibUk4dzlLUHFTdmpnSncwUDlvMXJ4LVZoMU45RzlvQldzSmJldHVDdXc3d085dkU4Um5KV3c?oc=5
+
+## 24. LH, 수도권 3기 신도시 등 4232가구 민간사업자 공모 연기…공급계획 차질 우려
+- 분류/지역: 신도시·택지 / 부산
+- 출처: 부산일보
+- 발행: 2026-11-23 22:35 KST
+- 출처 사이트: https://www.busan.com
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTFBhTkVLb21CSnJxV1QxMFVPdkpGblZWeDRkendRT1F1VTZLanJVenRZT25mZDFEaDRPenlsZF8zT0k5SVpzT2RtaWs2R2lhV1VSQl9XVUdYcWpDMmxzX2FmMUFOM0FXUFRDOFVaUTJSTU9kUGxU?oc=5
+
+## 25. LH 공공주택 공모 제동…3기 신도시 3000여家 사업자 선정 차질 빚나
+- 분류/지역: 신도시·택지 / 전국
+- 출처: 파이낸셜포스트
+- 발행: 2026-11-24 09:07 KST
+- 출처 사이트: https://www.financialpost.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE1CeVhIVmlaYkttcWtRdVd3dk5mTlduUnRKTF9DMnRyQUoyZWprekpFMWw0WDdCVWF6MFZrQjJ0ZmI3alA5dHpobEhPZjh1M0g0b2ZySjBfbmZlemJCR0VjWVQ0eC1IRGtBamNVamxUX29HeW9B?oc=5
+
+## 26. 서울시, 3년 6개월 걸리던 정비사업 조합설립 최단 4개월여 만에… '공정촉진' 성과
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 뉴스파이어
+- 발행: 2026-11-24 13:39 KST
+- 출처 사이트: https://www.newsfire.co.kr
+- 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE9YSklHc29GNkhoM1ZseDYzYzNnQ0pGbGEtN01RU3VxWjE5cEYzRlp2d3BobWl1V0xHSURRY3hxOElIVUdKRkZZdmxkTUhEcmpuaUFkb1hnQkpKZEhPVG5XV1pyZlBTc2VybkM1YjRVbw?oc=5
+
+## 27. “조합설립, 42개월에서 4개월로”…서울시, 정비사업 속도전 성과 가시화
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 파이낸셜포스트
+- 발행: 2026-11-24 14:44 KST
+- 출처 사이트: https://www.financialpost.co.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTFBpZDRWakNQT29KQzUxNXFmZktUM3h3NDFEUXVlREdBMTNMc0R3bEI1U0lUNkJ4ZHNyRmNkVkxQUDF2cTlQeWotQXVxdm1ISWxuc0Rnel9NTF9WbGduVHp2S3pnR005bENROGRGWHlyY3hyQzlJ?oc=5
+
+## 28. "조합설립 4개월 만에 끝"...서울시, 공정촉진 통해 정비사업 속도 개선
+- 분류/지역: 재개발·재건축 / 서울
+- 출처: 파이낸셜뉴스
+- 발행: 2026-11-24 11:15 KST
+- 출처 사이트: https://www.fnnews.com
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WRGVwamVUbWdIZHZnbmtjU3VibFZaV0xxX196VExsRE5leFVwd21yZEFqZzF2TUtCalhwcDAwak1VTkN3a24xMWJtbGp0N1RDZFA4Q1E3d3hZUQ?oc=5
+
+## 29. “수도권 공공택지 공급 속도 높인다” 경기도, GH 공사채 6조 1,100억 확보
+- 분류/지역: 신도시·택지 / 경기
+- 출처: NSP통신
+- 발행: 2026-11-24 13:30 KST
+- 출처 사이트: https://www.nspna.com
+- 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlU2l0eFFWUE94R1lXVHcxN3QtUEtyT1FHMjhqRm5FMFBGdUozTmhNYjN5WlVkbGZGN3FjS1ZTQzV3dWxVWGxrR25Hb2ItRTU3dGp5Q29rTllwSnBodk9MSA?oc=5
+
+## 30. ‘재개발·재건축 속도전’ 유동균 마포구청장, 정비사업 간담회 참석
+- 분류/지역: 재개발·재건축 / 전국
+- 출처: 글로벌뉴스통신GNA
+- 발행: 2026-11-24 08:31 KST
+- 출처 사이트: https://www.globalnewsagency.kr
+- 링크: https://news.google.com/rss/articles/CBMidEFVX3lxTE1xd3FXM2QyZHBVdUt5RWk4WUhoNmdGRkJ2SzZXdFlkeGlyUnZrajdXZ18zV016OS10S0QtWjZOV1dtRmdTdWpUdVo1aHh3YkdUWnJUSHFJVGNhWG1iY2lkZ1haUVJBdjRJTmx1c0Rfd3k2NUdj?oc=5
+
